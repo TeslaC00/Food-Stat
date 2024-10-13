@@ -1,6 +1,3 @@
-export default function About(){
-    return ( 
-        "home"
-    )
-
+export default function AboutPage() {
+  return <h1>About Page</h1>;
 }
