@@ -1,101 +1,155 @@
-import Image from "next/image";
+"use client"
+import Link from "next/link";
+import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
+import { cardProp, fetchy } from "./type";
+// import Image from "next/image";
+import {Image} from "@nextui-org/image";
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+async function fetchItem(url:string){
+  const data=await axios.get(url).then((response)=>response.data)
+  return data
+}
+
+async function concation(){
+  const[data1,data2]=await Promise.all([fetchItem("http://127.0.0.1:5000//api/food_items/chocolate"),fetchItem("http://127.0.0.1:5000//api/food_items/toffee")])
+  const chokielate=[...data1,...data2]
+  return chokielate
+}
+
+
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  const vari=concation()
+  console.log(vari)
+
+  // const[data1,data2]=await Promise.all([fetchItem("http://127.0.0.1:5000//api/food_items/chocolate"),fetchItem("http://127.0.0.1:5000//api/food_items/toffee")])
+  
+  const list: cardProp[] = [
+    {
+      _id: "PROTEIN POWDER",
+      title: "Protein Powder",
+      img: "/protein.jpg",
+    },
+    {
+      _id: "PEANUT BUTTER",
+      title: "Peanut Butter",
+      img: "/peanut.jpg",
+    },
+    {
+      title: "Baby Food",
+      img: "/baby.jpg",
+      _id: "BABY FOOD"
+    },
+    {
+      title: "Chips",
+      img: "/chips.jpg",
+      _id: "CHIPS"
+    },
+    {
+      title: "Packeted Juice",
+      img: "/packetjuice.jpg",
+      _id: "PACKETED JUICE"
+    },
+    {
+      title: "Biscuits",
+      img: "/biscuit.jpg",
+      _id: "biscuit"
+    },
+    {
+      title: "Namkeen",
+      img: "/namkeen.jpg",
+      _id: "namkeen"
+    },
+    {
+      title: "Packeted Coffee/Lassi/Milkshake",
+      img: "/beverages.jpg",
+      _id: "coffee"
+    },
+    {
+      title: "Protein Bars",
+      img: "/bar.jpg",
+      _id: "protein_bar"
+    },
+    {
+      title: "Chocolate",
+      img: "/chocolate.jpg",
+      _id: "chocolate"
+    },
+    {
+      title: "Toffee",
+      img: "/chocolate.jpg",
+      _id: "toffee"
+    },
+    {
+      title: "Instant Noodles",
+      img: "/noodles.jpg",
+      _id: "INSTANT NOODLES"
+    },
+    {
+      title: "Bread",
+      img: "/bread.jpg",
+      _id: "BREAD"
+    },
+    {
+      title: "Breakfast Spreads",
+      img: "/spread.jpg",
+      _id: "BREAKFAST SPREADS"
+    },
+    {
+      title: "Bournvita / Horlicks",
+      img: "/bournvita.jpg",
+      _id: "MILK FLAVOURING"
+    },
+    {
+      title: "Corn Flakes / Muesli",
+      img: "/museli.jpg",
+      _id: "CORN FLAKES"
+    },
+  ];
+  
+  return (
+    <div className="bg-white">
+      
+      <div className="w-screen mt-0 mb-0 pt-0 pb-0">
+        <Image
+          src="/image2.jpg"
+          alt="Image"
+          width="100%"
+          height={700}
+          className="w-full"
+          style={{ objectFit: "cover" }}
+        />
+      </div>
+
+      <div className="bg-slate-500 pt-2 pb-2 mt-3 mb-3">
+        <h1 className="text-4xl text-center ">Food Category</h1>
+      </div>
+
+        <div className="bg-white gap-4 grid grid-cols-2 sm:grid-cols-4 pt-2 pl-2 pr-2 pb-2">
+          {list.map((item, index) => (
+            <div key={index} className="bg-gray-900 rounded-lg shadow-lg">
+              <div className="overflow-hidden">
+                {/* Make sure the image scales correctly */}
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-full h-48 object-cover"
+                />
+              </div>
+              {/* Ensure footer sticks to the bottom */}
+              <Link href={{pathname:"/items",query:{ title: item.title },}}>
+              <div className="p-4 bg-cyan-400 text-white flex justify-between items-center">
+                <span className="font-bold">{item.title}</span>
+              </div>
+              </Link>
+            </div>
+          ))}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      
+
     </div>
   );
 }
