@@ -1,4 +1,5 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+from pymongo import ASCENDING, DESCENDING
 from database import db
 from flask_cors import CORS
 
@@ -18,8 +19,16 @@ def get_food_items_by_category(category):
         "health_impact_rating": 1,
         "ingredient_quality_rating": 1,
         "nutritional_content_rating": 1,
+        "nutrition":1
     }
-    documents = collection.find({"item_category": category}, projection)
+
+    query: dict = {"item_category": category}
+
+    # get filters
+    sort_by: str = request.args.get("sort_by", "item_name")
+    sort_order = DESCENDING if request.args.get("sort_order") == "desc" else ASCENDING
+
+    documents = collection.find(query, projection).sort(sort_by, sort_order)
 
     results = []
     for doc in documents:
