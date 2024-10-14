@@ -20,11 +20,7 @@ export default async function CategoryPage({
     <div className=" mt-5">
       <div className="grid grid-cols-4 ">
         {items.map((item) => (
-          <div className="text-black">
-            <div className="m-5 bg-white">
-              <FoodCard food_item={item} key={item._id}></FoodCard>
-            </div>
-          </div>
+          <FoodCard food_item={item} key={item._id}></FoodCard>
         ))}
       </div>
     </div>
