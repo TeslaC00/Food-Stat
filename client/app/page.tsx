@@ -1,27 +1,9 @@
 "use client";
 import Link from "next/link";
 import { Image } from "@nextui-org/image";
-import axios from "axios";
 import { cardProps } from "./lib/mock_data";
 
-async function fetchItem(url: string) {
-  const data = await axios.get(url).then((response) => response.data);
-  return data;
-}
-
-async function concation() {
-  const [data1, data2] = await Promise.all([
-    fetchItem("http://127.0.0.1:5000//api/food_items/chocolate"),
-    fetchItem("http://127.0.0.1:5000//api/food_items/toffee"),
-  ]);
-  const chokielate = [...data1, ...data2];
-  return chokielate;
-}
-
 export default function Home() {
-  const vari = concation();
-  console.log(vari);
-
   const list = cardProps;
 
   return (
@@ -42,8 +24,8 @@ export default function Home() {
       </div>
 
       <div className="bg-white gap-4 grid grid-cols-2 sm:grid-cols-4 pt-2 pl-2 pr-2 pb-2">
-        {list.map((item, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg">
+        {list.map((item) => (
+          <div key={item._id} className="bg-white rounded-lg shadow-lg">
             <div className="overflow-hidden">
               {/* Make sure the image scales correctly */}
               <img
@@ -53,7 +35,7 @@ export default function Home() {
               />
             </div>
             {/* Ensure footer sticks to the bottom */}
-            <Link href={`/${item._id}`}>
+            <Link href={`/food_item/category/${item._id}`}>
               <div className="p-4 bg-cyan-400 text-white flex justify-between items-center rounded-b-xl">
                 <span className="font-bold">{item.title}</span>
               </div>

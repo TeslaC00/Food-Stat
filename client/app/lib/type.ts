@@ -10,6 +10,14 @@ export interface Fetchy {
   item_name: string;
   image_url: string;
 }
+export interface FoodItemCategory {
+  _id: string;
+  item_name: string;
+  item_category: string;
+  image_url: string;
+  final_rating: number;
+}
+
 export interface FoodItem {
   _id: string;
   item_name: string;
@@ -19,4 +27,6 @@ export interface FoodItem {
   health_impact_rating: number;
   ingredient_quality_rating: number;
   nutritional_content_rating: number;
+  nutrition?: { [key: string]: number };
+  ingredients: [string];
 }

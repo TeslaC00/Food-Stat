@@ -1,10 +1,10 @@
-import FoodCard from "../components/food_card";
-import api from "../lib/api";
-import { FoodItem } from "../lib/type";
+import FoodCard from "../../../components/food_card";
+import api from "../../../lib/api";
+import { FoodItemCategory } from "../../../lib/type";
 
-async function getFoodItems(category: string): Promise<FoodItem[]> {
+async function getFoodItems(category: string): Promise<FoodItemCategory[]> {
   const res = await api
-    .get(`/food_items/${category}`)
+    .get(`/food_items/category/${category}`)
     .then((response) => response.data);
   return res;
 }
@@ -26,5 +26,3 @@ export default async function CategoryPage({
     </div>
   );
 }
-
-
