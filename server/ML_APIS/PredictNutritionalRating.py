@@ -8,7 +8,7 @@ def load_model(model_path):
     return model
 
 # Function to predict the food rating
-def predict_food_rating(model, input_data):
+def predict_food_rating(input_data):
     """
     Predict the final food rating based on user input.
 
