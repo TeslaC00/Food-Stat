@@ -26,35 +26,35 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      <div className="w-screen mt-0 mb-0 pt-0 pb-0">
+      <div className=" mt-0 mb-0 pt-0 pb-0 m-2">
         <Image
           src="/image2.jpg"
           alt="Image"
           width="100%"
           height={700}
-          className="w-full"
+          className="w-full rounded-xl mt-2"
           style={{ objectFit: "cover" }}
         />
       </div>
 
       <div className="bg-slate-500 pt-2 pb-2 mt-3 mb-3">
-        <h1 className="text-4xl text-center ">Food Category</h1>
+        <h1 className="text-4xl text-center text-white ">Food Category</h1>
       </div>
 
       <div className="bg-white gap-4 grid grid-cols-2 sm:grid-cols-4 pt-2 pl-2 pr-2 pb-2">
         {list.map((item, index) => (
-          <div key={index} className="bg-gray-900 rounded-lg shadow-lg">
+          <div key={index} className="bg-white rounded-lg shadow-lg">
             <div className="overflow-hidden">
               {/* Make sure the image scales correctly */}
               <img
                 src={item.img}
                 alt={item.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-cover rounded-t-xl"
               />
             </div>
             {/* Ensure footer sticks to the bottom */}
             <Link href={`/${item._id}`}>
-              <div className="p-4 bg-cyan-400 text-white flex justify-between items-center">
+              <div className="p-4 bg-cyan-400 text-white flex justify-between items-center rounded-b-xl">
                 <span className="font-bold">{item.title}</span>
               </div>
             </Link>

@@ -14,9 +14,10 @@ export default function FoodCard({ food_item }: { food_item: FoodItem }) {
         />
       </CardBody>
       <CardFooter className="flex flex-wrap justify-center">
-        <p>Heatlh Rating:{food_item.health_impact_rating}</p>
+        <p>{food_item.item_name}</p>
+        {/* <p>Heatlh Rating:{food_item.health_impact_rating}</p>
         <p>Ingredient Rating:{food_item.ingredient_quality_rating}</p>
-        <p>Nutritional Rating:{food_item.nutritional_content_rating}</p>
+        <p>Nutritional Rating:{food_item.nutritional_content_rating}</p> */}
         <p>Final Rating:{food_item.final_rating}</p>
       </CardFooter>
     </Card>

@@ -17,12 +17,18 @@ export default async function CategoryPage({
   const items = await getFoodItems(category);
 
   return (
-    <div className="">
-      <div className="grid grid-cols-4">
+    <div className=" mt-5">
+      <div className="grid grid-cols-4 ">
         {items.map((item) => (
-          <FoodCard food_item={item} key={item._id}></FoodCard>
+          <div className="text-black">
+            <div className="m-5 bg-white">
+              <FoodCard food_item={item} key={item._id}></FoodCard>
+            </div>
+          </div>
         ))}
       </div>
     </div>
   );
 }
+
+

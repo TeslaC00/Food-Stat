@@ -3,12 +3,12 @@ import { Image } from "@nextui-org/image";
 
 export default function Navbar() {
   return (
-    <div className="bg-yellow-400 text-black p-2">
+    <div className="bg-yellow-400 text-black p-2 rounded-xl m-2">
       <nav className="flex justify-end p-4bar text-lg">
         <ul className="flex space-x-12 ">
           <li>
             <Link legacyBehavior href="/">
-              <a className="text-black hover:text-white">Home</a>
+              <a className="text-black hover:text-white">Home</a> 
             </Link>
           </li>
           <li>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@internationalized/date": "^3.5.6",
     "@nextui-org/card": "^2.0.34",
     "@nextui-org/date-picker": "^2.1.8",
     "@nextui-org/divider": "^2.0.32",
