@@ -3,6 +3,17 @@ import api from "../../../lib/api";
 import { FoodItemCategory } from "../../../lib/type";
 
 async function getFoodItems(category: string): Promise<FoodItemCategory[]> {
+  if (category == "chocolate" || category == "toffee") {
+    const [data1, data2] = await Promise.all([
+      await api
+        .get("/food_items/category/chocolate")
+        .then((response) => response.data),
+      await api
+        .get("/food_items/category/toffee")
+        .then((response) => response.data),
+    ]);
+    return [...data1, ...data2];
+  }
   const res = await api
     .get(`/food_items/category/${category}`)
     .then((response) => response.data);
