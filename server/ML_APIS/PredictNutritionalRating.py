@@ -1,7 +1,6 @@
 import os
 from joblib import load
 import pandas as pd
-from joblib import load
 
 
 # Load the pre-trained model from the pickle file

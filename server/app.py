@@ -2,12 +2,58 @@ from bson import ObjectId
 from flask import Flask, jsonify, request
 from pymongo import ASCENDING, DESCENDING
 from database import db
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["http://localhost:3000"])
 collection = db["food_items"]
+
+
+@app.route("/login", methods=["POST"])
+def login():
+    data = request.json
+    if data is None:
+        return jsonify("Error, Please provide valid data in form"), 400
+    username = data.get("username")
+    password = data.get("password")
+
+    accounts = db["accounts"]
+
+    try:
+        if not username or not password:
+            raise ValueError
+
+        account = accounts.find_one({"username": username}, {"password": 1, "_id": 1})
+        if account is None:
+            raise ValueError
+
+        if account["password"] != password:
+            raise ValueError
+
+    except ValueError:
+        return jsonify("Error, Invalid credentials"), 400
+
+    return jsonify({"id": str(account["_id"])}), 200
+
+
+@app.route("/sign_up", methods=["POST"])
+def sign_up():
+    data = request.json
+    if data is None:
+        return jsonify("Error, Please provide valid data in form"), 400
+    username = data.get("username")
+    password = data.get("password")
+    try:
+        if not username or not password:
+            raise ValueError
+        account = {"username": username, "password": password}
+        accounts = db["accounts"]
+        accounts.insert_one(account)
+    except ValueError:
+        return jsonify("Error, Invalid credentials"), 400
+
+    return jsonify({"id": str(account["_id"])}), 200
 
 
 @app.route("/api/food_items/<id>", methods=["GET"])
@@ -23,6 +69,7 @@ def get_food_item_by_id(id):
         "nutritional_content_rating": 1,
         "nutrition": 1,
         "ingredients": 1,
+        "allergy_info": 1,
     }
 
     document = collection.find_one(ObjectId(id), projection)
@@ -60,6 +107,7 @@ def get_food_items_by_category(category):
     return jsonify(results)
 
 
+@cross_origin()
 @app.route("/api/food_items/rating", methods=["POST"])
 def get_food_item_rating():
     keys = [

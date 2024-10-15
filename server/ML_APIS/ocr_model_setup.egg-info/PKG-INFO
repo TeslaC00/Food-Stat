@@ -1,6 +1,0 @@
-Metadata-Version: 2.1
-Name: ocr_model_setup
-Version: 0.1
-Requires-Dist: easyocr
-Requires-Dist: torch
-Requires-Dist: opencv-python-headless
