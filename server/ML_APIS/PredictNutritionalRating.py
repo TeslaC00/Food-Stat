@@ -1,4 +1,5 @@
 import os
+from joblib import load
 import pandas as pd
 from joblib import load
 
@@ -7,7 +8,7 @@ from joblib import load
 def load_model(model_path="ML_APIS/pipeline.joblib"):
     """Load the trained model from a file."""
 
-    with open(model_path, "rb") as model_file:
+    with open("ML_APIS/pipeline.joblib", "rb") as model_file:
         model = load(model_file)
     return model
 
@@ -35,6 +36,7 @@ def predict_food_rating(input_data, model, example_data=None):
 if __name__ == "__main__":
     # Load the model
     model_path = os.path.abspath("ML_APIS/pipeline.joblib")
+    model_path = os.path.abspath("ML_APIS/pipeline.joblib")
     model = load_model(model_path)
 
     # Example input data (you can replace this with real user input)
@@ -51,6 +53,7 @@ if __name__ == "__main__":
     }
 
     # Predict the rating
+    predicted_rating = predict_food_rating(model=model, input_data=example_data)
     predicted_rating = predict_food_rating(model=model, input_data=example_data)
 
     print(f"The predicted food rating is: {predicted_rating[0]}")
