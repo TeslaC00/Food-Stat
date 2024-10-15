@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request
 from pymongo import ASCENDING, DESCENDING
 from database import db
 from flask_cors import CORS
+from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
 
 app = Flask(__name__)
 CORS(app)
@@ -23,7 +24,7 @@ def get_food_item_by_id(id):
         "nutrition": 1,
         "ingredients": 1,
     }
-    
+
     document = collection.find_one(ObjectId(id), projection)
 
     if document is None:
@@ -57,6 +58,33 @@ def get_food_items_by_category(category):
         doc["_id"] = str(doc["_id"])
         results.append(doc)
     return jsonify(results)
+
+
+@app.route("/api/food_items/rating", methods=["GET"])
+def get_food_item_rating():
+    keys = [
+        "NUTRITION.ENERGY",  # Example energy value
+        "NUTRITION.PROTEIN",  # Example protein value
+        "NUTRITION.CARBOHYDRATE",  # Example carbs value
+        "NUTRITION.TOTAL_SUGARS",  # Example sugars value
+        "NUTRITION.ADDED_SUGARS",  # Example added sugars value
+        "NUTRITION.TOTAL_FAT",  # Example fat value
+        "NUTRITION.SATURATED_FAT",  # Example saturated fat value
+        "NUTRITION.FIBER",  # Example fiber value
+        "NUTRITION.SODIUM",  # Example sodium value
+    ]
+    data = request.args.to_dict()
+    nutrition_info = {}
+    for key in keys:
+        if key in data:
+            nutrition_info[key] = int(data[key])
+        else:
+            nutrition_info[key] = 0
+
+    nutrition_model = load_model("ML_APIS/pipeline.joblib")
+    rating = predict_food_rating(input_data=nutrition_info, model=nutrition_model)
+
+    return jsonify({"Rating": rating}), 200
 
 
 if __name__ == "__main__":
