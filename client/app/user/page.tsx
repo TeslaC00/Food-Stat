@@ -1,23 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Image } from "@nextui-org/image";
-import { DatePicker } from "@nextui-org/date-picker";
-import { CalendarDate } from "@internationalized/date";
-import { Users } from "./mock_data";
 
 const calculateBMI = (weight: number, height: number) => {
   if (weight && height) {
     return (weight / (height * height)).toFixed(2);
   }
-  return "";221
-};
-
-const calculateAge = (dob: CalendarDate | null): number => {
-  if (!dob) return 0;
-  const birthDate = dob.toDate('UTC');
-  const ageDifMs = Date.now() - birthDate.getTime();
-  const ageDate = new Date(ageDifMs);
-  return Math.abs(ageDate.getUTCFullYear() - 1970);
+  return "";
 };
 
 export default function User() {
@@ -26,7 +15,7 @@ export default function User() {
   const [gender, setGender] = useState("");
   const [weight, setWeight] = useState<string>("");
   const [height, setHeight] = useState<string>("");
-  const [dob, setDob] = useState<CalendarDate | null>(null);
+  const [age, setAge] = useState<number | null>(null);
   const [dietType, setDietType] = useState("");
   const [userType, setUserType] = useState("");
   const [selectedUser, setSelectedUser] = useState("");
@@ -42,7 +31,7 @@ export default function User() {
         setGender(user.gender);
         setWeight(user.weight.toString());
         setHeight(user.height.toString());
-        setDob(null); // You can implement date parsing here
+        setAge(user.age); // Now using age from backend
         setDietType(user.dietType);
         setUserType(user.userType);
       }
@@ -50,7 +39,7 @@ export default function User() {
   }, [selectedUser]);
 
   return (
-    <div className="flex justify-center items-center h-screen ">
+    <div className="flex justify-center items-center h-screen">
       <div className="w-max bg-slate-200 p-5 rounded-lg shadow-lg mb-6 mt-8">
         <div className="flex justify-center">
           <Image
@@ -62,20 +51,20 @@ export default function User() {
           />
         </div>
         <div className="place-self-start mb-6">
-        <label className="block mb-1 text-black">Select User:</label>
-        <select
-          value={selectedUser}
-          onChange={(e) => setSelectedUser(e.target.value)}
-          className="w-full border-gray-300 text-black rounded-lg p-2"
-        >
-          <option value="">Select User</option>
-          {Users.map((user) => (
-            <option key={user._id} value={`${user.firstName} ${user.lastName}`}>
-              {`${user.firstName} ${user.lastName}`}
-            </option>
-          ))}
-        </select>
-      </div>
+          <label className="block mb-1 text-black">Select User:</label>
+          <select
+            value={selectedUser}
+            onChange={(e) => setSelectedUser(e.target.value)}
+            className="w-full border-gray-300 text-black rounded-lg p-2"
+          >
+            <option value="">Select User</option>
+            {Users.map((user) => (
+              <option key={user._id} value={`${user.firstName} ${user.lastName}`}>
+                {`${user.firstName} ${user.lastName}`}
+              </option>
+            ))}
+          </select>
+        </div>
         <div className="grid grid-cols-2 gap-4 text-left bg-white">
           <div>
             <label className="block mb-1 text-black">First Name:</label>
@@ -146,16 +135,11 @@ export default function User() {
             />
           </div>
 
-          <div className="col-span-2">
-            <label className="block mb-1 text-black">Date of Birth:</label>
-            <DatePicker className="max-w-[284px] text-black bg-gray-100" />
-          </div>
-
           <div>
             <label className="block mb-1 text-black">Age:</label>
             <input
               type="text"
-              value={dob ? calculateAge(dob) : ""}
+              value={age ? age.toString() : ""}
               readOnly
               placeholder="Age"
               className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
