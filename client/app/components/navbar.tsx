@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="flex justify-end p-4bar text-lg">
         <ul className="flex space-x-12 ">
           <li>
-            <Link legacyBehavior href="/">
+            <Link legacyBehavior href="/home">
               <a className="text-black hover:text-white">Home</a> 
             </Link>
           </li>

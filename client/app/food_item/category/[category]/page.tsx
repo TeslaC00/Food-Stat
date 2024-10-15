@@ -1,4 +1,5 @@
 "use client"
+import Navbar from "@/app/components/navbar";
 import FoodCard from "../../../components/food_card";
 import api from "../../../lib/api";
 import { FoodItemCategory } from "../../../lib/type";
@@ -51,20 +52,23 @@ export default function CategoryPage({
   };
 
   return (
+    <>
+    <Navbar />
     <div className="mt-5">
-      <div className="flex justify-left mb-4 text-black">
-        <a className=" rounded-md border border-black">
+      <div className="flex justify-left mb-4 text-black m-2">
+        <a className=" rounded-md border border-black m-1 bg-amber-200">
         <select value={sortBy} onChange={handleSortChange}>
           <option value="item_name">Nutrient</option>
           <option value="nutrition.protein">Protein</option>
           <option value="nutrition.energy">Energy</option>
           <option value="nutrition.sodium">Sodium</option>
+          <option value="nutrition.carbohydrates">Carbohydrates</option>
           <option value="nutrition.total_sugar">Sugar</option>
           <option value="nutrition.fat">Fat</option>
           {/* Add more options as needed */}
         </select>
         </a>
-        <a className="rounded-md border border-black">
+        <a className="rounded-md border border-black m-1 bg-amber-200">
         <select value={sortOrder} onChange={handleSortOrderChange}>
           <option value="asc">Ascending</option>
           <option value="desc">Descending</option>
@@ -77,5 +81,6 @@ export default function CategoryPage({
         ))}
       </div>
     </div>
+    </>
   );
 }
