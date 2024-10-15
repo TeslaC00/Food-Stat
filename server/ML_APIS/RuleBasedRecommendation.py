@@ -6,7 +6,7 @@ def calculate_bmi(weight, height):
     return weight / (height ** 2)
 
 # Function to personalize food recommendations based on user attributes
-def personalize_food_recommendation(df, category, user_type, sex, height, weight, age, disease=None):
+def personalize_food_recommendation(df=data, category, user_type, sex, height, weight, age, disease=None):
     
     df = df[df['ITEM_CATEGORY']==category]
     
