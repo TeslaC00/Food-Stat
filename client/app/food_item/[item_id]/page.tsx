@@ -22,26 +22,40 @@ export default async function ItemPage({
       <Navbar />
       <div>
         <div className="flex">
-          <div>
+          {/* Image div with equal width */}
+          <div className="flex-1 bg-red-200 content-center ">
             <Image
               src={foodItem.image_url}
               alt="Food Item Image"
-              className="w-1/4 h-1/4"
+              className="w-1/2 h-1/2 object-cover m-10"
             />
           </div>
-          <div className="text-black">
-            <h2 className="text-xl font-bold mb-2">{foodItem.item_name}</h2>
-            <p>Category: {foodItem.item_category}</p>
-            <p>Final Rating: {foodItem.final_rating}</p>
-            <p>Health Impact Rating: {foodItem.health_impact_rating}</p>
-            <p>
-              Ingredient Quality Rating: {foodItem.ingredient_quality_rating}
-            </p>
-            <p>
-              Nutritional Content Rating: {foodItem.nutritional_content_rating}
-            </p>
-            <div>
-              <h3>Nutrition:</h3>
+
+          {/* Content div with equal width */}
+          <div className="flex-1 text-black p-10">
+            <h2 className="text-2xl font-extrabold mb-4">{foodItem.item_name}</h2>
+            <div className="grid grid-cols-2 gap-4 mb-2">
+              <p>
+                <a className="font-semibold">Final Rating: {foodItem.final_rating}</a>
+              </p>
+              <p>
+                <a className="font-semibold">Health Impact Rating: {foodItem.health_impact_rating}</a>
+              </p>
+              <p>
+                <a className="font-semibold">
+                  Ingredient Quality Rating:{" "}
+                  {foodItem.ingredient_quality_rating}
+                </a>
+              </p>
+              <p>
+                <a className="font-semibold">
+                  Nutritional Content Rating:{" "}
+                  {foodItem.nutritional_content_rating}
+                </a>
+              </p>
+            </div>
+            <div className="mb-2">
+              <h3 className="font-semibold mb-2">Nutrition:</h3>
               {foodItem.nutrition ? (
                 <ul>
                   {Object.keys(foodItem.nutrition).map((key) => (
@@ -53,7 +67,7 @@ export default async function ItemPage({
               )}
             </div>
             <div>
-              <h3>Ingredients:</h3>
+              <h3 className="font-semibold">Ingredients:</h3>
               <ul>
                 {foodItem.ingredients.map((ingredient, index) => (
                   <li key={index}>{ingredient}</li>
@@ -62,7 +76,6 @@ export default async function ItemPage({
             </div>
           </div>
         </div>
-        <div className="flex-1"></div>
       </div>
     </>
   );
