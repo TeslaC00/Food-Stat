@@ -56,6 +56,63 @@ def sign_up():
     return jsonify({"id": str(account["_id"])}), 200
 
 
+@app.route("/user/<user_id>/profiles", methods=["GET"])
+def get_user_profiles(user_id):
+    accounts = db["accounts"]
+    account = accounts.find_one(ObjectId(user_id), {"profiles": 1})
+    if account is None:
+        return jsonify("No User Found"), 404
+    profiles = account["profiles"]
+    return jsonify({"profiles": profiles}), 200
+
+
+@app.route("/user/<user_id>/profiles", methods=["POST"])
+def post_user_profiles(user_id):
+    accounts = db["accounts"]
+    users = db["users"]
+    account = accounts.find_one(ObjectId(user_id), {"profiles": 1})
+
+    if account is None:
+        return jsonify("Error, Account not found"), 400
+
+    data = request.json
+    if data is None:
+        return jsonify("Error, Please provide valid data in form"), 400
+
+    userType = data.get("user_type", "General Fitness")
+    profile_name = data("profile_name", "profile 1")
+    firstName = data.get("firstName", "")
+    lastName = data.get("lastName", "")
+    gender = data.get("gender", "Male")
+    weight = data.get("weight")
+    height = data.get("height")
+    age = data.get("age")
+    dietType = data.get("dietType")
+    allergy_info = data.get("allergy_info")
+    diseases = data.get("diseases")
+
+    user = {
+        "account_id": user_id,
+        "userType": userType,
+        "profile_name": profile_name,
+        "firstName": firstName,
+        "lastName": lastName,
+        "gender": gender,
+        "weight": weight,
+        "height": height,
+        "age": age,
+        "dietType": dietType,
+        "allergy_info": allergy_info,
+        "diseases": diseases,
+    }
+
+    result = users.insert_one(user)
+
+    return jsonify(
+        {"message": "User Profile Created", "profile_id": str(result.inserted_id)}, 201
+    )
+
+
 @app.route("/api/food_items/<id>", methods=["GET"])
 def get_food_item_by_id(id):
     projection = {
