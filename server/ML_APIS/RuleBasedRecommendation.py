@@ -6,7 +6,7 @@ def calculate_bmi(weight, height):
     return weight / (height ** 2)
 
 # Function to personalize food recommendations based on user attributes
-def personalize_food_recommendation(df, category, user_type, sex, height, weight, age):
+def personalize_food_recommendation(df, category, user_type, sex, height, weight, age, disease=None):
     
     df = df[df['ITEM_CATEGORY']==category]
     
@@ -40,6 +40,38 @@ def personalize_food_recommendation(df, category, user_type, sex, height, weight
         protein_factor = 1.2 if age < 30 else 1.0
     else:  # Female
         protein_factor = 1.0 if age < 30 else 0.8
+        
+     # Adjust weights based on disease
+    if disease == 'Diabetes':
+        # Prioritize low sugar and carbs, increase fiber weight
+        SUGAR_WEIGHT = 0.5
+        ADDED_SUGAR_WEIGHT = 0.5
+        CARB_WEIGHT = 0.2
+        FIBER_WEIGHT = 0.4
+        CALORIE_WEIGHT = 0.05
+
+    elif disease == 'Anemia':
+        # Prioritize high protein and iron (if iron data available), decrease sugar weight
+        PROTEIN_WEIGHT = 0.5
+        CALORIE_WEIGHT = 0.15
+        SUGAR_WEIGHT = 0.1
+        ADDED_SUGAR_WEIGHT = 0.1
+        # Optionally increase a new "IRON_WEIGHT" if iron is part of the data
+
+    elif disease == 'Hypertension':
+        # Prioritize low sodium and fat, increase fiber weight
+        SODIUM_WEIGHT = 0.4
+        SATURATED_FAT_WEIGHT = 0.3
+        FIBER_WEIGHT = 0.3
+        CALORIE_WEIGHT = 0.1
+
+    elif disease == 'Cardiovascular Disease':
+        # Prioritize low fat, saturated fat, and sodium
+        FAT_WEIGHT = 0.4
+        SATURATED_FAT_WEIGHT = 0.5
+        SODIUM_WEIGHT = 0.3
+        FIBER_WEIGHT = 0.2
+        CALORIE_WEIGHT = 0.05
 
     # Define scoring rules based on user type
     if user_type == 'Lose Weight':
