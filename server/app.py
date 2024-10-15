@@ -59,10 +59,17 @@ def sign_up():
 @app.route("/user/<user_id>/profiles", methods=["GET"])
 def get_user_profiles(user_id):
     accounts = db["accounts"]
+    users = db["users"]
     account = accounts.find_one(ObjectId(user_id), {"profiles": 1})
     if account is None:
         return jsonify("No User Found"), 404
-    profiles = account["profiles"]
+
+    profile_ids = account["profiles"]
+    profiles = []
+    for profile_id in profile_ids:
+        user = users.find_one(ObjectId(profile_id))
+        profiles.append(user)
+
     return jsonify({"profiles": profiles}), 200
 
 
@@ -107,6 +114,9 @@ def post_user_profiles(user_id):
     }
 
     result = users.insert_one(user)
+    accounts.update_one(
+        {"_id": ObjectId(user_id)}, {"$push": {"profiles": result.inserted_id}}
+    )
 
     return jsonify(
         {"message": "User Profile Created", "profile_id": str(result.inserted_id)}, 201
