@@ -52,7 +52,7 @@ if __name__ == "__main__":
     }
 
     # Predict the rating
-    predicted_rating = predict_food_rating(model=model, input_data=example_data)
+    # predicted_rating = predict_food_rating(model=model, input_data=example_data)
     predicted_rating = predict_food_rating(model=model, input_data=example_data)
 
     print(f"The predicted food rating is: {predicted_rating[0]}")
