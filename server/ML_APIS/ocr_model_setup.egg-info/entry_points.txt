@@ -1,0 +1,2 @@
+[console_scripts]
+initialize_ocr = ocr_model_setup.init_ocr:initialize_reader

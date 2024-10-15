@@ -9,4 +9,8 @@ MarkupSafe==3.0.1
 pymongo==4.10.1
 python-dotenv==1.0.1
 Werkzeug==3.0.4
-joblib=1.4.2
+joblib==1.4.2
+easyocr==1.7.0
+torch==2.0.1
+opencv-python==4.8.0.76
+opencv-python-headless==4.8.0.76

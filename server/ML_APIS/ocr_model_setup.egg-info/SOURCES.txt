@@ -1,0 +1,7 @@
+setup.py
+ocr_model_setup.egg-info/PKG-INFO
+ocr_model_setup.egg-info/SOURCES.txt
+ocr_model_setup.egg-info/dependency_links.txt
+ocr_model_setup.egg-info/entry_points.txt
+ocr_model_setup.egg-info/requires.txt
+ocr_model_setup.egg-info/top_level.txt
