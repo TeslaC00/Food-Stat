@@ -60,7 +60,7 @@ def get_food_items_by_category(category):
     return jsonify(results)
 
 
-@app.route("/api/food_items/rating", methods=["GET"])
+@app.route("/api/food_items/rating", methods=["POST"])
 def get_food_item_rating():
     keys = [
         "NUTRITION.ENERGY",  # Example energy value
@@ -73,13 +73,12 @@ def get_food_item_rating():
         "NUTRITION.FIBER",  # Example fiber value
         "NUTRITION.SODIUM",  # Example sodium value
     ]
-    data = request.args.to_dict()
+    data = request.json
+    if data is None:
+        return jsonify("Error, Please provide valid data in form"), 400
     nutrition_info = {}
     for key in keys:
-        if key in data:
-            nutrition_info[key] = int(data[key])
-        else:
-            nutrition_info[key] = 0
+        nutrition_info[key] = int(data.get(key, 0))
 
     nutrition_model = load_model("ML_APIS/pipeline.joblib")
     rating = predict_food_rating(input_data=nutrition_info, model=nutrition_model)
