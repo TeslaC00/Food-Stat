@@ -1,12 +1,14 @@
 import os
-import joblib
+import pickle
 import pandas as pd
 
 
 # Load the pre-trained model from the pickle file
 def load_model(model_path):
     """Load the trained model from a file."""
-    model = joblib.load(model_path)
+    
+    with open('random_forest_model.pkl', 'rb') as model_file:
+        model = pickle.load(model_file)
     return model
 
 
