@@ -1,0 +1,82 @@
+import pandas as pd
+data = pd.read_csv('CleanedDataForModel.csv')
+
+# Function to calculate BMI
+def calculate_bmi(weight, height):
+    return weight / (height ** 2)
+
+# Function to personalize food recommendations based on user attributes
+def personalize_food_recommendation(df, category, user_type, sex, height, weight, age):
+    
+    df = df[df['ITEM_CATEGORY']==category]
+    
+    # Default scoring function
+    df['PERSONALIZED_SCORE'] = 0
+    
+    # Calculate BMI
+    bmi = calculate_bmi(weight, height)
+    
+    # Weights for Nutritional factors
+    CALORIE_WEIGHT = 0.1
+    PROTEIN_WEIGHT = 0.3
+    CARB_WEIGHT = 0.1
+    SUGAR_WEIGHT = 0.2
+    ADDED_SUGAR_WEIGHT = 0.3
+    FAT_WEIGHT = 0.2
+    SATURATED_FAT_WEIGHT = 0.2
+    FIBER_WEIGHT = 0.2
+    SODIUM_WEIGHT = 0.1
+
+    # Adjust calorie recommendations based on BMI
+    if bmi < 18.5:  # Underweight
+        calorie_factor = 1.5  # Prioritize higher calorie foods
+    elif 18.5 <= bmi <= 24.9:  # Normal weight
+        calorie_factor = 1.0
+    else:  # Overweight or Obese
+        calorie_factor = 0.8  # Prefer lower calorie foods
+
+    # Adjust protein based on sex and age
+    if sex == 'Male':
+        protein_factor = 1.2 if age < 30 else 1.0
+    else:  # Female
+        protein_factor = 1.0 if age < 30 else 0.8
+
+    # Define scoring rules based on user type
+    if user_type == 'Lose Weight':
+        df['PERSONALIZED_SCORE'] = (df['NUTRITION.ENERGY'] < 200) * CALORIE_WEIGHT * calorie_factor + \
+                      (df['NUTRITION.FIBER'] > 2) * FIBER_WEIGHT - \
+                      (df['NUTRITION.TOTAL_SUGARS'] > 5) * SUGAR_WEIGHT - \
+                      (df['NUTRITION.SATURATED_FAT'] > 2) * SATURATED_FAT_WEIGHT
+
+    elif user_type == 'Gain Weight':
+        df['PERSONALIZED_SCORE'] = (df['NUTRITION.ENERGY'] > 400) * CALORIE_WEIGHT * calorie_factor + \
+                      (df['NUTRITION.PROTEIN'] > 10) * PROTEIN_WEIGHT * protein_factor + \
+                      (df['NUTRITION.CARBOHYDRATE'] > 20) * CARB_WEIGHT + \
+                      (df['NUTRITION.TOTAL_FAT'] > 10) * FAT_WEIGHT
+
+    elif user_type == 'Gain Muscle Mass':
+        df['PERSONALIZED_SCORE'] = (df['NUTRITION.PROTEIN'] > 20) * PROTEIN_WEIGHT * protein_factor + \
+                      (df['NUTRITION.CARBOHYDRATE'] > 30) * CARB_WEIGHT - \
+                      (df['NUTRITION.SATURATED_FAT'] > 2) * SATURATED_FAT_WEIGHT
+
+    elif user_type == 'General Maintenance':
+        df['PERSONALIZED_SCORE'] = (df['NUTRITION.ENERGY'] < 300) * CALORIE_WEIGHT * calorie_factor + \
+                      (df['NUTRITION.PROTEIN'] > 10) * PROTEIN_WEIGHT * protein_factor + \
+                      (df['NUTRITION.FIBER'] > 2) * FIBER_WEIGHT
+
+    elif user_type == 'Pregnant Mother':
+        df['PERSONALIZED_SCORE'] = (df['NUTRITION.FIBER'] > 2) * FIBER_WEIGHT + \
+                      (df['NUTRITION.PROTEIN'] > 10) * PROTEIN_WEIGHT * protein_factor + \
+                      (df['NUTRITION.ADDED_SUGARS'] < 5) * ADDED_SUGAR_WEIGHT + \
+                      (df['NUTRITION.SODIUM'] < 200) * SODIUM_WEIGHT
+
+    elif user_type == 'Infant':
+        df['PERSONALIZED_SCORE'] = (df['NUTRITION.ENERGY'] < 100) * CALORIE_WEIGHT * calorie_factor + \
+                      (df['NUTRITION.FIBER'] < 1) * FIBER_WEIGHT - \
+                      (df['NUTRITION.ADDED_SUGARS'] > 0) * ADDED_SUGAR_WEIGHT + \
+                      (df['NUTRITION.TOTAL_FAT'] > 5) * FAT_WEIGHT
+
+    # Sort foods based on score
+    df = df.sort_values(by='PERSONALIZED_SCORE', ascending=False)
+    
+    return df[['ITEM_NAME','PERSONALIZED_SCORE']].values.tolist()
