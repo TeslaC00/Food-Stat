@@ -47,9 +47,14 @@ export default function IndexPage() {
             </button>
           </div>
 
+<<<<<<< Updated upstream
           {/* Content Section */}
           <div className="border rounded-lg p-4">{content}</div>
         </div>
+=======
+        {/* Content Section */}
+        <div className="border rounded-lg p-4">{content}</div>
+>>>>>>> Stashed changes
       </div>
     </>
   );

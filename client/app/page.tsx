@@ -39,7 +39,7 @@ export default function LoginPage() {
         setError(data || "Login failed. Please try again.");
       }
     } catch (error) {
-      setError("An error occurred. Please try again later.");
+      setError(`An error occurred. Please try again later.${error}`);
     } finally {
       setLoading(false);
     }

@@ -2,11 +2,12 @@ from bson import ObjectId
 from flask import Flask, jsonify, request
 from pymongo import ASCENDING, DESCENDING
 from database import db
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
+from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000"])
+CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
 collection = db["food_items"]
 
 
@@ -56,7 +57,7 @@ def sign_up():
     return jsonify({"id": str(account["_id"])}), 200
 
 
-@app.route("/user/<user_id>/profiles", methods=["GET"])
+@app.route("/api/user/<user_id>/profiles", methods=["GET"])
 def get_user_profiles(user_id):
     accounts = db["accounts"]
     users = db["users"]
@@ -68,12 +69,14 @@ def get_user_profiles(user_id):
     profiles = []
     for profile_id in profile_ids:
         user = users.find_one(ObjectId(profile_id))
-        profiles.append(user)
+        if user:
+            user["_id"] = str(user["_id"])
+            profiles.append(user)
 
     return jsonify({"profiles": profiles}), 200
 
 
-@app.route("/user/<user_id>/profiles", methods=["POST"])
+@app.route("/api/user/<user_id>/profiles", methods=["POST"])
 def post_user_profiles(user_id):
     accounts = db["accounts"]
     users = db["users"]
@@ -128,7 +131,6 @@ def get_food_item_by_id(id):
     projection = {
         "_id": 1,
         "item_name": 1,
-        "item_category": 1,
         "image_url": 1,
         "final_rating": 1,
         "health_impact_rating": 1,
@@ -149,6 +151,45 @@ def get_food_item_by_id(id):
     return jsonify(document)
 
 
+@app.route("/api/food_items/<category>/filter/<profile_id>", methods=["GET"])
+def get_food_items_by_profile(category, profile_id):
+    projection = {
+        "_id": 1,
+        "item_name": 1,
+        "item_category": 1,
+        "image_url": 1,
+        "final_rating": 1,
+        "allergy_info": 1,
+    }
+    users = db["users"]
+    user = users.find_one(ObjectId(profile_id))
+    if user is None:
+        return jsonify({"Error": "Object not found"}), 404
+
+    food_items_list = personalize_food_recommendation(
+        category=category,
+        user_type=user["userType"],
+        sex=user["gender"],
+        height=user["height"],
+        weight=user["weight"],
+        age=user["age"],
+    )
+
+    results = []
+
+    for food_items in food_items_list:
+        name = food_items[0]
+        personalised_score = food_items[1]
+        document = collection.find_one({"item_name": name}, projection)
+        if document is not None:
+            document["_id"] = str(document["_id"])
+            document["personalised_score"] = personalised_score
+            results.append(document)
+
+    results = sorted(results, key=lambda x: x["personalised_score"], reverse=True)
+    return jsonify(results)
+
+
 @app.route("/api/food_items/category/<category>", methods=["GET"])
 def get_food_items_by_category(category):
     projection = {
@@ -157,6 +198,7 @@ def get_food_items_by_category(category):
         "item_category": 1,
         "image_url": 1,
         "final_rating": 1,
+        "allergy_info": 1,
     }
 
     query: dict = {"item_category": category}
@@ -174,7 +216,6 @@ def get_food_items_by_category(category):
     return jsonify(results)
 
 
-@cross_origin()
 @app.route("/api/food_items/rating", methods=["POST"])
 def get_food_item_rating():
     keys = [
@@ -189,6 +230,7 @@ def get_food_item_rating():
         "NUTRITION.SODIUM",  # Example sodium value
     ]
     data = request.json
+    print(data)
     if data is None:
         return jsonify("Error, Please provide valid data in form"), 400
     nutrition_info = {}
@@ -197,7 +239,7 @@ def get_food_item_rating():
 
     nutrition_model = load_model("ML_APIS/pipeline.joblib")
     rating = predict_food_rating(input_data=nutrition_info, model=nutrition_model)
-
+    print("Type of rating:", type(rating))
     return jsonify({"Rating": rating}), 200
 
 

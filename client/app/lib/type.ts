@@ -30,3 +30,19 @@ export interface FoodItem {
   nutrition?: { [key: string]: number };
   ingredients: [string];
 }
+
+export interface Profile {
+  _id: string;
+  account_id: string;
+  userType: string;
+  profile_name: string;
+  firstName: string;
+  lastName: string;
+  gender: string;
+  weight: number;
+  height: number;
+  age: number;
+  dietType: string;
+  allergy_info: [string] | null;
+  diseases: [string] | null;
+}

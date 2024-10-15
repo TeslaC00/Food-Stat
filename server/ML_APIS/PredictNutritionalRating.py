@@ -27,8 +27,7 @@ def predict_food_rating(input_data, model, example_data=None):
 
     # Make predictions using the loaded model
     prediction = model.predict(input_data)
-
-    return prediction
+    return float(prediction[0])
 
 
 # Example usage
@@ -55,4 +54,4 @@ if __name__ == "__main__":
     # predicted_rating = predict_food_rating(model=model, input_data=example_data)
     predicted_rating = predict_food_rating(model=model, input_data=example_data)
 
-    print(f"The predicted food rating is: {predicted_rating[0]}")
+    print(f"The predicted food rating is: {predicted_rating}")
