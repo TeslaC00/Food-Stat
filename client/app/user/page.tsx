@@ -77,7 +77,7 @@ export default function User() {
               className="object-cover rounded-full mb-3"
             />
           </div>
-          <div className="place-self-start mb-6">
+          <div className="place-self-start mb-6 ">
             <label className="block mb-1 text-black">Select User:</label>
             <select
               value={selectedUserID}
@@ -92,7 +92,7 @@ export default function User() {
               ))}
             </select>
           </div>
-          <div className="grid grid-cols-2 gap-4 text-left bg-white">
+          <div className="grid grid-cols-2 gap-4 text-left bg-white rounded-lg p-2">
             <div>
               <label className="block mb-1 text-black">First Name:</label>
               <input
@@ -205,6 +205,28 @@ export default function User() {
                 <option value="Pregnant Mother">Pregnant Mother</option>
                 <option value="Infant">Infant</option>
               </select>
+            </div>
+            <div className="col-span-3">
+              <label className="block mb-1 text-black">
+                Allergy Information:
+              </label>
+              <input
+                type="text"
+                value={selectedUser?.allergy_info?.join(", ") || ""}
+                onChange={(e) => {
+                  if (selectedUser) {
+                    const allergiesArray = e.target.value
+                      .split(",")
+                      .map((allergy) => allergy.trim());
+                    setSelectedUser({
+                      ...selectedUser,
+                      allergy_info: allergiesArray,
+                    });
+                  }
+                }}
+                placeholder="Enter allergies separated by commas"
+                className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
+              />
             </div>
             <button
               className="bg-blue-600"

@@ -194,7 +194,7 @@ export default function CategoryPage({
 
           {/* Toggle for personalized API */}
           <a className="rounded-md border border-black m-1 bg-amber-200 flex items-center">
-            <label htmlFor="personalizedToggle" className="mr-2">
+            <label htmlFor="personalizedToggle" className="ml-1 mr-1">
               Personalized
             </label>
             <input
