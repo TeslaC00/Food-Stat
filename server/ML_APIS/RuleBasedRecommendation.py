@@ -20,9 +20,22 @@ def personalize_food_recommendation(
     # Calculate BMI
     bmi = calculate_bmi(weight, height)
 
-    # Weights for Nutritional factors
+     # Adjustments for BMI
+    calorie_factor = 1.5 if bmi < 18.5 else 1.0 if 18.5 <= bmi <= 24.9 else 0.8
+
+    # Age-based protein factor
+    if age < 18:
+        protein_factor = 1.3
+    elif 18 <= age <= 30:
+        protein_factor = 1.2 if sex == 'Male' else 1.0
+    elif 31 <= age <= 50:
+        protein_factor = 1.1 if sex == 'Male' else 0.9
+    else:
+        protein_factor = 1.3  # Increased for muscle maintenance in older adults
+    
+         # Default Weights for Nutritional Factors (if no disease)
     CALORIE_WEIGHT = 0.1
-    PROTEIN_WEIGHT = 0.3
+    PROTEIN_WEIGHT = 0.3 * protein_factor
     CARB_WEIGHT = 0.1
     SUGAR_WEIGHT = 0.2
     ADDED_SUGAR_WEIGHT = 0.3
@@ -30,20 +43,6 @@ def personalize_food_recommendation(
     SATURATED_FAT_WEIGHT = 0.2
     FIBER_WEIGHT = 0.2
     SODIUM_WEIGHT = 0.1
-
-    # Adjust calorie recommendations based on BMI
-    if bmi < 18.5:  # Underweight
-        calorie_factor = 1.5  # Prioritize higher calorie foods
-    elif 18.5 <= bmi <= 24.9:  # Normal weight
-        calorie_factor = 1.0
-    else:  # Overweight or Obese
-        calorie_factor = 0.8  # Prefer lower calorie foods
-
-    # Adjust protein based on sex and age
-    if sex == "Male":
-        protein_factor = 1.2 if age < 30 else 1.0
-    else:  # Female
-        protein_factor = 1.0 if age < 30 else 0.8
 
     # Adjust weights based on disease
     if disease == "Diabetes":
