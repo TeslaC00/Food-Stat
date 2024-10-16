@@ -33,7 +33,7 @@ export default function LoginPage() {
         localStorage.setItem("userData", JSON.stringify(data));
 
         // Redirect to the home page after successful login
-        router.push("/home");
+        router.push("/user");
       } else {
         // Show error message if login fails
         setError(data || "Login failed. Please try again.");
