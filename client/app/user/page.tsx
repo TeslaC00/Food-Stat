@@ -190,6 +190,18 @@ export default function User() {
               </select>
             </div>
 
+            <div>
+              <label className="block mb-1 text-black">Disease:</label>
+              <input
+                type="string"
+                value={selectedUser?.diseases}
+                // onChange={(e) => setWeight(e.target.value)}
+                placeholder="Disease"
+                className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
+              />
+            </div>
+
+
             <div className="col-span-2">
               <label className="block mb-1 text-black">Type of User:</label>
               <select

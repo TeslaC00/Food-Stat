@@ -46,5 +46,5 @@ export interface Profile {
   age: number;
   dietType: string;
   allergy_info: string[] | null;
-  diseases: string[] | null;
+  diseases: string | null;
 }
