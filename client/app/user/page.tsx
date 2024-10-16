@@ -4,6 +4,7 @@ import { Image } from "@nextui-org/image";
 import Navbar from "../components/navbar";
 import { Profile } from "../lib/type";
 import api from "../lib/api";
+import { useRouter } from "next/navigation";
 
 const calculateBMI = (weight: number, height: number) => {
   if (weight && height) {
@@ -24,17 +25,17 @@ async function GetUsers(): Promise<Profile[]> {
   return data;
 }
 
+function SaveUserProfile(user_id: string) {
+  localStorage.setItem("user_profile_id", user_id);
+}
+
 export default function User() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [gender, setGender] = useState("");
-  const [weight, setWeight] = useState<string>("");
-  const [height, setHeight] = useState<string>("");
-  const [age, setAge] = useState<number | null>(null);
-  const [dietType, setDietType] = useState("");
-  const [userType, setUserType] = useState("");
-  const [selectedUser, setSelectedUser] = useState("");
+  const [selectedUserID, setSelectedUserID] = useState<string | undefined>(
+    undefined
+  );
+  const [selectedUser, setSelectedUser] = useState<Profile>();
   const [users, setUsers] = useState<Profile[]>([]);
+  const router = useRouter();
 
   useEffect(() => {
     const fetchUsers = async () => {
@@ -45,22 +46,22 @@ export default function User() {
   }, []);
 
   useEffect(() => {
-    if (selectedUser) {
-      const user = users.find(
-        (user) => `${user.firstName} ${user.lastName}` === selectedUser
-      );
+    const user_id = localStorage.getItem("user_profile_id");
+    if (user_id) {
+      setSelectedUserID(user_id);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (selectedUserID) {
+      const user = users.find((user) => user._id === selectedUserID);
       if (user) {
-        setFirstName(user.firstName);
-        setLastName(user.lastName);
-        setGender(user.gender);
-        setWeight(user.weight.toString());
-        setHeight(user.height.toString());
-        setAge(user.age); // Now using age from backend
-        setDietType(user.dietType);
-        setUserType(user.userType);
+        setSelectedUser(user);
+      } else {
+        setSelectedUser(undefined);
       }
     }
-  }, [selectedUser, users]);
+  }, [selectedUserID, users]);
 
   return (
     <>
@@ -79,16 +80,13 @@ export default function User() {
           <div className="place-self-start mb-6">
             <label className="block mb-1 text-black">Select User:</label>
             <select
-              value={selectedUser}
-              onChange={(e) => setSelectedUser(e.target.value)}
+              value={selectedUserID}
+              onChange={(e) => setSelectedUserID(e.target.value)}
               className="w-full border-gray-300 text-black rounded-lg p-2"
             >
               <option value="">Select User</option>
               {users.map((user) => (
-                <option
-                  key={user._id}
-                  value={`${user.firstName} ${user.lastName}`}
-                >
+                <option key={user._id} value={`${user._id}`}>
                   {`${user.firstName} ${user.lastName}`}
                 </option>
               ))}
@@ -99,8 +97,8 @@ export default function User() {
               <label className="block mb-1 text-black">First Name:</label>
               <input
                 type="text"
-                value={firstName}
-                onChange={(e) => setFirstName(e.target.value)}
+                value={selectedUser?.firstName}
+                // onChange={(e) => setFirstName(e.target.value)}
                 placeholder="First Name"
                 className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
               />
@@ -110,8 +108,8 @@ export default function User() {
               <label className="block mb-1 text-black">Last Name:</label>
               <input
                 type="text"
-                value={lastName}
-                onChange={(e) => setLastName(e.target.value)}
+                value={selectedUser?.lastName}
+                // onChange={(e) => setLastName(e.target.value)}
                 placeholder="Last Name"
                 className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
               />
@@ -120,8 +118,8 @@ export default function User() {
             <div>
               <label className="block mb-1 text-black">Gender:</label>
               <select
-                value={gender}
-                onChange={(e) => setGender(e.target.value)}
+                value={selectedUser?.gender}
+                // onChange={(e) => setGender(e.target.value)}
                 className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
               >
                 <option value="">Select Gender</option>
@@ -135,8 +133,8 @@ export default function User() {
               <label className="block mb-1 text-black">Weight (kg):</label>
               <input
                 type="number"
-                value={weight}
-                onChange={(e) => setWeight(e.target.value)}
+                value={selectedUser?.weight}
+                // onChange={(e) => setWeight(e.target.value)}
                 placeholder="Weight"
                 className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
               />
@@ -146,8 +144,8 @@ export default function User() {
               <label className="block mb-1 text-black">Height (m):</label>
               <input
                 type="number"
-                value={height}
-                onChange={(e) => setHeight(e.target.value)}
+                value={selectedUser?.height}
+                // onChange={(e) => setHeight(e.target.value)}
                 placeholder="Height"
                 className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
               />
@@ -158,8 +156,8 @@ export default function User() {
               <input
                 type="text"
                 value={
-                  weight && height
-                    ? calculateBMI(parseFloat(weight), parseFloat(height))
+                  selectedUser?.weight && selectedUser.height
+                    ? calculateBMI(selectedUser.weight, selectedUser.height)
                     : ""
                 }
                 readOnly
@@ -172,7 +170,7 @@ export default function User() {
               <label className="block mb-1 text-black">Age:</label>
               <input
                 type="text"
-                value={age ? age.toString() : ""}
+                value={selectedUser?.age ? selectedUser.age.toString() : ""}
                 readOnly
                 placeholder="Age"
                 className="w-full border-gray-300 text-black rounded-lg p-2 bg-gray-100"
@@ -182,8 +180,8 @@ export default function User() {
             <div>
               <label className="block mb-1 text-black">Diet Type:</label>
               <select
-                value={dietType}
-                onChange={(e) => setDietType(e.target.value)}
+                value={selectedUser?.dietType}
+                // onChange={(e) => setDietType(e.target.value)}
                 className="w-full border-gray-300 text-black rounded-lg p-2"
               >
                 <option value="">Select Diet Type</option>
@@ -195,8 +193,8 @@ export default function User() {
             <div className="col-span-2">
               <label className="block mb-1 text-black">Type of User:</label>
               <select
-                value={userType}
-                onChange={(e) => setUserType(e.target.value)}
+                value={selectedUser?.userType}
+                // onChange={(e) => setUserType(e.target.value)}
                 className="w-full border-gray-300 text-black rounded-lg p-2"
               >
                 <option value="">Select User Type</option>
@@ -208,6 +206,19 @@ export default function User() {
                 <option value="Infant">Infant</option>
               </select>
             </div>
+            <button
+              className="bg-blue-600"
+              onClick={() => {
+                if (selectedUser) {
+                  SaveUserProfile(selectedUser._id);
+                  router.push("/home");
+                } else {
+                  alert("Please select a user before saving.");
+                }
+              }}
+            >
+              Save
+            </button>
           </div>
         </div>
       </div>

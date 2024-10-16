@@ -16,6 +16,8 @@ export interface FoodItemCategory {
   item_category: string;
   image_url: string;
   final_rating: number;
+  allergy_info: [string] | null;
+  personalised_score: number;
 }
 
 export interface FoodItem {
