@@ -52,11 +52,6 @@ export const cardProps: CardProp[] = [
     _id: "chocolate",
   },
   {
-    title: "Toffee",
-    img: "/chocolate.jpg",
-    _id: "toffee",
-  },
-  {
     title: "Instant Noodles",
     img: "/noodles.jpg",
     _id: "INSTANT NOODLES",
