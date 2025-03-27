@@ -12,7 +12,7 @@ This README provides instructions on how to set up the environment, install depe
 1. **Clone the Repository**  
     Clone this repository to your local machine:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/TeslaC00/Food-Stat
     cd Food-Stat/server
     ```
 
