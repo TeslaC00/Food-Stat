@@ -14,7 +14,7 @@ export default function Form() {
     "NUTRITION.SODIUM": 0,
   });
 
-  const [rating, setRating] = useState(null); // Add this line to store the rating
+  const [rating, setRating] = useState<number>(0); // Add this line to store the rating
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
@@ -23,7 +23,6 @@ export default function Form() {
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log("Nutrition -------------------->", nutrition);
     await api
       .post("/food_items/rating", nutrition) // Make a POST request to the API
       .then((response) => {
@@ -151,7 +150,7 @@ export default function Form() {
         </form>
       </div>
       {rating && ( // Display the rating below the form
-        <div className="text-lg font-bold mt-4">Rating: {rating}</div>
+        <div className="text-lg font-bold mt-4">Rating: {rating.toFixed(2)}/5.0</div>
       )}
     </div>
   );

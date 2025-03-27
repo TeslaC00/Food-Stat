@@ -126,6 +126,16 @@ def post_user_profiles(user_id):
     )
 
 
+@app.route("/api/profiles/<profile_id>", methods=["GET"])
+def get_user_profile(profile_id):
+    users = db["users"]
+    user = users.find_one(ObjectId(profile_id))
+    if not user:
+        return jsonify("No User Found"), 404
+    user["_id"] = str(user["_id"])
+    return jsonify(user)
+
+
 @app.route("/api/food_items/<id>", methods=["GET"])
 def get_food_item_by_id(id):
     projection = {

@@ -16,6 +16,8 @@ export interface FoodItemCategory {
   item_category: string;
   image_url: string;
   final_rating: number;
+  allergy_info: string[] | null;
+  personalised_score: number;
 }
 
 export interface FoodItem {
@@ -28,7 +30,7 @@ export interface FoodItem {
   ingredient_quality_rating: number;
   nutritional_content_rating: number;
   nutrition?: { [key: string]: number };
-  ingredients: [string];
+  ingredients: string[];
 }
 
 export interface Profile {
@@ -43,6 +45,6 @@ export interface Profile {
   height: number;
   age: number;
   dietType: string;
-  allergy_info: [string] | null;
-  diseases: [string] | null;
+  allergy_info: string[] | null;
+  diseases: string | null;
 }
