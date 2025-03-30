@@ -48,7 +48,7 @@ def personalize_food_recommendation(
     if disease == "Diabetes":
         # Prioritize low sugar and carbs, increase fiber weight
         SUGAR_WEIGHT = 0.5
-        ADDED_SUGAR_WEIGHT = 0.5
+        ADDED_SUGAR_WEIGHT = 0.25
         CARB_WEIGHT = 0.2
         FIBER_WEIGHT = 0.4
         CALORIE_WEIGHT = 0.05

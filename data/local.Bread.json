@@ -1,0 +1,248 @@
+[{
+  "_id": {
+    "$oid": "6708039653105dc91cf76ebd"
+  },
+  "nutrition": {
+    "energy": 264,
+    "protein": 7.7,
+    "carbohydrate": 49.68,
+    "total sugars": 4.48,
+    "added sugars": 3.58,
+    "total fat": 1.95,
+    "saturated fat": 0.4,
+    "trans fat": 0,
+    "cholestrol": 0,
+    "sodium": 577,
+    "fibre": 8.4
+  },
+  "ingredients": [
+    "Whole Wheat Flour - Atta (52.4%)",
+    "Water",
+    "Sugar",
+    "Yeast",
+    "lodized Salt",
+    "Edible",
+    "Sunflower Oil",
+    "Malt Extract",
+    "Vinegar",
+    "Emulsiier [472e]",
+    "Preservatives [280, 281 & 200]",
+    "Antioxidant [300]"
+  ],
+  "allergy_info": "Wheat Gluten",
+  "veg": true,
+  "unit": "g",
+  "price_per_unit": 0.125,
+  "servings": 15,
+  "item_category": "Bread",
+  "item_name": "Bonn Bread High Fibre Brown Bread, 400 g",
+  "Final_Rating": 3.4,
+  "Health_Impact_Rating": 3.5,
+  "Ingredient_Quality_Rating": 3,
+  "Nutritional_Content_Rating": 3.5
+},
+{
+  "_id": {
+    "$oid": "670808b153105dc91cf76ed3"
+  },
+  "nutrition": {
+    "energy": 245.22,
+    "protein": 13.72,
+    "carbohydrate": 44.66,
+    "total sugars": 4.22,
+    "added sugars": 2.1,
+    "total fat": 1.3,
+    "saturated fat": 0.34,
+    "trans fat": 0,
+    "cholestrol": 0,
+    "sodium": 333.52,
+    "fibre": 6.34
+  },
+  "ingredients": [
+    "Whole Wheat Flour - Atta (100.0%)",
+    "Gluten",
+    "Yeast",
+    "Salt",
+    "Cane Sugar",
+    "Sunflower Oil",
+    "Cultured Wheat Flour",
+    "Vinegar"
+  ],
+  "allergy_info": "Gluten",
+  "veg": true,
+  "unit": "g",
+  "price_per_unit": 0.1857142857,
+  "servings": 12,
+  "item_category": "Bread",
+  "item_name": "The Health Factory Zero Maida Bread, 350 g"
+},
+{
+  "_id": {
+    "$oid": "67080a1553105dc91cf76ed4"
+  },
+  "nutrition": {
+    "energy": 245.22,
+    "protein": 13.72,
+    "carbohydrate": 44.66,
+    "total sugars": 4.22,
+    "added sugars": 2.1,
+    "total fat": 1.3,
+    "saturated fat": 0.34,
+    "trans fat": 0,
+    "cholestrol": 0,
+    "sodium": 333.52,
+    "fibre": 6.34
+  },
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "SUGAR",
+    "YEAST",
+    "IODISED SALT",
+    "EDIBLE VEGETABLE OIL (PALM)",
+    "SOYA FLOUR",
+    "VITAL GLUTEN",
+    "PRESERVATIVE (282)",
+    "FLOUR TREATMENT AGENT (516 & 510)",
+    "EMULSIFIER (472e)",
+    "STABILIZERS [170, 412]",
+    "ACIDITY REGULATOR (260)",
+    "VITAMINS B Vitamins (15% RDA*)",
+    "ANTIOXIDANT (300)"
+  ],
+  "allergy_info": [
+    "WHEAT GLUTEN",
+    "SOYA"
+  ],
+  "veg": true,
+  "unit": "g",
+  "price_per_unit": 0.08,
+  "servings": 20,
+  "item_category": "Bread",
+  "item_name": "Britannia Healthy Slice Sandwich White Bread 500g"
+},
+{
+  "_id": {
+    "$oid": "67080be553105dc91cf76ed5"
+  },
+  "nutrition": {
+    "energy": 250,
+    "protein": 8,
+    "carbohydrate": 50,
+    "total sugars": 2,
+    "added sugars": null,
+    "total fat": 2,
+    "saturated fat": 1,
+    "trans fat": 0,
+    "cholestrol": 0,
+    "sodium": null,
+    "fibre": 6
+  },
+  "ingredients": [
+    "WHEAT FLOUR (ATTA) (6%)",
+    "YEAST",
+    "WHEAT BRAN",
+    "SUGAR",
+    "IODISED SALT",
+    "EDIBLE VEGETABLE",
+    "OIL (PALM)",
+    "CLASS II PRESERVATIVE (282)",
+    "IMPROVERS (1100(i), 1104, 1102)",
+    "EMULSIFIERS (471, 481, 472e)",
+    "ACIDITY REGULATOR (260)",
+    "FLOUR TREAIMENT AGENT (510)",
+    "PERMITTED NATURAL"
+  ],
+  "allergy_info": [
+    "WHEAT"
+  ],
+  "veg": true,
+  "unit": "g",
+  "price_per_unit": 0.13,
+  "servings": 20,
+  "item_category": "Bread",
+  "item_name": "Britannia 100% Whole Wheat Sandwich Bread, 450 g Pouch"
+},
+{
+  "_id": {
+    "$oid": "67080e0a53105dc91cf76ed6"
+  },
+  "nutrition": {
+    "energy": 252,
+    "protein": 9.6,
+    "carbohydrate": 47,
+    "total sugars": 1.4,
+    "added sugars": 1.3,
+    "total fat": 4.3,
+    "saturated fat": 1,
+    "trans fat": 0,
+    "cholestrol": 0,
+    "sodium": 424,
+    "fibre": 6.5
+  },
+  "ingredients": [
+    "WHEAT PRODUCTS (54%) [WHEAT FLOUR(ATTA), WHEAT BRAN and BROKEN WHEAT]",
+    "OIL SEEDS - 5% (LINSEED,SESAME, SUNFLOWER AND WATER-MELON)",
+    "YEAST",
+    "RAGI FLOUR (2%)",
+    "ROLLED OATS (2%)",
+    "VITAL GLUTEN",
+    "SUGAR",
+    "SOYA FLAKES (1.2%)",
+    "IODISED SALT",
+    "REFINED PALMOLEIN OIL",
+    "PRESERVATIVE (282)",
+    "EMULSIFIERS [472e, 471, 481]",
+    "ACIDITY REGULATOR (260)",
+    "FLOUR TREATMENT AGENT (510)"
+  ],
+  "allergy_info": [
+    "Wheat Gluten",
+    "Oats",
+    "SOYA"
+  ],
+  "veg": true,
+  "unit": "g",
+  "price_per_unit": 0.1066666667,
+  "servings": 9,
+  "item_category": "Bread",
+  "item_name": "Britannia Multigrain Bread 450 g"
+},
+{
+  "_id": {
+    "$oid": "6708193653105dc91cf76ed7"
+  },
+  "nutrition": {
+    "energy": 268,
+    "protein": 8.68,
+    "carbohydrate": 42.04,
+    "total sugars": 2.96,
+    "added sugars": 2.09,
+    "total fat": 5.38,
+    "saturated fat": 1.18,
+    "trans fat": 0,
+    "cholestrol": 0,
+    "sodium": 470,
+    "fibre": 8.13
+  },
+  "ingredients": [
+    "WHEAT FLOUR - ATTA (45%)",
+    "WATER",
+    "GRAIN MIX (5.3%) [ SUNFLOWER SEEDS, SOY SEEDS, SESAME SEEDS, MELON SEEDS, ROLLED OATS, WHEAT BRAN & LINSEED",
+    "MULTIGRAIN MIX (5.3%) [WHEAT FLOUR, BROKEN WHEAT, LINSEEDS, IODIZED SALT, SUNFLOWER SEEDS, GLUTEN, WHEAT BRAN, MALT FLOUR, SESAME SEEDS, STARCH, SOY FLOUR], YEAST, SUGAR, REFINED PALM OIL, SOYABEAN OIL, GLUTEN, MALT EXTRACT, EDIBLE COMMON SALT, PRESERVATIVES [280 & 281]",
+    "EMULSIFIERS [481 471, 472e & 479]",
+    "FLOUR IMPROVERS [1100 & 1104]",
+    "ANTIOXIDANT [300]",
+    "ANTICAKING AGENT"
+  ],
+  "allergy_info": [
+    "Wheat Gluten",
+    "SESAME SEEDS",
+    "SOY"
+  ],
+  "veg": true,
+  "unit": "g",
+  "price_per_unit": 0.1625,
+  "servings": 15,
+  "item_category": "Bread",
+  "item_name": "Bonn Multigrain Bread"
+}]
