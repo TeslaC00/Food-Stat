@@ -1,0 +1,5945 @@
+[
+  {
+    "item_category": "Indian Food",
+    "item_name": "Salted Peanuts - Panjwani",
+    "ingredients": [
+      "Peanuts",
+      "Salt",
+      "Vegetable Oil"
+    ],
+    "allergy_info": [
+      "nuts",
+      "Peanuts"
+    ],
+    "nutrition": {
+      "energy": "2,551 kj\n(609 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "28.26 g",
+      "total_fat": "47.78 g",
+      "total_sugars": "7.26 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.86 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Masala oats - Soffola",
+    "ingredients": [
+      "Oats",
+      "Spices and Condiments (Onion, Garlic, Coriander, Turmeric, Chilli, Cumin)",
+      "Salt",
+      "Sugar",
+      "Vegetable Oil",
+      "Dehydrated Vegetables (Carrot, Peas)",
+      "Hydrolyzed Vegetable Protein (Soya)",
+      "Flavour Enhancer (E627, E631)"
+    ],
+    "allergy_info": [
+      "Gluten (Oats)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "556 kj\n(133 kcal)",
+      "protein": "2.8 g",
+      "carbohydrate": "23.8 g",
+      "total_fat": "3 g",
+      "total_sugars": "2.4 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.04 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Kai Murruku - Anna bytes",
+    "ingredients": [
+      "Rice Flour",
+      "Urad Dal Flour",
+      "Butter",
+      "Salt",
+      "Asafoetida",
+      "Cumin Seeds",
+      "Vegetable Oil"
+    ],
+    "allergy_info": [
+      "Dairy (Butter)",
+      "May contain traces of nuts"
+    ],
+    "nutrition": {
+      "energy": "2,231 kj\n(533 kcal)",
+      "protein": "10 g",
+      "carbohydrate": "56.667 g",
+      "total_fat": "30 g",
+      "total_sugars": "1.667 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.333 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Parle G - 55g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Invert Sugar Syrup",
+      "Leavening Agents (Ammonium Bicarbonate, Sodium Bicarbonate)",
+      "Salt",
+      "Milk Solids",
+      "Emulsifiers (Soy Lecithin, Diacetyl Tartaric Acid Esters of Mono- and Diglycerides)",
+      "Artificial Flavour (Milk, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "1,900 kj\n(454 kcal)",
+      "protein": "6.9 g",
+      "carbohydrate": "77.3 g",
+      "total_fat": "13 g",
+      "total_sugars": "25.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Yummy - Anmol - 35g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Corn Starch",
+      "Salt",
+      "Leavening Agents (Sodium Bicarbonate, Ammonium Bicarbonate)",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavours (Vanilla, Milk)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "696 kj\n(474 kcal)",
+      "protein": "6.27 g",
+      "carbohydrate": "74.47 g",
+      "total_fat": "16.89 g",
+      "total_sugars": "29.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8.81 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "White Toast - Innlay Bakery",
+    "ingredients": [
+      "Wheat Flour (Maida)",
+      "Sugar",
+      "Vegetable Oil",
+      "Yeast",
+      "Salt",
+      "Milk Solids",
+      "Emulsifiers",
+      "Preservatives"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "1,684 kj\n(402 kcal)",
+      "protein": "11.905 g",
+      "carbohydrate": "83.333 g",
+      "total_fat": "2.381 g",
+      "total_sugars": "91.667 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.571 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Strawberry milk - SHATTO",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Strawberry Pulp/Concentrate",
+      "Stabilizers",
+      "Acidity Regulator",
+      "Natural and Artificial Flavours (Strawberry)",
+      "Colour (E124)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "1,506 kj\n(360 kcal)",
+      "protein": "12 g",
+      "carbohydrate": "46 g",
+      "total_fat": "13 g",
+      "total_sugars": "30 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Spaghetti - Lubella",
+    "ingredients": [
+      "Durum Wheat Semolina",
+      "Water"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "1,469 kj\n(351 kcal)",
+      "protein": "13 g",
+      "carbohydrate": "70 g",
+      "total_fat": "1.4 g",
+      "total_sugars": "4.2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Taka tak - 100g",
+    "ingredients": [
+      "Rice Meal",
+      "Corn Meal",
+      "Gram Meal",
+      "Vegetable Oil",
+      "Spices and Condiments (Tomato Powder, Onion Powder, Garlic Powder, Chilli Powder, Cumin Powder)",
+      "Salt",
+      "Sugar",
+      "Acidity Regulator (E330)",
+      "Flavour Enhancers (E627, E631)"
+    ],
+    "allergy_info": [
+      "May contain Gluten",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,272 kj\n(543 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "50 g",
+      "total_fat": "35 g",
+      "total_sugars": "0.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "17 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Bread - iD",
+    "ingredients": [
+      "Wheat Flour",
+      "Water",
+      "Yeast",
+      "Sugar",
+      "Salt",
+      "Vegetable Oil",
+      "Preservatives",
+      "Emulsifiers"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "1,194 kj\n(285 kcal)",
+      "protein": "0 mg",
+      "carbohydrate": "0.8 g",
+      "total_fat": "2.9 g",
+      "total_sugars": "1.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dark chocolate Muesli - Yoga bar",
+    "ingredients": [
+      "Rolled Oats",
+      "Whole Grains (Wheat Flakes, Barley Flakes)",
+      "Seeds (Pumpkin, Chia, Flax)",
+      "Dark Chocolate Compound",
+      "Almonds",
+      "Rice Crispies",
+      "Honey",
+      "Vegetable Oil",
+      "Cocoa Powder",
+      "Natural Flavour (Chocolate)"
+    ],
+    "allergy_info": [
+      "Gluten (Oats, Wheat, Barley)",
+      "nuts (Almonds)",
+      "Soya (in chocolate compound)",
+      "May contain Dairy"
+    ],
+    "nutrition": {
+      "energy": "1,828 kj\n(437 kcal)",
+      "protein": "13.3 g",
+      "carbohydrate": "67 g",
+      "total_fat": "13.3 g",
+      "total_sugars": "6.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Muesli+ - Yoga Bar",
+    "ingredients": [
+      "Rolled Oats",
+      "Whole Grains (Wheat Flakes, Jowar Flakes)",
+      "Seeds (Pumpkin, Chia, Flax)",
+      "Nuts (Almonds, Raisins)",
+      "Rice Crispies",
+      "Honey",
+      "Vegetable Oil",
+      "Natural Flavour"
+    ],
+    "allergy_info": [
+      "Gluten (Oats, Wheat)",
+      "nuts (Almonds, Raisins)"
+    ],
+    "nutrition": {
+      "energy": "1,749 kj\n(418 kcal)",
+      "protein": "13 g",
+      "carbohydrate": "70 g",
+      "total_fat": "9.5 g",
+      "total_sugars": "4.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dal makhani - Kohinoor",
+    "ingredients": [
+      "Water",
+      "Black Lentils (Urad Dal)",
+      "Tomatoes",
+      "Onions",
+      "Butter",
+      "Cream",
+      "Vegetable Oil",
+      "Ginger",
+      "Garlic",
+      "Salt",
+      "Spices and Condiments (Coriander, Cumin, Turmeric, Chilli)"
+    ],
+    "allergy_info": [
+      "Dairy (Butter, Cream)"
+    ],
+    "nutrition": {
+      "energy": "348 kj\n(83 kcal)",
+      "protein": "2.9 g",
+      "carbohydrate": "13.9 g",
+      "total_fat": "3.2 g",
+      "total_sugars": "0.2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Fit mix - Jewel farmer",
+    "ingredients": [
+      "Roasted Almonds",
+      "Roasted Cashews",
+      "Roasted Peanuts",
+      "Pumpkin Seeds",
+      "Sunflower Seeds",
+      "Flax Seeds",
+      "Dried Cranberries",
+      "Raisins"
+    ],
+    "allergy_info": [
+      "nuts (Almonds, Cashews, Peanuts)"
+    ],
+    "nutrition": {
+      "energy": "2,364 kj\n(565 kcal)",
+      "protein": "15 g",
+      "carbohydrate": "34.7 g",
+      "total_fat": "40.7 g",
+      "total_sugars": "12.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.78 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Protien bar - Yoga bar",
+    "ingredients": [
+      "Protein Blend (Whey Protein Concentrate, Soy Protein Isolate)",
+      "Brown Rice Syrup",
+      "Rolled Oats",
+      "Almonds",
+      "Honey",
+      "Peanut Butter",
+      "Seeds (Flax, Chia)",
+      "Cocoa Powder",
+      "Natural Flavours"
+    ],
+    "allergy_info": [
+      "Dairy (Whey)",
+      "Soya",
+      "Gluten (Oats)",
+      "nuts (Almonds, Peanuts)"
+    ],
+    "nutrition": {
+      "energy": "1,121 kj\n(268 kcal)",
+      "protein": "20 g",
+      "carbohydrate": "19.2 g",
+      "total_fat": "14.7 g",
+      "total_sugars": "5.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Vegan Cocktail samosa - Haldiram’s minute khana",
+    "ingredients": [
+      "Pastry (Wheat Flour, Water, Vegetable Oil, Salt)",
+      "Filling (Potatoes, Peas, Vegetable Oil, Spices (Coriander, Cumin, Garam Masala, Chilli, Turmeric, Mango Powder), Salt, Ginger, Green Chilli)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "1,423 kj\n(340 kcal)",
+      "protein": "5.4 g",
+      "carbohydrate": "40 g",
+      "total_fat": "17.4 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Salted Caramel - Häagen-Dazs",
+    "ingredients": [
+      "Cream",
+      "Skim Milk",
+      "Sugar",
+      "Caramel Sauce (Corn Syrup, Sweetened Condensed Milk, Cream, Sugar, Butter, Salt, Pectin, Soy Lecithin)",
+      "Egg Yolks",
+      "Salt",
+      "Vanilla Extract"
+    ],
+    "allergy_info": [
+      "Dairy (Cream, Milk, Butter)",
+      "Egg",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "1,151 kj\n(275 kcal)",
+      "protein": "4 g",
+      "carbohydrate": "28.1 g",
+      "total_fat": "16.3 g",
+      "total_sugars": "25.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Chocobar chocoholic - The brooklyn creamery",
+    "ingredients": [
+      "Water",
+      "Chocolate Coating (Sugar, Cocoa Solids, Coconut Oil, Milk Solids, Emulsifier (Soy Lecithin))",
+      "Sugar",
+      "Milk Solids",
+      "Cocoa Powder",
+      "Liquid Glucose",
+      "Stabilizers",
+      "Emulsifiers",
+      "Natural & Artificial Flavours (Chocolate)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)",
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "753 kj\n(180 kcal)",
+      "protein": "3.818 g",
+      "carbohydrate": "22.182 g",
+      "total_fat": "12.182 g",
+      "total_sugars": "3.091 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8.727 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Cuppa Rice - Daawat",
+    "ingredients": [
+      "Dehydrated Rice",
+      "Seasoning Mix (Salt, Spices, Dehydrated Vegetables, Sugar, Flavour Enhancers)",
+      "Vegetable Oil"
+    ],
+    "allergy_info": [
+      "May contain Soya",
+      "May contain Gluten"
+    ],
+    "nutrition": {
+      "energy": "1,192 kj\n(285 kcal)",
+      "protein": "13.1 g",
+      "carbohydrate": "64.7 g",
+      "total_fat": "10 g",
+      "total_sugars": "0.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Protein - Food strong",
+    "ingredients": [
+      "Whey Protein Concentrate",
+      "Whey Protein Isolate",
+      "Cocoa Powder (if chocolate flavour)",
+      "Natural & Artificial Flavours",
+      "Sweetener (Sucralose)",
+      "Vitamins",
+      "Minerals"
+    ],
+    "allergy_info": [
+      "Dairy (Whey)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "1,598 kj\n(381 kcal)",
+      "protein": "72.121 g",
+      "carbohydrate": "15.455 g",
+      "total_fat": "3.333 g",
+      "total_sugars": "10.606 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.727 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Nissin",
+    "ingredients": [
+      "Noodles (Wheat Flour, Vegetable Oil, Salt, Tapioca Starch)",
+      "Seasoning Powder (Salt, Sugar, Spices, Flavour Enhancers (E621, E627, E631), Yeast Extract, Hydrolyzed Vegetable Protein (Soya))",
+      "Seasoning Oil (Vegetable Oil, Spices)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,519 kj\n(363 kcal)",
+      "protein": "9 g",
+      "carbohydrate": "66 g",
+      "total_fat": "17 g",
+      "total_sugars": "6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Oreo Original chocolate sandwich biscuits -",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil (Palm)",
+      "Cocoa Powder",
+      "Fructose Syrup",
+      "Corn Starch",
+      "Leavening Agents (Sodium Bicarbonate, Ammonium Bicarbonate)",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavour (Vanillin)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,008 kj\n(480 kcal)",
+      "protein": "5.5 g",
+      "carbohydrate": "70.3 g",
+      "total_fat": "19.7 g",
+      "total_sugars": "37.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Oreo Original chocolate sandwich biscuits - 46.3g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil (Palm)",
+      "Cocoa Powder",
+      "Fructose Syrup",
+      "Corn Starch",
+      "Leavening Agents (Sodium Bicarbonate, Ammonium Bicarbonate)",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavour (Vanillin)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,021 kj\n(483 kcal)",
+      "protein": "5.2 g",
+      "carbohydrate": "71.9 g",
+      "total_fat": "19.6 g",
+      "total_sugars": "38.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Whole truth protein bar",
+    "ingredients": [
+      "Nuts (Almonds, Cashews)",
+      "Dates",
+      "Protein Blend (Whey Protein Isolate/Concentrate)",
+      "Seeds (Pumpkin, Sunflower)",
+      "Cocoa Powder",
+      "Natural Flavours"
+    ],
+    "allergy_info": [
+      "nuts (Almonds, Cashews)",
+      "Dairy (Whey)",
+      "May contain other nuts",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,084 kj\n(498 kcal)",
+      "protein": "23.846 g",
+      "carbohydrate": "36.538 g",
+      "total_fat": "28.462 g",
+      "total_sugars": "28.462 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.692 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Imitation Snow crab",
+    "ingredients": [
+      "Surimi (Fish Protein)",
+      "Water",
+      "Wheat Starch",
+      "Sugar",
+      "Salt",
+      "Sorbitol",
+      "Crab Extract",
+      "Crab Flavour",
+      "Egg White",
+      "Soy Protein",
+      "Color (Carmine, Paprika Oleoresin)"
+    ],
+    "allergy_info": [
+      "Fish",
+      "Gluten (Wheat)",
+      "Crustaceans (Crab)",
+      "Egg",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "438 kj\n(104 kcal)",
+      "protein": "9.88 g",
+      "carbohydrate": "11.39 g",
+      "total_fat": "2.18 g",
+      "total_sugars": "3.95 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.58 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Organic Mojito",
+    "ingredients": [
+      "Carbonated Water",
+      "Organic Cane Sugar",
+      "Organic Lime Juice Concentrate",
+      "Natural Flavours (Mint, Lime)",
+      "Citric Acid"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "234 kj\n(56 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "14 g",
+      "total_fat": "0 g",
+      "total_sugars": "13.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Banana chips Peri-Peri - Ol’tymes",
+    "ingredients": [
+      "Raw Bananas",
+      "Vegetable Oil (Coconut Oil/Palm Oil)",
+      "Salt",
+      "Peri-Peri Seasoning (Spices, Salt, Sugar, Acidity Regulator, Flavour Enhancer)"
+    ],
+    "allergy_info": [
+      "Coconut (if used)"
+    ],
+    "nutrition": {
+      "energy": "602 kj\n(144 kcal)",
+      "protein": "0.7 g",
+      "carbohydrate": "15.3 g",
+      "total_fat": "8.9 g",
+      "total_sugars": "5.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "6.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Naan Nature - Haldiram’s",
+    "ingredients": [
+      "Refined Wheat Flour (Maida)",
+      "Water",
+      "Yogurt",
+      "Milk Solids",
+      "Sugar",
+      "Salt",
+      "Yeast/Leavening Agent",
+      "Vegetable Oil"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Yogurt, Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "1,033 kj\n(247 kcal)",
+      "protein": "6.6 g",
+      "carbohydrate": "46.1 g",
+      "total_fat": "4 g",
+      "total_sugars": "2.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "CHOCOS - 10",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Corn Flour",
+      "Cocoa Solids",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Iodized Salt",
+      "Vitamins",
+      "Minerals",
+      "Antioxidant (INS 320)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain traces of Soya and Nuts"
+    ],
+    "nutrition": {
+      "energy": "8 kj\n(2 kcal)",
+      "protein": "17 g",
+      "carbohydrate": "2 g",
+      "total_fat": "3.9 g",
+      "total_sugars": "4 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Choco - Delhaize",
+    "ingredients": [
+      "Sugar",
+      "Hazelnuts",
+      "Vegetable Oils (Sunflower, Palm)",
+      "Cocoa Powder",
+      "Skimmed Milk Powder",
+      "Lactose",
+      "Emulsifier (Soy Lecithin)",
+      "Flavouring (Vanillin)"
+    ],
+    "allergy_info": [
+      "nuts (Hazelnuts)",
+      "Dairy (Milk Powder, Lactose)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "9,355 kj\n(2236 kcal)",
+      "protein": "5.7 g",
+      "carbohydrate": "57 g",
+      "total_fat": "31 g",
+      "total_sugars": "55 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Tops Mango Pickle - 1 Kg",
+    "ingredients": [
+      "Mango Pieces",
+      "Salt",
+      "Mustard Oil",
+      "Spices (Mustard Seeds, Fenugreek Seeds, Turmeric, Red Chilli Powder, Asafoetida)",
+      "Acidity Regulator (Acetic Acid)"
+    ],
+    "allergy_info": [
+      "Mustard"
+    ],
+    "nutrition": {
+      "energy": "122 kj\n(122 kcal)",
+      "protein": "1.4 g",
+      "carbohydrate": "20 g",
+      "total_fat": "4 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.47 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Nestle Resource High Protein - 1Kg",
+    "ingredients": [
+      "Whey Protein Concentrate",
+      "Skimmed Milk Powder",
+      "Maltodextrin",
+      "Inulin",
+      "Vitamins",
+      "Minerals",
+      "Natural Flavors"
+    ],
+    "allergy_info": [
+      "Dairy (Whey, Milk)"
+    ],
+    "nutrition": {
+      "energy": "372 kj\n(372 kcal)",
+      "protein": "45 g",
+      "carbohydrate": "41.7 g",
+      "total_fat": "2.8 g",
+      "total_sugars": "0.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Women Horlicks - Horlics - 400g",
+    "ingredients": [
+      "Cereal Extract (Barley, Wheat)",
+      "Milk Solids",
+      "Maltodextrin",
+      "Corn Solids",
+      "Vitamins",
+      "Minerals",
+      "Salt",
+      "Natural Flavourings"
+    ],
+    "allergy_info": [
+      "Gluten (Barley, Wheat)",
+      "Dairy (Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "359 kj\n(359 kcal)",
+      "protein": "15 g",
+      "carbohydrate": "68.2 g",
+      "total_fat": "3 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Cabruary Bourn Vita - 1 Kg",
+    "ingredients": [
+      "Cereal Extract (Barley, Wheat)",
+      "Sugar",
+      "Milk Solids",
+      "Cocoa Solids",
+      "Caramel Colour (E150c)",
+      "Liquid Glucose",
+      "Emulsifiers (Soy Lecithin)",
+      "Vitamins",
+      "Minerals",
+      "Raising Agent (E500ii)",
+      "Salt"
+    ],
+    "allergy_info": [
+      "Gluten (Barley, Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "393 kj\n(393 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "85.2 g",
+      "total_fat": "1.8 g",
+      "total_sugars": "32 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Women Horlicks - Horlics - 400g",
+    "ingredients": [
+      "Cereal Extract (Barley, Wheat)",
+      "Milk Solids",
+      "Maltodextrin",
+      "Corn Solids",
+      "Vitamins",
+      "Minerals",
+      "Salt",
+      "Natural Flavourings"
+    ],
+    "allergy_info": [
+      "Gluten (Barley, Wheat)",
+      "Dairy (Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "359 kj\n(359 kcal)",
+      "protein": "15 g",
+      "carbohydrate": "68.2 g",
+      "total_fat": "3 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Oat Granola - Express FOODS",
+    "ingredients": [
+      "Rolled Oats",
+      "Sugar/Honey/Maple Syrup",
+      "Vegetable Oil",
+      "Nuts (Almonds, Cashews)",
+      "Seeds (Pumpkin, Sunflower)",
+      "Dried Fruits (Raisins, Cranberries)",
+      "Salt",
+      "Natural Flavours"
+    ],
+    "allergy_info": [
+      "Gluten (Oats)",
+      "nuts (Almonds, Cashews)"
+    ],
+    "nutrition": {
+      "energy": "1,992 kj\n(476 kcal)",
+      "protein": "8.5 g",
+      "carbohydrate": "67 g",
+      "total_fat": "19.1 g",
+      "total_sugars": "12.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Greek yogurt smoothie",
+    "ingredients": [
+      "Greek Yogurt (Milk, Cultures)",
+      "Fruit Puree (e.g., Strawberry, Mango)",
+      "Water",
+      "Sugar/Sweetener",
+      "Stabilizers",
+      "Natural Flavours"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "314 kj\n(75 kcal)",
+      "protein": "4 g",
+      "carbohydrate": "12.2 g",
+      "total_fat": "1.5 g",
+      "total_sugars": "12.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Srikhand",
+    "ingredients": [
+      "Strained Yogurt (Chakka)",
+      "Sugar",
+      "Cardamom Powder",
+      "Saffron",
+      "Nuts (Pistachios, Almonds - optional)"
+    ],
+    "allergy_info": [
+      "Dairy (Yogurt)",
+      "nuts (if added)"
+    ],
+    "nutrition": {
+      "energy": "979 kj\n(234 kcal)",
+      "protein": "5.3 g",
+      "carbohydrate": "42 g",
+      "total_fat": "5 g",
+      "total_sugars": "41 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Kinder CereAlé - Kinder",
+    "ingredients": [
+      "Cereals (Wheat Flour, Rice Flour, Oat Flour, Spelt Flour, Buckwheat Flour)",
+      "Sugar",
+      "Vegetable Fats (Palm, Shea)",
+      "Skimmed Milk Powder",
+      "Hazelnuts",
+      "Low-Fat Cocoa",
+      "Wheat Starch",
+      "Emulsifier (Lecithins (Soy))",
+      "Whey Powder",
+      "Raising Agents (Sodium Bicarbonate, Ammonium Bicarbonate)",
+      "Salt",
+      "Vanillin"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat, Oat, Spelt)",
+      "Dairy (Milk Powder, Whey)",
+      "nuts (Hazelnuts)",
+      "Soya (Lecithins)"
+    ],
+    "nutrition": {
+      "energy": "2,092 kj\n(500 kcal)",
+      "protein": "6.6 g",
+      "carbohydrate": "64.7 g",
+      "total_fat": "23.1 g",
+      "total_sugars": "27.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "13 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Pickel",
+    "ingredients": [
+      "Vegetables/Fruits (Mango, Lime, Mixed Veg)",
+      "Salt",
+      "Mustard Oil/Vegetable Oil",
+      "Spices (Mustard Seeds, Fenugreek Seeds, Turmeric, Chilli Powder, Asafoetida)",
+      "Vinegar/Acidity Regulator"
+    ],
+    "allergy_info": [
+      "Mustard"
+    ],
+    "nutrition": {
+      "energy": "837 kj\n(200 kcal)",
+      "protein": "3.39 g",
+      "carbohydrate": "21.3 g",
+      "total_fat": "11.3 g",
+      "total_sugars": "3.26 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.19 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Oil - 1l",
+    "ingredients": [
+      "Refined Vegetable Oil (Soybean/Sunflower/Palm/Groundnut)"
+    ],
+    "allergy_info": [
+      "May contain Soya/Peanut depending on type"
+    ],
+    "nutrition": {
+      "energy": "0 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0.1 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Apple juice",
+    "ingredients": [
+      "Water",
+      "Apple Juice Concentrate",
+      "Sugar (if added)",
+      "Acidity Regulator (Citric Acid)",
+      "Preservatives",
+      "Natural Flavours"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "226 kj\n(54 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "12 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "chyawanprabha - patanjali - 750 g",
+    "ingredients": [
+      "Amla (Indian Gooseberry)",
+      "Sugar/Jaggery",
+      "Honey",
+      "Ghee",
+      "Herbal Extracts (Ashwagandha, Shatavari, Cardamom, Cinnamon, Long Pepper, etc.)",
+      "Sesame Oil",
+      "Bamboo Manna",
+      "Saffron"
+    ],
+    "allergy_info": [
+      "Dairy (Ghee)",
+      "Sesame"
+    ],
+    "nutrition": {
+      "energy": "149 kj\n(35 kcal)",
+      "protein": "0.11 g",
+      "carbohydrate": "7.8 g",
+      "total_fat": "0.4 g",
+      "total_sugars": "3.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.28 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dana Whole Milk",
+    "ingredients": [
+      "Whole Milk",
+      "Vitamin D3"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "268 kj\n(64 kcal)",
+      "protein": "3.2 g",
+      "carbohydrate": "4.8 g",
+      "total_fat": "3.6 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Toasted miller muesli",
+    "ingredients": [
+      "Rolled Oats",
+      "Millet Flakes (Ragi, Bajra, Jowar)",
+      "Nuts (Almonds, Cashews)",
+      "Seeds (Pumpkin, Sunflower, Chia)",
+      "Honey/Sugar",
+      "Vegetable Oil",
+      "Coconut Flakes",
+      "Raisins",
+      "Spices (Cinnamon)"
+    ],
+    "allergy_info": [
+      "Gluten (Oats)",
+      "nuts (Almonds, Cashews)",
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "1,983 kj\n(474 kcal)",
+      "protein": "9.78 g",
+      "carbohydrate": "63.3 g",
+      "total_fat": "23.82 g",
+      "total_sugars": "20.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "18.36 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Organic Spicy Avocado Hummus - Trader Joe's",
+    "ingredients": [
+      "Organic Cooked Chickpeas",
+      "Organic Avocado",
+      "Organic Tahini (Sesame Seeds)",
+      "Organic Lemon Juice",
+      "Organic Jalapeno Peppers",
+      "Organic Garlic",
+      "Organic Spices",
+      "Sea Salt",
+      "Organic Cilantro"
+    ],
+    "allergy_info": [
+      "Sesame (Tahini)"
+    ],
+    "nutrition": {
+      "energy": "33 kj\n(8 kcal)",
+      "protein": "2 g",
+      "carbohydrate": "0.1 g",
+      "total_fat": "4 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Chat Masala (Mix spices powder)",
+    "ingredients": [
+      "Amchoor (Dry Mango Powder)",
+      "Cumin",
+      "Coriander",
+      "Black Salt (Kala Namak)",
+      "Salt",
+      "Black Pepper",
+      "Asafoetida",
+      "Mint Powder",
+      "Ginger Powder",
+      "Chilli Powder"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "727 kj\n(173 kcal)",
+      "protein": "14 g",
+      "carbohydrate": "17.5 g",
+      "total_fat": "5.3 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dark chocolate peanut butter",
+    "ingredients": [
+      "Roasted Peanuts",
+      "Dark Chocolate (Sugar, Cocoa Solids, Cocoa Butter, Emulsifier (Soy Lecithin))",
+      "Sugar",
+      "Salt",
+      "Vegetable Oil (Optional)"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Soya (Soy Lecithin)",
+      "May contain Dairy"
+    ],
+    "nutrition": {
+      "energy": "2,364 kj\n(565 kcal)",
+      "protein": "26.66 g",
+      "carbohydrate": "31.34 g",
+      "total_fat": "38.8 g",
+      "total_sugars": "17.4 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "13.24 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Namkeen - Haldiram's - 20",
+    "ingredients": [
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Lentils (Moong Dal, Masoor Dal)",
+      "Peanuts",
+      "Rice Flakes (Poha)",
+      "Spices (Chilli, Turmeric, Cumin, Coriander, Garam Masala)",
+      "Salt",
+      "Sugar",
+      "Curry Leaves",
+      "Mustard Seeds",
+      "Asafoetida",
+      "Citric Acid"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Mustard",
+      "May contain Gluten"
+    ],
+    "nutrition": {
+      "energy": "2,213 kj\n(528 kcal)",
+      "protein": "11.2 g",
+      "carbohydrate": "57.8 g",
+      "total_fat": "28.1 g",
+      "total_sugars": "10.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "100066",
+    "ingredients": [
+      "Almonds",
+      "Vegetable Oil",
+      "Salt"
+    ],
+    "allergy_info": [
+      "nuts (Almonds)"
+    ],
+    "nutrition": {
+      "energy": "3,170 kj\n(758 kcal)",
+      "protein": "17.2 g",
+      "carbohydrate": "8.97 g",
+      "total_fat": "71.7 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "16.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Nan Khatai",
+    "ingredients": [
+      "Refined Wheat Flour (Maida)",
+      "Sugar",
+      "Ghee/Vegetable Shortening",
+      "Semolina (Suji)",
+      "Gram Flour (Besan)",
+      "Cardamom Powder",
+      "Baking Powder",
+      "Nuts (Pistachios, Almonds - for garnish)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat, Semolina)",
+      "Dairy (Ghee)",
+      "nuts (Pistachios, Almonds)"
+    ],
+    "nutrition": {
+      "energy": "372 kj\n(89 kcal)",
+      "protein": "1 g",
+      "carbohydrate": "11 g",
+      "total_fat": "4.5 g",
+      "total_sugars": "4 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Yippee - 420gms",
+    "ingredients": [
+      "Noodles (Wheat Flour, Vegetable Oil, Salt, Stabilizers)",
+      "Masala Mix (Spices and Condiments, Salt, Sugar, Dehydrated Vegetables, Hydrolyzed Vegetable Protein (Soya), Flavour Enhancers, Acidity Regulator)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,958 kj\n(468 kcal)",
+      "protein": "9 g",
+      "carbohydrate": "62.6 g",
+      "total_fat": "20.1 g",
+      "total_sugars": "3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Blueberries",
+    "ingredients": [
+      "Dried Blueberries",
+      "Sugar (often added)",
+      "Sunflower Oil (sometimes added as anti-clumping agent)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,455 kj\n(347 kcal)",
+      "protein": "2.333 g",
+      "carbohydrate": "82.667 g",
+      "total_fat": "0 g",
+      "total_sugars": "43.333 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Yop!",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Fruit Puree/Concentrate",
+      "Modified Corn Starch",
+      "Milk Protein Concentrate",
+      "Bacterial Cultures",
+      "Natural Flavour",
+      "Vitamin D3"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "331 kj\n(79 kcal)",
+      "protein": "2.8 g",
+      "carbohydrate": "12.4 g",
+      "total_fat": "1.3 g",
+      "total_sugars": "11 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Marie GOLD - Britannia - 300g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Invert Sugar Syrup",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Vitamins",
+      "Artificial Flavour (Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "42 kj\n(10 kcal)",
+      "protein": "8 g",
+      "carbohydrate": "77 g",
+      "total_fat": "12 g",
+      "total_sugars": "22 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Raviolis aux tomates confites et romarain - Saint-Jean",
+    "ingredients": [
+      "Pasta Dough (Durum Wheat Semolina, Eggs, Water)",
+      "Filling (Ricotta Cheese, Sun-Dried Tomatoes, Breadcrumbs, Parmesan Cheese, Rosemary, Salt, Pepper, Vegetable Oil)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Egg",
+      "Dairy (Cheese)"
+    ],
+    "nutrition": {
+      "energy": "1,138 kj\n(272 kcal)",
+      "protein": "9.8 g",
+      "carbohydrate": "41 g",
+      "total_fat": "7.1 g",
+      "total_sugars": "3.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "veggiee fingers - McCain - 175g",
+    "ingredients": [
+      "Vegetables (Potatoes, Carrots, Peas)",
+      "Breadcrumbs (Wheat Flour, Salt, Yeast)",
+      "Vegetable Oil",
+      "Corn Flour",
+      "Spices",
+      "Salt"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "758 kj\n(181 kcal)",
+      "protein": "3.06 g",
+      "carbohydrate": "24.6 g",
+      "total_fat": "7.01 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.27 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "mamra almonds - K.B.B Nuts Pvt. Ltd. - 250 g",
+    "ingredients": [
+      "Mamra Almonds"
+    ],
+    "allergy_info": [
+      "nuts (Almonds)"
+    ],
+    "nutrition": {
+      "energy": "2,406 kj\n(575 kcal)",
+      "protein": "21.2 g",
+      "carbohydrate": "21.7 g",
+      "total_fat": "49.4 g",
+      "total_sugars": "3.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "mom chinese fried rice - alimento agro - 87 g",
+    "ingredients": [
+      "Dehydrated Rice",
+      "Dehydrated Vegetables (Carrot, Cabbage, Bell Pepper, Beans)",
+      "Vegetable Oil",
+      "Salt",
+      "Sugar",
+      "Soy Sauce Powder",
+      "Spices (Ginger, Garlic)",
+      "Flavour Enhancers",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [
+      "Soya",
+      "May contain Gluten"
+    ],
+    "nutrition": {
+      "energy": "1,620 kj\n(387 kcal)",
+      "protein": "9.2 g",
+      "carbohydrate": "57.5 g",
+      "total_fat": "13.8 g",
+      "total_sugars": "4.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Tarmarind Sauce - nestle - 90 g",
+    "ingredients": [
+      "Water",
+      "Sugar",
+      "Tamarind Pulp",
+      "Salt",
+      "Spices (Cumin, Ginger, Chilli)",
+      "Modified Starch",
+      "Acidity Regulator (Acetic Acid)",
+      "Preservative (Sodium Benzoate)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "741 kj\n(177 kcal)",
+      "protein": "0.6 g",
+      "carbohydrate": "43.6 g",
+      "total_fat": "0 g",
+      "total_sugars": "42.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Black Bourbon",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil (Palm)",
+      "Cocoa Solids",
+      "Milk Solids",
+      "Invert Sugar Syrup",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavour (Chocolate)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "1,966 kj\n(470 kcal)",
+      "protein": "5.2 g",
+      "carbohydrate": "75.8 g",
+      "total_fat": "16.2 g",
+      "total_sugars": "42.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Ginger garlic paste",
+    "ingredients": [
+      "Ginger",
+      "Garlic",
+      "Water",
+      "Salt",
+      "Acidity Regulator (Citric Acid)",
+      "Preservative (Sodium Benzoate)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "301 kj\n(72 kcal)",
+      "protein": "2 g",
+      "carbohydrate": "16 g",
+      "total_fat": "0 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Raspberry preserve",
+    "ingredients": [
+      "Raspberries",
+      "Sugar",
+      "Pectin",
+      "Citric Acid"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,084 kj\n(259 kcal)",
+      "protein": "0.7 g",
+      "carbohydrate": "65 g",
+      "total_fat": "0.1 g",
+      "total_sugars": "62 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dill tzatziki - 150 g",
+    "ingredients": [
+      "Yogurt (Milk, Cultures)",
+      "Cucumber",
+      "Garlic",
+      "Dill",
+      "Olive Oil",
+      "Salt",
+      "Lemon Juice/Vinegar"
+    ],
+    "allergy_info": [
+      "Dairy (Yogurt)"
+    ],
+    "nutrition": {
+      "energy": "494 kj\n(118 kcal)",
+      "protein": "8.9 g",
+      "carbohydrate": "6.1 g",
+      "total_fat": "6.4 g",
+      "total_sugars": "2.62 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4.29 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Tropicana Mixed Fruit Juice",
+    "ingredients": [
+      "Water",
+      "Mixed Fruit Juice Concentrate (Apple, Orange, Pineapple, Mango, Banana)",
+      "Sugar",
+      "Acidity Regulator (Citric Acid)",
+      "Stabilizer",
+      "Preservatives",
+      "Natural Flavours"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "247 kj\n(59 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "74 g",
+      "total_fat": "0 g",
+      "total_sugars": "70 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dark Fantasy",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Chocolate Filling (Sugar, Vegetable Oil, Cocoa Solids, Milk Solids, Emulsifier (Soy Lecithin))",
+      "Cocoa Solids",
+      "Invert Sugar Syrup",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavours (Chocolate, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "218 kj\n(52 kcal)",
+      "protein": "4 g",
+      "carbohydrate": "80 g",
+      "total_fat": "12 g",
+      "total_sugars": "79 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Fresca Lime",
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar/Sweeteners",
+      "Lime Juice Concentrate",
+      "Citric Acid",
+      "Natural Flavours",
+      "Preservatives (Sodium Benzoate)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "276 kj\n(66 kcal)",
+      "protein": "0.52 g",
+      "carbohydrate": "15.8 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Takatak Baked Chilli Cheese - Haldiram's",
+    "ingredients": [
+      "Rice Meal",
+      "Corn Meal",
+      "Gram Meal",
+      "Vegetable Oil",
+      "Seasoning (Cheese Powder, Chilli Powder, Salt, Sugar, Onion Powder, Garlic Powder, Spices)",
+      "Milk Solids",
+      "Acidity Regulator",
+      "Flavour Enhancers"
+    ],
+    "allergy_info": [
+      "Dairy (Cheese Powder, Milk Solids)",
+      "May contain Gluten",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "1,962 kj\n(469 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "71 g",
+      "total_fat": "17.5 g",
+      "total_sugars": "3.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Britannia Treat",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Cream Filling (Sugar, Vegetable Oil, Milk Solids, Emulsifier (Soy Lecithin), Artificial Flavour)",
+      "Milk Solids",
+      "Corn Starch",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavours"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,059 kj\n(492 kcal)",
+      "protein": "5 g",
+      "carbohydrate": "73 g",
+      "total_fat": "20 g",
+      "total_sugars": "36.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "12 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Nutriplato Roasted 5 Seeds Blend - 300 g",
+    "ingredients": [
+      "Roasted Pumpkin Seeds",
+      "Roasted Sunflower Seeds",
+      "Roasted Flax Seeds",
+      "Roasted Chia Seeds",
+      "Roasted Watermelon Seeds",
+      "Salt (Optional)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "626 kj\n(149 kcal)",
+      "protein": "0.57 g",
+      "carbohydrate": "2.94 g",
+      "total_fat": "10.77 g",
+      "total_sugars": "5.85 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1.98 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Gummy Vites",
+    "ingredients": [
+      "Glucose Syrup",
+      "Sugar",
+      "Water",
+      "Gelatin",
+      "Citric Acid",
+      "Natural Flavors",
+      "Colors (Fruit and Vegetable Juice)",
+      "Vitamins",
+      "Minerals",
+      "Coconut Oil",
+      "Carnauba Wax"
+    ],
+    "allergy_info": [
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "0 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Weetabix - 450 g",
+    "ingredients": [
+      "Wholegrain Wheat",
+      "Barley Malt Extract",
+      "Sugar",
+      "Salt",
+      "Niacin",
+      "Iron",
+      "Riboflavin (B2)",
+      "Thiamin (B1)",
+      "Folic Acid"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat, Barley)"
+    ],
+    "nutrition": {
+      "energy": "1,498 kj\n(358 kcal)",
+      "protein": "11.1 g",
+      "carbohydrate": "66 g",
+      "total_fat": "2.3 g",
+      "total_sugars": "2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Green chutney style - kurkure",
+    "ingredients": [
+      "Rice Meal",
+      "Vegetable Oil",
+      "Corn Meal",
+      "Gram Meal",
+      "Seasoning (Salt, Spices (Mint, Coriander, Chilli), Onion Powder, Garlic Powder, Sugar, Acidity Regulator (Citric Acid), Flavour Enhancers)"
+    ],
+    "allergy_info": [
+      "May contain Gluten",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,326 kj\n(556 kcal)",
+      "protein": "5.3 g",
+      "carbohydrate": "56.3 g",
+      "total_fat": "34.4 g",
+      "total_sugars": "1.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "16 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Spiced Okra Chips",
+    "ingredients": [
+      "Okra (Lady's Finger)",
+      "Vegetable Oil",
+      "Rice Flour/Gram Flour",
+      "Spices (Chilli Powder, Turmeric, Chaat Masala)",
+      "Salt"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "2,448 kj\n(585 kcal)",
+      "protein": "7.41 g",
+      "carbohydrate": "36.25 g",
+      "total_fat": "9.6 g",
+      "total_sugars": "6.12 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.55 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Organic peanut butter - 350 g",
+    "ingredients": [
+      "Organic Roasted Peanuts",
+      "Organic Salt (Optional)"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)"
+    ],
+    "nutrition": {
+      "energy": "2,674 kj\n(639 kcal)",
+      "protein": "30 g",
+      "carbohydrate": "18 g",
+      "total_fat": "49 g",
+      "total_sugars": "3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Butter Bite",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Butter",
+      "Milk Solids",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Artificial Flavour (Butter)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Butter, Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "628 kj\n(150 kcal)",
+      "protein": "2 g",
+      "carbohydrate": "20 g",
+      "total_fat": "7 g",
+      "total_sugars": "5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Mango",
+    "ingredients": [
+      "Mango Pulp/Concentrate",
+      "Water",
+      "Sugar (if added)",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "213 kj\n(51 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "10.07 g",
+      "total_fat": "0 g",
+      "total_sugars": "10.07 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Bourbon",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil (Palm)",
+      "Cocoa Solids",
+      "Milk Solids",
+      "Invert Sugar Syrup",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavour (Chocolate)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "1,987 kj\n(475 kcal)",
+      "protein": "6 g",
+      "carbohydrate": "17.1 g",
+      "total_fat": "74.3 g",
+      "total_sugars": "9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "34 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Veggie stix",
+    "ingredients": [
+      "Potato Starch",
+      "Potato Flour",
+      "Corn Starch",
+      "Vegetable Oil",
+      "Vegetable Powders (Spinach, Tomato, Beetroot)",
+      "Salt",
+      "Sugar",
+      "Spices"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,966 kj\n(470 kcal)",
+      "protein": "6.6 g",
+      "carbohydrate": "71 g",
+      "total_fat": "17.9 g",
+      "total_sugars": "2.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Shubham - Nandini",
+    "ingredients": [
+      "Milk",
+      "Sugar",
+      "Cardamom/Saffron Flavour",
+      "Stabilizers"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "310 kj\n(74 kcal)",
+      "protein": "3.3 g",
+      "carbohydrate": "4.8 g",
+      "total_fat": "4.6 g",
+      "total_sugars": "4.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Complete pancake mix",
+    "ingredients": [
+      "Enriched Bleached Flour (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid)",
+      "Sugar",
+      "Leavening (Baking Soda, Sodium Aluminum Phosphate, Monocalcium Phosphate)",
+      "Dextrose",
+      "Salt",
+      "Soy Flour",
+      "Soybean Oil"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,523 kj\n(364 kcal)",
+      "protein": "7.7 g",
+      "carbohydrate": "69.8 g",
+      "total_fat": "5.5 g",
+      "total_sugars": "12.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Bar One - Nestlé",
+    "ingredients": [
+      "Sugar",
+      "Liquid Glucose",
+      "Milk Solids",
+      "Vegetable Fat (Palm)",
+      "Cocoa Solids",
+      "Invert Sugar",
+      "Humectant (Glycerol)",
+      "Emulsifiers (Soy Lecithin)",
+      "Salt",
+      "Artificial Flavour (Vanilla)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "510 kj\n(122 kcal)",
+      "protein": "1.3 g",
+      "carbohydrate": "14.5 g",
+      "total_fat": "4.3 g",
+      "total_sugars": "10.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Les Fabuleuses / Boulette d'énergie Pomme-Cannelle",
+    "ingredients": [
+      "Dates",
+      "Dried Apples",
+      "Oats",
+      "Cashews",
+      "Coconut",
+      "Cinnamon"
+    ],
+    "allergy_info": [
+      "nuts (Cashews)",
+      "Gluten (Oats)",
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "1,188 kj\n(284 kcal)",
+      "protein": "4.9 g",
+      "carbohydrate": "48.4 g",
+      "total_fat": "8.6 g",
+      "total_sugars": "38.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Boulette d'énergie cacao cacahuete",
+    "ingredients": [
+      "Dates",
+      "Peanuts",
+      "Oats",
+      "Cocoa Powder",
+      "Coconut"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Gluten (Oats)",
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "1,561 kj\n(373 kcal)",
+      "protein": "9.9 g",
+      "carbohydrate": "49.6 g",
+      "total_fat": "15.1 g",
+      "total_sugars": "37.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Boulette d'énergie Match-Coco",
+    "ingredients": [
+      "Dates",
+      "Cashews",
+      "Coconut",
+      "Oats",
+      "Matcha Powder"
+    ],
+    "allergy_info": [
+      "nuts (Cashews)",
+      "Gluten (Oats)",
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "1,590 kj\n(380 kcal)",
+      "protein": "6.4 g",
+      "carbohydrate": "50.2 g",
+      "total_fat": "17.5 g",
+      "total_sugars": "39.2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "11.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Organic Brown Sugar (Desi Khand) - 500 g",
+    "ingredients": [
+      "Organic Sugarcane Juice"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "753 kj\n(180 kcal)",
+      "protein": "4 g",
+      "carbohydrate": "36 g",
+      "total_fat": "2.5 g",
+      "total_sugars": "14 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Moong dal",
+    "ingredients": [
+      "Split Moong Beans (Yellow Lentils)",
+      "Vegetable Oil",
+      "Salt",
+      "Spices (Optional - Turmeric, Chilli)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,992 kj\n(476 kcal)",
+      "protein": "23 g",
+      "carbohydrate": "49 g",
+      "total_fat": "20 g",
+      "total_sugars": "2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Duke's",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifiers",
+      "Artificial Flavours"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "0 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Bakarwadi - chitale - 250 g",
+    "ingredients": [
+      "Refined Wheat Flour (Maida)",
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Sugar",
+      "Salt",
+      "Spices (Coconut, Sesame Seeds, Poppy Seeds, Chilli, Cumin, Coriander, Turmeric, Fennel Seeds)",
+      "Tamarind Paste",
+      "Ginger",
+      "Garlic"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Sesame",
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "2,272 kj\n(543 kcal)",
+      "protein": "8.97 g",
+      "carbohydrate": "46.85 g",
+      "total_fat": "35.63 g",
+      "total_sugars": "8.07 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8.74 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Moong Dal Burfi - Haldiram s",
+    "ingredients": [
+      "Moong Dal (Yellow Lentils)",
+      "Sugar",
+      "Ghee (Clarified Butter)",
+      "Milk Solids (Khoya)",
+      "Cardamom Powder",
+      "Nuts (Almonds, Pistachios)"
+    ],
+    "allergy_info": [
+      "Dairy (Ghee, Milk Solids)",
+      "nuts (Almonds, Pistachios)"
+    ],
+    "nutrition": {
+      "energy": "2,125 kj\n(508 kcal)",
+      "protein": "8 g",
+      "carbohydrate": "56 g",
+      "total_fat": "28 g",
+      "total_sugars": "36 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "20 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Quā",
+    "ingredients": [
+      "Unknown ingredients - Product name unclear"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "0 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Maiyas Moong Dal - 35",
+    "ingredients": [
+      "Split Moong Beans (Yellow Lentils)",
+      "Vegetable Oil",
+      "Salt"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,992 kj\n(476 kcal)",
+      "protein": "20.2 g",
+      "carbohydrate": "56.4 g",
+      "total_fat": "18.8 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "nutri choice - Britannia - 75g",
+    "ingredients": [
+      "Whole Wheat Flour (Atta)",
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Sugar",
+      "Wheat Bran",
+      "Invert Sugar Syrup",
+      "Milk Solids",
+      "Oat Fibre",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Malt Extract"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat, Oat, Barley)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "285 kj\n(68 kcal)",
+      "protein": "8 g",
+      "carbohydrate": "68 g",
+      "total_fat": "21 g",
+      "total_sugars": "14.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Mom's Magic - Sunfeast - 100g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Butter",
+      "Cashew Nuts",
+      "Milk Solids",
+      "Invert Syrup",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Artificial Flavours (Butter, Milk, Nut)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Butter, Milk Solids)",
+      "nuts (Cashew)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,088 kj\n(499 kcal)",
+      "protein": "8.1 g",
+      "carbohydrate": "65.1 g",
+      "total_fat": "22.9 g",
+      "total_sugars": "23.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "13.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Pasteurized Toned Milk - Namaste India - 230 ml",
+    "ingredients": [
+      "Milk",
+      "Milk Solids",
+      "Vitamin A",
+      "Vitamin D"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "306 kj\n(73 kcal)",
+      "protein": "3.52 g",
+      "carbohydrate": "7.8 g",
+      "total_fat": "3.1 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.23 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "catch sprinklers Table Salt - 100g",
+    "ingredients": [
+      "Iodized Salt",
+      "Anti-caking Agent (E551)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "0 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Prostar 100% whey",
+    "ingredients": [
+      "Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides)",
+      "Soy Lecithin",
+      "Natural and Artificial Flavors",
+      "Sweeteners (Acesulfame Potassium, Sucralose)"
+    ],
+    "allergy_info": [
+      "Dairy (Whey)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "1,674 kj\n(400 kcal)",
+      "protein": "83.333 g",
+      "carbohydrate": "6.667 g",
+      "total_fat": "3.333 g",
+      "total_sugars": "3.333 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1.667 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "8.90411E+12",
+    "ingredients": [
+      "Roasted Peanuts",
+      "Vegetable Oil",
+      "Salt"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)"
+    ],
+    "nutrition": {
+      "energy": "2,000 kj\n(478 kcal)",
+      "protein": "25 g",
+      "carbohydrate": "48.9 g",
+      "total_fat": "21.2 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Coated Wafer Layers - Perk",
+    "ingredients": [
+      "Sugar",
+      "Wheat Flour",
+      "Vegetable Fat (Palm)",
+      "Milk Solids",
+      "Cocoa Solids",
+      "Emulsifiers (Soy Lecithin)",
+      "Leavening Agent (Sodium Bicarbonate)",
+      "Salt",
+      "Artificial Flavour (Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,159 kj\n(516 kcal)",
+      "protein": "3.3 g",
+      "carbohydrate": "68 g",
+      "total_fat": "25.7 g",
+      "total_sugars": "46.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "23.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Vanilla Muffin Small - Bliss Chocolates India Pvt. Ltd. - 2 pcs",
+    "ingredients": [
+      "Wheat Flour (Maida)",
+      "Sugar",
+      "Eggs",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Baking Powder",
+      "Salt",
+      "Vanilla Essence",
+      "Preservatives"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Egg",
+      "Dairy (Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "1,615 kj\n(386 kcal)",
+      "protein": "5.6 g",
+      "carbohydrate": "45.2 g",
+      "total_fat": "20.2 g",
+      "total_sugars": "26.37 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "13.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Goodrich - pizza topping - 200 g",
+    "ingredients": [
+      "Water",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Cheese",
+      "Modified Starch",
+      "Salt",
+      "Emulsifiers",
+      "Stabilizers",
+      "Acidity Regulators",
+      "Preservatives",
+      "Colour",
+      "Flavour (Cheese)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids, Cheese)"
+    ],
+    "nutrition": {
+      "energy": "1,188 kj\n(284 kcal)",
+      "protein": "12 g",
+      "carbohydrate": "5 g",
+      "total_fat": "24 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "19.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Fennel fusion - choko la - 40g",
+    "ingredients": [
+      "Dark Chocolate (Cocoa Solids, Sugar, Cocoa Butter, Emulsifier (Soy Lecithin), Vanilla Flavour)",
+      "Sugar Coated Fennel Seeds (Saunf)"
+    ],
+    "allergy_info": [
+      "Soya (Soy Lecithin)",
+      "May contain Dairy",
+      "May contain nuts"
+    ],
+    "nutrition": {
+      "energy": "2,428 kj\n(580 kcal)",
+      "protein": "7.11 g",
+      "carbohydrate": "51.39 g",
+      "total_fat": "38.49 g",
+      "total_sugars": "38.45 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "23.76 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Nutri choise essentials - Britannia - 150 g",
+    "ingredients": [
+      "Whole Wheat Flour (Atta)",
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Sugar",
+      "Wheat Bran",
+      "Invert Sugar Syrup",
+      "Milk Solids",
+      "Oat Fibre",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Malt Extract"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat, Oat, Barley)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,000 kj\n(478 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "72 g",
+      "total_fat": "18 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8.6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "protinex mama - Danone - 250 g",
+    "ingredients": [
+      "Soy Protein Isolate",
+      "Sugar",
+      "Skimmed Milk Powder",
+      "Maltodextrin",
+      "Wheat Flour",
+      "Corn Flour",
+      "Soy Fiber",
+      "Algal Oil (Source of DHA)",
+      "Vitamins",
+      "Minerals",
+      "Natural Flavours"
+    ],
+    "allergy_info": [
+      "Soya",
+      "Dairy (Milk)",
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "1,506 kj\n(360 kcal)",
+      "protein": "32 g",
+      "carbohydrate": "57 g",
+      "total_fat": "1.5 g",
+      "total_sugars": "30.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "nescafé cappuccino - nestle - 5 serving packets",
+    "ingredients": [
+      "Sugar",
+      "Milk Solids",
+      "Glucose Syrup",
+      "Instant Coffee",
+      "Vegetable Oil (Coconut/Palm Kernel)",
+      "Salt",
+      "Stabilizers",
+      "Artificial Flavour (Coffee)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids)",
+      "Coconut (if used)"
+    ],
+    "nutrition": {
+      "energy": "1,807 kj\n(432 kcal)",
+      "protein": "11.5 g",
+      "carbohydrate": "71.2 g",
+      "total_fat": "11.3 g",
+      "total_sugars": "64.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Modern Sandwich Supreme - Modern Foods - 600 g",
+    "ingredients": [
+      "Refined Wheat Flour (Maida)",
+      "Water",
+      "Sugar",
+      "Yeast",
+      "Vegetable Oil",
+      "Salt",
+      "Milk Solids",
+      "Preservatives (E282)",
+      "Emulsifiers (E481, E471)",
+      "Acidity Regulator (E260)",
+      "Flour Treatment Agent (E1100)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "1,063 kj\n(254 kcal)",
+      "protein": "7.9 g",
+      "carbohydrate": "51 g",
+      "total_fat": "2.1 g",
+      "total_sugars": "6.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1.37 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "OMG! Oh My Ganna Ginger Groove - Nutricane - 250 ml",
+    "ingredients": [
+      "Sugarcane Juice",
+      "Ginger Juice",
+      "Lemon Juice",
+      "Preservatives"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "205 kj\n(48 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "9.14 g",
+      "total_fat": "0 g",
+      "total_sugars": "9.14 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Crunchy Nutty Peanut Butter - United Foods - 12 oz",
+    "ingredients": [
+      "Roasted Peanuts",
+      "Sugar",
+      "Hydrogenated Vegetable Oil (Rapeseed, Cottonseed, Soybean)",
+      "Salt"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Soya (Soybean oil)"
+    ],
+    "nutrition": {
+      "energy": "2,724 kj\n(651 kcal)",
+      "protein": "9.46 g",
+      "carbohydrate": "31.9 g",
+      "total_fat": "53.45 g",
+      "total_sugars": "10.02 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "11.47 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Jeera Special - BTW - 400 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Cumin Seeds (Jeera)",
+      "Salt",
+      "Spices"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "2,067 kj\n(494 kcal)",
+      "protein": "7.8 g",
+      "carbohydrate": "0.1 g",
+      "total_fat": "28.08 g",
+      "total_sugars": "0.79 mg",
+      "added_sugars": "N/A",
+      "saturated_fat": "13.47 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Jus de mangue - Paper boat - 180ml",
+    "ingredients": [
+      "Water",
+      "Mango Pulp",
+      "Sugar",
+      "Acidity Regulator (Citric Acid)",
+      "Stabilizers",
+      "Preservatives",
+      "Natural Flavour (Mango)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "259 kj\n(62 kcal)",
+      "protein": "0.1 g",
+      "carbohydrate": "15.5 g",
+      "total_fat": "0.1 g",
+      "total_sugars": "12.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Chikki - paper boat - 31 g",
+    "ingredients": [
+      "Peanuts",
+      "Jaggery",
+      "Sugar",
+      "Liquid Glucose",
+      "Ghee (Optional)"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Dairy (if Ghee is used)"
+    ],
+    "nutrition": {
+      "energy": "2,082 kj\n(497 kcal)",
+      "protein": "13.9 g",
+      "carbohydrate": "56.5 g",
+      "total_fat": "24 g",
+      "total_sugars": "34 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.41 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Bitterly Osmania Biscuits - Karachi Bakery - 300 g",
+    "ingredients": [
+      "Refined Wheat Flour (Maida)",
+      "Butter",
+      "Sugar",
+      "Milk Solids",
+      "Salt",
+      "Cardamom",
+      "Leavening Agent"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Butter, Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "2,284 kj\n(546 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "58 g",
+      "total_fat": "32 g",
+      "total_sugars": "8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "16 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Snakker - Priyagold - 24 g",
+    "ingredients": [
+      "Sugar",
+      "Vegetable Fat",
+      "Wheat Flour",
+      "Peanuts",
+      "Milk Solids",
+      "Cocoa Solids",
+      "Liquid Glucose",
+      "Emulsifiers (Soy Lecithin)",
+      "Salt",
+      "Leavening Agent",
+      "Artificial Flavours (Caramel, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "nuts (Peanuts)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,008 kj\n(480 kcal)",
+      "protein": "0 mg",
+      "carbohydrate": "1 g",
+      "total_fat": "21.9 g",
+      "total_sugars": "0.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "< 20 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Idly & Dosa Batter - iD - 1kg",
+    "ingredients": [
+      "Rice",
+      "Urad Dal (Black Gram)",
+      "Water",
+      "Fenugreek Seeds",
+      "Salt"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "600 kj\n(143 kcal)",
+      "protein": "5.5 g",
+      "carbohydrate": "26.3 g",
+      "total_fat": "1.6 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.68 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Plain salted potato chips - Yellow diamond - 35g",
+    "ingredients": [
+      "Potato",
+      "Vegetable Oil (Palm Oil)",
+      "Salt"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "2,297 kj\n(548 kcal)",
+      "protein": "8.46 g",
+      "carbohydrate": "52.4 g",
+      "total_fat": "33.94 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "15.56 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Khakhra -",
+    "ingredients": [
+      "Whole Wheat Flour",
+      "Vegetable Oil",
+      "Salt",
+      "Turmeric Powder",
+      "Spices (Optional - Chilli, Cumin, Fenugreek Leaves)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "2,046 kj\n(489 kcal)",
+      "protein": "10 g",
+      "carbohydrate": "65 g",
+      "total_fat": "21 g",
+      "total_sugars": "3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Haldirams Bhujia - 1 kg",
+    "ingredients": [
+      "Moth Bean Flour",
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Salt",
+      "Spices (Chilli, Ginger, Black Pepper, Cardamom, Clove)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "2,430 kj\n(580 kcal)",
+      "protein": "13.9 g",
+      "carbohydrate": "39.5 g",
+      "total_fat": "40.8 g",
+      "total_sugars": "3.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Halirams Bhujiya sev - haldirams - 1 kg",
+    "ingredients": [
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Salt",
+      "Spices (Turmeric, Ajwain)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "2,477 kj\n(592 kcal)",
+      "protein": "12.93 g",
+      "carbohydrate": "37.14 g",
+      "total_fat": "43.5 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "11.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Yummy Elaichi Flavoured Sandwich - Anmol - 100 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Cream Filling (Sugar, Vegetable Oil, Milk Solids, Cardamom Flavour, Emulsifier (Soy Lecithin))",
+      "Milk Solids",
+      "Corn Starch",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavour (Cardamom, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,027 kj\n(484 kcal)",
+      "protein": "0 mg",
+      "carbohydrate": "6.05 g",
+      "total_fat": "17.98 g",
+      "total_sugars": "2.59 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.34 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Yummy Orange Flavoured Sandwich - Anmol - 100g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Cream Filling (Sugar, Vegetable Oil, Milk Solids, Orange Flavour, Colour (E110), Emulsifier (Soy Lecithin))",
+      "Milk Solids",
+      "Corn Starch",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavour (Orange, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,008 kj\n(480 kcal)",
+      "protein": "0 mg",
+      "carbohydrate": "7.46 g",
+      "total_fat": "17.63 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10.17 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Cheeselings - Classic - Parle - 150 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Sugar",
+      "Cheese Powder",
+      "Salt",
+      "Leavening Agents",
+      "Milk Solids",
+      "Yeast",
+      "Emulsifiers",
+      "Acidity Regulator",
+      "Flavour Enhancer"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Cheese, Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "489 kj\n(117 kcal)",
+      "protein": "8.2 g",
+      "carbohydrate": "69 g",
+      "total_fat": "20 g",
+      "total_sugars": "3.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Manchow Instant Noodles - Capital Foods - 60 g",
+    "ingredients": [
+      "Noodles (Wheat Flour, Vegetable Oil, Salt)",
+      "Seasoning Mix (Salt, Sugar, Spices (Ginger, Garlic, Chilli), Dehydrated Vegetables (Carrot, Cabbage), Soy Sauce Powder, Flavour Enhancers, Acidity Regulator)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,067 kj\n(255 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "10.3 g",
+      "total_sugars": "33.2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Del Monte Tomato Ketchup - 1 kg",
+    "ingredients": [
+      "Water",
+      "Tomato Paste",
+      "Sugar",
+      "Salt",
+      "Acidity Regulator (Acetic Acid)",
+      "Stabilizers",
+      "Onion Powder",
+      "Garlic Powder",
+      "Spices",
+      "Preservative (Sodium Benzoate)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "653 kj\n(156 kcal)",
+      "protein": "2 g",
+      "carbohydrate": "37 g",
+      "total_fat": "0 g",
+      "total_sugars": "25 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Sofit Soya Milk - 200 ml",
+    "ingredients": [
+      "Water",
+      "Soybeans",
+      "Sugar (if flavoured)",
+      "Mineral (Tricalcium Phosphate)",
+      "Stabilizer",
+      "Vitamins",
+      "Flavour (if added)"
+    ],
+    "allergy_info": [
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "285 kj\n(68 kcal)",
+      "protein": "6.4 g",
+      "carbohydrate": "3.6 g",
+      "total_fat": "3.2 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.36 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dr. Oetker - 275g",
+    "ingredients": [
+      "Vegetable Oil (Soybean/Rapeseed)",
+      "Water",
+      "Egg Yolk",
+      "Sugar",
+      "Vinegar",
+      "Salt",
+      "Mustard Flour",
+      "Stabilizer (Xanthan Gum)",
+      "Preservative (Potassium Sorbate)",
+      "Antioxidant (EDTA)"
+    ],
+    "allergy_info": [
+      "Egg",
+      "Mustard",
+      "Soya (Soybean oil)"
+    ],
+    "nutrition": {
+      "energy": "2,377 kj\n(568 kcal)",
+      "protein": "4.5 g",
+      "carbohydrate": "12.3 g",
+      "total_fat": "55.7 g",
+      "total_sugars": "5.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Pierre Martinet Mon taboulé a poulet à la ciboulette la barquette de 300 g",
+    "ingredients": [
+      "Cooked Semolina (Wheat)",
+      "Cooked Chicken Pieces",
+      "Vegetables (Tomatoes, Peppers, Onions)",
+      "Vegetable Oil (Rapeseed)",
+      "Water",
+      "Lemon Juice",
+      "Chives",
+      "Salt",
+      "Mint",
+      "Spices",
+      "Vinegar"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "669 kj\n(160 kcal)",
+      "protein": "5.4 g",
+      "carbohydrate": "21 g",
+      "total_fat": "5.7 g",
+      "total_sugars": "3.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Horlicks",
+    "ingredients": [
+      "Malted Barley",
+      "Wheat Flour",
+      "Milk Solids",
+      "Sugar",
+      "Minerals",
+      "Vitamins",
+      "Salt"
+    ],
+    "allergy_info": [
+      "Gluten (Barley, Wheat)",
+      "Dairy (Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "1,548 kj\n(370 kcal)",
+      "protein": "10 g",
+      "carbohydrate": "78 g",
+      "total_fat": "2 g",
+      "total_sugars": "14 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "lays potato chips - Lay's - 28g",
+    "ingredients": [
+      "Potato",
+      "Vegetable Oil (Palm Olein)",
+      "Seasoning (Salt, Sugar, Spices, Flavour Enhancers, Acidity Regulator)"
+    ],
+    "allergy_info": [
+      "May contain Dairy",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,276 kj\n(544 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "54.7 g",
+      "total_fat": "33 g",
+      "total_sugars": "6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "13 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "pasta - 200g",
+    "ingredients": [
+      "Durum Wheat Semolina",
+      "Water"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "96 kj\n(23 kcal)",
+      "protein": "78 g",
+      "carbohydrate": "12 g",
+      "total_fat": "26 g",
+      "total_sugars": "25 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "23 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Soya chunks - 100g",
+    "ingredients": [
+      "Defatted Soy Flour"
+    ],
+    "allergy_info": [
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,460 kj\n(349 kcal)",
+      "protein": "51 g",
+      "carbohydrate": "34 g",
+      "total_fat": "1 g",
+      "total_sugars": "16 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Soulfull Ragi Bites - 250g",
+    "ingredients": [
+      "Ragi Flour",
+      "Rice Flour",
+      "Sugar",
+      "Cocoa Solids (if chocolate)",
+      "Milk Solids",
+      "Vegetable Oil",
+      "Salt",
+      "Emulsifier",
+      "Natural Flavours",
+      "Vitamins",
+      "Minerals"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids)",
+      "May contain Gluten",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "1,862 kj\n(445 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "77.5 g",
+      "total_fat": "12 g",
+      "total_sugars": "24 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "6 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "cake nuts and resins - britannia - 60g",
+    "ingredients": [
+      "Refined Wheat Flour (Maida)",
+      "Sugar",
+      "Eggs",
+      "Vegetable Oil",
+      "Raisins",
+      "Cashew Nuts",
+      "Tutti Frutti (Papaya pieces, Sugar, Acidity Regulator)",
+      "Humectants",
+      "Milk Solids",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifiers",
+      "Preservatives",
+      "Artificial Flavours (Fruit, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Egg",
+      "Dairy (Milk Solids)",
+      "nuts (Cashew)",
+      "Sulphites (in Tutti Frutti)"
+    ],
+    "nutrition": {
+      "energy": "1,715 kj\n(410 kcal)",
+      "protein": "66,000 mg",
+      "carbohydrate": "7.7 g",
+      "total_fat": "18 g",
+      "total_sugars": "2.2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "safari - Gandour - 26g",
+    "ingredients": [
+      "Sugar",
+      "Wheat Flour",
+      "Vegetable Fats (Palm, Shea)",
+      "Rice Crispies",
+      "Milk Solids",
+      "Cocoa Solids",
+      "Liquid Glucose",
+      "Emulsifiers (Soy Lecithin)",
+      "Salt",
+      "Leavening Agent",
+      "Artificial Flavours (Caramel, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,054 kj\n(491 kcal)",
+      "protein": "4.3 g",
+      "carbohydrate": "21 g",
+      "total_fat": "23 g",
+      "total_sugars": "44 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "15 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Crema de cacahuate",
+    "ingredients": [
+      "Roasted Peanuts",
+      "Sugar (Optional)",
+      "Salt (Optional)",
+      "Hydrogenated Vegetable Oil (Optional)"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)"
+    ],
+    "nutrition": {
+      "energy": "2,674 kj\n(639 kcal)",
+      "protein": "30 g",
+      "carbohydrate": "18 g",
+      "total_fat": "49 g",
+      "total_sugars": "3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Quick Chicken Pizza Instant Noodles - Wai Wai - 75 g",
+    "ingredients": [
+      "Noodles (Wheat Flour, Vegetable Oil, Salt)",
+      "Seasoning Powder (Salt, Sugar, Spices (Oregano, Chilli, Garlic), Cheese Powder, Chicken Flavour, Tomato Powder, Flavour Enhancers)",
+      "Onion Flavoured Oil"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Cheese Powder)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,025 kj\n(484 kcal)",
+      "protein": "1 g",
+      "carbohydrate": "0.2 g",
+      "total_fat": "20.9 g",
+      "total_sugars": "64 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "amul cow ghee - 200 ml",
+    "ingredients": [
+      "Milk Fat (from Cow's Milk)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Fat)"
+    ],
+    "nutrition": {
+      "energy": "3,753 kj\n(897 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0.004 g",
+      "total_fat": "99.7 g",
+      "total_sugars": "209 mg",
+      "added_sugars": "N/A",
+      "saturated_fat": "65 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "mountain dew - pepsi - 250 ml",
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar",
+      "Acidity Regulators (Citric Acid, Sodium Citrate)",
+      "Preservatives (Sodium Benzoate)",
+      "Caffeine",
+      "Stabilizer (Gum Arabic)",
+      "Natural Flavour (Citrus)",
+      "Colour (Tartrazine)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "205 kj\n(49 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "12.3 g",
+      "total_fat": "0 g",
+      "total_sugars": "12.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Haldirams nut crackers - 400 g",
+    "ingredients": [
+      "Peanuts",
+      "Gram Flour (Besan)",
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Salt",
+      "Spices (Chilli Powder, Turmeric, Ajwain)",
+      "Leavening Agent"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "920 kj\n(220 kcal)",
+      "protein": "8 g",
+      "carbohydrate": "7 g",
+      "total_fat": "18 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Coca cola - 300ml",
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar",
+      "Caramel Colour (E150d)",
+      "Acidity Regulator (Phosphoric Acid)",
+      "Natural Flavours",
+      "Caffeine"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "0 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "11 g",
+      "total_fat": "0 g",
+      "total_sugars": "11 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "ketchup",
+    "ingredients": [
+      "Tomato Paste",
+      "Water",
+      "Sugar",
+      "Vinegar",
+      "Salt",
+      "Spices (Onion Powder, Garlic Powder)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "837 kj\n(200 kcal)",
+      "protein": "5 g",
+      "carbohydrate": "4 g",
+      "total_fat": "10 g",
+      "total_sugars": "2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "9 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Special Potato Chiwda - LaxmiNarayan - 400 g",
+    "ingredients": [
+      "Potato Sticks",
+      "Vegetable Oil",
+      "Peanuts",
+      "Cashew Nuts",
+      "Raisins",
+      "Sugar",
+      "Salt",
+      "Spices (Chilli, Turmeric, Cumin, Fennel Seeds)",
+      "Curry Leaves",
+      "Citric Acid"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts, Cashews)"
+    ],
+    "nutrition": {
+      "energy": "2,364 kj\n(565 kcal)",
+      "protein": "9.6 g",
+      "carbohydrate": "37.92 g",
+      "total_fat": "44.08 g",
+      "total_sugars": "17.93 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.68 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Amul Taaza - 200 ml",
+    "ingredients": [
+      "Toned Milk",
+      "Vitamin A",
+      "Vitamin D"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "244 kj\n(58 kcal)",
+      "protein": "3 g",
+      "carbohydrate": "4.8 g",
+      "total_fat": "3 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Fruitree",
+    "ingredients": [
+      "Water",
+      "Mixed Fruit Juice Concentrate",
+      "Sugar",
+      "Acidity Regulator",
+      "Stabilizers",
+      "Natural Flavours",
+      "Preservatives"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "615 kj\n(147 kcal)",
+      "protein": "0.5 g",
+      "carbohydrate": "8 g",
+      "total_fat": "0 g",
+      "total_sugars": "8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Amul Kool",
+    "ingredients": [
+      "Toned Milk",
+      "Sugar",
+      "Flavour (e.g., Coffee, Chocolate, Rose, Badam)",
+      "Stabilizers",
+      "Colour (if applicable)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)",
+      "May contain nuts if Badam flavour"
+    ],
+    "nutrition": {
+      "energy": "1,741 kj\n(416 kcal)",
+      "protein": "3.2 g",
+      "carbohydrate": "12 g",
+      "total_fat": "2 g",
+      "total_sugars": "8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Philadelphia original cheese spread - 280 g",
+    "ingredients": [
+      "Milk",
+      "Cream",
+      "Cheese Culture",
+      "Salt",
+      "Stabilizers (Carob Bean Gum)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk, Cream)"
+    ],
+    "nutrition": {
+      "energy": "933 kj\n(223 kcal)",
+      "protein": "4.67 g",
+      "carbohydrate": "0.001 g",
+      "total_fat": "20.3 g",
+      "total_sugars": "73.3 mg",
+      "added_sugars": "N/A",
+      "saturated_fat": "13.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "haldirams - 65g",
+    "ingredients": [
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Lentils/Pulses",
+      "Peanuts",
+      "Rice Flakes",
+      "Spices",
+      "Salt",
+      "Sugar",
+      "Citric Acid"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "May contain Gluten"
+    ],
+    "nutrition": {
+      "energy": "2,054 kj\n(491 kcal)",
+      "protein": "4 g",
+      "carbohydrate": "67 g",
+      "total_fat": "23 g",
+      "total_sugars": "3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "1to3 Noodles - SHRI RAJA INDUSTRIES - 60 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Salt",
+      "Seasoning Mix (Salt, Spices, Sugar, Flavour Enhancers)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "17 g",
+      "protein": "5.334 g",
+      "carbohydrate": "3.1 g",
+      "total_fat": "9.9 g",
+      "total_sugars": "6.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "63.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "mapro mixed fruit jam - 1 kg",
+    "ingredients": [
+      "Sugar",
+      "Mixed Fruit Pulp (Papaya, Mango, Pineapple, Banana, Apple, Grape)",
+      "Pectin",
+      "Citric Acid",
+      "Preservative (Sodium Benzoate)",
+      "Permitted Synthetic Food Colours",
+      "Artificial Flavours"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,109 kj\n(265 kcal)",
+      "protein": "0.1 g",
+      "carbohydrate": "68 g",
+      "total_fat": "0 g",
+      "total_sugars": "67 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "bhujiya - chatkins - 400 g",
+    "ingredients": [
+      "Moth Bean Flour",
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Salt",
+      "Spices (Chilli, Ginger, Black Pepper, Clove)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "2,489 kj\n(595 kcal)",
+      "protein": "14 g",
+      "carbohydrate": "42.5 g",
+      "total_fat": "41 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Soklet - Regal foods and Beverages - 50gm",
+    "ingredients": [
+      "Roasted Peanuts",
+      "Gram Flour",
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Spices",
+      "Salt"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "2,000 kj\n(478 kcal)",
+      "protein": "25.5 g",
+      "carbohydrate": "52 g",
+      "total_fat": "19.25 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "5.75 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Goat Cheese - Flanders Dairy Products - 500g",
+    "ingredients": [
+      "Pasteurized Goat Milk",
+      "Salt",
+      "Cheese Cultures",
+      "Enzymes"
+    ],
+    "allergy_info": [
+      "Dairy (Goat Milk)"
+    ],
+    "nutrition": {
+      "energy": "858 kj\n(205 kcal)",
+      "protein": "14 g",
+      "carbohydrate": "3.5 g",
+      "total_fat": "15 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "15 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Paneer - Ananda - 200g",
+    "ingredients": [
+      "Milk Solids",
+      "Citric Acid/Lemon Juice"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "1,293 kj\n(309 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "1.25 g",
+      "total_fat": "17.25 g",
+      "total_sugars": "2.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "16 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Harvest Gold 100% Whole Wheat Bread - 450g",
+    "ingredients": [
+      "Whole Wheat Flour (Atta)",
+      "Water",
+      "Yeast",
+      "Sugar",
+      "Salt",
+      "Vegetable Oil",
+      "Preservatives",
+      "Emulsifiers",
+      "Flour Treatment Agent"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "1,050 kj\n(251 kcal)",
+      "protein": "9.3 g",
+      "carbohydrate": "51 g",
+      "total_fat": "1.19 g",
+      "total_sugars": "3.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.42 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Bagrry’s White Oats - 1kg",
+    "ingredients": [
+      "100% Rolled Oats"
+    ],
+    "allergy_info": [
+      "Gluten (Oats)"
+    ],
+    "nutrition": {
+      "energy": "582 kj\n(139 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "1.4 g",
+      "total_fat": "3 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Mother Dairy Ultimate Dahi - 400g",
+    "ingredients": [
+      "Pasteurized Full Cream Milk",
+      "Active Lactic Cultures"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "314 kj\n(75 kcal)",
+      "protein": "3.7 g",
+      "carbohydrate": "5 g",
+      "total_fat": "4.5 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Amul Gold - 1 litre",
+    "ingredients": [
+      "Standardized Milk",
+      "Vitamin A",
+      "Vitamin D"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "314 kj\n(75 kcal)",
+      "protein": "3 g",
+      "carbohydrate": "4.8 g",
+      "total_fat": "4.5 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Diet Coke Mobile Pack - Coca-Cola - 500ml",
+    "ingredients": [
+      "Carbonated Water",
+      "Caramel Colour (E150d)",
+      "Sweeteners (Aspartame, Acesulfame K)",
+      "Acidity Regulators (Phosphoric Acid, Sodium Citrate)",
+      "Natural Flavours",
+      "Caffeine",
+      "Contains a source of Phenylalanine"
+    ],
+    "allergy_info": [
+      "Phenylalanine"
+    ],
+    "nutrition": {
+      "energy": "1 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Ghiotti Fusilli - Ghotti - 500g",
+    "ingredients": [
+      "Durum Wheat Semolina",
+      "Water"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "1,222 kj\n(292 kcal)",
+      "protein": "10 g",
+      "carbohydrate": "59.2 g",
+      "total_fat": "1.2 g",
+      "total_sugars": "0.9 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "wafer cream rolls - tasty treat - 250g",
+    "ingredients": [
+      "Sugar",
+      "Wheat Flour",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Corn Starch",
+      "Emulsifier (Soy Lecithin)",
+      "Salt",
+      "Artificial Flavours (Vanilla, Cream)",
+      "Colour (Optional)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "1,766 kj\n(422 kcal)",
+      "protein": "4 g",
+      "carbohydrate": "70 g",
+      "total_fat": "14 g",
+      "total_sugars": "43 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "12 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "turmeric powder - Ramdev - 500 g",
+    "ingredients": [
+      "Ground Turmeric Root"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,477 kj\n(352 kcal)",
+      "protein": "6.89 g",
+      "carbohydrate": "72.6 g",
+      "total_fat": "3.89 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.49 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Maggi pazzta masala penne - Nestle - 65 g",
+    "ingredients": [
+      "Pasta (Wheat Semolina)",
+      "Milk Solids",
+      "Potato Flakes",
+      "Salt",
+      "Sugar",
+      "Spices (Onion Powder, Garlic Powder, Turmeric, Chilli, Coriander)",
+      "Hydrolyzed Vegetable Protein (Soya)",
+      "Vegetable Oil",
+      "Flavour Enhancers",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "341 kj\n(82 kcal)",
+      "protein": "11.6 g",
+      "carbohydrate": "68.3 g",
+      "total_fat": "2.4 g",
+      "total_sugars": "5.2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Greek yogurt wild raspberry",
+    "ingredients": [
+      "Greek Yogurt (Milk, Cultures)",
+      "Raspberry Fruit Preparation (Raspberries, Sugar, Water, Stabilizers, Acidity Regulator, Natural Flavour)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "460 kj\n(110 kcal)",
+      "protein": "6.7 g",
+      "carbohydrate": "17 g",
+      "total_fat": "1.8 g",
+      "total_sugars": "3.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "tomato ketchup - 1kg",
+    "ingredients": [
+      "Tomato Paste",
+      "Water",
+      "Sugar",
+      "Vinegar",
+      "Salt",
+      "Spices"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "42 kj\n(10 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "78 g",
+      "total_fat": "1 g",
+      "total_sugars": "70 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Amberella chutney - mc curtie - 450 g",
+    "ingredients": [
+      "Ambarella Fruit (Spondias dulcis)",
+      "Sugar",
+      "Vinegar",
+      "Salt",
+      "Spices (Ginger, Garlic, Chilli, Mustard Seeds)",
+      "Preservatives"
+    ],
+    "allergy_info": [
+      "Mustard"
+    ],
+    "nutrition": {
+      "energy": "0.1 g",
+      "protein": "0.127 g",
+      "carbohydrate": "12 g",
+      "total_fat": "0.1 g",
+      "total_sugars": "0.5 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "15.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Del Monte - 250 g",
+    "ingredients": [
+      "Fruit (e.g., Peaches, Pears, Pineapple, Cherries)",
+      "Water/Light Syrup/Heavy Syrup (Sugar, Water)",
+      "Citric Acid"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,414 kj\n(338 kcal)",
+      "protein": "0.38 g",
+      "carbohydrate": "82.9 g",
+      "total_fat": "0.13 g",
+      "total_sugars": "73.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Maggi Special Masala - 70 g",
+    "ingredients": [
+      "Noodles (Wheat Flour, Vegetable Oil, Salt)",
+      "Masala Tastemaker (Spices & Condiments (22.5%) - Red Chilli, Turmeric, Coriander, Cumin, Aniseed, Black Pepper, Fenugreek, Ginger, Clove, Nutmeg, Cardamom), Salt, Sugar, Onion Powder, Garlic Powder, Hydrolyzed Groundnut Protein, Flavour Enhancer (635), Acidity Regulator (Citric Acid), Colour (150d), Vegetable Oil)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "nuts (Groundnut)"
+    ],
+    "nutrition": {
+      "energy": "1,711 kj\n(409 kcal)",
+      "protein": "9.6 g",
+      "carbohydrate": "60.3 g",
+      "total_fat": "14.4 g",
+      "total_sugars": "2.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "6.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "McVitie's Digestive",
+    "ingredients": [
+      "Wheat Flour",
+      "Vegetable Oil (Palm)",
+      "Whole Wheat Flour",
+      "Sugar",
+      "Partially Inverted Sugar Syrup",
+      "Raising Agents (Sodium Bicarbonate, Malic Acid, Ammonium Bicarbonate)",
+      "Salt"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)"
+    ],
+    "nutrition": {
+      "energy": "2,046 kj\n(489 kcal)",
+      "protein": "7.3 g",
+      "carbohydrate": "67.1 g",
+      "total_fat": "21.2 g",
+      "total_sugars": "16.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Britannia Multi Grain Bread - 400 g",
+    "ingredients": [
+      "Whole Wheat Flour (Atta)",
+      "Water",
+      "Multigrain Flour Mix (Wheat, Oats, Ragi, Corn, Barley)",
+      "Wheat Gluten",
+      "Yeast",
+      "Sugar",
+      "Salt",
+      "Vegetable Oil",
+      "Seeds (Flax, Sunflower)",
+      "Preservatives",
+      "Emulsifiers"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat, Oats, Barley)"
+    ],
+    "nutrition": {
+      "energy": "1,088 kj\n(260 kcal)",
+      "protein": "47 g",
+      "carbohydrate": "1.5 g",
+      "total_fat": "4 g",
+      "total_sugars": "2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Tata Salt - 100g",
+    "ingredients": [
+      "Iodized Salt"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "0 kj\n(0 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Garlic 100% Veggie Chips - SnackWise - text",
+    "ingredients": [
+      "Vegetable Blend (Potato, Tapioca, Corn)",
+      "Vegetable Oil",
+      "Garlic Powder",
+      "Salt",
+      "Spices"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,670 kj\n(400 kcal)",
+      "protein": "16.7 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.33 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Handmade Chocolate Orange Honeycomb - Aldi - 250g",
+    "ingredients": [
+      "Sugar",
+      "Glucose Syrup",
+      "Chocolate Coating (Sugar, Cocoa Mass, Cocoa Butter, Emulsifier (Soy Lecithin), Vanilla Flavour)",
+      "Bicarbonate of Soda",
+      "Orange Oil"
+    ],
+    "allergy_info": [
+      "Soya (Soy Lecithin)",
+      "May contain Dairy",
+      "May contain nuts"
+    ],
+    "nutrition": {
+      "energy": "1,870 kj\n(447 kcal)",
+      "protein": "2.6 g",
+      "carbohydrate": "81 g",
+      "total_fat": "12 g",
+      "total_sugars": "64 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "8.90106E+12",
+    "ingredients": [
+      "Unknown - Product name is a barcode"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "8 kj\n(2 kcal)",
+      "protein": "1 g",
+      "carbohydrate": "1 g",
+      "total_fat": "2 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Garlic & Herbs Buttery Spread - Amul - 100g",
+    "ingredients": [
+      "Vegetable Oils",
+      "Water",
+      "Milk Solids",
+      "Common Salt",
+      "Garlic Powder",
+      "Dried Herbs (Parsley, Oregano)",
+      "Emulsifiers",
+      "Stabilizers",
+      "Acidity Regulator",
+      "Preservatives",
+      "Vitamin A",
+      "Vitamin D"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids)"
+    ],
+    "nutrition": {
+      "energy": "2,919 kj\n(697 kcal)",
+      "protein": "0.5 g",
+      "carbohydrate": "0 g",
+      "total_fat": "77.3 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Idiyappam - Adyar Annapoorna - 5",
+    "ingredients": [
+      "Rice Flour",
+      "Water",
+      "Salt"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,544 kj\n(369 kcal)",
+      "protein": "6.7 g",
+      "carbohydrate": "82.3 g",
+      "total_fat": "1.4 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Haldiram's Lite Chiwda - 57 g",
+    "ingredients": [
+      "Rice Flakes (Poha)",
+      "Vegetable Oil",
+      "Peanuts",
+      "Sugar",
+      "Salt",
+      "Mustard Seeds",
+      "Curry Leaves",
+      "Turmeric Powder",
+      "Citric Acid"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)",
+      "Mustard"
+    ],
+    "nutrition": {
+      "energy": "2,268 kj\n(542 kcal)",
+      "protein": "8.02 g",
+      "carbohydrate": "56.34 g",
+      "total_fat": "31.63 g",
+      "total_sugars": "2.16 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "10.64 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Aloo bhujia - Haldiram - 200 gm",
+    "ingredients": [
+      "Potato",
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Moth Bean Flour",
+      "Salt",
+      "Spices (Chilli, Mint, Ginger, Black Pepper)",
+      "Citric Acid"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "2,351 kj\n(562 kcal)",
+      "protein": "8.68 g",
+      "carbohydrate": "46.1 g",
+      "total_fat": "38.12 g",
+      "total_sugars": "0.25 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "16.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Masala Oats - Peppy Tomato - Saffola - 39g",
+    "ingredients": [
+      "Oats",
+      "Spices and Condiments (Tomato Powder, Onion, Garlic, Chilli)",
+      "Salt",
+      "Sugar",
+      "Vegetable Oil",
+      "Dehydrated Vegetables",
+      "Hydrolyzed Vegetable Protein (Soya)",
+      "Flavour Enhancers",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [
+      "Gluten (Oats)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,680 kj\n(402 kcal)",
+      "protein": "10.8 g",
+      "carbohydrate": "71.3 g",
+      "total_fat": "8.21 g",
+      "total_sugars": "7.18 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1.54 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Soya Chips - Haldiram's - 25 g",
+    "ingredients": [
+      "Soybean Flour",
+      "Tapioca Starch",
+      "Vegetable Oil",
+      "Salt",
+      "Spices (Chilli, Turmeric)",
+      "Sugar",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "2,268 kj\n(542 kcal)",
+      "protein": "14.36 g",
+      "carbohydrate": "42.05 g",
+      "total_fat": "35.11 g",
+      "total_sugars": "3.76 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "19.1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "O'Choco - PARLITE FOODS",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Cocoa Powder",
+      "Milk Solids",
+      "Leavening Agents",
+      "Salt",
+      "Emulsifier (Soy Lecithin)",
+      "Artificial Flavour (Chocolate)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "1,966 kj\n(470 kcal)",
+      "protein": "6.5 g",
+      "carbohydrate": "74.5 g",
+      "total_fat": "16.2 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Queso - picon",
+    "ingredients": [
+      "Rehydrated Skimmed Milk",
+      "Cheeses",
+      "Butter",
+      "Milk Proteins",
+      "Emulsifying Salts (Polyphosphates, Citrates, Phosphates)",
+      "Salt",
+      "Flavouring",
+      "Acidity Regulator (Citric Acid)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk, Cheese, Butter)"
+    ],
+    "nutrition": {
+      "energy": "1,121 kj\n(268 kcal)",
+      "protein": "10 g",
+      "carbohydrate": "6 g",
+      "total_fat": "23 g",
+      "total_sugars": "6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "15.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Caramel - Hershey's - 623 g",
+    "ingredients": [
+      "Corn Syrup",
+      "High Fructose Corn Syrup",
+      "Sweetened Condensed Skim Milk (Skim Milk, Sugar)",
+      "Water",
+      "Salt",
+      "Disodium Phosphate",
+      "Sodium Citrate",
+      "Artificial Flavour (Caramel)",
+      "Artificial Color (Yellow 6, Yellow 5)",
+      "Xanthan Gum"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "1,218 kj\n(291 kcal)",
+      "protein": "2.1 g",
+      "carbohydrate": "70.2 g",
+      "total_fat": "0.17 g",
+      "total_sugars": "55.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Puffcorn",
+    "ingredients": [
+      "Corn Meal",
+      "Vegetable Oil",
+      "Salt",
+      "Cheese Powder (Optional)",
+      "Spices (Optional)"
+    ],
+    "allergy_info": [
+      "May contain Dairy"
+    ],
+    "nutrition": {
+      "energy": "2,322 kj\n(555 kcal)",
+      "protein": "6 g",
+      "carbohydrate": "56.2 g",
+      "total_fat": "34.5 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "16 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Qamar Dates - 5KG",
+    "ingredients": [
+      "Dates"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "502 kj\n(120 kcal)",
+      "protein": "1 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "29 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Ritter Sport Mini Mix 18er Beutel",
+    "ingredients": [
+      "Sugar",
+      "Cocoa Butter",
+      "Cocoa Mass",
+      "Milk Powder (Whole, Skimmed)",
+      "Lactose",
+      "Hazelnuts",
+      "Butterfat",
+      "Corn",
+      "Palm Fat",
+      "Wheat Flour",
+      "Emulsifier (Soy Lecithin)",
+      "Yogurt Powder",
+      "Natural Flavours",
+      "Salt",
+      "Barley Malt"
+    ],
+    "allergy_info": [
+      "Dairy (Milk, Lactose, Butterfat, Yogurt)",
+      "nuts (Hazelnuts)",
+      "Soya (Soy Lecithin)",
+      "Gluten (Wheat, Barley)"
+    ],
+    "nutrition": {
+      "energy": "2,297 kj\n(549 kcal)",
+      "protein": "6.9 g",
+      "carbohydrate": "53 g",
+      "total_fat": "34 g",
+      "total_sugars": "50 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "18 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "saffola masala oats - 39g",
+    "ingredients": [
+      "Oats",
+      "Spices and Condiments",
+      "Salt",
+      "Sugar",
+      "Vegetable Oil",
+      "Dehydrated Vegetables",
+      "Hydrolyzed Vegetable Protein (Soya)",
+      "Flavour Enhancers",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [
+      "Gluten (Oats)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,669 kj\n(399 kcal)",
+      "protein": "10 g",
+      "carbohydrate": "68.2 g",
+      "total_fat": "9.5 g",
+      "total_sugars": "6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Marie biscuits - Bisk Farm - 300gram",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Milk Solids",
+      "Invert Sugar Syrup",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Artificial Flavour (Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "1,728 kj\n(413 kcal)",
+      "protein": "0 mg",
+      "carbohydrate": "4.74 g",
+      "total_fat": "13.01 g",
+      "total_sugars": "2.06 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "6.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dry Cake - Pran - 350 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil/Shortening",
+      "Eggs",
+      "Milk Powder",
+      "Leavening Agents",
+      "Salt",
+      "Artificial Flavours (Vanilla)",
+      "Preservatives"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Egg",
+      "Dairy (Milk Powder)"
+    ],
+    "nutrition": {
+      "energy": "1,757 kj\n(420 kcal)",
+      "protein": "25 g",
+      "carbohydrate": "0 g",
+      "total_fat": "21 g",
+      "total_sugars": "11 mg",
+      "added_sugars": "N/A",
+      "saturated_fat": "1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Maggi Atta noodle - Masala - 4 pack - 300g",
+    "ingredients": [
+      "Noodles (Whole Wheat Flour (Atta), Wheat Flour, Vegetable Oil, Salt)",
+      "Masala Tastemaker (Spices & Condiments, Salt, Sugar, Onion Powder, Garlic Powder, Hydrolyzed Groundnut Protein, Flavour Enhancer, Acidity Regulator, Colour, Vegetable Oil)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "nuts (Groundnut)"
+    ],
+    "nutrition": {
+      "energy": "1,766 kj\n(422 kcal)",
+      "protein": "12 g",
+      "carbohydrate": "60.6 g",
+      "total_fat": "14.6 g",
+      "total_sugars": "2.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Tasti Smooshed Wholefood Balls - Berry Cashew & Cacao - 69g",
+    "ingredients": [
+      "Dates",
+      "Cashews",
+      "Dried Berries (Cranberries, Raspberries)",
+      "Cacao Powder",
+      "Coconut",
+      "Natural Flavours"
+    ],
+    "allergy_info": [
+      "nuts (Cashews)",
+      "Coconut"
+    ],
+    "nutrition": {
+      "energy": "1,630 kj\n(390 kcal)",
+      "protein": "7 g",
+      "carbohydrate": "62.4 g",
+      "total_fat": "12.2 g",
+      "total_sugars": "48.4 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "OMG! Oh My Ganna Cumin Crush - Nutricane - 250 ml",
+    "ingredients": [
+      "Sugarcane Juice",
+      "Cumin Powder",
+      "Lemon Juice",
+      "Salt",
+      "Preservatives"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "205 kj\n(48 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "9.14 g",
+      "total_fat": "0 g",
+      "total_sugars": "9.14 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Mcvities Butter Cookie 68 GR. - 68 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Butter",
+      "Sugar",
+      "Cornflour",
+      "Salt",
+      "Natural Flavouring"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Butter)"
+    ],
+    "nutrition": {
+      "energy": "1,962 kj\n(469 kcal)",
+      "protein": "24.9 g",
+      "carbohydrate": "6.2 g",
+      "total_fat": "18.2 g",
+      "total_sugars": "1.8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Seedless Dates - Lion - 200 g",
+    "ingredients": [
+      "Dates (Pitted)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "1,306 kj\n(312 kcal)",
+      "protein": "2.51 g",
+      "carbohydrate": "77.61 g",
+      "total_fat": "0.23 g",
+      "total_sugars": "69.21 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Pizza topping - Dr. Oetker - 100g",
+    "ingredients": [
+      "Tomato Puree",
+      "Water",
+      "Onions",
+      "Vegetable Oil",
+      "Sugar",
+      "Salt",
+      "Herbs (Oregano, Basil)",
+      "Spices",
+      "Modified Starch",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "831 kj\n(198 kcal)",
+      "protein": "4.4 g",
+      "carbohydrate": "23 g",
+      "total_fat": "9.9 g",
+      "total_sugars": "21.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "2.3 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Potato Cheese Shotz - Mc Cain - 400 g",
+    "ingredients": [
+      "Potatoes",
+      "Cheese",
+      "Vegetable Oil",
+      "Corn Flour",
+      "Salt",
+      "Spices",
+      "Stabilizers"
+    ],
+    "allergy_info": [
+      "Dairy (Cheese)"
+    ],
+    "nutrition": {
+      "energy": "967 kj\n(231 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "11.3 g",
+      "total_sugars": "24.26 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "6.97 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Lite Mixture - Haldiram's - 42g",
+    "ingredients": [
+      "Rice Flakes (Poha)",
+      "Gram Flour (Besan) Sev",
+      "Vegetable Oil",
+      "Peanuts",
+      "Lentils",
+      "Salt",
+      "Sugar",
+      "Spices",
+      "Curry Leaves",
+      "Citric Acid"
+    ],
+    "allergy_info": [
+      "nuts (Peanuts)"
+    ],
+    "nutrition": {
+      "energy": "2,109 kj\n(504 kcal)",
+      "protein": "13 g",
+      "carbohydrate": "50 g",
+      "total_fat": "28 g",
+      "total_sugars": "2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "15 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Dream LITE - Anmol - 200g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Invert Sugar Syrup",
+      "Leavening Agents",
+      "Salt",
+      "Milk Solids",
+      "Emulsifiers",
+      "Artificial Flavours (Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "2,100 kj\n(502 kcal)",
+      "protein": "7.7 g",
+      "carbohydrate": "64 g",
+      "total_fat": "24 g",
+      "total_sugars": "8 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "11.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Mountain Dew - 1",
+    "ingredients": [
+      "Carbonated Water",
+      "Sugar",
+      "Acidity Regulators (Citric Acid, Sodium Citrate)",
+      "Preservatives (Sodium Benzoate)",
+      "Caffeine",
+      "Stabilizer (Gum Arabic)",
+      "Natural Flavour (Citrus)",
+      "Colour (Tartrazine)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "205 kj\n(49 kcal)",
+      "protein": "0 g",
+      "carbohydrate": "12.3 g",
+      "total_fat": "0 g",
+      "total_sugars": "12.3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Bikaneri Bhujia - Kurkure - 18g",
+    "ingredients": [
+      "Moth Bean Flour",
+      "Gram Flour (Besan)",
+      "Vegetable Oil",
+      "Salt",
+      "Spices (Chilli, Ginger, Black Pepper, Cardamom, Clove)"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "2,623 kj\n(627 kcal)",
+      "protein": "11.8 g",
+      "carbohydrate": "33.5 g",
+      "total_fat": "49.5 g",
+      "total_sugars": "1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "11.7 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Kesar Rasbari Barfi - Bikano - 1 kg",
+    "ingredients": [
+      "Sugar",
+      "Milk Solids (Khoya)",
+      "Ghee",
+      "Cardamom Powder",
+      "Saffron",
+      "Nuts (Pistachios, Almonds)",
+      "Rose Water (Optional)",
+      "Silver Leaf (Vark - Optional)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids, Ghee)",
+      "nuts (Pistachios, Almonds)"
+    ],
+    "nutrition": {
+      "energy": "833.03 kj\n(199 kcal)",
+      "protein": "46.4 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0.7 g",
+      "total_sugars": "15 mg",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Perk - Cadbury - 14.3 g",
+    "ingredients": [
+      "Sugar",
+      "Wheat Flour",
+      "Vegetable Fat (Palm)",
+      "Milk Solids",
+      "Cocoa Solids",
+      "Emulsifiers (Soy Lecithin)",
+      "Leavening Agent (Sodium Bicarbonate)",
+      "Salt",
+      "Artificial Flavour (Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,163 kj\n(517 kcal)",
+      "protein": "1.8 g",
+      "carbohydrate": "0.2 g",
+      "total_fat": "25.8 g",
+      "total_sugars": "67.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "23.4 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Gulab Jamun - Gits - 100g",
+    "ingredients": [
+      "Milk Solids (Khoya)",
+      "Wheat Flour/Semolina",
+      "Sugar",
+      "Water",
+      "Cardamom",
+      "Rose Water",
+      "Ghee/Vegetable Oil (for frying)",
+      "Baking Soda"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids, Ghee)",
+      "Gluten (Wheat/Semolina)"
+    ],
+    "nutrition": {
+      "energy": "1,757 kj\n(420 kcal)",
+      "protein": "17 g",
+      "carbohydrate": "57 g",
+      "total_fat": "13.6 g",
+      "total_sugars": "18.2 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "8 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Saffola Masala Oats - Classic Masala - 38 g",
+    "ingredients": [
+      "Oats",
+      "Spices and Condiments (Onion, Garlic, Coriander, Turmeric, Chilli, Cumin)",
+      "Salt",
+      "Sugar",
+      "Vegetable Oil",
+      "Dehydrated Vegetables",
+      "Hydrolyzed Vegetable Protein (Soya)",
+      "Flavour Enhancers",
+      "Acidity Regulator"
+    ],
+    "allergy_info": [
+      "Gluten (Oats)",
+      "Soya"
+    ],
+    "nutrition": {
+      "energy": "1,605 kj\n(383 kcal)",
+      "protein": "11 g",
+      "carbohydrate": "72.6 g",
+      "total_fat": "5.5 g",
+      "total_sugars": "7.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1.2 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Good Day Cashew Cookies Medium Pack - Britannia - 600 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Butter",
+      "Cashew Nuts",
+      "Milk Solids",
+      "Invert Syrup",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Artificial Flavours (Butter, Milk, Nut)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Butter, Milk Solids)",
+      "nuts (Cashew)"
+    ],
+    "nutrition": {
+      "energy": "2,109 kj\n(504 kcal)",
+      "protein": "2 mg",
+      "carbohydrate": "10.2 g",
+      "total_fat": "24 g",
+      "total_sugars": "2.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "11 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Good Day Cashew Cookies - Britannia - 200 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Butter",
+      "Cashew Nuts",
+      "Milk Solids",
+      "Invert Syrup",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Artificial Flavours (Butter, Milk, Nut)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Butter, Milk Solids)",
+      "nuts (Cashew)"
+    ],
+    "nutrition": {
+      "energy": "2,109 kj\n(504 kcal)",
+      "protein": "9.5 mg",
+      "carbohydrate": "10 g",
+      "total_fat": "24 g",
+      "total_sugars": "3 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "11 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "GoodDay Choco Chip - Britannia - 100 g",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Vegetable Oil",
+      "Chocolate Chips (Sugar, Cocoa Solids, Cocoa Butter, Emulsifier (Soy Lecithin))",
+      "Milk Solids",
+      "Cocoa Solids",
+      "Salt",
+      "Leavening Agents",
+      "Emulsifiers",
+      "Artificial Flavours (Chocolate, Vanilla)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "Soya (Soy Lecithin)"
+    ],
+    "nutrition": {
+      "energy": "2,063 kj\n(493 kcal)",
+      "protein": "0 mg",
+      "carbohydrate": "9.7 g",
+      "total_fat": "21 g",
+      "total_sugars": "3.7 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "7.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Sandwich Chocolate and Vanilla - Kwality Wall's - 57 g",
+    "ingredients": [
+      "Biscuit (Wheat Flour, Sugar, Vegetable Oil, Cocoa Powder, Leavening Agent)",
+      "Ice Cream (Water, Milk Solids, Sugar, Vegetable Oil, Liquid Glucose, Emulsifiers, Stabilizers, Cocoa Solids, Vanilla Flavour)"
+    ],
+    "allergy_info": [
+      "Gluten (Wheat)",
+      "Dairy (Milk Solids)",
+      "May contain Soya"
+    ],
+    "nutrition": {
+      "energy": "1,180 kj\n(282 kcal)",
+      "protein": "0.877 g",
+      "carbohydrate": "0.018 g",
+      "total_fat": "7.89 g",
+      "total_sugars": "48.1 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "3.51 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "bru coffee - 100",
+    "ingredients": [
+      "Instant Coffee Powder",
+      "Chicory"
+    ],
+    "allergy_info": [],
+    "nutrition": {
+      "energy": "0 g",
+      "protein": "0 g",
+      "carbohydrate": "0 g",
+      "total_fat": "0 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.5 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Cassatta - Kwality Wall's - 70 g",
+    "ingredients": [
+      "Ice Cream Layers (Milk Solids, Sugar, Vegetable Oil, Liquid Glucose, Emulsifiers, Stabilizers, Flavours (Vanilla, Strawberry, Pistachio), Colours)",
+      "Sponge Cake Layer (Wheat Flour, Sugar, Eggs, Water, Leavening Agent)",
+      "Cashew Nuts",
+      "Tutti Frutti"
+    ],
+    "allergy_info": [
+      "Dairy (Milk Solids)",
+      "Gluten (Wheat)",
+      "Egg",
+      "nuts (Cashew)",
+      "Sulphites (in Tutti Frutti)"
+    ],
+    "nutrition": {
+      "energy": "999 kj\n(239 kcal)",
+      "protein": "2.29 g",
+      "carbohydrate": "0 g",
+      "total_fat": "11.1 g",
+      "total_sugars": "27.6 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "4.86 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Chorizo Barbecue - Noel - 300 g",
+    "ingredients": [
+      "Pork",
+      "Paprika",
+      "Salt",
+      "Garlic",
+      "Spices",
+      "Sugar",
+      "Dextrose",
+      "Preservatives (Sodium Nitrite)",
+      "Antioxidant (Sodium Ascorbate)",
+      "Barbecue Flavoring"
+    ],
+    "allergy_info": [
+      "May contain traces of Milk and Soy"
+    ],
+    "nutrition": {
+      "energy": "2,000 kj\n(478 kcal)",
+      "protein": "20 g",
+      "carbohydrate": "2.7 g",
+      "total_fat": "43 g",
+      "total_sugars": "1.4 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "16 g",
+      "trans_fat": "N/A"
+    },
+    "veg": false,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Caulier Tripel 33 CL Fles -",
+    "ingredients": [
+      "Water",
+      "Barley Malt",
+      "Hops",
+      "Yeast",
+      "Sugar"
+    ],
+    "allergy_info": [
+      "Gluten (Barley)"
+    ],
+    "nutrition": {
+      "energy": "4 kj\n(1 kcal)",
+      "protein": "0.01 g",
+      "carbohydrate": "0.5 g",
+      "total_fat": "0.5 g",
+      "total_sugars": "0.02 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "0.1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Fromage d'Abbaye Belge - - 150 g",
+    "ingredients": [
+      "Pasteurized Milk",
+      "Salt",
+      "Lactic Ferments",
+      "Rennet",
+      "Colour (Annatto)"
+    ],
+    "allergy_info": [
+      "Dairy (Milk)"
+    ],
+    "nutrition": {
+      "energy": "1,351 kj\n(323 kcal)",
+      "protein": "24 g",
+      "carbohydrate": "0.5 g",
+      "total_fat": "25 g",
+      "total_sugars": "0 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "15 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  },
+  {
+    "item_category": "Indian Food",
+    "item_name": "Achards de légumes - Royal Bourbon - 200 g",
+    "ingredients": [
+      "Vegetables (Cabbage, Carrots, Green Beans)",
+      "Vegetable Oil (Sunflower)",
+      "Vinegar",
+      "Mustard",
+      "Salt",
+      "Spices (Turmeric, Ginger, Garlic)",
+      "Preservative"
+    ],
+    "allergy_info": [
+      "Mustard"
+    ],
+    "nutrition": {
+      "energy": "724 kj\n(173 kcal)",
+      "protein": "4.48 g",
+      "carbohydrate": "17.62 g",
+      "total_fat": "9.4 g",
+      "total_sugars": "1.65 g",
+      "added_sugars": "N/A",
+      "saturated_fat": "1 g",
+      "trans_fat": "N/A"
+    },
+    "veg": true,
+    "image_url": ""
+  }
+]
