@@ -1,0 +1,177 @@
+[
+  {
+    "json_data": {
+      "_id": {
+        "$oid": "0000101209159"
+      },
+      "ingredients": [],
+      "meta": {
+        "url": ""
+      },
+      "allergy_info": [
+        "nuts"
+      ],
+      "nutrients_per_100g": true,
+      "price": null,
+      "weight": {
+        "value": null,
+        "unit": "g"
+      },
+      "score": null,
+      "nutritional_content_rating": null,
+      "ingredient_quality_rating": null,
+      "health_impact_rating": null,
+      "final_rating": null,
+      "veg": true,
+      "servings_size": {
+        "value": null,
+        "unit": "g",
+        "count": null
+      },
+      "servings_per_pack": null,
+      "item_category": "breakfasts",
+      "item_name": [
+        {
+          "lang": "main",
+          "text": "Véritable pâte à tartiner noisettes chocolat noir"
+        },
+        {
+          "lang": "fr",
+          "text": "Véritable pâte à tartiner noisettes chocolat noir"
+        }
+      ],
+      "nutrition": {
+        "energy": null,
+        "carbohydrate": null,
+        "total_sugars": null,
+        "fiber": null,
+        "protein": null,
+        "total_fat": null,
+        "saturated_fat": null,
+        "monounsaturated_fat": null,
+        "polyunsaturated_fat": null,
+        "cholesterol": null,
+        "sodium": null
+      },
+      "image_url": null
+    }
+  },
+  {
+    "json_data": {
+      "_id": {
+        "$oid": "0000105000011"
+      },
+      "ingredients": [
+        "camomile-flower",
+        "herb",
+        "camomile"
+      ],
+      "meta": {
+        "url": null
+      },
+      "allergy_info": [],
+      "nutrients_per_100g": false,
+      "price": null,
+      "weight": {
+        "value": null,
+        "unit": "g"
+      },
+      "score": null,
+      "nutritional_content_rating": null,
+      "ingredient_quality_rating": null,
+      "health_impact_rating": null,
+      "final_rating": null,
+      "veg": true,
+      "servings_size": {
+        "value": 1,
+        "unit": "g",
+        "count": null
+      },
+      "servings_per_pack": null,
+      "item_category": "null",
+      "item_name": [
+        {
+          "lang": "main",
+          "text": "Chamomile Herbal Tea"
+        },
+        {
+          "lang": "en",
+          "text": "Chamomile Herbal Tea"
+        }
+      ],
+      "nutrition": {
+        "energy": null,
+        "carbohydrate": null,
+        "total_sugars": null,
+        "fiber": null,
+        "protein": null,
+        "total_fat": null,
+        "saturated_fat": null,
+        "monounsaturated_fat": null,
+        "polyunsaturated_fat": null,
+        "cholesterol": null,
+        "sodium": null
+      },
+      "image_url": null
+    }
+  },
+  {
+    "json_data": {
+      "_id": {
+        "$oid": "0000105000042"
+      },
+      "ingredients": [
+        "peppermint",
+        "herb",
+        "mint"
+      ],
+      "meta": {
+        "url": null
+      },
+      "allergy_info": [],
+      "nutrients_per_100g": true,
+      "price": null,
+      "weight": {
+        "value": null,
+        "unit": "g"
+      },
+      "score": null,
+      "nutritional_content_rating": null,
+      "ingredient_quality_rating": null,
+      "health_impact_rating": null,
+      "final_rating": null,
+      "veg": true,
+      "servings_size": {
+        "value": 45,
+        "unit": "g",
+        "count": null
+      },
+      "servings_per_pack": null,
+      "item_category": "plant-based-foods-and-beverages",
+      "item_name": [
+        {
+          "lang": "main",
+          "text": "Lagg's, herbal tea, peppermint"
+        },
+        {
+          "lang": "en",
+          "text": "Lagg's, herbal tea, peppermint"
+        }
+      ],
+      "nutrition": {
+        "energy": null,
+        "carbohydrate": null,
+        "total_sugars": null,
+        "fiber": null,
+        "protein": null,
+        "total_fat": null,
+        "saturated_fat": null,
+        "monounsaturated_fat": null,
+        "polyunsaturated_fat": null,
+        "cholesterol": null,
+        "sodium": null
+      },
+      "image_url": null
+    }
+  }
+]
