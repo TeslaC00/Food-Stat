@@ -1,46 +1,42 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Image } from "@nextui-org/image";
 
 export default function Navbar() {
   return (
-    <div className="bg-yellow-400 text-black p-2 rounded-xl m-2">
-      <nav className="flex justify-end p-4bar text-lg">
-        <ul className="flex space-x-12 ">
-          <li>
-            <Link legacyBehavior href="/home">
-              <a className="text-black hover:text-white">Home</a> 
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/about">
-              <a className="text-black hover:text-white">About us</a>
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/scan">
-              <a className="text-black hover:text-white">Scan item</a>
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/contact">
-              <a className="text-black hover:text-white">Contact us</a>
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/user">
-              <a>
-                <Image
-                  src="https://cdn.pixabay.com/photo/2021/07/02/04/48/user-6380868_640.png"
-                  alt="User"
-                  width={30}
-                  height={30}
-                  className="rounded-full object-fit-cover mr-3"
-                />
-              </a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <div className="flex justify-between h-100px">
+      {/* Left Section */}
+      <div className="pl-[10px]">
+        <Image
+          src={"/FoodStatLogo2x1.jpg"}
+          height={60}
+          width={150}
+          alt="FoodStat Logo"
+        ></Image>
+      </div>
+
+      {/* Middle Section */}
+      <div
+        className="
+      flex flex-1 items-center gap-10 justify-center text-black text-2xl font-medium"
+      >
+        <Link href={"/home"}>Home</Link>
+        <Link href={"/about"}>About us</Link>
+        <Link href={"/scan"}>Scan Item</Link>
+        <Link href={"/contact"}>Contact us</Link>
+      </div>
+
+      {/* Right Section */}
+      <div className="flex items-center pr-[10px]">
+        <Link href={"/user"}>
+          <Image
+            src="/userBlack.png"
+            height={65}
+            width={65}
+            alt="User Profile"
+            className="rounded-full aspect-square object-cover"
+          ></Image>
+        </Link>
+      </div>
     </div>
   );
 }
