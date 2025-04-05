@@ -25,7 +25,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Masala oats - Soffola",
     "ingredients": [
       "Oats",
@@ -148,7 +148,7 @@
     "image_url": ""
   },
   {
-    "item_category": "RUSK/TOAST",
+    "item_category": "BISCUIT",
     "item_name": "White Toast - Innlay Bakery",
     "ingredients": [
       "Wheat Flour (Maida)",
@@ -290,7 +290,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MUESLI",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Dark chocolate Muesli - Yoga bar",
     "ingredients": [
       "Rolled Oats",
@@ -324,7 +324,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MUESLI",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Muesli+ - Yoga Bar",
     "ingredients": [
       "Rolled Oats",
@@ -386,7 +386,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Fit mix - Jewel farmer",
     "ingredients": [
       "Roasted Almonds",
@@ -471,7 +471,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Salted Caramel - Häagen-Dazs",
     "ingredients": [
       "Cream",
@@ -501,7 +501,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Chocobar chocoholic - The brooklyn creamery",
     "ingredients": [
       "Water",
@@ -533,7 +533,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-RICE",
+    "item_category": "MISCELLANEOUS",
     "item_name": "Cuppa Rice - Daawat",
     "ingredients": [
       "Dehydrated Rice",
@@ -558,7 +558,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Protein - Food strong",
     "ingredients": [
       "Whey Protein Concentrate",
@@ -821,7 +821,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "CHOCOS - 10",
     "ingredients": [
       "Wheat Flour",
@@ -854,7 +854,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-SPREADS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Choco - Delhaize",
     "ingredients": [
       "Sugar",
@@ -885,7 +885,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Tops Mango Pickle - 1",
     "ingredients": [
       "Mango Pieces",
@@ -911,7 +911,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Nestle Resource High Protein - 1",
     "ingredients": [
       "Whey Protein Concentrate",
@@ -939,7 +939,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MILK-FLAVOURING",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Women Horlicks - Horlics - 400",
     "ingredients": [
       "Cereal Extract (Barley, Wheat)",
@@ -969,7 +969,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MILK-FLAVOURING",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Cabruary Bourn Vita - 1",
     "ingredients": [
       "Cereal Extract (Barley, Wheat)",
@@ -1003,7 +1003,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MILK-FLAVOURING",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Women Horlicks - Horlics - 400",
     "ingredients": [
       "Cereal Extract (Barley, Wheat)",
@@ -1033,7 +1033,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MUESLI",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Oat Granola - Express FOODS",
     "ingredients": [
       "Rolled Oats",
@@ -1153,7 +1153,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Pickel",
     "ingredients": [
       "Vegetables/Fruits (Mango, Lime, Mixed Veg)",
@@ -1279,7 +1279,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MUESLI",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Toasted miller muesli",
     "ingredients": [
       "Rolled Oats",
@@ -1311,7 +1311,7 @@
     "image_url": ""
   },
   {
-    "item_category": "DIPS/SPREADS",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Organic Spicy Avocado Hummus - Trader Joe's",
     "ingredients": [
       "Organic Cooked Chickpeas",
@@ -1433,7 +1433,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Nuts Mix",
     "ingredients": [
       "Almonds",
@@ -1512,7 +1512,7 @@
     "image_url": ""
   },
   {
-    "item_category": "DRIED-FRUIT",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Blueberries",
     "ingredients": [
       "Dried Blueberries",
@@ -1648,7 +1648,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "mamra almonds - K.B.B Nuts Pvt. Ltd. - 250",
     "ingredients": [
       "Mamra Almonds"
@@ -1670,7 +1670,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-RICE",
+    "item_category": "MISCELLANEOUS",
     "item_name": "mom chinese fried rice - alimento agro - 87",
     "ingredients": [
       "Dehydrated Rice",
@@ -1701,7 +1701,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Tarmarind Sauce - nestle - 90",
     "ingredients": [
       "Water",
@@ -1786,7 +1786,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-SPREADS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Raspberry preserve",
     "ingredients": [
       "Raspberries",
@@ -1809,7 +1809,7 @@
     "image_url": ""
   },
   {
-    "item_category": "DIPS/SPREADS",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Dill tzatziki - 150",
     "ingredients": [
       "Yogurt (Milk, Cultures)",
@@ -1985,7 +1985,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Nutriplato Roasted 5 Seeds Blend - 300",
     "ingredients": [
       "Roasted Pumpkin Seeds",
@@ -2042,7 +2042,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Weetabix - 450",
     "ingredients": [
       "Wholegrain Wheat",
@@ -2123,7 +2123,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PEANUT-BUTTER",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Organic peanut butter - 350",
     "ingredients": [
       "Organic Roasted Peanuts",
@@ -2286,7 +2286,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BAKING-MIX",
+    "item_category": "BAKING-AND-BATTER-MIXES",
     "item_name": "Complete pancake mix",
     "ingredients": [
       "Enriched Bleached Flour (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid)",
@@ -2315,7 +2315,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "Bar One - Nestlé",
     "ingredients": [
       "Sugar",
@@ -2347,7 +2347,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Les Fabuleuses / Boulette d'énergie Pomme-Cannelle",
     "ingredients": [
       "Dates",
@@ -2376,7 +2376,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Boulette d'énergie cacao cacahuete",
     "ingredients": [
       "Dates",
@@ -2404,7 +2404,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Boulette d'énergie Match-Coco",
     "ingredients": [
       "Dates",
@@ -2704,7 +2704,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Prostar 100% whey",
     "ingredients": [
       "Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides)",
@@ -2730,7 +2730,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Nuts Mixed",
     "ingredients": [
       "Roasted Peanuts",
@@ -2754,7 +2754,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "Coated Wafer Layers - Perk",
     "ingredients": [
       "Sugar",
@@ -2818,7 +2818,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Goodrich - pizza topping - 200",
     "ingredients": [
       "Water",
@@ -2851,7 +2851,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "Fennel fusion - choko la - 40",
     "ingredients": [
       "Dark Chocolate (Cocoa Solids, Sugar, Cocoa Butter, Emulsifier (Soy Lecithin), Vanilla Flavour)",
@@ -2945,7 +2945,7 @@
     "image_url": ""
   },
   {
-    "item_category": "COFFEE",
+    "item_category": "BEVERAGES",
     "item_name": "nescafé cappuccino - nestle - 5",
     "ingredients": [
       "Sugar",
@@ -3032,7 +3032,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PEANUT-BUTTER",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Crunchy Nutty Peanut Butter - United Foods - 12",
     "ingredients": [
       "Roasted Peanuts",
@@ -3166,7 +3166,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "Snakker - Priyagold - 24",
     "ingredients": [
       "Sugar",
@@ -3201,7 +3201,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BATTER",
+    "item_category": "BAKING-AND-BATTER-MIXES",
     "item_name": "Idly & Dosa Batter - iD - 1",
     "ingredients": [
       "Rice",
@@ -3443,7 +3443,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Del Monte Tomato Ketchup - 1",
     "ingredients": [
       "Water",
@@ -3500,7 +3500,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Dr. Oetker - 275",
     "ingredients": [
       "Vegetable Oil (Soybean/Rapeseed)",
@@ -3565,7 +3565,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MILK-FLAVOURING",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Horlicks",
     "ingredients": [
       "Malted Barley",
@@ -3642,7 +3642,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SOYA-PRODUCTS",
+    "item_category": "MISCELLANEOUS",
     "item_name": "Soya chunks - 100",
     "ingredients": [
       "Defatted Soy Flour"
@@ -3664,7 +3664,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Soulfull Ragi Bites - 250",
     "ingredients": [
       "Ragi Flour",
@@ -3737,7 +3737,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "safari - Gandour - 26",
     "ingredients": [
       "Sugar",
@@ -3771,7 +3771,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PEANUT-BUTTER",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Crema de cacahuate",
     "ingredients": [
       "Roasted Peanuts",
@@ -3925,7 +3925,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "ketchup",
     "ingredients": [
       "Tomato Paste",
@@ -4058,7 +4058,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHEESE/SPREAD",
+    "item_category": "DAIRY",
     "item_name": "Philadelphia original cheese spread - 280",
     "ingredients": [
       "Milk",
@@ -4141,7 +4141,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-SPREADS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "mapro mixed fruit jam - 1",
     "ingredients": [
       "Sugar",
@@ -4219,7 +4219,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHEESE/SPREAD",
+    "item_category": "DAIRY",
     "item_name": "Goat Cheese - Flanders Dairy Products - 500",
     "ingredients": [
       "Pasteurized Goat Milk",
@@ -4297,7 +4297,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Bagrry’s White Oats - 1",
     "ingredients": [
       "100% Rolled Oats"
@@ -4525,7 +4525,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "tomato ketchup - 1",
     "ingredients": [
       "Tomato Paste",
@@ -4550,7 +4550,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Amberella chutney - mc curtie - 450",
     "ingredients": [
       "Ambarella Fruit (Spondias dulcis)",
@@ -4577,7 +4577,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CANNED-FRUIT",
+    "item_category": "MISCELLANEOUS",
     "item_name": "Del Monte - 250",
     "ingredients": [
       "Fruit (e.g., Peaches, Pears, Pineapple, Cherries)",
@@ -4727,7 +4727,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "Handmade Chocolate Orange Honeycomb - Aldi - 250",
     "ingredients": [
       "Sugar",
@@ -4867,7 +4867,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Masala Oats - Peppy Tomato - Saffola - 39",
     "ingredients": [
       "Oats",
@@ -4958,7 +4958,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Caramel - Hershey's - 623",
     "ingredients": [
       "Corn Syrup",
@@ -5015,7 +5015,7 @@
     "image_url": ""
   },
   {
-    "item_category": "DRIED-FRUIT",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Qamar Dates - 5",
     "ingredients": [
       "Dates"
@@ -5035,7 +5035,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "Ritter Sport Mini Mix 18",
     "ingredients": [
       "Sugar",
@@ -5074,7 +5074,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "saffola masala oats - 39",
     "ingredients": [
       "Oats",
@@ -5193,7 +5193,7 @@
     "image_url": ""
   },
   {
-    "item_category": "TRAIL-MIX",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Tasti Smooshed Wholefood Balls - Berry Cashew & Cacao - 69",
     "ingredients": [
       "Dates",
@@ -5273,7 +5273,7 @@
     "image_url": ""
   },
   {
-    "item_category": "DRIED-FRUIT",
+    "item_category": "NUTS-SEEDS-DRIED-FRUIT",
     "item_name": "Seedless Dates - Lion - 200",
     "ingredients": [
       "Dates (Pitted)"
@@ -5293,7 +5293,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Pizza topping - Dr. Oetker - 100",
     "ingredients": [
       "Tomato Puree",
@@ -5494,7 +5494,7 @@
     "image_url": ""
   },
   {
-    "item_category": "CHOCOLATE",
+    "item_category": "SWEETS",
     "item_name": "Perk - Cadbury - 14.3",
     "ingredients": [
       "Sugar",
@@ -5526,7 +5526,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BAKING-MIX",
+    "item_category": "BAKING-AND-BATTER-MIXES",
     "item_name": "Gulab Jamun - Gits - 100",
     "ingredients": [
       "Milk Solids (Khoya)",
@@ -5556,7 +5556,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Saffola Masala Oats - Classic Masala - 38",
     "ingredients": [
       "Oats",
@@ -5713,7 +5713,7 @@
     "image_url": ""
   },
   {
-    "item_category": "COFFEE",
+    "item_category": "BEVERAGES",
     "item_name": "bru coffee - 100",
     "ingredients": [
       "Instant Coffee Powder",
@@ -5820,7 +5820,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCE/CONDIMENT/PICKLE",
+    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
     "item_name": "Achards de légumes - Royal Bourbon - 200",
     "ingredients": [
       "Vegetables (Cabbage, Carrots, Green Beans)",
@@ -6068,7 +6068,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "MuscleBlaze Biozyme Whey Protein - Rich Milk Chocolate",
     "ingredients": [
       "Whey Protein Concentrate", "Whey Protein Isolate", "Cocoa Powder", "Biozyme Enzyme Blend", "Sodium Chloride", "Stabilizer (INS 415)", "Sweetener (INS 955)", "Anti-caking Agent (INS 551)"
@@ -6090,7 +6090,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Optimum Nutrition (ON) Gold Standard 100% Whey - Double Rich Chocolate",
     "ingredients": [
         "Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides)", "Cocoa Powder (Processed with Alkali)", "Lecithin", "Natural and Artificial Flavor", "Acesulfame Potassium", "Aminogen", "Lactase"
@@ -6112,7 +6112,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "AS-IT-IS Nutrition Whey Protein Concentrate 80% - Unflavoured",
     "ingredients": [
         "Whey Protein Concentrate"
@@ -6134,7 +6134,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Myprotein Impact Whey Protein - Kesar Pista",
     "ingredients": [
         "Whey Protein Concentrate", "Flavouring (Kesar, Pista)", "Emulsifier (Soy Lecithin)", "Sweetener (Sucralose)", "Colour"
@@ -6156,7 +6156,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Nakpro Perform Whey Protein Concentrate - Mango Delight",
     "ingredients": [
         "Whey Protein Concentrate", "Mango Flavour", "Sucralose", "Sunflower Lecithin"
@@ -6178,7 +6178,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "BigMuscles Nutrition Premium Gold Whey - Belgian Chocolate",
     "ingredients": [
         "Whey Protein Blend (Whey Protein Isolate, Whey Protein Concentrate)", "Cocoa Powder", "Flavour (Belgian Chocolate)", "Sweetener (Sucralose)", "Stabilizer (Xanthan Gum)"
@@ -6200,7 +6200,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "GNC Pro Performance 100% Whey Protein - Vanilla Cream",
     "ingredients": [
         "Whey Protein Blend (Whey Protein Concentrate, Whey Protein Isolate, Hydrolyzed Whey Peptides)", "Natural & Artificial Flavors", "Lecithin", "Cellulose Gum", "Xanthan Gum", "Sucralose", "Acesulfame Potassium"
@@ -6222,7 +6222,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Nutrabay Pure Whey Protein Isolate - Unflavoured",
     "ingredients": [
         "Whey Protein Isolate"
@@ -6244,7 +6244,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Oziva Protein & Herbs for Women - Chocolate",
     "ingredients": [
         "Protein Blend (Whey Protein Concentrate, Pea Protein Isolate)", "Herbal Blend (Shatavari, Tulsi, Ginger)", "Cocoa Powder", "Vitamins & Minerals", "Flavour (Chocolate)", "Sweetener (Steviol Glycoside)"
@@ -6266,7 +6266,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Plix - The Plant Fix Strength Plant Protein - Rich Chocolate",
     "ingredients": [
         "Plant Protein Blend (Pea Protein Isolate, Brown Rice Protein)", "Cocoa Powder", "Natural Flavors", "Digestive Enzymes Blend", "Sweetener (Stevia)", "Salt"
@@ -6286,7 +6286,7 @@
     "image_url": ""
   },
     {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Avvatar Alpha Whey Protein - Malai Kulfi",
     "ingredients": [
         "Whey Protein Concentrate", "Flavour (Malai Kulfi)", "Emulsifier (Sunflower Lecithin)", "Sweetener (Sucralose)", "Salt"
@@ -6308,7 +6308,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Naturaltein Whey Protein Concentrate - Strawberry",
     "ingredients": [
         "Whey Protein Concentrate", "Natural Strawberry Flavor", "Sweetener (Stevia)"
@@ -6330,7 +6330,7 @@
     "image_url": ""
   },
     {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Healthkart HK Vitals ProteinUp Women - Chocolate",
     "ingredients": [
         "Protein Blend (Whey, Soy, Skimmed Milk Powder)", "Cocoa Powder", "Vitamins", "Minerals", "Herbal Extracts (Garcinia, Green Tea)", "Sweetener (INS 955)", "Stabilizer (INS 415)"
@@ -6352,7 +6352,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Amway Nutrilite All Plant Protein Powder",
     "ingredients": [
         "Soy Protein Isolate", "Wheat Protein", "Pea Protein"
@@ -6374,7 +6374,7 @@
     "image_url": ""
   },
   {
-    "item_category": "PROTEIN-POWDER",
+    "item_category": "HEALTH-SUPPLEMENT",
     "item_name": "Origin Nutrition Vegan Protein - Vanilla",
     "ingredients": [
         "Pea Protein Isolate", "Organic Brown Rice Protein", "Natural Vanilla Flavor", "Recovery Blend (Turmeric, Pink Salt)", "Digestive Enzymes", "Sweetener (Stevia)"
@@ -6394,7 +6394,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Amul Kesar Pista Kulfi",
     "ingredients": [
       "Milk Solids", "Sugar", "Almonds", "Pistachios", "Cardamom Powder", "Saffron", "Permitted Stabilizers and Emulsifiers"
@@ -6416,7 +6416,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Kwality Walls Cornetto Double Chocolate",
     "ingredients": [
         "Water", "Compound Coating (Sugar, Palm Kernel Oil, Cocoa Solids, Milk Solids, Emulsifier)", "Wafer Biscuit (Wheat Flour, Sugar, Palm Oil, Emulsifier, Salt)", "Sugar", "Palm Oil", "Milk Solids", "Cocoa Solids", "Liquid Glucose", "Chocolate Sauce", "Emulsifier", "Stabilizers"
@@ -6438,7 +6438,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Vadilal Badam Carnival Ice Cream",
     "ingredients": [
         "Milk Solids", "Sugar", "Almonds", "Liquid Glucose", "Emulsifier", "Stabilizers", "Cardamom", "Saffron", "Artificial Flavoring Substances (Saffron, Cardamom)"
@@ -6460,7 +6460,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Mother Dairy Kulfi - Rabri Flavour",
     "ingredients": [
         "Milk Solids", "Sugar", "Liquid Glucose", "Cardamom", "Permitted Stabilizers", "Emulsifiers", "Saffron"
@@ -6482,7 +6482,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Havmor Rajbhog Ice Cream",
     "ingredients": [
         "Milk Solids", "Sugar", "Nuts (Cashews, Almonds, Pistachios)", "Liquid Glucose", "Cardamom", "Saffron", "Rose Syrup", "Permitted Stabilizers & Emulsifiers"
@@ -6504,7 +6504,7 @@
     "image_url": ""
   },
     {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Naturals Tender Coconut Ice Cream",
     "ingredients": [
         "Milk", "Sugar", "Tender Coconut Pulp", "Cream", "Milk Solids", "Stabilizers"
@@ -6526,7 +6526,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Baskin Robbins Mississippi Mud",
     "ingredients": [
         "Cream", "Nonfat Milk", "Fudge Ribbon (Corn Syrup, Water, Sugar, Cocoa Processed with Alkali, Modified Corn Starch, Salt, Natural Flavor)", "Chocolate Flavored Chips", "Sugar", "Corn Syrup", "Cocoa Processed with Alkali", "Whey Powder", "Stabilizer/Emulsifier Blend"
@@ -6548,7 +6548,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Amul Chocolate Brownie Ice Cream",
     "ingredients": [
         "Milk Solids", "Sugar", "Brownie Pieces (Wheat Flour, Sugar, Cocoa Solids, Butter, Eggs)", "Chocolate Sauce", "Cocoa Solids", "Permitted Emulsifiers and Stabilizers"
@@ -6570,7 +6570,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Kwality Walls Black Currant Ice Cream",
     "ingredients": [
         "Water", "Sugar", "Milk Solids", "Palm Oil", "Black Currant Fruit Preparation", "Liquid Glucose", "Emulsifier", "Stabilizers", "Citric Acid", "Permitted Synthetic Food Colours & Added Flavours"
@@ -6592,7 +6592,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Vadilal Flingo Cone - Butterscotch",
     "ingredients": [
         "Milk Solids", "Wafer Cone (Wheat Flour, Sugar, Palm Oil, Emulsifier)", "Sugar", "Compound Coating", "Butterscotch Confectionery", "Palm Oil", "Liquid Glucose", "Emulsifier", "Stabilizers", "Artificial Flavours"
@@ -6614,7 +6614,7 @@
     "image_url": ""
   },
     {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Mother Dairy Fruit & Nut Ice Cream",
     "ingredients": [
         "Milk Solids", "Sugar", "Candied Fruits (Papaya pieces)", "Nuts (Cashew, Almond, Raisin)", "Liquid Glucose", "Permitted Emulsifiers and Stabilizers"
@@ -6636,7 +6636,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Havmor American Nuts Ice Cream",
     "ingredients": [
         "Milk Solids", "Sugar", "Nuts (Almonds, Cashews, Pistachios)", "Caramel Sauce", "Liquid Glucose", "Permitted Emulsifiers and Stabilizers", "Artificial Flavours"
@@ -6658,7 +6658,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Nirula's Hot Chocolate Fudge Ice Cream",
     "ingredients": [
         "Milk Solids", "Sugar", "Hot Chocolate Fudge Sauce (Sugar, Water, Cocoa Solids, Milk Solids, Stabilizers)", "Cashew Nuts", "Liquid Glucose", "Emulsifiers", "Stabilizers"
@@ -6680,7 +6680,7 @@
     "image_url": ""
   },
     {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Creambell Sachmuch Aam Ice Cream",
     "ingredients": [
         "Milk Solids", "Sugar", "Mango Pulp", "Liquid Glucose", "Permitted Emulsifiers and Stabilizers", "Citric Acid", "Artificial Mango Flavor", "Permitted Food Colours"
@@ -6702,7 +6702,7 @@
     "image_url": ""
   },
   {
-    "item_category": "ICE-CREAM",
+    "item_category": "SWEETS",
     "item_name": "Giani's Gulkand Ice Cream",
     "ingredients": [
         "Milk", "Sugar", "Cream", "Gulkand (Rose Petal Preserve)", "Milk Solids", "Stabilizers", "Emulsifiers", "Cardamom"
@@ -6724,7 +6724,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-RICE",
+    "item_category": "MISCELLANEOUS",
     "item_name": "MTR Minute Fresh Lemon Rice Poha",
     "ingredients": [
         "Rice Flakes (Poha)", "Edible Vegetable Oil", "Sugar", "Salt", "Peanuts", "Lemon Juice Powder", "Mustard Seeds", "Curry Leaves", "Turmeric Powder", "Green Chilli", "Acidity Regulator (Citric Acid)"
@@ -6746,7 +6746,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-RICE",
+    "item_category": "MISCELLANEOUS",
     "item_name": "Tata Q Hot & Spicy Schezwan Rice with Veggies",
     "ingredients": [
         "Cooked Rice", "Vegetables (Carrot, French Beans, Capsicum)", "Schezwan Sauce (Water, Ginger, Garlic, Chilli, Celery, Soy Sauce, Vinegar, Sugar, Salt, Spices)", "Edible Vegetable Oil", "Salt"
@@ -6768,7 +6768,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-RICE",
+    "item_category": "MISCELLANEOUS",
     "item_name": "Gits Ready Meals Veg Pulao",
     "ingredients": [
         "Basmati Rice", "Vegetables (Carrot, French Beans, Green Peas)", "Onion", "Edible Vegetable Oil", "Salt", "Ginger", "Garlic", "Spices (Cumin, Clove, Cardamom, Cinnamon, Bay Leaf)", "Mint Leaves"
@@ -6788,7 +6788,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-RICE",
+    "item_category": "MISCELLANEOUS",
     "item_name": "The Taste Company Rajma Chawal",
     "ingredients": [
         "Basmati Rice", "Rajma (Kidney Beans)", "Tomato", "Onion", "Edible Vegetable Oil", "Ginger", "Garlic", "Salt", "Spices (Coriander, Cumin, Turmeric, Garam Masala, Chilli)"
@@ -6808,7 +6808,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-RICE",
+    "item_category": "MISCELLANEOUS",
     "item_name": "Kitchens of India Yakhni Pulao",
     "ingredients": [
         "Basmati Rice", "Chicken Pieces", "Yogurt", "Onion", "Edible Vegetable Oil", "Ginger", "Garlic", "Salt", "Spices (Fennel, Cardamom, Clove, Cinnamon, Mace, Nutmeg)", "Mint Leaves", "Kewra Water"
@@ -6830,7 +6830,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Quaker Oats Homestyle Masala",
     "ingredients": [
       "Oats", "Spices & Condiments (Onion, Garlic, Turmeric, Chilli, Coriander, Cumin)", "Salt", "Sugar", "Dehydrated Vegetables (Carrot, Peas)", "Edible Vegetable Oil", "Hydrolyzed Vegetable Protein", "Flavour Enhancers"
@@ -6852,7 +6852,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Bagrry's Masala Oats - Tangy Tomato",
     "ingredients": [
       "Oats", "Spices and Condiments (Tomato Powder, Onion, Garlic, Chilli)", "Salt", "Sugar", "Edible Vegetable Oil", "Dehydrated Vegetables (Tomato Flakes)", "Hydrolyzed Vegetable Protein", "Acidity Regulator"
@@ -6874,7 +6874,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Kellogg's Oats - Cheesy Masala",
     "ingredients": [
       "Oats", "Cheese Powder", "Spices & Condiments (Onion, Garlic, Pepper)", "Milk Solids", "Salt", "Sugar", "Edible Vegetable Oil", "Hydrolyzed Vegetable Protein", "Flavour Enhancers"
@@ -6896,7 +6896,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Saffola Masala Oats - Veggie Twist",
     "ingredients": [
       "Oats", "Dehydrated Vegetables (Carrot, Onion, Green Peas, French Beans)", "Spices & Condiments", "Salt", "Sugar", "Edible Vegetable Oil", "Hydrolyzed Vegetable Protein (Soya)", "Flavour Enhancers"
@@ -6918,7 +6918,7 @@
     "image_url": ""
   },
     {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "True Elements Masala Oats - Pav Bhaji",
     "ingredients": [
         "Rolled Oats", "Spices & Condiments (Pav Bhaji Masala, Chilli, Turmeric)", "Dehydrated Vegetables (Potato, Onion, Tomato, Peas)", "Salt", "Edible Vegetable Oil", "Jaggery Powder"
@@ -6940,7 +6940,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Nutriorg Certified Organic Masala Oats",
     "ingredients": [
         "Organic Rolled Oats", "Organic Spices (Turmeric, Cumin, Coriander, Chilli)", "Organic Dehydrated Vegetables (Onion, Garlic)", "Pink Salt", "Organic Jaggery"
@@ -6962,7 +6962,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Disano Oats - Masala",
     "ingredients": [
         "Oats", "Maltodextrin", "Spices & Condiments", "Salt", "Sugar", "Dehydrated Vegetables", "Edible Vegetable Oil", "Hydrolyzed Vegetable Protein", "Flavour Enhancers"
@@ -6984,7 +6984,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Eco Valley Homestyle Masala Oats",
     "ingredients": [
         "Oats", "Seasoning (Spices, Salt, Sugar, Dehydrated Vegetables, Flavour Enhancers)", "Edible Vegetable Oil"
@@ -7006,7 +7006,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Yogabar Veggie Masala Oats",
     "ingredients": [
         "Oats", "Seeds (Pumpkin, Chia)", "Dehydrated Vegetables (Carrot, Beans, Peas)", "Spices & Condiments", "Salt", "Jaggery Powder", "Edible Vegetable Oil"
@@ -7028,7 +7028,7 @@
     "image_url": ""
   },
     {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Slurrp Farm Mighty Masala Oats",
     "ingredients": [
         "Oats", "Ragi", "Jowar", "Natural Vegetable Powders (Carrot, Tomato, Spinach)", "Spices & Herbs (Coriander, Turmeric, Cumin, Onion, Garlic)", "Salt"
@@ -7050,7 +7050,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Monsoon Harvest Instant Oats - Lemony Vegetable",
     "ingredients": [
         "Rolled Oats", "Dehydrated Vegetables (Carrot, Cabbage, Bell Pepper)", "Spices & Herbs (Lemon Powder, Mint, Ginger, Green Chilli)", "Salt", "Sugar", "Edible Vegetable Oil"
@@ -7072,7 +7072,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Patanjali Masala Oats",
     "ingredients": [
         "Oats", "Spices & Condiments", "Salt", "Sugar", "Edible Vegetable Oil", "Dehydrated Vegetables", "Hydrolyzed Vegetable Protein", "Flavour Enhancer"
@@ -7094,7 +7094,7 @@
     "image_url": ""
   },
     {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Saffola Masala Oats - Lemony Twist",
     "ingredients": [
         "Oats", "Spices & Condiments (Lemon Powder, Coriander, Turmeric)", "Salt", "Sugar", "Edible Vegetable Oil", "Dehydrated Vegetables", "Hydrolyzed Vegetable Protein (Soya)", "Acidity Regulator"
@@ -7116,7 +7116,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Quaker Oats - Lemony Veggie Mix",
     "ingredients": [
         "Oats", "Spices & Condiments (Lemon Powder, Ginger, Garlic)", "Dehydrated Vegetables (Carrot, Peas, Corn)", "Salt", "Sugar", "Edible Vegetable Oil", "Hydrolyzed Vegetable Protein", "Flavour Enhancers"
@@ -7138,7 +7138,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Bagrry's Masala Oats - Classic Homestyle",
     "ingredients": [
         "Oats", "Spices & Condiments (Onion, Garlic, Turmeric, Chilli, Cumin)", "Salt", "Sugar", "Edible Vegetable Oil", "Dehydrated Vegetables (Carrot)", "Hydrolyzed Vegetable Protein"
@@ -7160,7 +7160,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Kellogg's Oats - Tomato Salsa",
     "ingredients": [
         "Oats", "Spices & Condiments (Tomato Powder, Onion, Garlic, Paprika)", "Salt", "Sugar", "Edible Vegetable Oil", "Dehydrated Vegetables (Tomato, Bell Pepper)", "Acidity Regulator", "Flavour Enhancers"
@@ -7182,7 +7182,7 @@
     "image_url": ""
   },
     {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Saffola Masala Oats - Curry & Pepper",
     "ingredients": [
         "Oats", "Spices & Condiments (Black Pepper, Curry Leaves, Mustard, Cumin)", "Salt", "Sugar", "Edible Vegetable Oil", "Dehydrated Vegetables (Onion)", "Hydrolyzed Vegetable Protein (Soya)"
@@ -7204,7 +7204,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "True Elements Chatpata Masala Oats",
     "ingredients": [
         "Rolled Oats", "Spices & Condiments (Chaat Masala, Amchur, Chilli)", "Dehydrated Onion", "Dehydrated Tomato", "Black Salt", "Jaggery Powder", "Edible Vegetable Oil"
@@ -7226,7 +7226,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Disano Oats - Veggie Delight",
     "ingredients": [
         "Oats", "Maltodextrin", "Dehydrated Vegetables (Carrot, Peas, Corn)", "Spices & Condiments", "Salt", "Sugar", "Edible Vegetable Oil", "Hydrolyzed Vegetable Protein", "Flavour Enhancers"
@@ -7248,7 +7248,7 @@
     "image_url": ""
   },
   {
-    "item_category": "INSTANT-OATS",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Yogabar Masala Oats - Cheesy Italia",
     "ingredients": [
         "Oats", "Seeds (Pumpkin, Chia)", "Cheese Powder", "Spices & Herbs (Oregano, Basil, Garlic, Pepper)", "Dehydrated Vegetables (Bell Pepper, Onion)", "Salt", "Jaggery Powder"
@@ -8123,7 +8123,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS-CEREAL",
     "item_name": "Kellogg's Corn Flakes - Original",
     "ingredients": [
       "Corn Grits", "Sugar", "Malt Extract", "Iodized Salt", "Vitamins", "Minerals", "Antioxidant (INS 320)"
@@ -8145,7 +8145,7 @@
     "image_url": ""
   },
     {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Bagrry's Crunchy Muesli - Fruit & Nut with Cranberries",
     "ingredients": [
         "Rolled Oats", "Whole Wheat Flakes", "Corn Flakes", "Raisins", "Almonds", "Cranberries", "Honey", "Sugar", "Invert Syrup", "Wheat Bran", "Oat Bran", "Antioxidant (INS 306)"
@@ -8167,7 +8167,7 @@
     "image_url": ""
   },
     {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Kellogg's Chocos - Moons & Stars",
     "ingredients": [
         "Wheat Solids (Wheat Flour, Corn Flour)", "Sugar", "Cocoa Solids", "Minerals", "Edible Vegetable Oil (Palmolein)", "Malt Extract", "Iodized Salt", "Vitamins", "Antioxidant (INS 320)"
@@ -8189,7 +8189,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Soulfull Ragi Bites - Choco Fills",
     "ingredients": [
         "Ragi Flour", "Rice Flour", "Sugar", "Choco Filling (Sugar, Edible Vegetable Fat, Cocoa Solids, Milk Solids, Emulsifier)", "Bengal Gram Dal Flour", "Cocoa Solids", "Iodized Salt", "Stabilizer", "Vitamins", "Minerals"
@@ -8211,7 +8211,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Nestle Koko Krunch Breakfast Cereal",
     "ingredients": [
         "Whole Wheat Flour", "Sugar", "Corn Grits", "Glucose Syrup", "Cocoa Powder", "Palm Oil", "Minerals", "Iodized Salt", "Emulsifier (Soya Lecithin)", "Vitamins", "Antioxidant (307b)"
@@ -8233,7 +8233,7 @@
     "image_url": ""
   },
     {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "MTR 3 Minute Breakfast Poha",
     "ingredients": [
         "Rice Flakes (Poha)", "Edible Vegetable Oil (Palmolein)", "Sugar", "Iodised Salt", "Onion Flakes", "Mustard", "Curry Leaves", "Turmeric", "Green Chilli", "Lemon Powder", "Acidity Regulator (INS 330)"
@@ -8255,7 +8255,7 @@
     "image_url": ""
   },
     {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Kellogg's Muesli - Nuts Delight",
     "ingredients": [
         "Multigrain (Wheat, Corn Grits, Rice, Rolled Barley, Rolled Oats)", "Dried Fruits & Nuts (Raisins, Almonds, Cashews, Pistachios)", "Sugar", "Malt Extract", "Iodized Salt", "Vitamins", "Minerals", "Antioxidant (INS 320)"
@@ -8277,7 +8277,7 @@
     "image_url": ""
   },
     {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Gaia Crunchy Muesli - Real Fruit",
     "ingredients": [
         "Rolled Oats", "Wheat Flakes", "Corn Flakes", "Dried Fruits (Papaya, Pineapple, Raisins, Apricot)", "Invert Sugar Syrup", "Honey", "Wheat Bran", "Oat Bran", "Antioxidant"
@@ -8299,7 +8299,7 @@
     "image_url": ""
   },
     {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Patanjali Corn Flakes Kesar Badam",
     "ingredients": [
         "Corn Grits", "Sugar", "Almonds", "Malt Extract", "Iodized Salt", "Saffron", "Vitamins", "Minerals", "Antioxidant"
@@ -8321,7 +8321,7 @@
     "image_url": ""
   },
     {
-    "item_category": "BREAKFAST-CEREAL",
+    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
     "item_name": "Kwality Corn Flakes - Honey",
     "ingredients": [
         "Corn Grits", "Sugar", "Honey", "Malt Extract", "Iodized Salt", "Vitamins", "Minerals", "Antioxidant"
