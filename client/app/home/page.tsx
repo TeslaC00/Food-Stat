@@ -9,9 +9,13 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+
+      {/* Page Heading */}
       <h1 className="text-center text-white text-4xl mt-2 pt-3 pb-3 bg-slate-400">
         Food Category
       </h1>
+
+      {/* Food Category Cards Grid */}
       <div className="text-black grid grid-cols-4 gap-4 pt-3 pl-3 pr-3">
         {cardList.map(function (cardItem, index) {
           return (
