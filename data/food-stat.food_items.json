@@ -44,7 +44,7 @@
     "count": null
   },
   "servings_per_pack": 1,
-  "item_category": "milkshake",
+  "item_category": "BEVERAGES",
   "item_name": "Raw Pressery Dairy Protein MILKshake Choco Mint",
   "nutrition": {
     "energy": 172.2,
@@ -100,7 +100,7 @@
     "count": null
   },
   "servings_per_pack": 20,
-  "item_category": "namkeen",
+  "item_category": "NAMKEEN",
   "item_name": "Haldirams Bhujia Plain",
   "nutrition": {
     "energy": 581.3,
@@ -147,7 +147,7 @@
   "health_impact_rating": 3,
   "final_rating": 3.5,
   "veg": true,
-  "item_category": "protein_bar",
+  "item_category": "PROTEIN-BAR",
   "item_name": "The Whole Truth - Hazelnut Cocoa Protein Bar with 12g Protein (Pack of 6)",
   "nutrition": {
     "energy": 265.3,
@@ -204,7 +204,7 @@
   "health_impact_rating": 1.8,
   "final_rating": 1.7,
   "veg": true,
-  "item_category": "chocolate",
+  "item_category": "CHOCOLATE",
   "item_name": "Nestlé Munch Chocolate Coated Crunchy Wafer Share Pack",
   "nutrition": {
     "energy": 435,
@@ -250,7 +250,7 @@
     "count": null
   },
   "servings_per_pack": 5,
-  "item_category": "namkeen",
+  "item_category": "NAMKEEN",
   "item_name": "Crax Moong Dal Namkeen",
   "nutrition": {
     "energy": 477,
@@ -282,7 +282,7 @@
     "FRUCTOSE",
     "ANTIOXIDANT[(VITAMIN C - INS 300),INS 224]"
   ],
-  "item_category": "PACKETED JUICE",
+  "item_category": "BEVERAGES",
   "item_name": "RAW PRESSERY JUICE, MANGO 1L",
   "nutrition": {
     "energy": 41.7,
@@ -324,7 +324,7 @@
     "COLOUR (110)",
     "MANGO FLAVOURS (NATURE-IDENTICAL & ARTIFICIAL FLAVORING SUBSTANCES)"
   ],
-  "item_category": "PACKETED JUICE",
+  "item_category": "BEVERAGES",
   "item_name": "MAAZA MANGO DRINK 135ML",
   "nutrition": {
     "energy": 60,
@@ -357,7 +357,7 @@
   "ingredients": [
     "SPROUTED RAGI(100%)"
   ],
-  "item_category": "BABY FOOD",
+  "item_category": "BABY-FOOD",
   "item_name": "YOGABAR YOGABABY SPROUTED RAGI MIX 250G",
   "nutrition": {
     "energy": 376,
@@ -395,7 +395,7 @@
     "VITAMIN B3",
     "PRESERVATIVES (211, 223 OR 202)"
   ],
-  "item_category": "BREAKFAST SPREADS",
+  "item_category": "BREAKFAST-SPREADS",
   "item_name": "KISSAN MIXED FRUIT JAM 200 G",
   "nutrition": {
     "energy": 285,
@@ -444,7 +444,7 @@
     "COLOURS(INS 150D, INS 124)",
     "NATURAL FLAVOURS AND NATURAL FLAVOURING SUBSTANCES"
   ],
-  "item_category": "PACKETED JUICE",
+  "item_category": "BEVERAGES",
   "item_name": "B NATURAL GUAVA JUICE GOODNESS OF FIBER 1L",
   "nutrition": {
     "energy": 52,
@@ -483,7 +483,7 @@
     "ADDED ORANGE FLAVOURS(NATURALLY, NATURE-INDETICAL AND ARTIFICIAL FLAVOURING SUBSTANCES)",
     "ANTIOXIDANT(300)"
   ],
-  "item_category": "PACKETED JUICE",
+  "item_category": "BEVERAGES",
   "item_name": "MINUTE MAID PULPY ORANGE JUICE DRINK 1L",
   "nutrition": {
     "energy": 52,
@@ -576,7 +576,7 @@
     "NATURAL IDENTICAL FLAVOURING (VANILLIN)",
     "VEGETABLE FAT SPREAD WITH 33% MALTED BEVERAGE POWDER OVOMALTINE"
   ],
-  "item_category": "BREAKFAST SPREADS",
+  "item_category": "BREAKFAST-SPREADS",
   "item_name": "OVOMALTINE CRUNCHY CREAM SPREAD WITH MALTED CRUNCHY PIECES AND COCOA, DELICIOUS SWISS CHOCOLATE, TASTY AND HEALTHY BREAKFAST BREAD SPREAD, VEGETARIAN, MADE IN SWITZERLAND, 240G (PACK OF 1)",
   "nutrition": {
     "energy": 547,
@@ -616,7 +616,7 @@
     "CARDAMOM",
     "IODISED SALT."
   ],
-  "item_category": "MILK FLAVOURING",
+  "item_category": "MILK-FLAVOURING",
   "item_name": "HEALTHY MILLET DRINK | INSTANT MIX | POPPED RAGI MILK | 200 G | PACK OF 2",
   "nutrition": {
     "energy": 392.4,
@@ -675,7 +675,7 @@
     "count": null
   },
   "servings_per_pack": 10,
-  "item_category": "namkeen",
+  "item_category": "NAMKEEN",
   "item_name": "Haldirams Namkeen - Bombay Mixture",
   "nutrition": {
     "energy": 483.2,
@@ -710,7 +710,7 @@
     "FIBER",
     "RAW UNREFINED SUGAR)"
   ],
-  "item_category": "BABY FOOD",
+  "item_category": "BABY-FOOD",
   "item_name": "HUNGRY KOALA RAGI & BANANA CEREAL 200G",
   "nutrition": {
     "energy": 364,
@@ -802,7 +802,7 @@
   "health_impact_rating": 4.5,
   "final_rating": 4.3,
   "veg": true,
-  "item_category": "protein_bar",
+  "item_category": "PROTEIN-BAR",
   "item_name": "RiteBite Max Protein Daily Choco Almond",
   "nutrition": {
     "energy": 179,
@@ -833,7 +833,7 @@
   "ingredients": [
     "WHEY PROTEIN CONCENTRATE(80% POWDER)"
   ],
-  "item_category": "PROTEIN POWDER",
+  "item_category": "PROTEIN-POWDER",
   "item_name": "AS-IT-IS NUTRITION WHEY PROTEIN CONCENTRATE 80% - 1KG",
   "nutrition": {
     "energy": 402,
@@ -874,7 +874,7 @@
     "EMULSIFIER (INS 415)",
     "CONTAINS ADDED FLAVOURS (NATURE IDENTICALFLAVOURING SUBSTANCES)"
   ],
-  "item_category": "PROTEIN POWDER",
+  "item_category": "PROTEIN-POWDER",
   "item_name": "MUSCLE ASYLUM PREMIUM WHEY PROTEIN 1KG",
   "nutrition": {
     "energy": 300,
@@ -917,7 +917,7 @@
     "PRESERVATIVES (211, 223 OR 202)",
     "FOOD COLOUR - E122"
   ],
-  "item_category": "BREAKFAST SPREADS",
+  "item_category": "BREAKFAST-SPREADS",
   "item_name": "KISSAN ORANGE MARMALADE JAM, 500G",
   "nutrition": {
     "energy": 290,
@@ -964,7 +964,7 @@
     "PROBIOTICS (BACILLUS COAGULUNS SNZ1969, 150 MILLION CFU PER SERVE)",
     "ADDED NATURAL FLAVOURS (CHOCOLATE AND ROSEMARY)"
   ],
-  "item_category": "CORN FLAKES",
+  "item_category": "BREAKFAST-CEREAL",
   "item_name": "YOGABAR SUPER HIGH PROTEIN MUESLI 850G | 21G PROTEIN | WITH PROBIOTICS AND WHEY | NO REFINED SUGAR | EASY ON GUT | CHOCO ALMOND | PROTEIN SNACK | HIGH FIBER FOOD | BREAKFAST CEREAL",
   "nutrition": {
     "energy": 396,
@@ -1006,7 +1006,7 @@
     "CARDAMOM(1%)",
     "NUTMEG"
   ],
-  "item_category": "BABY FOOD",
+  "item_category": "BABY-FOOD",
   "item_name": "EARLY FOODS - WHOLE WHEAT, ALMOND & DATE PORRIDGE MIX 200G",
   "nutrition": {
     "energy": 404.6,
@@ -1043,7 +1043,7 @@
   "ingredients": [
     "ROASTED PEANUTS(100%)"
   ],
-  "item_category": "PEANUT BUTTER",
+  "item_category": "PEANUT-BUTTER",
   "item_name": "MYFITNESS ALL NATURAL PEANUT BUTTER CRUNCHY 1.25KG",
   "nutrition": {
     "energy": 622,
@@ -1086,7 +1086,7 @@
     "VITAMINS",
     "DIGEZYME"
   ],
-  "item_category": "PROTEIN POWDER",
+  "item_category": "PROTEIN-POWDER",
   "item_name": "BON ISO WHEY 100% PROTEIN ISOLATE, IRISH CHOCOLATE 2KG",
   "nutrition": {
     "energy": 371,
@@ -1148,7 +1148,7 @@
     "THICKENER(INS415)",
     "ANTIOXIDANT (INS319)"
   ],
-  "item_category": "INSTANT NOODLES",
+  "item_category": "INSTANT-NOODLES",
   "item_name": "NISSIN SPICED CHICKEN CUP NOODLES",
   "nutrition": {
     "energy": 485.19,
@@ -1186,7 +1186,7 @@
     "ORGANIC JAGGERY(12%)",
     "WHEY PROTEIN CONCENTRATE(10%)"
   ],
-  "item_category": "PEANUT BUTTER",
+  "item_category": "PEANUT-BUTTER",
   "item_name": "PINTOLA HIGH PROTEIN ORGANIC JAGGERY PEANUT BUTTER CRUNCHY 1KG",
   "nutrition": {
     "energy": 605,
@@ -1286,7 +1286,7 @@
   "health_impact_rating": 1.5,
   "final_rating": 1.3,
   "veg": true,
-  "item_category": "chocolate",
+  "item_category": "CHOCOLATE",
   "item_name": "Chupa Chups Sour Bites, Mixed Fruit Punch Flavour, Soft & Chewy Toffee",
   "nutrition": {
     "energy": 366.5,
@@ -1380,7 +1380,7 @@
     "count": null
   },
   "servings_per_pack": null,
-  "item_category": "coffee",
+  "item_category": "COFFEE",
   "item_name": "NESCAFE Classic Instant Coffee Powder",
   "nutrition": null,
   "image_url": "https://m.media-amazon.com/images/I/711FLcJsU4L.jpg"
@@ -1427,7 +1427,7 @@
   "health_impact_rating": 4,
   "final_rating": 3.8,
   "veg": true,
-  "item_category": "protein_bar",
+  "item_category": "PROTEIN-BAR",
   "item_name": "HYP Meal Replacement Whey Protein Bar Pack of 6 (60g x 6) Peanut Butter and Chocolate",
   "nutrition": {
     "energy": 0.236,
@@ -1519,7 +1519,7 @@
     "FLAVOURS (NATURE IDENTICAL FLAVOURING SUBSTANCES)",
     "ANTIOXIDANT(INS 300)"
   ],
-  "item_category": "PACKETED JUICE",
+  "item_category": "BEVERAGES",
   "item_name": "REAL APPLE FRUIT JUICE -1L",
   "nutrition": {
     "energy": 57,
@@ -1560,7 +1560,7 @@
     "LODISED SALT",
     "SUGAR"
   ],
-  "item_category": "PEANUT BUTTER",
+  "item_category": "PEANUT-BUTTER",
   "item_name": "SUNDROP PEANUT BUTTER, CREAMY, 924G",
   "nutrition": {
     "energy": 645,
@@ -1650,7 +1650,7 @@
     "LIME",
     "EDIBLE VEGETABLE OIL (RICE BRAN OIL)"
   ],
-  "item_category": "BREAKFAST SPREADS",
+  "item_category": "BREAKFAST-SPREADS",
   "item_name": "BHUIRA|ALL NATURAL JAM BITTER ORANGE MARMALADE|NO ADDED PRESERVATIVES|NO ARTIFICAL COLOR ADDED|240 G|PACK OF 1",
   "nutrition": {
     "energy": 281,
@@ -1695,8 +1695,8 @@
     "ANTIOXIDANTS (INS-307B)",
     "MINERALS"
   ],
-  "item_category": "CORN FLAKES",
-  "item_name": "KELLOGG'S CORN FLAKES ORIGINAL 1.2KG | POWER OF 5: ENERGY, PROTEIN, IRON, IMMUNO NUTRIENTS, VITAMINS B1, B2, B3 & C| CORN FLAKES, BREAKFAST CEREAL",
+  "item_category": "BREAKFAST-CEREAL",
+  "item_name": "KELLOGG'S CORN-FLAKES ORIGINAL 1.2KG | POWER OF 5: ENERGY, PROTEIN, IRON, IMMUNO NUTRIENTS, VITAMINS B1, B2, B3 & C| CORN-FLAKES, BREAKFAST CEREAL",
   "nutrition": {
     "energy": 378,
     "protein": 6.7,
@@ -1766,7 +1766,7 @@
     "COLOUR (T50D)",
     "MINERAL AND WHEAT GLUTEN"
   ],
-  "item_category": "INSTANT NOODLES",
+  "item_category": "INSTANT-NOODLES",
   "item_name": "MAGGI 2-MINUTE INSTANT NOODLES - MASALA, 70 G POUCH",
   "nutrition": {
     "energy": 384,
@@ -1815,7 +1815,7 @@
     "FLAVOURS(NATURAL, NATURE IDENTICAL AND ARTIFICIAL (VANILLA) FALVOURING SUBSTANCES)",
     "IODIZED SALT"
   ],
-  "item_category": "MILK FLAVOURING",
+  "item_category": "MILK-FLAVOURING",
   "item_name": "BOURNVITA CHOCOLATE NUTRITION DRINK 750 G POUCH",
   "nutrition": {
     "energy": 381,
@@ -1925,7 +1925,7 @@
   "ingredients": [
     "CRANBERRY(100%)"
   ],
-  "item_category": "PACKETED JUICE",
+  "item_category": "BEVERAGES",
   "item_name": "URBAN PLATTER CANADIAN CRANBERRY JUICE 1L",
   "nutrition": {
     "energy": 70,
@@ -1992,7 +1992,7 @@
     "count": null
   },
   "servings_per_pack": 11,
-  "item_category": "namkeen",
+  "item_category": "NAMKEEN",
   "item_name": "Haldiram's Namkeen - Aloo Bhujia",
   "nutrition": {
     "energy": 584.3,
@@ -2037,7 +2037,7 @@
     "ACIDITY REGULATORS [INS 501 AND INS 500]",
     "EDIBLE IODIZED SALT"
   ],
-  "item_category": "MILK FLAVOURING",
+  "item_category": "MILK-FLAVOURING",
   "item_name": "HORLICKS CHOCOLATE NUTRITION DRINK || JAR 500 G",
   "nutrition": {
     "energy": 360,
@@ -2124,7 +2124,7 @@
     "count": null
   },
   "servings_per_pack": null,
-  "item_category": "lassi",
+  "item_category": "BEVERAGES",
   "item_name": "Sunfeast Vanilla MILKshake",
   "nutrition": {
     "energy": 110,
@@ -2166,7 +2166,7 @@
     "TAURINE",
     "L-CARNITINE"
   ],
-  "item_category": "MILK FLAVOURING",
+  "item_category": "MILK-FLAVOURING",
   "item_name": "COMPLAN NUTRITION DRINK POWDER FOR CHILDREN, ROYALE CHOCOLATE FLAVOUR, 500 G CARTON | NUTRITION DRINK FOR KIDS WITH PROTEIN & 34 VITAL NUTRIENTS",
   "nutrition": {
     "energy": 419,
@@ -2254,7 +2254,7 @@
     "count": 5
   },
   "servings_per_pack": 9,
-  "item_category": "biscuit",
+  "item_category": "BISCUIT",
   "item_name": "Britannia 50-50 Maska Chaska",
   "nutrition": {
     "energy": 525,
@@ -2313,7 +2313,7 @@
     "HYDROLYZED VEGETABLE PROTEIN",
     "DEHYDRATED VEGETABLES (3.1%): CABBAGE, SPRING ONION, MUSHROOM, BROCCOLI, BELL PEPPER, ZUCCHINI."
   ],
-  "item_category": "INSTANT NOODLES",
+  "item_category": "INSTANT-NOODLES",
   "item_name": "INDOMIE INSTANT SOUP NOODLES - SPECIAL CHICKEN FLAVOUR, 75 G POUCH",
   "nutrition": {
     "energy": 456,
@@ -2377,7 +2377,7 @@
     "ROASTED SESAME",
     "ROASTED LAYER"
   ],
-  "item_category": "INSTANT NOODLES",
+  "item_category": "INSTANT-NOODLES",
   "item_name": "SAMYANG FIRE BULDAK HOT CHICKEN FLAVOUR RAMESN NOODLE CUP - 70 GM",
   "nutrition": {
     "energy": 295,
@@ -2415,7 +2415,7 @@
     "LEMON POWDER",
     "ANTIOXIDANT (INS 310)"
   ],
-  "item_category": "CORN FLAKES",
+  "item_category": "BREAKFAST-CEREAL",
   "item_name": "GAIA CRUNCHY DIET MUESLI - LOW-CALORIE, PROTEIN RICH, HIGH-FIBER MUESLI CEREAL SERVES AS A HEALTHY AND NUTRITIOUS BREAKFAST OPTION WITH ZERO ADDED SUGAR. 1KG JAR PACK - NO ADDED FLAVOR",
   "nutrition": {
     "energy": 409.28,
@@ -2466,7 +2466,7 @@
   "health_impact_rating": 3.5,
   "final_rating": 3.7,
   "veg": true,
-  "item_category": "protein_bar",
+  "item_category": "PROTEIN-BAR",
   "item_name": "The Whole Truth - 12g Protein Bar",
   "nutrition": {
     "energy": 259,
@@ -2520,7 +2520,7 @@
     "count": 4
   },
   "servings_per_pack": 5,
-  "item_category": "biscuit",
+  "item_category": "BISCUIT",
   "item_name": "Britannia 50-50 Sweet & Salty Biscuits",
   "nutrition": {
     "energy": 487,
@@ -2609,7 +2609,7 @@
     "count": null
   },
   "servings_per_pack": null,
-  "item_category": "coffee",
+  "item_category": "COFFEE",
   "item_name": "Continental Coffee Xtra Instant Coffee Powder",
   "nutrition": null,
   "image_url": "https://m.media-amazon.com/images/I/817Kj5CWfIL.jpg"
@@ -2651,7 +2651,7 @@
     "count": null
   },
   "servings_per_pack": 51.25,
-  "item_category": "namkeen",
+  "item_category": "NAMKEEN",
   "item_name": "Haldiram's Chana Jor Garam",
   "nutrition": {
     "energy": 501,
@@ -2706,7 +2706,7 @@
   "health_impact_rating": 4,
   "final_rating": 4,
   "veg": true,
-  "item_category": "protein_bar",
+  "item_category": "PROTEIN-BAR",
   "item_name": "HYP Sugarfree Protein Bar",
   "nutrition": {
     "energy": 0.159,
@@ -2747,7 +2747,7 @@
     "PRESERVATIVE (E211)",
     "COCOA POWDER"
   ],
-  "item_category": "PROTEIN POWDER",
+  "item_category": "PROTEIN-POWDER",
   "item_name": "BIGMUSCLES NUTRITION NITRA EDGE ISOLATE WHEY PROTEIN",
   "nutrition": {
     "energy": 310.8,
@@ -2849,7 +2849,7 @@
     "ADDED FLAVOUR (ALMOND AND VANILLIN)",
     "COMMON SALT"
   ],
-  "item_category": "BREAKFAST SPREADS",
+  "item_category": "BREAKFAST-SPREADS",
   "item_name": "HERSHEY'S SPREADS COCOA WITH ALMOND, 150G",
   "nutrition": {
     "energy": 550,
@@ -2903,7 +2903,7 @@
     "IODIZED SALT",
     "VITAMINS AND ANTIOXIDANT (307B)"
   ],
-  "item_category": "CORN FLAKES",
+  "item_category": "BREAKFAST-CEREAL",
   "item_name": "NESTLÃ© MUNCH CRUNCHILICIOUS CEREAL | GET SET & CRUNCH | BREAKFAST CEREAL | 300G BOX | CHOCOLATE (FLAVOR)",
   "nutrition": {
     "energy": 279,
@@ -2953,7 +2953,7 @@
     "ACIDITY REGULATORS [INS 501 AND INS 500]",
     "EDIBLE IODIZED SALT"
   ],
-  "item_category": "MILK FLAVOURING",
+  "item_category": "MILK-FLAVOURING",
   "item_name": "HORLICKS WOMEN'S PLUS CHOCOLATE, 400 G CARTON",
   "nutrition": {
     "energy": 360,
@@ -3040,7 +3040,7 @@
     "count": 1
   },
   "servings_per_pack": 18,
-  "item_category": "biscuit",
+  "item_category": "BISCUIT",
   "item_name": "BRITANNIA MILK Bikis Biscuits Cream Sandwich",
   "nutrition": {
     "energy": 498,
@@ -3111,7 +3111,7 @@
     "DRIED RED PEPPER (10%)",
     "DRIED GREEN ONION (10%)"
   ],
-  "item_category": "INSTANT NOODLES",
+  "item_category": "INSTANT-NOODLES",
   "item_name": "NONGSHIM SHIN RAMYUN SPICY FLAVOURED INSTANT NOODLE SOUP",
   "nutrition": {
     "energy": 424,
@@ -3144,7 +3144,7 @@
   "ingredients": [
     "ROASTED PEANUTS(100%)"
   ],
-  "item_category": "PEANUT BUTTER",
+  "item_category": "PEANUT-BUTTER",
   "item_name": "PINTOLA ALL NATURAL PEANUT BUTTER CRUNCHY 1KG",
   "nutrition": {
     "energy": 639,
@@ -3192,7 +3192,7 @@
     "ANTIOXIDANTS (INS 322 & 307B)",
     "HONEY 0.5%"
   ],
-  "item_category": "CORN FLAKES",
+  "item_category": "BREAKFAST-CEREAL",
   "item_name": "BAGRRY'S WHEY PROTEIN MUESLI 750GM POUCH |15GM PROTEIN PER SERVE |CHOCOLATE FLAVOUR|WHOLE OATS & CALIFORNIAN ALMONDS|BREAKFAST CEREAL|PROTEIN RICH|PREMIUM AMERICAN WHEY MUESLI",
   "nutrition": {
     "energy": 399,
@@ -3250,7 +3250,7 @@
   "health_impact_rating": 1.5,
   "final_rating": 1.3,
   "veg": true,
-  "item_category": "chocolate",
+  "item_category": "CHOCOLATE",
   "item_name": "Dukes choco centrefilled Eclairs - Rich creamy eclairs with chocolate filling",
   "nutrition": {
     "energy": 437.1,
@@ -3305,7 +3305,7 @@
     "count": null
   },
   "servings_per_pack": null,
-  "item_category": "biscuit",
+  "item_category": "BISCUIT",
   "item_name": "Parle G Royale",
   "nutrition": {
     "energy": 464,
@@ -3349,7 +3349,7 @@
   "health_impact_rating": 1.5,
   "final_rating": 1.3,
   "veg": true,
-  "item_category": "toffee",
+  "item_category": "CHOCOLATE",
   "item_name": "Pulse Kachcha Aam Candy",
   "nutrition": {
     "energy": 380,
@@ -3383,7 +3383,7 @@
     "CARDAMOM",
     "MILK SOLIDS(20%)"
   ],
-  "item_category": "MILK FLAVOURING",
+  "item_category": "MILK-FLAVOURING",
   "item_name": "MANNA RAGI MALT DRINK MIX WITH 25% RAGI, 400G",
   "nutrition": {
     "energy": 386.28,
@@ -3423,7 +3423,7 @@
     "WHEY PROTEIN",
     "SUNFLOWER LECITHIN"
   ],
-  "item_category": "PROTEIN POWDER",
+  "item_category": "PROTEIN-POWDER",
   "item_name": "AVVATAR WHEY PROTEIN 1KG",
   "nutrition": {
     "energy": 402,
@@ -3553,7 +3553,7 @@
     "count": null
   },
   "servings_per_pack": 51.25,
-  "item_category": "namkeen",
+  "item_category": "NAMKEEN",
   "item_name": "Haldiram's Namkeen - Navrattan",
   "nutrition": {
     "energy": 549.7,
@@ -3588,7 +3588,7 @@
     "RICE BRAN OIL (10%)",
     "ANTIOXIDANT (ROSEMARY EXTRACT) [INS 392]"
   ],
-  "item_category": "BABY FOOD",
+  "item_category": "BABY-FOOD",
   "item_name": "SLURRP FARM NO SALT NO SUGAR TEETHING PUFFS",
   "nutrition": {
     "energy": 414,
@@ -3674,7 +3674,7 @@
     "NUTS & SEED MIX (CHIA SEEDS, ALMONDS, RAISINS, SUNFLOWER SEEDS)",
     "MONK FRUIT EXTRACT"
   ],
-  "item_category": "CORN FLAKES",
+  "item_category": "BREAKFAST-CEREAL",
   "item_name": "HIGH PROTEIN SUPER ROLLED OATS CHOCOLATE",
   "nutrition": {
     "energy": 445,
@@ -3737,7 +3737,7 @@
     "VITAMINS",
     "ACIDITY REGULATOR (501(II))"
   ],
-  "item_category": "BABY FOOD",
+  "item_category": "BABY-FOOD",
   "item_name": "CEREGROW KIDS CEREAL WITH MULTIGRAIN, MILK & FRUITS",
   "nutrition": {
     "energy": 412,
@@ -3834,7 +3834,7 @@
     "PEANUTS(85%)",
     "DATE POWDER(15%)"
   ],
-  "item_category": "PEANUT BUTTER",
+  "item_category": "PEANUT-BUTTER",
   "item_name": "THE WHOLE TRUTH - PEANUT BUTTER WITH DATES(SWEETENED) CRUNCHY 325 G",
   "nutrition": {
     "energy": 637,
@@ -3904,7 +3904,7 @@
     "count": 2
   },
   "servings_per_pack": null,
-  "item_category": "biscuit",
+  "item_category": "BISCUIT",
   "item_name": "Britannia Nutri Choice Seeds Biscuits - 0% Maida, 15% Seeds, High Fiber",
   "nutrition": {
     "energy": 493,
@@ -4005,7 +4005,7 @@
     "HYDROLYZED VEGETABLE PROTEIN",
     "DEHYDRATED VEGETABLES (3.1%): CABBAGE, SPRING ONION, MUSHROOM, BROCCOLI, BELL PEPPER, ZUCCHINI."
   ],
-  "item_category": "INSTANT NOODLES",
+  "item_category": "INSTANT-NOODLES",
   "item_name": "KNORR K-POT SPICY KIMCHI VEG MEAL KOREAN RAMEN 96 G",
   "nutrition": {
     "energy": 384,
@@ -4066,7 +4066,7 @@
     "count": 1
   },
   "servings_per_pack": null,
-  "item_category": "biscuit",
+  "item_category": "BISCUIT",
   "item_name": "Britannia Bourbon Chocolate Cream Biscuits",
   "nutrition": {
     "energy": 488,
@@ -4116,7 +4116,7 @@
     "count": null
   },
   "servings_per_pack": 1,
-  "item_category": "lassi",
+  "item_category": "BEVERAGES",
   "item_name": "Mother Dairy Mango Lassi",
   "nutrition": {
     "energy": 76,
@@ -4158,7 +4158,7 @@
     "MINERALS",
     "VITAMINS"
   ],
-  "item_category": "BABY FOOD",
+  "item_category": "BABY-FOOD",
   "item_name": "SLURRP FARM NO ADDED SUGAR INSTANT CEREAL RAGI, RICE AND MANGO WITH MILK 200G",
   "nutrition": {
     "energy": 386.7,
@@ -4209,7 +4209,7 @@
   "ingredients": [
     "WHEY PROTEIN CONCENTRATE(CROSS-FLOW MICROFILTERED"
   ],
-  "item_category": "PROTEIN POWDER",
+  "item_category": "PROTEIN-POWDER",
   "item_name": "NUTRABAY PURE 100% RAW WHEY PROTEIN CONCENTRATE - 500G",
   "nutrition": {
     "energy": 409,
@@ -4262,7 +4262,7 @@
   "health_impact_rating": 2,
   "final_rating": 1.8,
   "veg": true,
-  "item_category": "chocolate",
+  "item_category": "CHOCOLATE",
   "item_name": "Cadbury Dairy MILK Chocolate Bar",
   "nutrition": {
     "energy": 534,
@@ -4310,7 +4310,7 @@
     "count": null
   },
   "servings_per_pack": null,
-  "item_category": "lassi",
+  "item_category": "BEVERAGES",
   "item_name": "Amul Lassi Carton",
   "nutrition": {
     "energy": 79,
@@ -4342,8 +4342,8 @@
   "ingredients": [
     "DRY ROASTED PEANUTS(100%)"
   ],
-  "item_category": "PEANUT BUTTER",
-  "item_name": "THE BUTTERNUT CO. NATURAL PEANUT BUTTER (CRUNCHY) 1KG",
+  "item_category": "PEANUT-BUTTER",
+  "item_name": "THE BUTTERNUT CO. NATURAL PEANUT-BUTTER (CRUNCHY) 1KG",
   "nutrition": {
     "energy": 640,
     "protein": 32,
@@ -4399,7 +4399,7 @@
   "health_impact_rating": 1.8,
   "final_rating": 1.7,
   "veg": true,
-  "item_category": "chocolate",
+  "item_category": "CHOCOLATE",
   "item_name": "KIT KAT Minis",
   "nutrition": {
     "energy": 438,
@@ -4470,7 +4470,7 @@
   "health_impact_rating": 3.5,
   "final_rating": 3.3,
   "veg": true,
-  "item_category": "protein_bar",
+  "item_category": "PROTEIN-BAR",
   "item_name": "RiteBite Max Protein Daily Choco Classic 10G Protein Bars",
   "nutrition": {
     "energy": 206,
