@@ -1,7 +1,7 @@
 import Navbar from "@/app/components/navbar";
 import api from "@/app/lib/api";
 import { FoodItem } from "@/app/lib/type";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/react";
 
 async function GetFoodItem(id: string): Promise<FoodItem> {
   const data = await api
@@ -47,8 +47,7 @@ export default async function ItemPage({
             </p>
             <p>
               <a className="font-semibold">
-                Ingredient Quality Rating:{" "}
-                {foodItem.ingredient_quality_rating}
+                Ingredient Quality Rating: {foodItem.ingredient_quality_rating}
               </a>
             </p>
             <p>

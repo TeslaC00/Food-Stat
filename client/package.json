@@ -9,11 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/react": "^2.7.5",
     "@internationalized/date": "^3.5.6",
-    "@nextui-org/card": "^2.0.34",
-    "@nextui-org/date-picker": "^2.1.8",
-    "@nextui-org/divider": "^2.0.32",
-    "@nextui-org/image": "^2.0.32",
     "axios": "^1.7.7",
     "next": "^14.2.26",
     "react": "^18",
@@ -25,8 +22,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
 }

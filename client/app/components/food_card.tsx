@@ -1,5 +1,5 @@
-import { Card, CardBody ,CardFooter} from "@nextui-org/card";
-import { Image } from "@nextui-org/image";
+import { Card, CardBody ,CardFooter} from "@heroui/react";
+import { Image } from "@heroui/react";
 import { FoodItemCategory } from "../lib/type";
 import Link from "next/link";
 

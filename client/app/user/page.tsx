@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Image } from "@nextui-org/image";
+import { Image } from "@heroui/react";
 import Navbar from "../components/navbar";
 import { Profile } from "../lib/type";
 import api from "../lib/api";
