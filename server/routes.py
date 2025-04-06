@@ -43,5 +43,57 @@ def home() -> str:
     return render_template("home.jinja", categories=categories)
 
 
+@routes_bp.get("/category")
+def category() -> str:
+    # TODO: add database query to get category data
+
+    food_items = [
+        {
+            "id": 1,
+            "title": "Green Apple",
+            "desc": "Crisp and sweet organic green apples.",
+            "image_url": "https://media.istockphoto.com/id/629734762/photo/green-apple-with-leaf-isolated-on-white-clipping-path-included.jpg?s=1024x1024&w=is&k=20&c=QzSTeGlb1GkZWQ0O2VBlAeB8-ZYPzXFv7YSUYxE2AoI=",
+            "alt": "Green Apple",
+        },
+        {
+            "id": 2,
+            "title": "Red Apple",
+            "desc": "Crisp and sweet organic red apples.",
+            "image_url": "https://media.istockphoto.com/id/614871876/photo/apple-isolated-on-wood-background.jpg?s=1024x1024&w=is&k=20&c=HlmdzA8HWMiVdSicwDiEa77FSxQEEvxm6nGzeSRGBZ4=",
+            "alt": "Red Apple",
+        },
+        {
+            "id": 3,
+            "title": "Pasta",
+            "desc": "Restaurant level delicious pasta.",
+            "image_url": "https://media.istockphoto.com/id/482964545/photo/arrabiata-pasta.jpg?s=1024x1024&w=is&k=20&c=WV35LbX2fkLqb2jYSPqFQcyN0OlbF_HAJ0tWbfQ9KzA=",
+            "alt": "Pasta",
+        },
+        {
+            "id": 4,
+            "title": "Noodles",
+            "desc": "Long, slippery and saucy noooodles.",
+            "image_url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=1292&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Noodles",
+        },
+    ]
+
+    return render_template("category.jinja", food_items=food_items)
+
+
+def food_item(food_item_id: int) -> str:
+    # TODO: add database query to get food item data
+
+    food_item = {
+        "id": 4,
+        "title": "Noodles",
+        "desc": "Long, slippery and saucy noooodles.",
+        "image_url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=1292&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Noodles",
+    }
+
+    return render_template("food_item.jinja", food_item=food_item)
+
+
 def register_routes(app: flask.Flask) -> None:
     app.register_blueprint(routes_bp)
