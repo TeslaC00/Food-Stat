@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        Food-Stat - Eat Smart, Live Healthy
+        {% endblock title %}
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom color palette -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2B8C44',
+                        secondary: '#83C341',
+                        accent: '#FFD700',
+                        neutral: '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="bg-primary">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <div class="flex-shrink-0">
+                        <a href="/" class="text-white text-2xl font-bold tracking-tight">
+                            FoodStat</a>
+                    </div>
+
+                    <!-- Desktop Menu -->
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="/" class="text-white hover:bg-secondary/20 px-3 py-2 
+                                rounded-md transition">Home</a>
+                            <a href="/category" class="text-white hover:bg-secondary/20 px-3 py-2 
+                                rounded-md transition">Categories</a>
+                            <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 
+                                rounded-md transition">Search</a>
+                            <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 
+                                rounded-md transition">Stats</a>
+                            <a href="/profile" class="text-white hover:bg-secondary/20 px-3 py-2 
+                                rounded-md transition">Profile</a>
+                            <a href="/contact" class="text-white hover:bg-secondary/20 px-3 
+                                py-2 rounded-md transition">Contact Us</a>
+                        </div>
+                    </div>
+
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden">
+                        <button aria-label="Mobile menu" class="text-white hover:text-accent 
+                        focus:outline-none">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Menu (hidden by default) -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    <a href="/" class="text-white block px-3 py-2 rounded-md 
+                        hover:bg-secondary/20">Home</a>
+                    <a href="/category" class="text-white block px-3 py-2 rounded-md 
+                        hover:bg-secondary/20">Categories</a>
+                    <a href="#" class="text-white block px-3 py-2 rounded-md 
+                        hover:bg-secondary/20">Search</a>
+                    <a href="#" class="text-white block px-3 py-2 rounded-md 
+                        hover:bg-secondary/20">Stats</a>
+                    <a href="/profile" class="text-white block px-3 py-2 rounded-md 
+                        hover:bg-secondary/20">Profile</a>
+                    <a href="/contact" class="text-white hover:bg-secondary/20 px-3 py-2 
+                        rounded-md transition">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock content %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold mb-4">FoodStat</h3>
+                    <p class="text-sm">Empowering healthier choices through nutrition
+                        intelligence.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Guides</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Research</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">About</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Privacy</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Terms</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
+                <p>&copy; 2024 FoodStat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+        document.querySelector('[aria-label="Mobile menu"]').addEventListener('click',
+            function () {
+                document.getElementById('mobile-menu').classList.toggle('hidden');
+            });
+    </script>
+
+    <script>{% block scripts %} {% endblock scripts %} </script>
+</body>
+
+</html>

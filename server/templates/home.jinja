@@ -1,0 +1,86 @@
+{% extends 'base.jinja' %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-primary to-secondary">
+    <div class="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                Nourish Your Body,
+                <span class="block mt-2 text-accent">Energize Your Life</span>
+            </h1>
+            <p class="mt-6 max-w-2xl mx-auto text-xl text-gray-100">
+                Track your nutrition, discover healthy choices, and achieve your wellness goals.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-accent hover:bg-yellow-400 text-neutral px-8 py-3 rounded-lg 
+                    font-semibold transition transform hover:scale-105">
+                    {# TODO: Add onclick for this get started button #}
+                    Get Started
+                </button>
+                <button class="border-2 border-white text-white hover:bg-white/10 px-8 py-3 
+                    rounded-lg font-semibold transition">
+                    {# TODO: Add onclick for this learn more button #}
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Food Categories -->
+<section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold text-center text-neutral mb-12">
+            Explore Nutritional Categories
+        </h2>
+
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {% for category in categories%}
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                <img src="{{ url_for('static',filename='images/'+category.img) }}" class="w-full 
+                    h-48 object-cover" alt="{{category.alt}}">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-neutral mb-2">{{category.title}}</h3>
+                    <p class="text-gray-600 text-sm">{{category.desc}}</p>
+                </div>
+                <div class="bg-gray-50 px-6 py-4">
+                    <a href="#" class="inline-flex items-center text-secondary font-medium 
+                                    hover:text-primary">
+                        {# TODO: Add href for Explore button for the correct category #}
+                        Explore
+                        <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="bg-neutral text-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">Start Your Health Journey Today</h2>
+        <p class="text-xl text-gray-300 mb-8">Join thousands of users achieving their
+            nutrition goals with FoodStat
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <button class="bg-accent hover:bg-yellow-400 text-neutral px-8 py-3 rounded-lg 
+                font-semibold transition transform hover:scale-105">
+                {# TODO: Add onclick for this create free account button #}
+                Create Free Account
+            </button>
+            <button class="border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg 
+                font-semibold transition">
+                {# TODO: Add onclick for this watch demo button #}
+                Watch Demo
+            </button>
+        </div>
+    </div>
+</section>
+{% endblock content %}

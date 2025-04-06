@@ -4,10 +4,13 @@ from pymongo import ASCENDING, DESCENDING
 from database import db
 from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
 from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
+from routes import register_routes
 
 app = Flask(__name__)
-#CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
+# CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
 collection = db["food_items"]
+
+register_routes(app)
 
 
 @app.route("/login", methods=["POST"])
@@ -125,16 +128,16 @@ def post_user_profiles(user_id):
     )
 
 
-@app.route("/api/profiles/<profile_id>", methods=["GET", "PUT"]) # Add PUT method
+@app.route("/api/profiles/<profile_id>", methods=["GET", "PUT"])  # Add PUT method
 def get_user_profile(profile_id):
     users = db["users"]
-    if request.method == "GET": # Existing GET logic
+    if request.method == "GET":  # Existing GET logic
         user = users.find_one(ObjectId(profile_id))
         if not user:
             return jsonify("No User Found"), 404
         user["_id"] = str(user["_id"])
         return jsonify(user)
-    elif request.method == "PUT": # New PUT logic for updates
+    elif request.method == "PUT":  # New PUT logic for updates
         data = request.json
         if not data:
             return jsonify({"message": "No data provided for update"}), 400
@@ -155,13 +158,17 @@ def get_user_profile(profile_id):
 
         try:
             users.update_one({"_id": ObjectId(profile_id)}, {"$set": updated_user_data})
-            updated_user = users.find_one(ObjectId(profile_id)) # Fetch updated user
-            updated_user["_id"] = str(updated_user["_id"]) # Convert ObjectId to string
-            return jsonify({"message": "Profile updated successfully", "profile": updated_user}), 200
+            updated_user = users.find_one(ObjectId(profile_id))  # Fetch updated user
+            updated_user["_id"] = str(updated_user["_id"])  # Convert ObjectId to string
+            return (
+                jsonify(
+                    {"message": "Profile updated successfully", "profile": updated_user}
+                ),
+                200,
+            )
         except Exception as e:
             print(f"Error updating profile: {e}")
             return jsonify({"message": "Error updating profile"}), 500
-
 
 
 @app.route("/api/food_items/<id>", methods=["GET"])
@@ -188,12 +195,15 @@ def get_food_item_by_id(id):
 
     return jsonify(document)
 
+
 @app.route("/api/categories", methods=["GET"])
 def get_categories():
     """
     Returns a list of distinct food categories from the database.
     """
-    categories = collection.distinct("item_category") # 'collection' is your MongoDB collection object
+    categories = collection.distinct(
+        "item_category"
+    )  # 'collection' is your MongoDB collection object
     return jsonify(categories)
 
 
@@ -287,7 +297,6 @@ def get_food_item_rating():
     rating = predict_food_rating(input_data=nutrition_info, model=nutrition_model)
     print("Type of rating:", type(rating))
     return jsonify({"Rating": rating}), 200
-
 
 
 if __name__ == "__main__":
