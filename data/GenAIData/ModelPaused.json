@@ -533,7 +533,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "INSTANT-RICE",
     "item_name": "Cuppa Rice - Daawat",
     "ingredients": [
       "Dehydrated Rice",
@@ -558,7 +558,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Protein - Food strong",
     "ingredients": [
       "Whey Protein Concentrate",
@@ -854,7 +854,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
+    "item_category": "BREAKFAST-SPREADS",
     "item_name": "Choco - Delhaize",
     "ingredients": [
       "Sugar",
@@ -885,7 +885,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Tops Mango Pickle - 1",
     "ingredients": [
       "Mango Pieces",
@@ -911,7 +911,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Nestle Resource High Protein - 1",
     "ingredients": [
       "Whey Protein Concentrate",
@@ -939,7 +939,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "MILK-FLAVOURING",
     "item_name": "Women Horlicks - Horlics - 400",
     "ingredients": [
       "Cereal Extract (Barley, Wheat)",
@@ -969,7 +969,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "MILK-FLAVOURING",
     "item_name": "Cabruary Bourn Vita - 1",
     "ingredients": [
       "Cereal Extract (Barley, Wheat)",
@@ -1003,7 +1003,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "MILK-FLAVOURING",
     "item_name": "Women Horlicks - Horlics - 400",
     "ingredients": [
       "Cereal Extract (Barley, Wheat)",
@@ -1153,7 +1153,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Pickel",
     "ingredients": [
       "Vegetables/Fruits (Mango, Lime, Mixed Veg)",
@@ -1670,7 +1670,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "INSTANT-RICE",
     "item_name": "mom chinese fried rice - alimento agro - 87",
     "ingredients": [
       "Dehydrated Rice",
@@ -1701,7 +1701,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Tarmarind Sauce - nestle - 90",
     "ingredients": [
       "Water",
@@ -1786,7 +1786,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
+    "item_category": "BREAKFAST-SPREADS",
     "item_name": "Raspberry preserve",
     "ingredients": [
       "Raspberries",
@@ -2704,7 +2704,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Prostar 100% whey",
     "ingredients": [
       "Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides)",
@@ -2818,7 +2818,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Goodrich - pizza topping - 200",
     "ingredients": [
       "Water",
@@ -3443,7 +3443,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Del Monte Tomato Ketchup - 1",
     "ingredients": [
       "Water",
@@ -3500,7 +3500,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Dr. Oetker - 275",
     "ingredients": [
       "Vegetable Oil (Soybean/Rapeseed)",
@@ -3565,7 +3565,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "MILK-FLAVOURING",
     "item_name": "Horlicks",
     "ingredients": [
       "Malted Barley",
@@ -3642,7 +3642,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "SOYA-PRODUCTS",
     "item_name": "Soya chunks - 100",
     "ingredients": [
       "Defatted Soy Flour"
@@ -3925,7 +3925,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "ketchup",
     "ingredients": [
       "Tomato Paste",
@@ -4141,7 +4141,7 @@
     "image_url": ""
   },
   {
-    "item_category": "BREAKFAST-CEREALS-AND-GRAINS",
+    "item_category": "BREAKFAST-SPREADS",
     "item_name": "mapro mixed fruit jam - 1",
     "ingredients": [
       "Sugar",
@@ -4525,7 +4525,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "tomato ketchup - 1",
     "ingredients": [
       "Tomato Paste",
@@ -4550,7 +4550,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Amberella chutney - mc curtie - 450",
     "ingredients": [
       "Ambarella Fruit (Spondias dulcis)",
@@ -4958,7 +4958,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Caramel - Hershey's - 623",
     "ingredients": [
       "Corn Syrup",
@@ -5293,7 +5293,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Pizza topping - Dr. Oetker - 100",
     "ingredients": [
       "Tomato Puree",
@@ -5820,7 +5820,7 @@
     "image_url": ""
   },
   {
-    "item_category": "SAUCES-DIPS-SPREADS-CONDIMENTS",
+    "item_category": "SAUCE/CONDIMENT/PICKLE",
     "item_name": "Achards de légumes - Royal Bourbon - 200",
     "ingredients": [
       "Vegetables (Cabbage, Carrots, Green Beans)",
@@ -6068,7 +6068,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "MuscleBlaze Biozyme Whey Protein - Rich Milk Chocolate",
     "ingredients": [
       "Whey Protein Concentrate", "Whey Protein Isolate", "Cocoa Powder", "Biozyme Enzyme Blend", "Sodium Chloride", "Stabilizer (INS 415)", "Sweetener (INS 955)", "Anti-caking Agent (INS 551)"
@@ -6090,7 +6090,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Optimum Nutrition (ON) Gold Standard 100% Whey - Double Rich Chocolate",
     "ingredients": [
         "Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides)", "Cocoa Powder (Processed with Alkali)", "Lecithin", "Natural and Artificial Flavor", "Acesulfame Potassium", "Aminogen", "Lactase"
@@ -6112,7 +6112,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "AS-IT-IS Nutrition Whey Protein Concentrate 80% - Unflavoured",
     "ingredients": [
         "Whey Protein Concentrate"
@@ -6134,7 +6134,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Myprotein Impact Whey Protein - Kesar Pista",
     "ingredients": [
         "Whey Protein Concentrate", "Flavouring (Kesar, Pista)", "Emulsifier (Soy Lecithin)", "Sweetener (Sucralose)", "Colour"
@@ -6156,7 +6156,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Nakpro Perform Whey Protein Concentrate - Mango Delight",
     "ingredients": [
         "Whey Protein Concentrate", "Mango Flavour", "Sucralose", "Sunflower Lecithin"
@@ -6178,7 +6178,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "BigMuscles Nutrition Premium Gold Whey - Belgian Chocolate",
     "ingredients": [
         "Whey Protein Blend (Whey Protein Isolate, Whey Protein Concentrate)", "Cocoa Powder", "Flavour (Belgian Chocolate)", "Sweetener (Sucralose)", "Stabilizer (Xanthan Gum)"
@@ -6200,7 +6200,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "GNC Pro Performance 100% Whey Protein - Vanilla Cream",
     "ingredients": [
         "Whey Protein Blend (Whey Protein Concentrate, Whey Protein Isolate, Hydrolyzed Whey Peptides)", "Natural & Artificial Flavors", "Lecithin", "Cellulose Gum", "Xanthan Gum", "Sucralose", "Acesulfame Potassium"
@@ -6222,7 +6222,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Nutrabay Pure Whey Protein Isolate - Unflavoured",
     "ingredients": [
         "Whey Protein Isolate"
@@ -6244,7 +6244,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Oziva Protein & Herbs for Women - Chocolate",
     "ingredients": [
         "Protein Blend (Whey Protein Concentrate, Pea Protein Isolate)", "Herbal Blend (Shatavari, Tulsi, Ginger)", "Cocoa Powder", "Vitamins & Minerals", "Flavour (Chocolate)", "Sweetener (Steviol Glycoside)"
@@ -6266,7 +6266,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Plix - The Plant Fix Strength Plant Protein - Rich Chocolate",
     "ingredients": [
         "Plant Protein Blend (Pea Protein Isolate, Brown Rice Protein)", "Cocoa Powder", "Natural Flavors", "Digestive Enzymes Blend", "Sweetener (Stevia)", "Salt"
@@ -6286,7 +6286,7 @@
     "image_url": ""
   },
     {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Avvatar Alpha Whey Protein - Malai Kulfi",
     "ingredients": [
         "Whey Protein Concentrate", "Flavour (Malai Kulfi)", "Emulsifier (Sunflower Lecithin)", "Sweetener (Sucralose)", "Salt"
@@ -6308,7 +6308,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Naturaltein Whey Protein Concentrate - Strawberry",
     "ingredients": [
         "Whey Protein Concentrate", "Natural Strawberry Flavor", "Sweetener (Stevia)"
@@ -6330,7 +6330,7 @@
     "image_url": ""
   },
     {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Healthkart HK Vitals ProteinUp Women - Chocolate",
     "ingredients": [
         "Protein Blend (Whey, Soy, Skimmed Milk Powder)", "Cocoa Powder", "Vitamins", "Minerals", "Herbal Extracts (Garcinia, Green Tea)", "Sweetener (INS 955)", "Stabilizer (INS 415)"
@@ -6352,7 +6352,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Amway Nutrilite All Plant Protein Powder",
     "ingredients": [
         "Soy Protein Isolate", "Wheat Protein", "Pea Protein"
@@ -6374,7 +6374,7 @@
     "image_url": ""
   },
   {
-    "item_category": "HEALTH-SUPPLEMENT",
+    "item_category": "PROTEIN-POWDER",
     "item_name": "Origin Nutrition Vegan Protein - Vanilla",
     "ingredients": [
         "Pea Protein Isolate", "Organic Brown Rice Protein", "Natural Vanilla Flavor", "Recovery Blend (Turmeric, Pink Salt)", "Digestive Enzymes", "Sweetener (Stevia)"
@@ -6724,7 +6724,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "INSTANT-RICE",
     "item_name": "MTR Minute Fresh Lemon Rice Poha",
     "ingredients": [
         "Rice Flakes (Poha)", "Edible Vegetable Oil", "Sugar", "Salt", "Peanuts", "Lemon Juice Powder", "Mustard Seeds", "Curry Leaves", "Turmeric Powder", "Green Chilli", "Acidity Regulator (Citric Acid)"
@@ -6746,7 +6746,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "INSTANT-RICE",
     "item_name": "Tata Q Hot & Spicy Schezwan Rice with Veggies",
     "ingredients": [
         "Cooked Rice", "Vegetables (Carrot, French Beans, Capsicum)", "Schezwan Sauce (Water, Ginger, Garlic, Chilli, Celery, Soy Sauce, Vinegar, Sugar, Salt, Spices)", "Edible Vegetable Oil", "Salt"
@@ -6768,7 +6768,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "INSTANT-RICE",
     "item_name": "Gits Ready Meals Veg Pulao",
     "ingredients": [
         "Basmati Rice", "Vegetables (Carrot, French Beans, Green Peas)", "Onion", "Edible Vegetable Oil", "Salt", "Ginger", "Garlic", "Spices (Cumin, Clove, Cardamom, Cinnamon, Bay Leaf)", "Mint Leaves"
@@ -6788,7 +6788,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "INSTANT-RICE",
     "item_name": "The Taste Company Rajma Chawal",
     "ingredients": [
         "Basmati Rice", "Rajma (Kidney Beans)", "Tomato", "Onion", "Edible Vegetable Oil", "Ginger", "Garlic", "Salt", "Spices (Coriander, Cumin, Turmeric, Garam Masala, Chilli)"
@@ -6808,7 +6808,7 @@
     "image_url": ""
   },
   {
-    "item_category": "MISCELLANEOUS",
+    "item_category": "INSTANT-RICE",
     "item_name": "Kitchens of India Yakhni Pulao",
     "ingredients": [
         "Basmati Rice", "Chicken Pieces", "Yogurt", "Onion", "Edible Vegetable Oil", "Ginger", "Garlic", "Salt", "Spices (Fennel, Cardamom, Clove, Cinnamon, Mace, Nutmeg)", "Mint Leaves", "Kewra Water"
