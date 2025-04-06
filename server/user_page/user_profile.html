@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - FoodStat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom color palette -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2B8C44',
+                        secondary: '#83C341',
+                        accent: '#FFD700',
+                        neutral: '#1F2937',
+                        'light-green': '#E0F7FA', // Light green for backgrounds or accents
+                    },
+                    fontFamily: {
+                        'sans': ['Nunito', 'sans-serif'], // More modern sans-serif font
+                    },
+                }
+            },
+            plugins: [], // You can add plugins for more features
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Add custom styles here if needed, or keep it minimal with Tailwind */
+        .profile-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem; /* Tailwind's mb-3 equivalent */
+        }
+
+        .profile-label {
+            font-weight: 600; /* Tailwind's font-semibold */
+            color: theme('colors.neutral');
+            margin-right: 0.5rem; /* Tailwind's mr-2 equivalent */
+        }
+
+        .profile-value {
+            color: theme('colors.gray.700');
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Mobile-friendly Navbar -->
+    <nav class="bg-primary shadow-md"> <!-- Added shadow for navbar -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="/" class="text-white text-2xl font-bold tracking-tight">FoodStat</a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Home</a>
+                        <a href="/categories.html" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Categories</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Search</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Stats</a>
+                        <a href="/profile.html" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Profile</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button aria-label="Mobile menu" class="text-white hover:text-accent focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (hidden by default) -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="/" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Home</a>
+                <a href="/categories.html" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Categories</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Search</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Stats</a>
+                <a href="/profile.html" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-secondary to-primary py-20"> <!-- Gradient background -->
+        <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 sm:px-6 lg:px-8 text-center">
+            <div class="mb-8">
+                <img src="https://via.placeholder.com/150/E0F7FA/FFFFFF?text=User" alt="User Avatar" class="rounded-full mx-auto h-24 w-24 border-4 border-white shadow-md"> <!-- Avatar Placeholder -->
+            </div>
+            <h1 class="text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl tracking-tight mb-4"> <!-- Larger, bolder title -->
+                Welcome, <span id="profile-name" class="font-accent font-semibold">Loading...</span>
+            </h1>
+            <p class="mt-4 max-w-3xl mx-auto text-xl text-gray-100"> <!-- More descriptive tagline -->
+                Explore your personalized food profile and manage your health preferences. Let's make healthy eating easier!
+            </p>
+        </div>
+    </section>
+
+    <!-- Edit Profile Button - Add this above the profile details section -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center">
+        <button id="edit-profile-button" class="bg-secondary hover:bg-primary text-white font-semibold py-2 px-6 rounded-md transition focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-opacity-50">
+            <i class="fa-solid fa-pen-to-square mr-2"></i> Edit Profile
+        </button>
+    </div>
+
+    <!-- User Profile Details Section -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden"> <!-- Deeper shadow -->
+            <div class="px-6 py-8 lg:p-10">
+                <h2 class="text-3xl font-bold text-neutral mb-8 text-center">Your Profile Information</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <!-- Grid layout for profile details -->
+                    <div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-user-tag text-primary mr-2"></i> <span class="profile-label">Profile Name:</span>
+                            <span id="profile-name-detail" class="profile-value">Loading...</span>
+                        </div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-user text-primary mr-2"></i> <span class="profile-label">First Name:</span>
+                            <span id="first-name" class="profile-value">Loading...</span>
+                        </div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-user-group text-primary mr-2"></i> <span class="profile-label">Last Name:</span>
+                            <span id="last-name" class="profile-value">Loading...</span>
+                        </div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-venus-mars text-primary mr-2"></i> <span class="profile-label">Gender:</span>
+                            <span id="gender" class="profile-value">Loading...</span>
+                        </div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-weight-scale text-primary mr-2"></i> <span class="profile-label">Weight:</span>
+                            <span id="weight" class="profile-value">Loading... kg</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-ruler-vertical text-primary mr-2"></i> <span class="profile-label">Height:</span>
+                            <span id="height" class="profile-value">Loading... cm</span>
+                        </div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-calendar-alt text-primary mr-2"></i> <span class="profile-label">Age:</span>
+                            <span id="age" class="profile-value">Loading... years</span>
+                        </div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-users text-primary mr-2"></i> <span class="profile-label">User Type:</span>
+                            <span id="user-type" class="profile-value">Loading...</span>
+                        </div>
+                        <div class="profile-group">
+                            <i class="fa-solid fa-utensils text-primary mr-2"></i> <span class="profile-label">Diet Type:</span>
+                            <span id="diet-type" class="profile-value">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Allergy and Diseases Sections as Cards -->
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div id="allergy-info-card" class="bg-light-green rounded-lg p-6 shadow-sm"> <!-- Light background for card -->
+                        <h3 class="font-semibold text-xl text-neutral mb-4"><i class="fa-solid fa-exclamation-triangle text-red-500 mr-2"></i> Allergies</h3>
+                        <ul id="allergy-info-list" class="list-disc list-inside text-red-700">
+                            <li>Loading allergy information...</li>
+                        </ul>
+                    </div>
+
+                    <div id="diseases-card" class="bg-light-green rounded-lg p-6 shadow-sm"> <!-- Light background for card -->
+                        <h3 class="font-semibold text-xl text-neutral mb-4"><i class="fa-solid fa-heartbeat text-red-500 mr-2"></i> Diseases</h3>
+                        <ul id="diseases-list" class="list-disc list-inside text-red-700">
+                            <li>Loading disease information...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Profile Modal - Add this after the profile details section -->
+    <div id="edit-profile-modal" class="fixed z-10 inset-0 overflow-y-auto hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <!-- Modal background overlay -->
+            <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
+
+            <!-- This element is to trick the browser into centering the modal content. -->
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">​</span>
+
+            <!-- Modal panel -->
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                        <div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
+                            <!-- Heroicon name: outline/exclamation -->
+                            <svg class="h-6 w-6 text-red-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938-9.01a7 7 0 1 1 13.876 0l-1.377 1.378m-8.476-1.378L16 7l-2.5 2.5m-2.885-1.038l-2.5 2.5m-2.885-1.038l-2.5 2.5"/>
+                            </svg>
+                        </div>
+                        <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                            <h3 class="text-lg leading-6 font-medium text-neutral" id="modal-title">
+                                Edit Profile Information
+                            </h3>
+                            <div class="mt-4">
+                                <form id="edit-profile-form" class="space-y-4">
+                                    <!-- Form fields will be inserted here by JavaScript -->
+                                    <div>
+                                        <label for="edit-profile-name" class="block text-sm font-medium text-gray-700">Profile Name</label>
+                                        <input type="text" name="profile_name" id="edit-profile-name" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label for="edit-first-name" class="block text-sm font-medium text-gray-700">First Name</label>
+                                        <input type="text" name="firstName" id="edit-first-name" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label for="edit-last-name" class="block text-sm font-medium text-gray-700">Last Name</label>
+                                        <input type="text" name="lastName" id="edit-last-name" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label for="edit-gender" class="block text-sm font-medium text-gray-700">Gender</label>
+                                        <select id="edit-gender" name="gender" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm rounded-md">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="edit-weight" class="block text-sm font-medium text-gray-700">Weight (kg)</label>
+                                        <input type="number" name="weight" id="edit-weight" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label for="edit-height" class="block text-sm font-medium text-gray-700">Height (cm)</label>
+                                        <input type="number" name="height" id="edit-height" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label for="edit-age" class="block text-sm font-medium text-gray-700">Age</label>
+                                        <input type="number" name="age" id="edit-age" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label for="edit-user-type" class="block text-sm font-medium text-gray-700">User Type</label>
+                                        <select id="edit-user-type" name="userType" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm rounded-md">
+                                            <option value="General Fitness">General Fitness</option>
+                                            <option value="Athlete">Athlete</option>
+                                            <option value="Weight Loss">Weight Loss</option>
+                                            <option value="Health Focused">Health Focused</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="edit-diet-type" class="block text-sm font-medium text-gray-700">Diet Type</label>
+                                        <input type="text" name="dietType" id="edit-diet-type" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label for="edit-allergy-info" class="block text-sm font-medium text-gray-700">Allergies (comma-separated)</label>
+                                        <input type="text" name="allergy_info" id="edit-allergy-info" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" placeholder="e.g., peanuts, gluten, dairy">
+                                    </div>
+                                    <div>
+                                        <label for="edit-diseases" class="block text-sm font-medium text-gray-700">Diseases (comma-separated)</label>
+                                        <input type="text" name="diseases" id="edit-diseases" class="mt-1 focus:ring-primary focus:border-primary block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" placeholder="e.g., diabetes, hypertension">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button id="save-profile-button" type="button" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary text-base font-medium text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary sm:ml-3 sm:w-auto sm:text-sm">
+                        Save Changes
+                    </button>
+                    <button id="cancel-edit-button" type="button" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold mb-4">FoodStat</h3>
+                    <p class="text-sm">Empowering healthier choices through nutrition intelligence.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Guides</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Research</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">About</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Privacy</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Terms</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
+                <p>© 2024 FoodStat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+        document.querySelector('[aria-label="Mobile menu"]').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/0340a8219c.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const profileId = urlParams.get('id'); // Get profile ID from query parameter
+
+            if (!profileId) {
+                alert('Profile ID is missing in the URL.'); // Basic error handling
+                return;
+            }
+
+            function fetchUserProfile(profileId) {
+                fetch(`/api/profiles/${profileId}`)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                    .then(userProfile => {
+                        // Populate profile details on the page
+                        document.getElementById('profile-name').textContent = userProfile.profile_name || 'N/A';
+                        document.getElementById('profile-name-detail').textContent = userProfile.profile_name || 'N/A'; // Added for detail section
+                        document.getElementById('first-name').textContent = userProfile.firstName || 'N/A';
+                        document.getElementById('last-name').textContent = userProfile.lastName || 'N/A';
+                        document.getElementById('gender').textContent = userProfile.gender || 'N/A';
+                        document.getElementById('weight').textContent = userProfile.weight || 'N/A';
+                        document.getElementById('height').textContent = userProfile.height || 'N/A';
+                        document.getElementById('age').textContent = userProfile.age || 'N/A';
+                        document.getElementById('user-type').textContent = userProfile.userType || 'N/A';
+                        document.getElementById('diet-type').textContent = userProfile.dietType || 'N/A';
+
+                        // Allergy Info List
+                        const allergyInfoList = document.getElementById('allergy-info-list');
+                        allergyInfoList.innerHTML = ''; // Clear loading text
+                        if (userProfile.allergy_info && userProfile.allergy_info.length > 0) {
+                            userProfile.allergy_info.forEach(allergy => {
+                                const li = document.createElement('li');
+                                li.textContent = allergy;
+                                allergyInfoList.appendChild(li);
+                            });
+                        } else {
+                            document.getElementById('allergy-info-card').style.display = 'none'; // Hide allergy card if no info
+                        }
+
+                        // Diseases List
+                        const diseasesList = document.getElementById('diseases-list');
+                        diseasesList.innerHTML = ''; // Clear loading text
+                        if (userProfile.diseases && userProfile.diseases.length > 0) {
+                            userProfile.diseases.forEach(disease => {
+                                const li = document.createElement('li');
+                                li.textContent = disease;
+                                diseasesList.appendChild(li);
+                            });
+                        } else {
+                            document.getElementById('diseases-card').style.display = 'none'; // Hide diseases card if no info
+                        }
+                        window.userProfile = userProfile; // Make userProfile globally accessible within the scope for populateEditForm
+
+                    })
+                    .catch(error => {
+                        console.error('Error fetching profile details:', error);
+                        alert('Failed to load profile details.'); // User-friendly error message
+                    });
+            }
+
+            fetchUserProfile(profileId); // Initial fetch of profile data
+
+            const editProfileButton = document.getElementById('edit-profile-button');
+            const editProfileModal = document.getElementById('edit-profile-modal');
+            const cancelEditButton = document.getElementById('cancel-edit-button');
+            const saveProfileButton = document.getElementById('save-profile-button');
+            const editProfileForm = document.getElementById('edit-profile-form');
+
+            // Function to open the modal
+            editProfileButton.addEventListener('click', () => {
+                editProfileModal.classList.remove('hidden'); // Show the modal
+                populateEditForm(); // Populate the form with current data
+            });
+
+            // Function to close the modal
+            function closeModal() {
+                editProfileModal.classList.add('hidden'); // Hide the modal
+            }
+
+            cancelEditButton.addEventListener('click', closeModal);
+
+            // Close modal if clicked outside the modal panel (optional, but nice UX)
+            window.addEventListener('click', (event) => {
+                if (event.target === editProfileModal) {
+                    closeModal();
+                }
+            });
+
+            // Function to populate the edit form with existing profile data
+            function populateEditForm() {
+                document.getElementById('edit-profile-name').value = document.getElementById('profile-name-detail').textContent; // Use profile-name-detail from detail section
+                document.getElementById('edit-first-name').value = document.getElementById('first-name').textContent;
+                document.getElementById('edit-last-name').value = document.getElementById('last-name').textContent;
+                document.getElementById('edit-gender').value = document.getElementById('gender').textContent;
+                document.getElementById('edit-weight').value = document.getElementById('weight').textContent.replace(' kg', ''); // Remove ' kg'
+                document.getElementById('edit-height').value = document.getElementById('height').textContent.replace(' cm', ''); // Remove ' cm'
+                document.getElementById('edit-age').value = document.getElementById('age').textContent.replace(' years', ''); // Remove ' years'
+                document.getElementById('edit-user-type').value = document.getElementById('user-type').textContent;
+                document.getElementById('edit-diet-type').value = document.getElementById('diet-type').textContent;
+
+                // Handle Allergies and Diseases - if they are lists, join them to comma-separated strings for input
+                const allergyList = window.userProfile.allergy_info || [];
+                document.getElementById('edit-allergy-info').value = allergyList.join(', ');
+                const diseasesList = window.userProfile.diseases || [];
+                document.getElementById('edit-diseases').value = diseasesList.join(', ');
+            }
+
+
+            // Function to handle form submission (Save Changes)
+            saveProfileButton.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default form submission
+
+                const profileId = urlParams.get('id'); // Get profile ID again
+                if (!profileId) {
+                    alert('Profile ID is missing.');
+                    return;
+                }
+
+                const formData = new FormData(editProfileForm);
+                const updatedProfileData = {};
+                formData.forEach((value, key) => {
+                    updatedProfileData[key] = value;
+                });
+
+                // Split comma-separated strings back into lists for allergies and diseases
+                updatedProfileData.allergy_info = updatedProfileData.allergy_info.split(',').map(item => item.trim()).filter(item => item); // Trim and filter empty strings
+                updatedProfileData.diseases = updatedProfileData.diseases.split(',').map(item => item.trim()).filter(item => item); // Trim and filter empty strings
+
+
+                fetch(`/api/profiles/${profileId}`, { // **Important: Use PUT method for updates**
+                    method: 'PUT', // Or PATCH, depending on your API design (PUT replaces entire resource, PATCH partially updates)
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(updatedProfileData),
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(updatedUserProfile => {
+                    console.log('Profile updated successfully:', updatedUserProfile);
+                    alert('Profile updated successfully!'); // User feedback
+                    closeModal(); // Close the modal
+                    // Reload profile data to update the displayed information
+                    fetchUserProfile(profileId); // Re-fetch and update the page data
+                })
+                .catch(error => {
+                    console.error('Error updating profile:', error);
+                    alert('Failed to update profile. Please try again.'); // User-friendly error message
+                });
+            });
+        });
+    </script>
+</body>
+</html>
