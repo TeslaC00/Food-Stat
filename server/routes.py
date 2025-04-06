@@ -136,9 +136,14 @@ def food_item(food_item_id: int) -> str:
         },
     ]
 
-    food_item = food_items[food_item_id-1]
+    food_item = food_items[food_item_id - 1]
 
     return render_template("food_item.jinja", food_item=food_item)
+
+
+@routes_bp.get("/contact")
+def contact() -> str:
+    return render_template("contact_us.jinja")
 
 
 def register_routes(app: flask.Flask) -> None:
