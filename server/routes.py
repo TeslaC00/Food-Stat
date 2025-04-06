@@ -12,6 +12,7 @@ def index() -> Response:
 
 @routes_bp.get("/home")
 def home() -> str:
+    # TODO: add database query to get data
     categories = [
         {
             "title": "Fresh Fruits",
@@ -40,10 +41,6 @@ def home() -> str:
     ]
 
     return render_template("home.jinja", categories=categories)
-    # return render_template("category.html")
-    # return render_template("food_item.html")
-    # return render_template("contact_us.html")
-    # return render_template("home.html")
 
 
 def register_routes(app: flask.Flask) -> None:
