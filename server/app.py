@@ -2,12 +2,11 @@ from bson import ObjectId
 from flask import Flask, jsonify, request
 from pymongo import ASCENDING, DESCENDING
 from database import db
-from flask_cors import CORS
 from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
 from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
+#CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
 collection = db["food_items"]
 
 
@@ -160,6 +159,14 @@ def get_food_item_by_id(id):
 
     return jsonify(document)
 
+@app.route("/api/categories", methods=["GET"])
+def get_categories():
+    """
+    Returns a list of distinct food categories from the database.
+    """
+    categories = collection.distinct("item_category") # 'collection' is your MongoDB collection object
+    return jsonify(categories)
+
 
 @app.route("/api/food_items/<category>/filter/<profile_id>", methods=["GET"])
 def get_food_items_by_profile(category, profile_id):
@@ -251,6 +258,7 @@ def get_food_item_rating():
     rating = predict_food_rating(input_data=nutrition_info, model=nutrition_model)
     print("Type of rating:", type(rating))
     return jsonify({"Rating": rating}), 200
+
 
 
 if __name__ == "__main__":

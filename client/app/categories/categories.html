@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food-Stat - Eat Smart, Live Healthy</title>
+    <title>Food Categories - Food-Stat</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Custom color palette -->
     <script>
@@ -27,14 +27,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0">
-                    <a href="#" class="text-white text-2xl font-bold tracking-tight">FoodStat</a>
+                    <a href="/" class="text-white text-2xl font-bold tracking-tight">FoodStat</a>
                 </div>
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Home</a>
-                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Categories</a>
+                        <a href="/" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Home</a>
+                        <a href="/categories.html" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Categories</a>
                         <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Search</a>
                         <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Stats</a>
                         <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Profile</a>
@@ -43,7 +43,7 @@
 
                 <!-- Mobile menu button -->
                 <div class="md:hidden">
-                    <button class="text-white hover:text-accent focus:outline-none">
+                    <button aria-label="Mobile menu" class="text-white hover:text-accent focus:outline-none">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                         </svg>
@@ -55,8 +55,8 @@
         <!-- Mobile Menu (hidden by default) -->
         <div class="md:hidden hidden" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Home</a>
-                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Categories</a>
+                <a href="/" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Home</a>
+                <a href="/categories.html" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Categories</a>
                 <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Search</a>
                 <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Stats</a>
                 <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Profile</a>
@@ -65,47 +65,59 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-primary to-secondary">
-        <div class="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+    <section class="bg-secondary">
+        <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-                    Nourish Your Body,
-                    <span class="block mt-2 text-accent">Energize Your Life</span>
+                <h1 class="text-3xl font-extrabold text-neutral sm:text-4xl lg:text-5xl">
+                    Explore Food Categories
                 </h1>
-                <p class="mt-6 max-w-2xl mx-auto text-xl text-gray-100">
-                    Track your nutrition, discover healthy choices, and achieve your wellness goals.
+                <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-700">
+                    Browse our wide range of food categories to find nutritional information.
                 </p>
-                <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-                    <button class="bg-accent hover:bg-yellow-400 text-neutral px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105">
-                        Get Started
-                    </button>
-                    <button class="border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition">
-                        Learn More
-                    </button>
-                </div>
             </div>
         </div>
     </section>
+
+    <!-- Search Bar Section -->
+    <div class="bg-gray-100 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-center">
+                <div class="w-full max-w-lg">
+                    <label for="food-search" class="block mb-2 text-sm font-medium text-gray-900 sr-only">Search</label>
+                    <div class="relative">
+                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7a7 7 0 1 1-14 0 7 7 0 0 1 14 0z"/>
+                            </svg>
+                        </div>
+                        <input type="search" id="food-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary focus:border-primary" placeholder="Search for food items..." required>
+                        <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-primary hover:bg-secondary focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-4 py-2">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Food Categories -->
     <section class="py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-extrabold text-center text-neutral mb-12">
-                Explore Nutritional Categories
+                Browse Categories
             </h2>
 
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                <!-- Category Card -->
+                <!-- Fruits Category Card -->
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
                     <img src="https://via.placeholder.com/600x400/FFC107/000000?text=Fruits"
                          class="w-full h-48 object-cover"
                          alt="Fresh Fruits">
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-neutral mb-2">Fresh Fruits</h3>
-                        <p class="text-gray-600 text-sm">Discover vitamin-rich fruits for daily nutrition</p>
+                        <h3 class="text-xl font-bold text-neutral mb-2">Fruits</h3>
+                        <p class="text-gray-600 text-sm">Explore vitamin-rich fruits for daily nutrition</p>
                     </div>
                     <div class="bg-gray-50 px-6 py-4">
-                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                        <a href="/category/fruits.html" class="inline-flex items-center text-secondary font-medium hover:text-primary">
                             Explore
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
@@ -114,8 +126,7 @@
                     </div>
                 </div>
 
-                <!-- Repeat similar cards for other categories -->
-                <!-- Vegetables Card -->
+                <!-- Vegetables Category Card -->
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
                     <img src="https://via.placeholder.com/600x400/28A745/FFFFFF?text=Vegetables"
                          class="w-full h-48 object-cover"
@@ -125,7 +136,7 @@
                         <p class="text-gray-600 text-sm">Explore fiber-packed vegetable options</p>
                     </div>
                     <div class="bg-gray-50 px-6 py-4">
-                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                        <a href="/category/vegetables.html" class="inline-flex items-center text-secondary font-medium hover:text-primary">
                             Explore
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
@@ -134,7 +145,7 @@
                     </div>
                 </div>
 
-                <!-- Proteins Card -->
+                <!-- Proteins Category Card -->
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
                     <img src="https://via.placeholder.com/600x400/DC3545/FFFFFF?text=Proteins"
                          class="w-full h-48 object-cover"
@@ -144,7 +155,7 @@
                         <p class="text-gray-600 text-sm">Essential proteins for muscle health</p>
                     </div>
                     <div class="bg-gray-50 px-6 py-4">
-                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                        <a href="/category/proteins.html" class="inline-flex items-center text-secondary font-medium hover:text-primary">
                             Explore
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
@@ -153,17 +164,17 @@
                     </div>
                 </div>
 
-                <!-- Grains Card -->
+                <!-- Grains Category Card -->
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
                     <img src="https://via.placeholder.com/600x400/007BFF/FFFFFF?text=Grains"
                          class="w-full h-48 object-cover"
                          alt="Grains">
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-neutral mb-2">Whole Grains</h3>
+                        <h3 class="text-xl font-bold text-neutral mb-2">Grains</h3>
                         <p class="text-gray-600 text-sm">Nutritious grains for sustained energy</p>
                     </div>
                     <div class="bg-gray-50 px-6 py-4">
-                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                        <a href="/category/grains.html" class="inline-flex items-center text-secondary font-medium hover:text-primary">
                             Explore
                             <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
@@ -175,21 +186,6 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="bg-neutral text-white py-16">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-6">Start Your Health Journey Today</h2>
-            <p class="text-xl text-gray-300 mb-8">Join thousands of users achieving their nutrition goals with FoodStat</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <button class="bg-accent hover:bg-yellow-400 text-neutral px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105">
-                    Create Free Account
-                </button>
-                <button class="border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition">
-                    Watch Demo
-                </button>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-gray-300 py-12">
@@ -225,7 +221,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
-                <p>&copy; 2024 FoodStat. All rights reserved.</p>
+                <p>© 2024 FoodStat. All rights reserved.</p>
             </div>
         </div>
     </footer>
