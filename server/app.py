@@ -126,14 +126,43 @@ def post_user_profiles(user_id):
     )
 
 
-@app.route("/api/profiles/<profile_id>", methods=["GET"])
+@app.route("/api/profiles/<profile_id>", methods=["GET", "PUT"]) # Add PUT method
 def get_user_profile(profile_id):
     users = db["users"]
-    user = users.find_one(ObjectId(profile_id))
-    if not user:
-        return jsonify("No User Found"), 404
-    user["_id"] = str(user["_id"])
-    return jsonify(user)
+    if request.method == "GET": # Existing GET logic
+        user = users.find_one(ObjectId(profile_id))
+        if not user:
+            return jsonify("No User Found"), 404
+        user["_id"] = str(user["_id"])
+        return jsonify(user)
+    elif request.method == "PUT": # New PUT logic for updates
+        data = request.json
+        if not data:
+            return jsonify({"message": "No data provided for update"}), 400
+
+        updated_user_data = {
+            "profile_name": data.get("profile_name"),
+            "firstName": data.get("firstName"),
+            "lastName": data.get("lastName"),
+            "gender": data.get("gender"),
+            "weight": data.get("weight"),
+            "height": data.get("height"),
+            "age": data.get("age"),
+            "userType": data.get("userType"),
+            "dietType": data.get("dietType"),
+            "allergy_info": data.get("allergy_info"),
+            "diseases": data.get("diseases"),
+        }
+
+        try:
+            users.update_one({"_id": ObjectId(profile_id)}, {"$set": updated_user_data})
+            updated_user = users.find_one(ObjectId(profile_id)) # Fetch updated user
+            updated_user["_id"] = str(updated_user["_id"]) # Convert ObjectId to string
+            return jsonify({"message": "Profile updated successfully", "profile": updated_user}), 200
+        except Exception as e:
+            print(f"Error updating profile: {e}")
+            return jsonify({"message": "Error updating profile"}), 500
+
 
 
 @app.route("/api/food_items/<id>", methods=["GET"])
