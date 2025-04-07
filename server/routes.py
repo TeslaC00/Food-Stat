@@ -1,4 +1,5 @@
 import flask
+from database import db
 from flask import (
     Blueprint,
     Response,
@@ -8,7 +9,11 @@ from flask import (
     url_for,
 )
 from flask_login import login_required, logout_user
+from bson import ObjectId
 
+
+collection = db["food_items"]
+users_collection = db["accounts"]
 
 routes_bp = Blueprint("routes_bp", __name__)
 
@@ -172,24 +177,17 @@ def logout() -> str:
     return redirect(url_for("routes_bp.home"))
 
 
-@routes_bp.get("/profile")
+@routes_bp.get("/profile/<profile_id>")  # Route now takes profile_id as URL parameter
 @login_required
-def profile() -> str:
-    user = {
-        "profile_name": "John Doe",
-        "first_name": "John",
-        "last_name": "Doe",
-        "gender": "Male",
-        "weight": 70,
-        "height": 175,
-        "age": 30,
-        "user_type": "Admin",
-        "diet_type": "Vegan",
-        "allergies": ["Peanuts", "Shellfish"],
-        "diseases": ["Diabetes"],
-    }
-    return render_template("profile.jinja", user=user)
+def profile(profile_id) -> str:
+    user_profile = users_collection.find_one({"_id": ObjectId(profile_id)}) # Fetch profile from DB
+    if not user_profile:
+        flash("Profile not found.", "error") # Handle case where profile is not found
+        return redirect(url_for('routes_bp.home')) # Redirect to home or login
 
+    user_profile["_id"] = str(user_profile["_id"]) # Convert ObjectId to string for Jinja
+
+    return render_template("profile.jinja", user_profile=user_profile) # Pass user_profile to template
 
 def register_routes(app: flask.Flask) -> None:
     app.register_blueprint(routes_bp)

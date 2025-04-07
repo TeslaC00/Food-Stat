@@ -1,132 +1,419 @@
 {% extends 'base.jinja' %}
 
 {% block title %}
-Sing Up to FoodStat
+Your Profile
 {% endblock title %}
 
 {% block content %}
 <!-- Hero Section -->
-<section class="bg-secondary">
-    <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 sm:px-6 lg:px-8">
-        <div class="text-center">
-            <h1 class="text-3xl font-extrabold text-neutral sm:text-4xl lg:text-5xl">
-                Join FoodStat Today
-            </h1>
-            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-700">
-                Create your account and start your journey to healthier eating.
-            </p>
+<section class="bg-gradient-to-r from-secondary to-primary py-20">
+    <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 sm:px-6 lg:px-8 text-center">
+        <div class="mb-8">
+            {# TODO: change img url to user image #}
+            <img src="https://plus.unsplash.com/premium_photo-1723478515704-629ab1575612?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHxwaG90by1wYWdlfHx8fA%3D%3D"
+                alt="User Avatar" class="rounded-full mx-auto h-24 w-24 border-4 border-white shadow-md object-cover">
+            <!-- Avatar Placeholder -->
         </div>
+        <h1 class="text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl tracking-tight mb-4">
+            <!-- Larger, bolder title -->
+            Welcome, <span id="profile-name" class="font-accent font-semibold">Loading...</span>
+        </h1>
+        <p class="mt-4 max-w-3xl mx-auto text-xl text-gray-100">
+            Explore your personalized food profile and manage your health preferences. Let's make healthy eating
+            easier!
+        </p>
     </div>
 </section>
 
-<!-- Signup Form Section -->
+<!-- Edit Profile Button Section -->
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center flex justify-center items-center gap-5">
+    <button id="edit-profile-button"
+        class="bg-secondary hover:bg-primary text-white font-semibold py-2 px-6 rounded-md transition focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-opacity-50">
+        <i class="fa-solid fa-pen-to-square mr-2"></i> Edit Profile
+    </button>
+    <form method="post" action="{{ url_for('routes_bp.logout') }}">
+        <button id="logout-profile-button"
+            class="bg-secondary hover:bg-primary text-white font-semibold py-2 px-6 rounded-md transition focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-opacity-50">
+            <i class="fa-solid fa-right-from-bracket"></i> Logout
+        </button>
+    </form>
+</div>
+
+<!-- User Profile Details Section -->
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8">
-        <h2 class="text-2xl font-bold text-neutral mb-6 text-center">Create a New Account</h2>
-        <form id="signup-form" class="space-y-6" method="post" action="{{ url_for('sign_up') }}">
-            <div>
-                <label for="username" class="block text-sm font-medium text-gray-700">
-                    Username</label>
-                <div class="mt-1">
-                    <input type="text" id="username" name="username" required
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="Choose a username">
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <div class="px-6 py-8 lg:p-10">
+            <h2 class="text-3xl font-bold text-neutral mb-8 text-center">Your Profile Information</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl max-auto">
+                {% set profile_fields_left = [
+                ('fa-user-tag', 'Profile Name', 'profile-name-detail'),
+                ('fa-user', 'First Name', 'first-name'),
+                ('fa-user-group', 'Last Name', 'last-name'),
+                ('fa-venus-mars', 'Gender', 'gender'),
+                ('fa-weight-scale', 'Weight', 'weight')
+                ] %}
+
+                {% set profile_fields_right = [
+                ('fa-ruler-vertical', 'Height', 'height'),
+                ('fa-calendar-alt', 'Age', 'age'),
+                ('fa-users', 'User Type', 'user-type'),
+                ('fa-utensils', 'Diet Type', 'diet-type')
+                ] %}
+
+                <div class="px-2 md:px-6">
+                    {% for icon, label, element_id in profile_fields_left %}
+                    <div class="flex mb-3 pl-16">
+                        <i class="fa-solid {{ icon }} text-primary mr-2"></i>
+                        <span class="font-semibold text-neutral mr-2">{{ label }}:</span>
+                        <span id="{{ element_id }}" class="text-gray-700">Loading...</span>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="px-2 md:px-6">
+                    {% for icon, label, element_id in profile_fields_right %}
+                    <div class="flex mb-3 pl-16">
+                        <i class="fa-solid {{ icon }} text-primary mr-2"></i>
+                        <span class="font-semibold text-neutral mr-2">{{ label }}:</span>
+                        <span id="{{ element_id }}" class="text-gray-700">Loading...</span>
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
 
-            <div>
-                <label for="password" class="block text-sm font-medium text-gray-700">
-                    Password</label>
-                <div class="mt-1">
-                    <input type="password" id="password" name="password" required
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="Create a password">
+            <!-- Allergy and Diseases Sections as Cards -->
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div id="allergy-info-card" class="bg-light-green rounded-lg p-6 shadow-sm" style="display: none;"> <h3 class="font-semibold text-xl text-neutral mb-4 pl-12">
+                        <i class="fa-solid fa-exclamation-triangle text-red-500 mr-2"></i> Allergies
+                    </h3>
+                    <ul id="allergy-info-list" class="list-disc list-inside text-red-700 pl-16">
+                        <li>Loading allergy information...</li>
+                    </ul>
+                </div>
+
+                <div id="diseases-card" class="bg-light-green rounded-lg p-6 shadow-sm" style="display: none;">
+                    <h3 class="font-semibold text-xl text-neutral mb-4 pl-12">
+                        <i class="fa-solid fa-heartbeat text-red-500 mr-2"></i> Diseases
+                    </h3>
+                    <ul id="diseases-list" class="list-disc list-inside text-red-700 pl-16">
+                        <li>Loading disease information...</li>
+                    </ul>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
 
-            <div>
-                <label for="firstName" class="block text-sm font-medium text-gray-700">
-                    First Name</label>
-                <div class="mt-1">
-                    <input type="text" id="firstName" name="firstName"
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="Enter your first name">
+<!-- Edit Profile Modal -->
+<div id="edit-profile-modal" class="hidden fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title"
+    role="dialog" aria-modal="true">
+    <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+        <!-- Modal backdrop -->
+        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
+
+        <!-- This element is to trick the browser into centering the modal content. -->
+        <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">​</span>
+
+        <div
+            class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+            <form id="edit-profile-form" class="space-y-6" action="#">
+                <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <h3 class="text-lg leading-6 font-medium text-neutral" id="modal-title">
+                        Edit Profile
+                    </h3>
+                    <div class="mt-4 grid grid-cols-1 gap-6">
+                        <div>
+                            <label for="edit-profile-name"
+                                class="block text-sm font-medium text-gray-700">Profile Name</label>
+                            <div class="mt-1">
+                                <input type="text" name="profile_name" id="edit-profile-name"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-first-name" class="block text-sm font-medium text-gray-700">First
+                                Name</label>
+                            <div class="mt-1">
+                                <input type="text" name="firstName" id="edit-first-name"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-last-name" class="block text-sm font-medium text-gray-700">Last
+                                Name</label>
+                            <div class="mt-1">
+                                <input type="text" name="lastName" id="edit-last-name"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-gender"
+                                class="block text-sm font-medium text-gray-700">Gender</label>
+                            <div class="mt-1">
+                                <select id="edit-gender" name="gender"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-age" class="block text-sm font-medium text-gray-700">Age</label>
+                            <div class="mt-1">
+                                <input type="number" name="age" id="edit-age"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-weight"
+                                class="block text-sm font-medium text-gray-700">Weight (kg)</label>
+                            <div class="mt-1">
+                                <input type="number" name="weight" id="edit-weight"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-height"
+                                class="block text-sm font-medium text-gray-700">Height (cm)</label>
+                            <div class="mt-1">
+                                <input type="number" name="height" id="edit-height"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-user-type" class="block text-sm font-medium text-gray-700">User Type</label>
+                            <div class="mt-1">
+                                <select id="edit-user-type" name="userType"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                                    <option value="General Fitness">General Fitness</option>
+                                    <option value="Athlete">Athlete</option>
+                                    <option value="Body Builder">Body Builder</option>
+                                    <option value="Medical Nutrition">Medical Nutrition</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-diet-type" class="block text-sm font-medium text-gray-700">Diet Type</label>
+                            <div class="mt-1">
+                                <select id="edit-diet-type" name="dietType"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                                    <option value="Vegetarian">Vegetarian</option>
+                                    <option value="Non-Vegetarian">Non-Vegetarian</option>
+                                    <option value="Vegan">Vegan</option>
+                                    <option value="Eggetarian">Eggetarian</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-allergy-info" class="block text-sm font-medium text-gray-700">Allergies
+                                (comma-separated)</label>
+                            <div class="mt-1">
+                                <input type="text" name="allergy_info" id="edit-allergy-info"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                                    placeholder="e.g., peanuts, gluten, dairy">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="edit-diseases" class="block text-sm font-medium text-gray-700">Diseases
+                                (comma-separated)</label>
+                            <div class="mt-1">
+                                <input type="text" name="diseases" id="edit-diseases"
+                                    class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                                    placeholder="e.g., Diabetes, Heart Condition">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div>
-                <label for="lastName" class="block text-sm font-medium text-gray-700">
-                    Last Name</label>
-                <div class="mt-1">
-                    <input type="text" id="lastName" name="lastName"
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="Enter your last name">
+                <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                    <button id="save-profile-button" type="submit"
+                        class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary text-base font-medium text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary sm:ml-3 sm:w-auto sm:text-sm">
+                        Save Changes
+                    </button>
+                    <button id="cancel-edit-button" type="button"
+                        class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+                        Cancel
+                    </button>
                 </div>
-            </div>
-
-            <div>
-                <label for="age" class="block text-sm font-medium text-gray-700">
-                    Age</label>
-                <div class="mt-1">
-                    <input type="number" id="age" name="age"
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="Your age">
-                </div>
-            </div>
-
-            <div>
-                <label for="gender" class="block text-sm font-medium text-gray-700">
-                    Gender</label>
-                <div class="mt-1">
-                    <select id="gender" name="gender"
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </div>
-            </div>
-
-            <div>
-                <label for="dietType" class="block text-sm font-medium text-gray-700">
-                    Dietary Preference</label>
-                <div class="mt-1">
-                    <select id="dietType" name="dietType"
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
-                        <option value="Vegetarian">Vegetarian</option>
-                        <option value="Non-Vegetarian">Non-Vegetarian</option>
-                        <option value="Vegan">Vegan</option>
-                        <option value="Eggetarian">Eggetarian</option>
-                    </select>
-                </div>
-            </div>
-
-            <div>
-                <label for="allergy_info" class="block text-sm font-medium text-gray-700">
-                    Allergies (comma-separated)</label>
-                <div class="mt-1">
-                    <input type="text" id="allergy_info" name="allergy_info"
-                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="e.g., peanuts, gluten, dairy">
-                </div>
-            </div>
-
-            <div>
-                <button type="submit"
-                    class="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
-                    Sign Up
-                </button>
-            </div>
-        </form>
-
-        <div class="mt-6 text-center">
-            <p class="text-sm text-gray-600">
-                Already have an account? <a href="{{ url_for('routes_bp.login') }}"
-                    class="font-medium text-secondary hover:text-primary transition">Log in</a>
-            </p>
+            </form>
         </div>
     </div>
 </div>
 
 {% endblock content %}
 
+{% block scripts %}
+<script src="https://kit.fontawesome.com/0340a8219c.js" crossorigin="anonymous"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const profileId = urlParams.get('id'); // Get profile ID from query parameter
+
+        console.log("Profile ID from URL:", profileId); // Log profileId immediately
+
+        if (!profileId) {
+            alert('Profile ID is missing in the URL. Please make sure you are accessing this page with a profile ID.');
+            return;
+        }
+
+        function fetchUserProfile(profileId) {
+            console.log("Fetching profile for ID:", profileId); // Log before fetch
+
+            fetch(`/api/profiles/${profileId}`)
+                .then(response => {
+                    console.log("Fetch response status:", response.status); // Log response status
+                    if (!response.ok) {
+                        console.error("Fetch response not OK:", response); // Log full response if not ok
+                        throw new Error(`HTTP error! status: ${response.status}, text: ${response.statusText}`);
+                    }
+                    return response.json();
+                })
+                .then(userProfile => {
+                    console.log("Profile data fetched successfully:", userProfile); // Log data on success
+
+                    // Populate profile details on the page
+                    document.getElementById('profile-name').textContent = userProfile.profile_name || 'N/A';
+                    document.getElementById('profile-name-detail').textContent = userProfile.profile_name || 'N/A';
+                    document.getElementById('first-name').textContent = userProfile.firstName || 'N/A';
+                    document.getElementById('last-name').textContent = userProfile.lastName || 'N/A';
+                    document.getElementById('gender').textContent = userProfile.gender || 'N/A';
+                    document.getElementById('weight').textContent = userProfile.weight ? userProfile.weight + ' kg' : 'N/A';
+                    document.getElementById('height').textContent = userProfile.height ? userProfile.height + ' cm' : 'N/A';
+                    document.getElementById('age').textContent = userProfile.age ? userProfile.age + ' years' : 'N/A';
+                    document.getElementById('user-type').textContent = userProfile.userType || 'N/A';
+                    document.getElementById('diet-type').textContent = userProfile.dietType || 'N/A';
+
+                    // Allergy Info List
+                    const allergyInfoCard = document.getElementById('allergy-info-card');
+                    const allergyInfoList = document.getElementById('allergy-info-list');
+                    allergyInfoList.innerHTML = '';
+                    if (userProfile.allergy_info && userProfile.allergy_info.length > 0) {
+                        allergyInfoCard.style.display = 'block'; // Show card if allergies exist
+                        userProfile.allergy_info.forEach(allergy => {
+                            const li = document.createElement('li');
+                            li.textContent = allergy;
+                            allergyInfoList.appendChild(li);
+                        });
+                    } else {
+                        allergyInfoCard.style.display = 'none'; // Hide card if no allergies
+                    }
+
+                    // Diseases List
+                    const diseasesCard = document.getElementById('diseases-card');
+                    const diseasesList = document.getElementById('diseases-list');
+                    diseasesList.innerHTML = '';
+                    if (userProfile.diseases && userProfile.diseases.length > 0) {
+                        diseasesCard.style.display = 'block'; // Show card if diseases exist
+                        userProfile.diseases.forEach(disease => {
+                            const li = document.createElement('li');
+                            li.textContent = disease;
+                            diseasesList.appendChild(li);
+                        });
+                    } else {
+                        diseasesCard.style.display = 'none'; // Hide card if no diseases
+                    }
+                    window.userProfile = userProfile; // Make userProfile globally accessible for populateEditForm
+
+                })
+                .catch(error => {
+                    console.error('Error fetching profile details:', error);
+                    alert('Failed to load profile details. Check console for more info.');
+                });
+        }
+
+        fetchUserProfile(profileId);
+
+        const editProfileButton = document.getElementById('edit-profile-button');
+        const editProfileModal = document.getElementById('edit-profile-modal');
+        const cancelEditButton = document.getElementById('cancel-edit-button');
+        const saveProfileButton = document.getElementById('save-profile-button');
+        const editProfileForm = document.getElementById('edit-profile-form');
+
+        editProfileButton.addEventListener('click', () => {
+            console.log("Edit button clicked"); // Log button click
+            editProfileModal.classList.remove('hidden');
+            populateEditForm();
+        });
+
+        function closeModal() {
+            editProfileModal.classList.add('hidden');
+            console.log("Modal closed"); // Log modal close
+        }
+
+        cancelEditButton.addEventListener('click', closeModal);
+
+        window.addEventListener('click', (event) => {
+            if (event.target === editProfileModal) {
+                closeModal();
+            }
+        });
+
+        function populateEditForm() {
+            console.log("Populating edit form"); // Log form population
+            document.getElementById('edit-profile-name').value = document.getElementById('profile-name-detail').textContent;
+            document.getElementById('edit-first-name').value = document.getElementById('first-name').textContent;
+            document.getElementById('edit-last-name').value = document.getElementById('last-name').textContent;
+            document.getElementById('edit-gender').value = document.getElementById('gender').textContent;
+            document.getElementById('edit-weight').value = document.getElementById('weight').textContent.replace(' kg', '') === 'N/A' ? '' : document.getElementById('weight').textContent.replace(' kg', '');
+            document.getElementById('edit-height').value = document.getElementById('height').textContent.replace(' cm', '') === 'N/A' ? '' : document.getElementById('height').textContent.replace(' cm', '');
+            document.getElementById('edit-age').value = document.getElementById('age').textContent.replace(' years', '') === 'N/A' ? '' : document.getElementById('age').textContent.replace(' years', '');
+            document.getElementById('edit-user-type').value = document.getElementById('user-type').textContent;
+            document.getElementById('edit-diet-type').value = document.getElementById('diet-type').textContent;
+
+            const allergyList = window.userProfile.allergy_info || [];
+            document.getElementById('edit-allergy-info').value = allergyList.join(', ');
+            const diseasesList = window.userProfile.diseases || [];
+            document.getElementById('edit-diseases').value = diseasesList.join(', ');
+        }
+
+        saveProfileButton.addEventListener('click', (event) => {
+            event.preventDefault();
+            console.log("Save button clicked"); // Log save button click
+
+            const profileId = urlParams.get('id');
+            if (!profileId) {
+                alert('Profile ID is missing.');
+                return;
+            }
+
+            const formData = new FormData(editProfileForm);
+            const updatedProfileData = {};
+            formData.forEach((value, key) => {
+                updatedProfileData[key] = value;
+            });
+
+            updatedProfileData.allergy_info = updatedProfileData.allergy_info.split(',').map(item => item.trim()).filter(item => item);
+            updatedProfileData.diseases = updatedProfileData.diseases.split(',').map(item => item.trim()).filter(item => item);
+
+            console.log("Sending updated profile data:", updatedProfileData); // Log data before sending
+
+            fetch(`/api/profiles/${profileId}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(updatedProfileData),
+            })
+                .then(response => {
+                    console.log("Update response status:", response.status); // Log update response status
+                    if (!response.ok) {
+                        console.error("Update response not OK:", response); // Log full update response if not ok
+                        throw new Error(`HTTP error! status: ${response.status}, text: ${response.statusText}`);
+                    }
+                    return response.json();
+                })
+                .then(updatedUserProfile => {
+                    console.log('Profile updated successfully:', updatedUserProfile);
+                    alert('Profile updated successfully!');
+                    closeModal();
+                    fetchUserProfile(profileId);
+                })
+                .catch(error => {
+                    console.error('Error updating profile:', error);
+                    alert('Failed to update profile. Check console for more info.');
+                });
+        });
+    });
+</script>
+{% endblock scripts %}

@@ -37,12 +37,9 @@ def login():
     username = request.form["username"]
     password = request.form["password"]
     next_page = request.args.get("next")
-    print(f"Username:{username}, password:{password}, next_page:{next_page}")
     user_doc = users_collection.find_one({"username": username})
     if user_doc and user_doc["password"] == password:
-        print("User exists")
         login_user(User(user_doc))
-        print("user logged in")
         flash(f"Logged in as {username}", "info")
         return redirect(next_page or url_for("routes_bp.profile"))
     return "Invalid credentials"
