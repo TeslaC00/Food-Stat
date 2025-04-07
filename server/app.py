@@ -1,45 +1,81 @@
 from bson import ObjectId
-from flask import Flask, jsonify, request
+from flask import Flask, flash, jsonify, redirect, request, url_for
+from flask_login import LoginManager, login_user
 from pymongo import ASCENDING, DESCENDING
 from database import db
 from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
 from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
+from models import User
 from routes import register_routes
 
-app = Flask(__name__)
-collection = db["food_items"]
+# Test Users
+users = {"admin": {"password": "admin"}, "shivesh": {"password": "kamlesh"}}
 
+# Flask extension initialization
+login_manager = LoginManager()
+login_manager.login_view = "routes_bp.login"
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    if user_id in users:
+        return User(user_id)
+    return None
+
+
+# Flask App Setup
+app = Flask(__name__)
+app.secret_key = "25_din_mai_paisa_double"  # TODO: take secret key from env
+
+# Flask extensions setup
+login_manager.init_app(app)
 register_routes(app)
 
+# Collection Database
+collection = db["food_items"]
 
-@app.route("/login", methods=["POST"])
+
+# @app.route("/login", methods=["POST"])
+# def login():
+#     data = request.json
+#     if data is None:
+#         return jsonify("Error, Please provide valid data in form"), 400
+#     username = data.get("username")
+#     password = data.get("password")
+
+#     accounts = db["accounts"]
+
+#     try:
+#         if not username or not password:
+#             raise ValueError
+
+#         account = accounts.find_one({"username": username}, {"password": 1, "_id": 1})
+#         if account is None:
+#             raise ValueError
+
+#         if account["password"] != password:
+#             raise ValueError
+
+#     except ValueError:
+#         return jsonify("Error, Invalid credentials"), 400
+
+#     return jsonify({"id": str(account["_id"])}), 200
+
+
+@app.post("/login")
 def login():
-    data = request.json
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    username = data.get("username")
-    password = data.get("password")
-
-    accounts = db["accounts"]
-
-    try:
-        if not username or not password:
-            raise ValueError
-
-        account = accounts.find_one({"username": username}, {"password": 1, "_id": 1})
-        if account is None:
-            raise ValueError
-
-        if account["password"] != password:
-            raise ValueError
-
-    except ValueError:
-        return jsonify("Error, Invalid credentials"), 400
-
-    return jsonify({"id": str(account["_id"])}), 200
+    username = request.form["username"]
+    password = request.form["password"]
+    next_page = request.args.get("next")
+    if username in users and users[username]["password"] == password:
+        user = User(username)
+        login_user(user)
+        flash(f"Logged in as {username}", "success")
+        return redirect(next_page or url_for("routes_bp.profile"))
+    return "Invalid credentials"
 
 
-@app.route("/sign_up", methods=["POST"])
+@app.post("/sign_up")
 def sign_up():
     data = request.json
     if data is None:

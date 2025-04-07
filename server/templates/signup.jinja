@@ -1,0 +1,110 @@
+{% extends 'base.jinja' %}
+
+{% block title %}
+Sing Up to FoodStat
+{% endblock title %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-secondary">
+    <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h1 class="text-3xl font-extrabold text-neutral sm:text-4xl lg:text-5xl">
+                Join FoodStat Today
+            </h1>
+            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-700">
+                Create your account and start your journey to healthier eating.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Signup Form Section -->
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8">
+        <h2 class="text-2xl font-bold text-neutral mb-6 text-center">Create a New Account</h2>
+        <form id="signup-form" class="space-y-6" method="post" action="{{ url_for('sign_up') }}">
+            <div>
+                <label for="username" class="block text-sm font-medium text-gray-700">
+                    Username</label>
+                <div class="mt-1">
+                    <input type="text" id="username" name="username" required
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                        placeholder="Choose a username">
+                </div>
+            </div>
+
+            <div>
+                <label for="password" class="block text-sm font-medium text-gray-700">
+                    Password</label>
+                <div class="mt-1">
+                    <input type="password" id="password" name="password" required
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                        placeholder="Create a password">
+                </div>
+            </div>
+
+            <div>
+                <button type="submit"
+                    class="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                    {# TODO: submit the signup to sign_up api in app.py #}
+                    Sign Up
+                </button>
+            </div>
+        </form>
+
+        <div class="mt-6 text-center">
+            <p class="text-sm text-gray-600">
+                Already have an account? <a href="{{ url_for('routes_bp.login') }}"
+                    class="font-medium text-secondary hover:text-primary transition">Log in</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block scripts %}
+{# <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const signupForm = document.getElementById('signup-form');
+
+        signupForm.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const signupData = {
+                username: username,
+                password: password
+            };
+
+            fetch('/sign_up', { // Your Flask signup route
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(signupData)
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Signup failed. Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Signup successful - handle redirection
+                    console.log('Signup successful!', data);
+                    alert('Signup successful! Please log in.');
+                    // Redirect to login page after successful signup:
+                    window.location.href = '/login';
+                })
+                .catch(error => {
+                    console.error('Signup error:', error);
+                    alert('Signup failed. Please try again.'); // User-friendly error message
+                });
+        });
+    });
+</script> #}
+{% endblock scripts %}

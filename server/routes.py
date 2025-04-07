@@ -1,5 +1,14 @@
 import flask
-from flask import Blueprint, Response, redirect, render_template, url_for
+from flask import (
+    Blueprint,
+    Response,
+    flash,
+    jsonify,
+    redirect,
+    render_template,
+    url_for,
+)
+from flask_login import current_user, login_required, logout_user
 
 
 routes_bp = Blueprint("routes_bp", __name__)
@@ -144,6 +153,30 @@ def food_item(food_item_id: int) -> str:
 @routes_bp.get("/contact")
 def contact() -> str:
     return render_template("contact_us.jinja")
+
+
+@routes_bp.get("/signup")
+def sign_up() -> str:
+    return render_template("signup.jinja")
+
+
+@routes_bp.get("/login")
+def login() -> str:
+    return render_template("login.jinja")
+
+
+@routes_bp.post("/logout")
+@login_required
+def logout() -> str:
+    logout_user()
+    flash("Logged out succesfully", "success")
+    return redirect(url_for("routes_bp.home"))
+
+
+@routes_bp.get("/profile")
+@login_required
+def profile() -> str:
+    return render_template("profile.jinja")
 
 
 def register_routes(app: flask.Flask) -> None:
