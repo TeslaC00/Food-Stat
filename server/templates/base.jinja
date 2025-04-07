@@ -134,6 +134,38 @@
         </div>
     </footer>
 
+    {# Custom Alert popup #}
+    <div id="custom-alert" style="
+        display:none; 
+        position:fixed; 
+        top:20px; 
+        left:50%;
+        transform: translateX(-50%); 
+        background:#333; 
+        color:white; 
+        padding:10px 20px; 
+        border-radius:8px; 
+        z-index:1000;">
+        <span id="alert-message"></span>
+    </div>
+
+    <script>
+        {% with messages = get_flashed_messages(with_categories = true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        // Show custom alert
+        const alertBox = document.getElementById('custom-alert');
+        document.getElementById('alert-message').textContent = "{{ message }}";
+        alertBox.style.display = 'block';
+        setTimeout(() => {
+            alertBox.style.display = 'none';
+        }, 3000); // hide after 3 seconds
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </script>
+
+
     <!-- Mobile menu toggle script -->
     <script>
         document.querySelector('[aria-label="Mobile menu"]').addEventListener('click',
@@ -141,6 +173,20 @@
                 document.getElementById('mobile-menu').classList.toggle('hidden');
             });
     </script>
+
+    {# {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <ul>
+        {% for category, message in messages %}
+        <script>alert("{{ message }}");</script>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+    <div id="custom-alert"
+        style="display:none; position:fixed; top:20px; right:20px; background:#333; color:white; padding:10px 20px; border-radius:8px; z-index:1000;">
+        <span id="alert-message"></span>
+    </div> #}
 
     {% block scripts %} {% endblock scripts %}
 </body>
