@@ -8,8 +8,9 @@ from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
 from models import User
 from routes import register_routes
 
-# Test Users
-users = {"admin": {"password": "admin"}, "shivesh": {"password": "kamlesh"}}
+# Collection Database
+collection = db["food_items"]
+users_collection = db["accounts"]
 
 # Flask extension initialization
 login_manager = LoginManager()
@@ -18,9 +19,8 @@ login_manager.login_view = "routes_bp.login"
 
 @login_manager.user_loader
 def load_user(user_id):
-    if user_id in users:
-        return User(user_id)
-    return None
+    user_doc = users_collection.find_one({"_id": ObjectId(user_id)})
+    return User(user_doc) if user_doc else None
 
 
 # Flask App Setup
@@ -31,67 +31,34 @@ app.secret_key = "25_din_mai_paisa_double"  # TODO: take secret key from env
 login_manager.init_app(app)
 register_routes(app)
 
-# Collection Database
-collection = db["food_items"]
-
-
-# @app.route("/login", methods=["POST"])
-# def login():
-#     data = request.json
-#     if data is None:
-#         return jsonify("Error, Please provide valid data in form"), 400
-#     username = data.get("username")
-#     password = data.get("password")
-
-#     accounts = db["accounts"]
-
-#     try:
-#         if not username or not password:
-#             raise ValueError
-
-#         account = accounts.find_one({"username": username}, {"password": 1, "_id": 1})
-#         if account is None:
-#             raise ValueError
-
-#         if account["password"] != password:
-#             raise ValueError
-
-#     except ValueError:
-#         return jsonify("Error, Invalid credentials"), 400
-
-#     return jsonify({"id": str(account["_id"])}), 200
-
 
 @app.post("/login")
 def login():
     username = request.form["username"]
     password = request.form["password"]
     next_page = request.args.get("next")
-    if username in users and users[username]["password"] == password:
-        user = User(username)
-        login_user(user)
-        flash(f"Logged in as {username}", "success")
+    print(f"Username:{username}, password:{password}, next_page:{next_page}")
+    user_doc = users_collection.find_one({"username": username})
+    if user_doc and user_doc["password"] == password:
+        print("User exists")
+        login_user(User(user_doc))
+        print("user logged in")
+        flash(f"Logged in as {username}", "info")
         return redirect(next_page or url_for("routes_bp.profile"))
     return "Invalid credentials"
 
 
 @app.post("/sign_up")
 def sign_up():
-    data = request.json
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    username = data.get("username")
-    password = data.get("password")
-    try:
-        if not username or not password:
-            raise ValueError
-        account = {"username": username, "password": password}
-        accounts = db["accounts"]
-        accounts.insert_one(account)
-    except ValueError:
-        return jsonify("Error, Invalid credentials"), 400
-
-    return jsonify({"id": str(account["_id"])}), 200
+    username = request.form["username"]
+    password = request.form["password"]
+    print(f"Username:{username}, password:{password}")
+    if users_collection.find_one({"username": username}):
+        flash(f"{username} already exits", "info")
+        return redirect(url_for("routes_bp.login"))
+    users_collection.insert_one({"username": username, "password": password})
+    flash("Account created succesfully! Log In")
+    return redirect(url_for("routes_bp.login"))
 
 
 @app.route("/api/user/<user_id>/profiles", methods=["GET"])
