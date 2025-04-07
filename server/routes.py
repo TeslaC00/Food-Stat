@@ -1,5 +1,13 @@
 import flask
-from flask import Blueprint, Response, redirect, render_template, url_for
+from flask import (
+    Blueprint,
+    Response,
+    flash,
+    redirect,
+    render_template,
+    url_for,
+)
+from flask_login import login_required, logout_user
 
 
 routes_bp = Blueprint("routes_bp", __name__)
@@ -144,6 +152,43 @@ def food_item(food_item_id: int) -> str:
 @routes_bp.get("/contact")
 def contact() -> str:
     return render_template("contact_us.jinja")
+
+
+@routes_bp.get("/signup")
+def sign_up() -> str:
+    return render_template("signup.jinja")
+
+
+@routes_bp.get("/login")
+def login() -> str:
+    return render_template("login.jinja")
+
+
+@routes_bp.post("/logout")
+@login_required
+def logout() -> str:
+    logout_user()
+    flash("Logged out succesfully", "success")
+    return redirect(url_for("routes_bp.home"))
+
+
+@routes_bp.get("/profile")
+@login_required
+def profile() -> str:
+    user = {
+        "profile_name": "John Doe",
+        "first_name": "John",
+        "last_name": "Doe",
+        "gender": "Male",
+        "weight": 70,
+        "height": 175,
+        "age": 30,
+        "user_type": "Admin",
+        "diet_type": "Vegan",
+        "allergies": ["Peanuts", "Shellfish"],
+        "diseases": ["Diabetes"],
+    }
+    return render_template("profile.jinja", user=user)
 
 
 def register_routes(app: flask.Flask) -> None:

@@ -19,13 +19,13 @@
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8">
         <h2 class="text-2xl font-bold text-neutral mb-6 text-center">Send us a Message</h2>
-        <form action="#" method="POST" class="space-y-6">
+        <form action="{{ url_for('add_message') }}" method="post" class="space-y-6">
             <div>
                 <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
                 <div class="mt-1">
                     <input type="text" id="name" name="name" class="shadow-sm focus:ring-primary 
-                        focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="John Doe">
+                        focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="John Doe"
+                        required>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@
                 <div class="mt-1">
                     <input type="email" id="email" name="email" class="shadow-sm focus:ring-primary 
                     focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                        placeholder="you@example.com">
+                        placeholder="you@example.com" required>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                 <div class="mt-1">
                     <textarea id="message" name="message" rows="4" class="shadow-sm 
                     focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 
-                    rounded-md" placeholder="Write your message here..."></textarea>
+                    rounded-md" placeholder="Write your message here..." required></textarea>
                 </div>
             </div>
 
@@ -53,7 +53,6 @@
                     border-transparent shadow-sm text-sm font-medium rounded-md text-white 
                     bg-primary hover:bg-secondary focus:outline-none focus:ring-2 
                     focus:ring-offset-2 focus:ring-primary">
-                    {# TODO: Add on click function for sending message from user #}
                     Send Message
                 </button>
             </div>
