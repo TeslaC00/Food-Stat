@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "670ec2211f7e814a2988fd1b"
+  },
+  "username": "user",
+  "password": "pass",
+  "profiles": [
+    "670ec22a1f7e814a2988fd1d",
+    "670ec22a1f7e814a2988fd1e",
+    "670ec22a1f7e814a2988fd1f"
+  ],
+  "default_profile_id": null
+},
+{
+  "_id": {
+    "$oid": "67f3f2fe3c594e9297d4616d"
+  },
+  "username": "admin",
+  "password": "admin"
+},
+{
+  "_id": {
+    "$oid": "67f3fefc991752bb25fad3a9"
+  },
+  "username": "wasd",
+  "password": "wasd"
+},
+{
+  "_id": {
+    "$oid": "67f40b1bbb8d7822d5d2cd2b"
+  },
+  "username": "admin",
+  "password": "admin",
+  "profiles": [
+    {
+      "$oid": "67f40b25bb8d7822d5d2cd2e"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f40b1dbb8d7822d5d2cd2c"
+  },
+  "username": "admin",
+  "password": "admin",
+  "profiles": [
+    {
+      "$oid": "67f40b1ebb8d7822d5d2cd2d"
+    }
+  ]
+}]

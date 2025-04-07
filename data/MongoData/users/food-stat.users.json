@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "670ec22a1f7e814a2988fd20"
+  },
+  "account_id": "",
+  "userType": "Weight Gain",
+  "profile_name": "profile 1",
+  "firstName": "Rohan",
+  "lastName": "Gupta",
+  "gender": "Male",
+  "weight": 50,
+  "height": 1.7,
+  "age": 25,
+  "dietType": "Veg",
+  "allergy_info": [
+    "MILK"
+  ],
+  "diseases": "Hypertension"
+},
+{
+  "_id": {
+    "$oid": "670ec22a1f7e814a2988fd1f"
+  },
+  "account_id": "670ec2211f7e814a2988fd1b",
+  "userType": "Weight Loss",
+  "profile_name": "profile 3",
+  "firstName": "Kiranvi",
+  "lastName": "Bhatia",
+  "gender": "Female",
+  "weight": 80,
+  "height": 1.6,
+  "age": 40,
+  "dietType": "Veg",
+  "allergy_info": null,
+  "diseases": "Anemia"
+},
+{
+  "_id": {
+    "$oid": "670ec22a1f7e814a2988fd22"
+  },
+  "account_id": "",
+  "userType": "Infant",
+  "profile_name": "profile 2",
+  "firstName": "Neelesh",
+  "lastName": "Chaudhary",
+  "gender": "Male",
+  "weight": 6,
+  "height": 0.5,
+  "age": 0.5,
+  "dietType": "Veg",
+  "allergy_info": null,
+  "diseases": null
+},
+{
+  "_id": {
+    "$oid": "670ec22a1f7e814a2988fd21"
+  },
+  "account_id": "",
+  "userType": "Pregnant Mother",
+  "profile_name": "profile 1",
+  "firstName": "Tanithra",
+  "lastName": "Rao",
+  "gender": "Female",
+  "weight": 70,
+  "height": 1.7,
+  "age": 33,
+  "dietType": "Veg",
+  "allergy_info": [
+    "SOY",
+    "OATS"
+  ],
+  "diseases": null
+},
+{
+  "_id": {
+    "$oid": "670ec22a1f7e814a2988fd1e"
+  },
+  "account_id": "670ec2211f7e814a2988fd1b",
+  "userType": "Muscle Up",
+  "profile_name": "profile 2",
+  "firstName": "Shivansh",
+  "lastName": "Rana",
+  "gender": "Male",
+  "weight": 66,
+  "height": 1.6,
+  "age": 22,
+  "dietType": "Veg",
+  "allergy_info": [
+    "NUTS"
+  ],
+  "diseases": "Diabetes"
+},
+{
+  "_id": {
+    "$oid": "670ec22a1f7e814a2988fd1d"
+  },
+  "account_id": "670ec2211f7e814a2988fd1b",
+  "userType": "General Fitness",
+  "profile_name": "profile 1",
+  "firstName": "Samir",
+  "lastName": "Rajput",
+  "gender": "Male",
+  "weight": 60,
+  "height": 1.7,
+  "age": 28,
+  "dietType": "Veg",
+  "allergy_info": [
+    "GLUTEN",
+    "MILK"
+  ],
+  "diseases": "Cardiovascular Disease"
+},
+{
+  "_id": {
+    "$oid": "67f40b1ebb8d7822d5d2cd2d"
+  },
+  "account_id": "67f40b1dbb8d7822d5d2cd2c",
+  "userType": "General Fitness",
+  "profile_name": "profile for admin",
+  "firstName": "admin",
+  "lastName": "admin",
+  "gender": "Male",
+  "weight": null,
+  "height": null,
+  "age": 9,
+  "dietType": "Vegetarian",
+  "allergy_info": [
+    "Peanuts"
+  ],
+  "diseases": null
+},
+{
+  "_id": {
+    "$oid": "67f40b25bb8d7822d5d2cd2e"
+  },
+  "account_id": "67f40b1bbb8d7822d5d2cd2b",
+  "userType": "General Fitness",
+  "profile_name": "profile for admin",
+  "firstName": "admin",
+  "lastName": "admin",
+  "gender": "Male",
+  "weight": null,
+  "height": null,
+  "age": 9,
+  "dietType": "Vegetarian",
+  "allergy_info": [
+    "Peanuts"
+  ],
+  "diseases": null
+}]
