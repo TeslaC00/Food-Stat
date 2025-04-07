@@ -7,7 +7,6 @@ from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
 from routes import register_routes
 
 app = Flask(__name__)
-# CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
 collection = db["food_items"]
 
 register_routes(app)
