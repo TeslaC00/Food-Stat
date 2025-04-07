@@ -1,25 +1,87 @@
-[{"_id": "NAMKEEN"},
- {"_id": "BREAKFAST-ITEMS"},
- {"_id": "BISCUIT"},
- {"_id": "BEVERAGES"},
- {"_id": "PASTA"},
- {"_id": "CHIPS"},
- {"_id": "BREAD"},
- {"_id": "READY-TO-EAT-MEALS"},
- {"_id": "NUTS-SEEDS-DRIED-FRUIT"},
- {"_id": "PROTEIN-BAR"},
- {"_id": "FROZEN-SNACKS"},
- {"_id": "SWEETS"},
- {"_id": "INSTANT-RICE"},
- {"_id": "PROTEIN-POWDER"},
- {"_id": "INSTANT-NOODLES"},
- {"_id": "MEAT/SEAFOOD"},
- {"_id": "BREAKFAST-SPREADS"},
- {"_id": "SAUCE/CONDIMENT/PICKLE"},
- {"_id": "MILK-FLAVOURING"},
- {"_id": "COOKING-OIL"},
- {"_id": "HEALTH-SUPPLEMENT"},
- {"_id": "DAIRY"},
- {"_id": "BAKING-AND-BATTER-MIXES"},
- {"_id": "SOYA-PRODUCTS"},
- {"_id": "PANEER"}]
+[
+    {
+      "_id": "NAMKEEN",
+      "image_url": "https://media.gettyimages.com/id/84594668/photo/high-angle-view-of-various-type-of-snacks-in-bowls.jpg?s=612x612&w=gi&k=20&c=jjyJty-ZVXTAERQsPwVaxZ-B4fNrw_pKyR_WYBDbNRQ="
+    },
+    {
+      "_id": "BREAKFAST-ITEMS",
+      "image_url": "https://cdn.zeebiz.com/sites/default/files/2018/05/09/37648-nestle-india-official-website.jpg"
+    },
+    {
+      "_id": "BISCUIT",
+      "image_url": "https://as1.ftcdn.net/v2/jpg/00/09/65/58/1000_F_9655832_CaCWV2cCdn3ALnElzFKqDqUuWlZOGHhJ.jpg"
+    },
+    {
+      "_id": "BEVERAGES",
+      "image_url": "https://as2.ftcdn.net/v2/jpg/10/88/35/77/1000_F_1088357767_g93uTbKtafjQ1QLvW7AD5DMP6xfPITMJ.jpg"
+    },
+    {
+      "_id": "PASTA",
+      "image_url": "https://as1.ftcdn.net/v2/jpg/00/61/17/16/1000_F_61171626_ddpb91axm60GMM9gpRtO5CaOkhPM6EtZ.jpg"
+    },
+    {
+      "_id": "CHIPS",
+      "image_url": "https://as1.ftcdn.net/v2/jpg/09/59/37/98/1000_F_959379855_xG50ZFkF0lJTYvOLebDsr6R7OmGYsomk.webp"
+    },
+    {
+      "_id": "BREAD",
+      "image_url": "https://as1.ftcdn.net/v2/jpg/02/45/23/00/1000_F_245230028_DxzwLLdNZMGxfx3G0ryFrX0XpAdi6qpA.jpg"
+    },
+    {
+      "_id": "MISCELLANEOUS",
+      "image_url": "https://as2.ftcdn.net/v2/jpg/12/61/30/95/1000_F_1261309521_cJBjnEvyHqx42Aly6g0hjPHGKq3zYz9U.jpg"
+    },
+    {
+      "_id": "NUTS-SEEDS-DRIED-FRUIT",
+      "image_url": "https://media.istockphoto.com/id/639201332/photo/composition-with-dried-fruits-and-assorted-nuts.jpg?s=2048x2048&w=is&k=20&c=wcB7lrbA891FzZYcSTpEQT-_hUGfpWLT3jn0BOX41CI="
+    },
+    {
+      "_id": "PROTEIN-BAR",
+      "image_url": "https://media.istockphoto.com/id/1363848757/photo/energy-granola-bars-with-different-seeds-nuts-and-dried-fruits-and-berries-on-white-marble.jpg?s=2048x2048&w=is&k=20&c=VMTq620yycX7_88Cnw8OJ-_-ReMcLXhH5WPZ3zthyCk="
+    },
+    {
+      "_id": "SWEETS",
+      "image_url": "https://media.istockphoto.com/id/1490797933/photo/tasty-colorful-jelly-candies-as-background-above-view.jpg?s=2048x2048&w=is&k=20&c=m7zC4JSPiUZw5NIE2GKq4z5TsO6NJSBE0UY1kAnWarY="
+    },
+    {
+      "_id": "PROTEIN-POWDER",
+      "image_url": "https://media.istockphoto.com/id/1015345458/photo/protein-powder.jpg?s=2048x2048&w=is&k=20&c=S9TjTqUvJawCRklLNOGsYnmNTxzx-PYUAeyAyvgwuj0="
+    },
+    {
+      "_id": "INSTANT-NOODLES",
+      "image_url": "https://media.istockphoto.com/id/1220528900/photo/raw-dried-instant-noodles-on-a-brown-background-pasta-for-the-preparation-of-which-it-is.jpg?s=2048x2048&w=is&k=20&c=Es-kbl_Gj1kzFPCZ08-pojZJYGPXdhunoPPZ19KGYE4="
+    },
+    {
+      "_id": "MEAT/SEAFOOD",
+      "image_url": "https://as1.ftcdn.net/v2/jpg/02/10/29/88/1000_F_210298850_bq1n7Y7bhlAu5AxeVEak6QDvIyXo8qqZ.jpg"
+    },
+    {
+      "_id": "BREAKFAST-SPREADS",
+      "image_url": "https://media.istockphoto.com/id/687519892/photo/woman-hand-spreading-butter-on-sliced-bread.jpg?s=2048x2048&w=is&k=20&c=f20k_tRRxKG1HGwL9X80xf9mQfOaqQ9PbYr3NIMezj4="
+    },
+    {
+      "_id": "SAUCE/CONDIMENT/PICKLE",
+      "image_url": "https://as1.ftcdn.net/v2/jpg/01/81/91/02/1000_F_181910232_SnxIJ08vc9YYUk4wpGZ2nVAZIVsp4CeN.jpg"
+    },
+    {
+      "_id": "MILK-FLAVOURING",
+      "image_url": "https://as1.ftcdn.net/v2/jpg/11/05/62/20/1000_F_1105622022_mHo3GptPAZbhhhjEVO0TzSQCG4WYKIUZ.jpg"
+    },
+    {
+      "_id": "HEALTH-SUPPLEMENT",
+      "image_url": "https://as2.ftcdn.net/v2/jpg/10/25/93/09/1000_F_1025930905_Gb9Afl9UfpO1VHObOQkDEnWgkBwQKqiN.jpg"
+    },
+    {
+      "_id": "DAIRY",
+      "image_url": "https://images.unsplash.com/photo-1523473827533-2a64d0d36748?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "_id": "PANEER",
+      "image_url": "https://t4.ftcdn.net/jpg/06/32/64/95/360_F_632649552_4Gi6jOlnbDllG1qyjKo53lzdFDJNDfhq.jpg"
+    },
+    {
+      "_id": "BABY-FOOD",
+      "image_url": "https://images.unsplash.com/photo-1544829832-c8047d6b9d89?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+  
