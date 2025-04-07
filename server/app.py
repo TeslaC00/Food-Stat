@@ -47,16 +47,62 @@ def sign_up():
         return jsonify("Error, Please provide valid data in form"), 400
     username = data.get("username")
     password = data.get("password")
+    firstName = data.get("firstName", "")
+    lastName = data.get("lastName", "")
+    gender = data.get("gender", "Male")
+    weight = data.get("weight")
+    height = data.get("height")
+    age = data.get("age")
+    dietType = data.get("dietType")
+    allergy_info = data.get("allergy_info")
+    diseases = data.get("diseases")
+
     try:
         if not username or not password:
             raise ValueError
-        account = {"username": username, "password": password}
+
         accounts = db["accounts"]
-        accounts.insert_one(account)
+        users = db["users"]
+
+        # Create account
+        account = {"username": username, "password": password, "profiles": []} # Initialize profiles as empty array
+        account_result = accounts.insert_one(account)
+        account_id = str(account_result.inserted_id)
+
+
+        # Create user profile
+        user = {
+            "account_id": account_id,
+            "userType": "General Fitness", # Default user type, can be changed later
+            "profile_name": f"profile for {username}", # Default profile name
+            "firstName": firstName,
+            "lastName": lastName,
+            "gender": gender,
+            "weight": weight,
+            "height": height,
+            "age": age,
+            "dietType": dietType,
+            "allergy_info": allergy_info,
+            "diseases": diseases,
+        }
+
+        user_result = users.insert_one(user)
+        profile_id = str(user_result.inserted_id)
+
+        # Link profile to account
+        accounts.update_one(
+            {"_id": ObjectId(account_id)}, {"$push": {"profiles": user_result.inserted_id}}
+        )
+
+
     except ValueError:
         return jsonify("Error, Invalid credentials"), 400
 
-    return jsonify({"id": str(account["_id"])}), 200
+    except Exception as e:
+        print(f"Signup Error: {e}") # Log detailed error for debugging
+        return jsonify("Signup failed. Please try again."), 500 # Generic error for user
+
+    return jsonify({"id": account_id, "profile_id": profile_id, "message": "Account and profile created successfully!"}), 201
 
 
 @app.route("/api/user/<user_id>/profiles", methods=["GET"])
@@ -92,7 +138,7 @@ def post_user_profiles(user_id):
         return jsonify("Error, Please provide valid data in form"), 400
 
     userType = data.get("user_type", "General Fitness")
-    profile_name = data("profile_name", "profile 1")
+    profile_name = data.get("profile_name", "profile 1")
     firstName = data.get("firstName", "")
     lastName = data.get("lastName", "")
     gender = data.get("gender", "Male")
