@@ -7,103 +7,58 @@ from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
 from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
 from models import User
 from routes import register_routes
-app = Flask(__name__)
-# CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
-collection = db["food_items"]
 
+# Collection Database
+collection = db["food_items"]
+users_collection = db["accounts"]
+
+# Flask extension initialization
+login_manager = LoginManager()
+login_manager.login_view = "routes_bp.login"
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    user_doc = users_collection.find_one({"_id": ObjectId(user_id)})
+    return User(user_doc) if user_doc else None
+
+
+# Flask App Setup
+app = Flask(__name__)
+app.secret_key = "25_din_mai_paisa_double"  # TODO: take secret key from env
+
+# Flask extensions setup
+login_manager.init_app(app)
 register_routes(app)
 
 
-@app.route("/login", methods=["POST"])
+@app.post("/login")
 def login():
-    data = request.json
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    username = data.get("username")
-    password = data.get("password")
-
-    accounts = db["accounts"]
-
-    try:
-        if not username or not password:
-            raise ValueError
-
-        account = accounts.find_one({"username": username}, {"password": 1, "_id": 1})
-        if account is None:
-            raise ValueError
-
-        if account["password"] != password:
-            raise ValueError
-
-    except ValueError:
-        return jsonify("Error, Invalid credentials"), 400
-
-    return jsonify({"id": str(account["_id"])}), 200
+    username = request.form["username"]
+    password = request.form["password"]
+    next_page = request.args.get("next")
+    print(f"Username:{username}, password:{password}, next_page:{next_page}")
+    user_doc = users_collection.find_one({"username": username})
+    if user_doc and user_doc["password"] == password:
+        print("User exists")
+        login_user(User(user_doc))
+        print("user logged in")
+        flash(f"Logged in as {username}", "info")
+        return redirect(next_page or url_for("routes_bp.profile"))
+    return "Invalid credentials"
 
 
-@app.route("/sign_up", methods=["POST"])
+@app.post("/sign_up")
 def sign_up():
-    data = request.json
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    username = data.get("username")
-    password = data.get("password")
-    firstName = data.get("firstName", "")
-    lastName = data.get("lastName", "")
-    gender = data.get("gender", "Male")
-    weight = data.get("weight")
-    height = data.get("height")
-    age = data.get("age")
-    dietType = data.get("dietType")
-    allergy_info = data.get("allergy_info")
-    diseases = data.get("diseases")
-
-    try:
-        if not username or not password:
-            raise ValueError
-
-        accounts = db["accounts"]
-        users = db["users"]
-
-        # Create account
-        account = {"username": username, "password": password, "profiles": []} # Initialize profiles as empty array
-        account_result = accounts.insert_one(account)
-        account_id = str(account_result.inserted_id)
-
-
-        # Create user profile
-        user = {
-            "account_id": account_id,
-            "userType": "General Fitness", # Default user type, can be changed later
-            "profile_name": f"profile for {username}", # Default profile name
-            "firstName": firstName,
-            "lastName": lastName,
-            "gender": gender,
-            "weight": weight,
-            "height": height,
-            "age": age,
-            "dietType": dietType,
-            "allergy_info": allergy_info,
-            "diseases": diseases,
-        }
-
-        user_result = users.insert_one(user)
-        profile_id = str(user_result.inserted_id)
-
-        # Link profile to account
-        accounts.update_one(
-            {"_id": ObjectId(account_id)}, {"$push": {"profiles": user_result.inserted_id}}
-        )
-
-
-    except ValueError:
-        return jsonify("Error, Invalid credentials"), 400
-
-    except Exception as e:
-        print(f"Signup Error: {e}") # Log detailed error for debugging
-        return jsonify("Signup failed. Please try again."), 500 # Generic error for user
-
-    return jsonify({"id": account_id, "profile_id": profile_id, "message": "Account and profile created successfully!"}), 201
+    username = request.form["username"]
+    password = request.form["password"]
+    print(f"Username:{username}, password:{password}")
+    if users_collection.find_one({"username": username}):
+        flash(f"{username} already exits", "info")
+        return redirect(url_for("routes_bp.login"))
+    users_collection.insert_one({"username": username, "password": password})
+    flash("Account created succesfully! Log In")
+    return redirect(url_for("routes_bp.login"))
 
 
 @app.route("/api/user/<user_id>/profiles", methods=["GET"])
@@ -139,7 +94,7 @@ def post_user_profiles(user_id):
         return jsonify("Error, Please provide valid data in form"), 400
 
     userType = data.get("user_type", "General Fitness")
-    profile_name = data.get("profile_name", "profile 1")
+    profile_name = data("profile_name", "profile 1")
     firstName = data.get("firstName", "")
     lastName = data.get("lastName", "")
     gender = data.get("gender", "Male")
@@ -345,6 +300,7 @@ def get_food_item_rating():
     print("Type of rating:", type(rating))
     return jsonify({"Rating": rating}), 200
 
+
 @app.post("/api/message")
 def add_message():
     name = request.form["name"]
@@ -360,8 +316,6 @@ def add_message():
     except:
         flash("Sorry an Error Occurred! We cannot recieve your message :(", "error")
     return redirect(url_for("routes_bp.contact"))
-
-
 
 
 if __name__ == "__main__":

@@ -46,7 +46,6 @@ Login to FoodStat
             <div>
                 <button type="submit"
                     class="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
-                    {# TODO: submit to the login route in app.py #}
                     Login
                 </button>
             </div>
@@ -61,47 +60,3 @@ Login to FoodStat
     </div>
 </div>
 {% endblock content %}
-
-{% block scripts %}
-{# <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const loginForm = document.getElementById('login-form');
-
-        loginForm.addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent default form submission
-
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-
-            const loginData = {
-                username: username,
-                password: password
-            };
-
-            fetch('/login', { // Your Flask login route
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(loginData)
-            })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Login failed. Status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    // Login successful - handle redirection or storing user ID
-                    console.log('Login successful!', data);
-                    // For example, redirect to profile page:
-                    window.location.href = `/profile.html?id=${data.id}`;
-                })
-                .catch(error => {
-                    console.error('Login error:', error);
-                    alert('Login failed. Please check your credentials.'); // User-friendly error message
-                });
-        });
-    });
-</script> #}
-{% endblock scripts %}

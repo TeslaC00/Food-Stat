@@ -45,9 +45,75 @@ Sing Up to FoodStat
             </div>
 
             <div>
+                <label for="firstName" class="block text-sm font-medium text-gray-700">
+                    First Name</label>
+                <div class="mt-1">
+                    <input type="text" id="firstName" name="firstName"
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                        placeholder="Enter your first name">
+                </div>
+            </div>
+
+            <div>
+                <label for="lastName" class="block text-sm font-medium text-gray-700">
+                    Last Name</label>
+                <div class="mt-1">
+                    <input type="text" id="lastName" name="lastName"
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                        placeholder="Enter your last name">
+                </div>
+            </div>
+
+            <div>
+                <label for="age" class="block text-sm font-medium text-gray-700">
+                    Age</label>
+                <div class="mt-1">
+                    <input type="number" id="age" name="age"
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                        placeholder="Your age">
+                </div>
+            </div>
+
+            <div>
+                <label for="gender" class="block text-sm font-medium text-gray-700">
+                    Gender</label>
+                <div class="mt-1">
+                    <select id="gender" name="gender"
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label for="dietType" class="block text-sm font-medium text-gray-700">
+                    Dietary Preference</label>
+                <div class="mt-1">
+                    <select id="dietType" name="dietType"
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                        <option value="Vegetarian">Vegetarian</option>
+                        <option value="Non-Vegetarian">Non-Vegetarian</option>
+                        <option value="Vegan">Vegan</option>
+                        <option value="Eggetarian">Eggetarian</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <label for="allergy_info" class="block text-sm font-medium text-gray-700">
+                    Allergies (comma-separated)</label>
+                <div class="mt-1">
+                    <input type="text" id="allergy_info" name="allergy_info"
+                        class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                        placeholder="e.g., peanuts, gluten, dairy">
+                </div>
+            </div>
+
+            <div>
                 <button type="submit"
                     class="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
-                    {# TODO: submit the signup to sign_up api in app.py #}
                     Sign Up
                 </button>
             </div>
@@ -64,47 +130,3 @@ Sing Up to FoodStat
 
 {% endblock content %}
 
-{% block scripts %}
-{# <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const signupForm = document.getElementById('signup-form');
-
-        signupForm.addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent default form submission
-
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-
-            const signupData = {
-                username: username,
-                password: password
-            };
-
-            fetch('/sign_up', { // Your Flask signup route
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(signupData)
-            })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Signup failed. Status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    // Signup successful - handle redirection
-                    console.log('Signup successful!', data);
-                    alert('Signup successful! Please log in.');
-                    // Redirect to login page after successful signup:
-                    window.location.href = '/login';
-                })
-                .catch(error => {
-                    console.error('Signup error:', error);
-                    alert('Signup failed. Please try again.'); // User-friendly error message
-                });
-        });
-    });
-</script> #}
-{% endblock scripts %}
