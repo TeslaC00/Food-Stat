@@ -176,7 +176,20 @@ def logout() -> str:
 @routes_bp.get("/profile")
 @login_required
 def profile() -> str:
-    return render_template("profile.jinja")
+    user = {
+        "profile_name": "John Doe",
+        "first_name": "John",
+        "last_name": "Doe",
+        "gender": "Male",
+        "weight": 70,
+        "height": 175,
+        "age": 30,
+        "user_type": "Admin",
+        "diet_type": "Vegan",
+        "allergies": ["Peanuts", "Shellfish"],
+        "diseases": ["Diabetes"],
+    }
+    return render_template("profile.jinja", user=user)
 
 
 def register_routes(app: flask.Flask) -> None:
