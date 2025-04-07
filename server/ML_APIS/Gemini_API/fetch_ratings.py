@@ -1,6 +1,5 @@
 import json
 from auth import get_model
-import re
 
 def format_prompt(food_data: dict) -> str:
     return f"""
