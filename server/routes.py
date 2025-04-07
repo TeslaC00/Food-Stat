@@ -3,12 +3,11 @@ from flask import (
     Blueprint,
     Response,
     flash,
-    jsonify,
     redirect,
     render_template,
     url_for,
 )
-from flask_login import current_user, login_required, logout_user
+from flask_login import login_required, logout_user
 
 
 routes_bp = Blueprint("routes_bp", __name__)

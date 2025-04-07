@@ -301,5 +301,22 @@ def get_food_item_rating():
     return jsonify({"Rating": rating}), 200
 
 
+@app.post("/api/message")
+def add_message():
+    name = request.form["name"]
+    email = request.form["email"]
+    message = request.form["message"]
+
+    message_collection = db["message"]
+    try:
+        message_collection.insert_one(
+            {"name": name, "email": email, "message": message}
+        )
+        flash("Your Message has been sent successfully", "info")
+    except:
+        flash("Sorry an Error Occurred! We cannot recieve your message :(", "error")
+    return redirect(url_for("routes_bp.contact"))
+
+
 if __name__ == "__main__":
     app.run(debug=True)
