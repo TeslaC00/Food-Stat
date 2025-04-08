@@ -43,7 +43,7 @@ def check_barcode_in_mongo(barcode_data, collection):
         print("[❌] No match found in the database.")
 
 if __name__ == "__main__":
-    image_path = input("Enter the path to the image file: ").strip()
+    image_path = "barcode.jpg"
     barcode_data = analyze_barcode_from_image(image_path)
 
     # Connect to MongoDB

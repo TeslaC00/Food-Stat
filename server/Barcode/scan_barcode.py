@@ -1,6 +1,12 @@
 import cv2
 from pyzbar.pyzbar import decode
 import numpy as np
+from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+uri: str = os.getenv("MONGO_ATLAS_URI")
 
 def analyze_barcode_from_frame(frame):
     barcodes = decode(frame)
@@ -52,7 +58,27 @@ def capture_and_analyze(camera_index):
     cap.release()
     cv2.destroyAllWindows()
 
-if __name__ == "__main__":
+
+def check_barcode_in_mongo(barcode_data, collection):
+    if not barcode_data:
+        print("[ERROR] No barcode data to match.")
+        return
+
+    result = collection.find_one({"barcode": barcode_data})
+    if result:
+        print("[✅] Match found in database!")
+        print("Product Details:", result)
+    else:
+        print("[❌] No match found in the database.")
+
+
+def get_mongo_connection(uri=uri, db_name="food-stat", collection_name="food_items"):
+    client = MongoClient(uri)
+    db = client[db_name]
+    return db[collection_name]
+
+
+def example():
     try:
         camera_index = int(input("Enter camera source index (default is 0): ") or 0)
     except ValueError:

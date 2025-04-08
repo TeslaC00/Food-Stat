@@ -7,7 +7,7 @@ from models import User
 from routes import register_routes
 from ML_APIS.personalizer import personalize_score
 from ML_APIS.Gemini_API.fetch_ratings import get_structured_rating
-
+from Barcode.barcode_utils import analyze_barcode_from_base64
 # Collection Database
 collection = db["food_items"]
 users_collection = db["accounts"]
@@ -91,7 +91,7 @@ def post_user_profiles(user_id):
         return jsonify("Error, Please provide valid data in form"), 400
 
     userType = data.get("user_type", "General Fitness")
-    profile_name = data("profile_name", "profile 1")
+    profile_name = data.get("profile_name", "profile 1")
     firstName = data.get("firstName", "")
     lastName = data.get("lastName", "")
     gender = data.get("gender", "Male")
@@ -301,5 +301,27 @@ def add_message():
     return redirect(url_for("routes_bp.contact"))
 
 
+@app.route('/upload-scan', methods=['POST'])
+def upload_scan():
+    try:
+        data = request.get_json()
+        image_data = data.get("image")
+        if not image_data:
+            return jsonify({"error": "No image data received"}), 400
+
+        barcodes = analyze_barcode_from_base64(image_data)
+
+        return jsonify({
+            "message": "Barcode analysis complete",
+            "barcodes": barcodes
+        })
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 if __name__ == "__main__":
     app.run(debug=True)
+
+# for rule in app.url_map.iter_rules():
+#     print(rule)

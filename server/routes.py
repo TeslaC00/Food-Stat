@@ -189,5 +189,15 @@ def profile(profile_id) -> str:
 
     return render_template("profile.jinja", user_profile=user_profile) # Pass user_profile to template
 
+
+@routes_bp.get("/scan")
+def scan() -> str:
+    return render_template("scan.jinja")
+
+@routes_bp.get("/form")
+def form() -> str:
+    return render_template("form.jinja")
+
 def register_routes(app: flask.Flask) -> None:
     app.register_blueprint(routes_bp)
+

@@ -1,0 +1,60 @@
+{% extends "base.jinja" %}
+{% block content %}
+<div class="max-w-2xl mx-auto mt-10 bg-white shadow-xl rounded-xl p-6">
+  <h2 class="text-2xl font-bold mb-6 text-gray-800">Add New Product</h2>
+
+  <form method="POST" action="#" class="space-y-5">
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Item Category</label>
+      <input type="text" name="item_category" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Item Name</label>
+      <input type="text" name="item_name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Ingredients (comma-separated)</label>
+      <input type="text" name="ingredients" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Allergy Info (comma-separated)</label>
+      <input type="text" name="allergy_info" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
+    </div>
+
+    <fieldset class="border p-4 rounded-md">
+      <legend class="text-md font-semibold text-gray-700 mb-2">Nutrition (per 100g)</legend>
+
+      {% set nutrition_fields = [
+        'energy', 'protein', 'carbohydrate', 'total_fat',
+        'total_sugars', 'added_sugars', 'saturated_fat', 'trans_fat'
+      ] %}
+
+      {% for field in nutrition_fields %}
+        <div class="mb-3">
+          <label class="block text-sm font-medium text-gray-700 capitalize">{{ field.replace('_', ' ') }}</label>
+          <input type="number" step="any" name="nutrition_{{ field }}" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" />
+        </div>
+      {% endfor %}
+    </fieldset>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">Vegetarian?</label>
+      <select name="veg" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+      </select>
+    </div>
+
+    <div class="pt-4">
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        Submit Product
+      </button>
+    </div>
+
+  </form>
+</div>
+{% endblock %}
