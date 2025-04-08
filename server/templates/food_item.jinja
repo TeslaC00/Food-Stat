@@ -3,43 +3,66 @@
 {% block content %}
 <!-- Product Detail Section -->
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-    <div class="lg:flex lg:space-x-8">
+    <div class="flex flex-col lg:flex-row lg:space-x-8">
         <!-- Product Image -->
-        <div class="lg:w-1/2 mb-6 lg:mb-0">
-            <img id="product-image" src="{{ food_item.image_url }}" alt="{{ food_item.alt }}"
-                class="w-full rounded-xl shadow-md">
+        <div class="w-full lg:w-1/2 mb-6 lg:mb-0 flex justify-center">
+            {% if food_item.image_url %}
+            <img id="product-image" src="{{ food_item.image_url }}" alt="{{ food_item.alt or 'Product Image' }}"
+                class="w-full max-w-md lg:max-w-full h-auto sm:max-h-[400px] lg:max-h-[600px] object-cover rounded-xl shadow-md">
+            {% else %}
+            <div
+                class="w-full max-w-md lg:max-w-full h-[300px] sm:h-[400px] lg:h-[600px] bg-gray-100 text-gray-500 flex items-center justify-center text-center rounded-xl shadow-md p-4">
+                <span>No image available</span>
+            </div>
+            {% endif %}
         </div>
 
         <!-- Product Information -->
-        <div class="lg:w-1/2">
+        <div class="w-full lg:w-1/2">
             <h1 id="product-name" class="text-3xl font-bold text-neutral mb-4">{{ food_item.title }}</h1>
-            <div class="flex items-center mb-4">
-                <span class="text-accent font-semibold mr-2">Rating:</span>
-                <span id="product-rating" class="text-xl font-medium">{{ food_item.rating }}</span>
-                <span class="text-gray-500">(out of 5)</span>
+            <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-6 mb-4 text-sm text-gray-800">
+                <div class="mb-2 sm:mb-0">
+                    <span class="text-accent font-semibold mr-1">Ingredient Quality:</span>
+                    <span class="font-medium">{{ food_item.get("INGREDIENT_QUALITY_RATING", "N/A") }}</span>
+                    <span class="text-gray-500">/ 5</span>
+                </div>
+                <div class="mb-2 sm:mb-0">
+                    <span class="text-accent font-semibold mr-1">Health Impact:</span>
+                    <span class="font-medium">{{ food_item.get("HEALTH_IMPACT_RATING", "N/A") }}</span>
+                    <span class="text-gray-500">/ 5</span>
+                </div>
+                <div>
+                    <span class="text-accent font-semibold mr-1">Nutrition Score:</span>
+                    <span class="font-medium">{{ food_item.get("NUTRITIONAL_CONTENT_RATING", "N/A") }}</span>
+                    <span class="text-gray-500">/ 5</span>
+                </div>
             </div>
 
             <div class="bg-white rounded-xl shadow-md p-6 mb-6">
                 <h2 class="text-xl font-semibold text-neutral mb-4">Nutrition Facts</h2>
                 <div id="nutrition-facts">
-                    <!-- Nutrition facts about the food item -->
-                    <p><strong>Energy:</strong> <span id="nutrition-energy">
-                            {{ food_item.get('energy', "Missing so Loading...") }}</span></p>
-                    <p><strong>Protein:</strong> <span id="nutrition-protein">
-                            {{ food_item.get('protein', "Missing so Loading...") }}</span></p>
-                    <p><strong>Carbohydrate:</strong> <span id="nutrition-carbohydrate">
-                            {{ food_item.get('carbs', "Missing so Loading...") }}</span></p>
-                    <p><strong>Total Fat:</strong> <span id="nutrition-total-fat">
-                            {{ food_item.get('fat', "Missing so Loading...") }}</span></p>
+                    {% set nutrition_labels = {
+                    "energy": "Energy",
+                    "protein": "Protein",
+                    "carbohydrate": "Carbohydrate",
+                    "total_fat": "Total Fat",
+                    "total_sugars": "Total Sugars",
+                    "added_sugars": "Added Sugars",
+                    "saturated_fat": "Saturated Fat",
+                    "trans_fat": "Trans Fat"
+                    } %}
+                    {% for key, label in nutrition_labels.items() %}
+                    <p><strong>{{ label }}:</strong> {{ food_item.get("nutrition", {}).get(key, "N/A") }}</p>
+                    {% endfor %}
                 </div>
             </div>
 
             <div class="bg-white rounded-xl shadow-md p-6 mb-6">
                 <h2 class="text-xl font-semibold text-neutral mb-4">Ingredients</h2>
-                <ul id="ingredients-list" class="list-disc list-inside text-gray-700">
+                <ul class="list-disc list-inside text-gray-700">
                     {% if food_item.ingredients and food_item.ingredients | length > 0 %}
-                    {% for ingredient in food_item.ingredients%}
-                    <li> {{ ingredient if ingredient else "Missing ingredients so, Loading..."}}</li>
+                    {% for ingredient in food_item.ingredients %}
+                    <li>{{ ingredient if ingredient else "Missing ingredients so, Loading..." }}</li>
                     {% endfor %}
                     {% else %}
                     <li>No ingredients available. Loading...</li>
@@ -49,13 +72,13 @@
 
             <div class="bg-white rounded-xl shadow-md p-6">
                 <h2 class="text-xl font-semibold text-neutral mb-4">Allergy Information</h2>
-                <ul id="allergy-info-list" class="list-disc list-inside text-red-700">
+                <ul class="list-disc list-inside text-red-700">
                     {% if food_item.allergies and food_item.allergies | length > 0 %}
-                    {% for allergy in food_item.allergies%}
-                    <li> {{ allergy if allergy else "Missing alergies so, Loading..."}}</li>
+                    {% for allergy in food_item.allergies %}
+                    <li>{{ allergy if allergy else "Missing allergies so, Loading..." }}</li>
                     {% endfor %}
                     {% else %}
-                    <li>No ingredients available. Loading...</li>
+                    <li>No allergy information available. Loading...</li>
                     {% endif %}
                 </ul>
             </div>
@@ -63,76 +86,3 @@
     </div>
 </div>
 {% endblock content %}
-
-{% block scripts %}
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const urlParams = new URLSearchParams(window.location.search);
-        const productId = urlParams.get('food_item_id'); // Get product ID from query parameter
-
-        if (!productId) {
-            alert('Product ID is missing in the URL.'); // Basic error handling
-            return;
-        }
-
-        fetch(`/api/food_items/${productId}`) // Fetch product data by ID
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`); // Handle HTTP errors
-                }
-                return response.json();
-            })
-            .then(product => {
-                // Populate product details on the page
-                document.getElementById('product-image').src = product.image_url || "https://via.placeholder.com/600x400/4CAF50/FFFFFF?text=Product+Image"; // Use placeholder if no image URL
-                document.getElementById('product-name').textContent = product.item_name;
-                document.getElementById('product-rating').textContent = product.final_rating.toFixed(1); // Display rating with one decimal place
-
-                // Nutrition Facts
-                const nutritionFactsContainer = document.getElementById('nutrition-facts');
-                nutritionFactsContainer.innerHTML = ''; // Clear loading text
-                if (product.nutrition) {
-                    for (const [nutrient, value] of Object.entries(product.nutrition)) {
-                        const p = document.createElement('p');
-                        p.innerHTML = `<strong>${nutrient}:</strong> <span>${value}</span>`; // Display nutrient name and value
-                        nutritionFactsContainer.appendChild(p);
-                    }
-                } else {
-                    nutritionFactsContainer.innerHTML = '<p>No nutrition information available.</p>';
-                }
-
-
-                // Ingredients List
-                const ingredientsList = document.getElementById('ingredients-list');
-                ingredientsList.innerHTML = ''; // Clear loading text
-                if (product.ingredients && product.ingredients.length > 0) {
-                    product.ingredients.forEach(ingredient => {
-                        const li = document.createElement('li');
-                        li.textContent = ingredient;
-                        ingredientsList.appendChild(li);
-                    });
-                } else {
-                    ingredientsList.innerHTML = '<li>No ingredients listed.</li>';
-                }
-
-                // Allergy Information List
-                const allergyInfoList = document.getElementById('allergy-info-list');
-                allergyInfoList.innerHTML = ''; // Clear loading text
-                if (product.allergy_info && product.allergy_info.length > 0) {
-                    product.allergy_info.forEach(allergy => {
-                        const li = document.createElement('li');
-                        li.textContent = allergy;
-                        allergyInfoList.appendChild(li);
-                    });
-                } else {
-                    allergyInfoList.innerHTML = '<li>No allergy information available.</li>';
-                }
-
-            })
-            .catch(error => {
-                console.error('Error fetching product details:', error);
-                alert('Failed to load product details.'); // User-friendly error message
-            });
-    });
-</script>
-{% endblock scripts %}

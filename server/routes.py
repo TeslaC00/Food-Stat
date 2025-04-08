@@ -115,6 +115,7 @@ def food_item(food_item_id: str) -> str:
 
     # Fetch item from database
     food_item = items_collection.find_one({"_id": ObjectId(food_item_id)})
+    print(food_item)
 
     if not food_item:
         flash("Food item not found.", "danger")
