@@ -8,8 +8,7 @@
       "Vegetable Oil"
     ],
     "allergy_info": [
-      "nuts",
-      "Peanuts"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "609",
@@ -38,12 +37,12 @@
       "Sugar",
       "Vegetable Oil",
       "Dehydrated Vegetables (Carrot, Peas)",
-      "Hydrolyzed Vegetable Protein (Soya)",
+      "Hydrolyzed Vegetable Protein (Soy)",
       "Flavour Enhancer (E627, E631)"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "133",
@@ -76,7 +75,7 @@
     ],
     "allergy_info": [
       "Dairy",
-      "May contain traces of nuts"
+      "Others"
     ],
     "nutrition": {
       "energy": "533",
@@ -110,9 +109,9 @@
       "Artificial Flavour (Milk, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "454",
@@ -146,9 +145,9 @@
       "Artificial Flavours (Vanilla, Milk)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "474",
@@ -181,9 +180,9 @@
       "Preservatives"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "402",
@@ -215,7 +214,7 @@
       "Colour (E124)"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "360",
@@ -242,7 +241,7 @@
       "Water"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "351",
@@ -276,8 +275,8 @@
       "Flavour Enhancers (E627, E631)"
     ],
     "allergy_info": [
-      "May contain Gluten",
-      "May contain Soya"
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "543",
@@ -310,7 +309,7 @@
       "Emulsifiers"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "285",
@@ -345,10 +344,10 @@
       "Natural Flavour (Chocolate)"
     ],
     "allergy_info": [
-      "Gluten (Oats, Wheat, Barley)",
-      "nuts (Almonds)",
-      "Soya (in chocolate compound)",
-      "May contain Dairy"
+      "Gluten",
+      "Soy",
+      "Others",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "437",
@@ -381,8 +380,8 @@
       "Natural Flavour"
     ],
     "allergy_info": [
-      "Gluten (Oats, Wheat)",
-      "nuts (Almonds, Raisins)"
+      "Gluten",
+      "Others"
     ],
     "nutrition": {
       "energy": "418",
@@ -451,7 +450,7 @@
       "Raisins"
     ],
     "allergy_info": [
-      "nuts (Almonds, Cashews, Peanuts)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "565",
@@ -485,10 +484,10 @@
       "Natural Flavours"
     ],
     "allergy_info": [
-      "Dairy (Whey)",
-      "Soya",
-      "Gluten (Oats)",
-      "nuts (Almonds, Peanuts)"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "268",
@@ -515,7 +514,7 @@
       "Filling (Potatoes, Peas, Vegetable Oil, Spices (Coriander, Cumin, Garam Masala, Chilli, Turmeric, Mango Powder), Salt, Ginger, Green Chilli)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "340",
@@ -548,8 +547,8 @@
     ],
     "allergy_info": [
       "Dairy",
-      "Egg",
-      "Soya (Soy Lecithin)"
+      "Soy",
+      "Egg"
     ],
     "nutrition": {
       "energy": "275",
@@ -583,9 +582,9 @@
       "Natural & Artificial Flavours (Chocolate)"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)",
-      "Coconut"
+      "Dairy",
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "180",
@@ -613,8 +612,8 @@
       "Vegetable Oil"
     ],
     "allergy_info": [
-      "May contain Soya",
-      "May contain Gluten"
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "285",
@@ -646,8 +645,8 @@
       "Minerals"
     ],
     "allergy_info": [
-      "Dairy (Whey)",
-      "May contain Soya"
+      "Dairy",
+      "Soy"
     ],
     "nutrition": {
       "energy": "381",
@@ -671,12 +670,12 @@
     "item_name": "Nissin",
     "ingredients": [
       "Noodles (Wheat Flour, Vegetable Oil, Salt, Tapioca Starch)",
-      "Seasoning Powder (Salt, Sugar, Spices, Flavour Enhancers (E621, E627, E631), Yeast Extract, Hydrolyzed Vegetable Protein (Soya))",
+      "Seasoning Powder (Salt, Sugar, Spices, Flavour Enhancers (E621, E627, E631), Yeast Extract, Hydrolyzed Vegetable Protein (Soy))",
       "Seasoning Oil (Vegetable Oil, Spices)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "363",
@@ -711,8 +710,8 @@
       "Artificial Flavour (Vanillin)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya (Soy Lecithin)"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "480",
@@ -747,8 +746,8 @@
       "Artificial Flavour (Vanillin)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya (Soy Lecithin)"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "483",
@@ -779,10 +778,9 @@
       "Natural Flavours"
     ],
     "allergy_info": [
-      "nuts (Almonds, Cashews)",
-      "Dairy (Whey)",
-      "May contain other nuts",
-      "May contain Soya"
+      "Dairy",
+      "Nuts",
+      "Soy"
     ],
     "nutrition": {
       "energy": "498",
@@ -818,11 +816,10 @@
       "Color (Carmine, Paprika Oleoresin)"
     ],
     "allergy_info": [
-      "Fish",
-      "Gluten (Wheat)",
-      "Crustaceans",
       "Egg",
-      "Soya"
+      "Gluten",
+      "Soy",
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "104",
@@ -879,7 +876,7 @@
       "Peri-Peri Seasoning (Spices, Salt, Sugar, Acidity Regulator, Flavour Enhancer)"
     ],
     "allergy_info": [
-      "Coconut"
+      "Others"
     ],
     "nutrition": {
       "energy": "144",
@@ -912,8 +909,8 @@
       "Vegetable Oil"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Yogurt, Milk Solids)"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "247",
@@ -948,9 +945,9 @@
       "Antioxidant (INS 320)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain traces of Soya and Nuts"
+      "Dairy",
+      "Gluten",
+      "Others"
     ],
     "nutrition": {
       "energy": "2",
@@ -983,9 +980,9 @@
       "Flavouring (Vanillin)"
     ],
     "allergy_info": [
-      "nuts (Hazelnuts)",
-      "Dairy (Milk Powder, Lactose)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Nuts",
+      "Soy"
     ],
     "nutrition": {
       "energy": "2236",
@@ -1047,7 +1044,7 @@
       "Natural Flavors"
     ],
     "allergy_info": [
-      "Dairy (Whey, Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "372",
@@ -1080,8 +1077,8 @@
       "Natural Flavourings"
     ],
     "allergy_info": [
-      "Gluten (Barley, Wheat)",
-      "Dairy (Milk Solids)"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "359",
@@ -1117,9 +1114,9 @@
       "Salt"
     ],
     "allergy_info": [
-      "Gluten (Barley, Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "393",
@@ -1152,8 +1149,8 @@
       "Natural Flavourings"
     ],
     "allergy_info": [
-      "Gluten (Barley, Wheat)",
-      "Dairy (Milk Solids)"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "359",
@@ -1186,8 +1183,8 @@
       "Natural Flavours"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "nuts (Almonds, Cashews)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "476",
@@ -1218,7 +1215,7 @@
       "Natural Flavours"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "75",
@@ -1248,8 +1245,8 @@
       "Nuts (Pistachios, Almonds - optional)"
     ],
     "allergy_info": [
-      "Dairy (Yogurt)",
-      "nuts (if added)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "234",
@@ -1286,10 +1283,10 @@
       "Vanillin"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Oat, Spelt)",
-      "Dairy (Milk Powder, Whey)",
-      "nuts (Hazelnuts)",
-      "Soya (Lecithins)"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "500",
@@ -1345,7 +1342,7 @@
       "Refined Vegetable Oil (Soybean/Sunflower/Palm/Groundnut)"
     ],
     "allergy_info": [
-      "May contain Soya/Peanut depending on type"
+      "Soy"
     ],
     "nutrition": {
       "energy": "0",
@@ -1435,7 +1432,7 @@
       "Vitamin D3"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "64",
@@ -1469,9 +1466,9 @@
       "Spices (Cinnamon)"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "nuts (Almonds, Cashews)",
-      "Coconut"
+      "Gluten",
+      "Others",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "474",
@@ -1505,7 +1502,7 @@
       "Organic Cilantro"
     ],
     "allergy_info": [
-      "Sesame (Tahini)"
+      "Sesame"
     ],
     "nutrition": {
       "energy": "8",
@@ -1568,9 +1565,9 @@
       "Vegetable Oil (Optional)"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "Soya (Soy Lecithin)",
-      "May contain Dairy"
+      "Nuts",
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "565",
@@ -1607,9 +1604,9 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "Mustard",
-      "May contain Gluten"
+      "Nuts",
+      "Others",
+      "Mustard"
     ],
     "nutrition": {
       "energy": "528",
@@ -1637,7 +1634,7 @@
       "Salt"
     ],
     "allergy_info": [
-      "nuts (Almonds)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "758",
@@ -1670,9 +1667,9 @@
       "Nuts (Pistachios, Almonds - for garnish)"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Semolina)",
       "Dairy",
-      "nuts (Pistachios, Almonds)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "89",
@@ -1696,11 +1693,11 @@
     "item_name": "Yippee - 420",
     "ingredients": [
       "Noodles (Wheat Flour, Vegetable Oil, Salt, Stabilizers)",
-      "Masala Mix (Spices and Condiments, Salt, Sugar, Dehydrated Vegetables, Hydrolyzed Vegetable Protein (Soya), Flavour Enhancers, Acidity Regulator)"
+      "Masala Mix (Spices and Condiments, Salt, Sugar, Dehydrated Vegetables, Hydrolyzed Vegetable Protein (Soy), Flavour Enhancers, Acidity Regulator)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "468",
@@ -1759,7 +1756,7 @@
       "Vitamin D3"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "79",
@@ -1794,9 +1791,9 @@
       "Artificial Flavour (Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "10",
@@ -1823,9 +1820,9 @@
       "Filling (Ricotta Cheese, Sun-Dried Tomatoes, Breadcrumbs, Parmesan Cheese, Rosemary, Salt, Pepper, Vegetable Oil)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Egg",
-      "Dairy"
+      "Dairy",
+      "Gluten",
+      "Egg"
     ],
     "nutrition": {
       "energy": "272",
@@ -1856,7 +1853,7 @@
       "Salt"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "181",
@@ -1882,7 +1879,7 @@
       "Mamra Almonds"
     ],
     "allergy_info": [
-      "nuts (Almonds)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "575",
@@ -1916,8 +1913,8 @@
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Soya",
-      "May contain Gluten"
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "387",
@@ -1983,9 +1980,9 @@
       "Artificial Flavour (Chocolate)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "470",
@@ -2073,7 +2070,7 @@
       "Lemon Juice/Vinegar"
     ],
     "allergy_info": [
-      "Dairy (Yogurt)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "118",
@@ -2138,9 +2135,9 @@
       "Artificial Flavours (Chocolate, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "52",
@@ -2203,8 +2200,8 @@
     ],
     "allergy_info": [
       "Dairy",
-      "May contain Gluten",
-      "May contain Soya"
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "469",
@@ -2239,9 +2236,9 @@
       "Artificial Flavours"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "492",
@@ -2306,7 +2303,7 @@
       "Carnauba Wax"
     ],
     "allergy_info": [
-      "Coconut"
+      "Others"
     ],
     "nutrition": {
       "energy": "0",
@@ -2340,7 +2337,7 @@
       "Folic Acid"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Barley)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "358",
@@ -2370,8 +2367,8 @@
       "Seasoning (Salt, Spices (Mint, Coriander, Chilli), Onion Powder, Garlic Powder, Sugar, Acidity Regulator (Citric Acid), Flavour Enhancers)"
     ],
     "allergy_info": [
-      "May contain Gluten",
-      "May contain Soya"
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "556",
@@ -2426,7 +2423,7 @@
       "Organic Salt (Optional)"
     ],
     "allergy_info": [
-      "nuts (Peanuts)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "639",
@@ -2460,9 +2457,9 @@
       "Artificial Flavour (Butter)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
       "Dairy",
-      "May contain Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "150",
@@ -2524,9 +2521,9 @@
       "Artificial Flavour (Chocolate)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "475",
@@ -2586,7 +2583,7 @@
       "Stabilizers"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "74",
@@ -2618,8 +2615,8 @@
       "Soybean Oil"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "364",
@@ -2654,8 +2651,8 @@
       "Artificial Flavour (Vanilla)"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Soy"
     ],
     "nutrition": {
       "energy": "122",
@@ -2686,9 +2683,9 @@
       "Cinnamon"
     ],
     "allergy_info": [
-      "nuts (Cashews)",
-      "Gluten (Oats)",
-      "Coconut"
+      "Gluten",
+      "Nuts",
+      "Others"
     ],
     "nutrition": {
       "energy": "284",
@@ -2718,9 +2715,9 @@
       "Coconut"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "Gluten (Oats)",
-      "Coconut"
+      "Gluten",
+      "Nuts",
+      "Others"
     ],
     "nutrition": {
       "energy": "373",
@@ -2750,9 +2747,9 @@
       "Matcha Powder"
     ],
     "allergy_info": [
-      "nuts (Cashews)",
-      "Gluten (Oats)",
-      "Coconut"
+      "Gluten",
+      "Nuts",
+      "Others"
     ],
     "nutrition": {
       "energy": "380",
@@ -2836,9 +2833,9 @@
       "Artificial Flavours"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "0",
@@ -2872,9 +2869,9 @@
       "Garlic"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
       "Sesame",
-      "Coconut"
+      "Gluten",
+      "Others"
     ],
     "nutrition": {
       "energy": "543",
@@ -2906,7 +2903,7 @@
     ],
     "allergy_info": [
       "Dairy",
-      "nuts (Almonds, Pistachios)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "508",
@@ -2969,9 +2966,9 @@
       "Malt Extract"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Oat, Barley)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "68",
@@ -3007,10 +3004,10 @@
       "Artificial Flavours (Butter, Milk, Nut)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
       "Dairy",
-      "nuts (Cashew)",
-      "May contain Soya"
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "499",
@@ -3039,7 +3036,7 @@
       "Vitamin D"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "73",
@@ -3093,8 +3090,8 @@
       "Sweeteners (Acesulfame Potassium, Sucralose)"
     ],
     "allergy_info": [
-      "Dairy (Whey)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Soy"
     ],
     "nutrition": {
       "energy": "400",
@@ -3122,7 +3119,7 @@
       "Salt"
     ],
     "allergy_info": [
-      "nuts (Peanuts)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "478",
@@ -3156,9 +3153,9 @@
       "Artificial Flavour (Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "516",
@@ -3192,9 +3189,9 @@
       "Preservatives"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Egg",
-      "Dairy (Milk Solids)"
+      "Dairy",
+      "Gluten",
+      "Egg"
     ],
     "nutrition": {
       "energy": "386",
@@ -3231,7 +3228,7 @@
       "Flavour (Cheese)"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids, Cheese)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "284",
@@ -3258,9 +3255,9 @@
       "Sugar Coated Fennel Seeds (Saunf)"
     ],
     "allergy_info": [
-      "Soya (Soy Lecithin)",
-      "May contain Dairy",
-      "May contain nuts"
+      "Nuts",
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "580",
@@ -3297,9 +3294,9 @@
       "Malt Extract"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Oat, Barley)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "478",
@@ -3335,9 +3332,9 @@
       "Natural Flavours"
     ],
     "allergy_info": [
-      "Soya",
-      "Dairy (Milk)",
-      "Gluten (Wheat)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "360",
@@ -3370,8 +3367,8 @@
       "Artificial Flavour (Coffee)"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "Coconut"
+      "Dairy",
+      "Others"
     ],
     "nutrition": {
       "energy": "432",
@@ -3407,9 +3404,9 @@
       "Flour Treatment Agent (E1100)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "254",
@@ -3465,8 +3462,8 @@
       "Salt"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "Soya (Soybean oil)"
+      "Nuts",
+      "Soy"
     ],
     "nutrition": {
       "energy": "651",
@@ -3496,7 +3493,7 @@
       "Spices"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "494",
@@ -3556,8 +3553,8 @@
       "Ghee (Optional)"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "Dairy (if Ghee is used)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "497",
@@ -3589,8 +3586,8 @@
       "Leavening Agent"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "546",
@@ -3626,10 +3623,10 @@
       "Artificial Flavours (Caramel, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "nuts (Peanuts)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "480",
@@ -3713,7 +3710,7 @@
       "Spices (Optional - Chilli, Cumin, Fenugreek Leaves)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "489",
@@ -3803,9 +3800,9 @@
       "Artificial Flavour (Cardamom, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "484",
@@ -3840,9 +3837,9 @@
       "Artificial Flavour (Orange, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "480",
@@ -3878,8 +3875,8 @@
       "Flavour Enhancer"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy)"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "117",
@@ -3906,8 +3903,8 @@
       "Seasoning Mix (Salt, Sugar, Spices (Ginger, Garlic, Chilli), Dehydrated Vegetables (Carrot, Cabbage), Soy Sauce Powder, Flavour Enhancers, Acidity Regulator)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "255",
@@ -3961,7 +3958,7 @@
   },
   {
     "item_category": "BEVERAGES",
-    "item_name": "Sofit Soya Milk - 200",
+    "item_name": "Sofit Soy Milk - 200",
     "ingredients": [
       "Water",
       "Soybeans",
@@ -3972,7 +3969,7 @@
       "Flavour (if added)"
     ],
     "allergy_info": [
-      "Soya"
+      "Soy"
     ],
     "nutrition": {
       "energy": "68",
@@ -4007,9 +4004,9 @@
       "Antioxidant (EDTA)"
     ],
     "allergy_info": [
-      "Egg",
       "Mustard",
-      "Soya (Soybean oil)"
+      "Soy",
+      "Egg"
     ],
     "nutrition": {
       "energy": "568",
@@ -4045,7 +4042,7 @@
       "Vinegar"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "160",
@@ -4077,8 +4074,8 @@
       "Salt"
     ],
     "allergy_info": [
-      "Gluten (Barley, Wheat)",
-      "Dairy (Milk Solids)"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "370",
@@ -4106,8 +4103,8 @@
       "Seasoning (Salt, Sugar, Spices, Flavour Enhancers, Acidity Regulator)"
     ],
     "allergy_info": [
-      "May contain Dairy",
-      "May contain Soya"
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "544",
@@ -4134,7 +4131,7 @@
       "Water"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "23",
@@ -4155,12 +4152,12 @@
   },
   {
     "item_category": "MISCELLANEOUS",
-    "item_name": "Soya chunks - 100",
+    "item_name": "Soy chunks - 100",
     "ingredients": [
       "Defatted Soy Flour"
     ],
     "allergy_info": [
-      "Soya"
+      "Soy"
     ],
     "nutrition": {
       "energy": "349",
@@ -4196,9 +4193,9 @@
       "Minerals"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "May contain Gluten",
-      "May contain Soya"
+      "Dairy",
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "445",
@@ -4237,11 +4234,11 @@
       "Artificial Flavours (Fruit, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
+      "Gluten",
       "Egg",
-      "Dairy (Milk Solids)",
-      "nuts (Cashew)",
-      "Sulphites (in Tutti Frutti)"
+      "Sulphites",
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "410",
@@ -4277,9 +4274,9 @@
       "Artificial Flavours (Caramel, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "491",
@@ -4308,7 +4305,7 @@
       "Hydrogenated Vegetable Oil (Optional)"
     ],
     "allergy_info": [
-      "nuts (Peanuts)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "639",
@@ -4336,9 +4333,9 @@
       "Onion Flavoured Oil"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
       "Dairy",
-      "May contain Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "484",
@@ -4364,7 +4361,7 @@
       "Milk Fat (from Cow's Milk)"
     ],
     "allergy_info": [
-      "Dairy (Milk Fat)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "897",
@@ -4427,8 +4424,8 @@
       "Leavening Agent"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "Gluten (Wheat)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "220",
@@ -4521,7 +4518,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "nuts (Peanuts, Cashews)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "565",
@@ -4549,7 +4546,7 @@
       "Vitamin D"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "58",
@@ -4609,8 +4606,8 @@
       "Colour (if applicable)"
     ],
     "allergy_info": [
-      "Dairy (Milk)",
-      "May contain nuts if Badam flavour"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "416",
@@ -4640,7 +4637,7 @@
       "Stabilizers (Carob Bean Gum)"
     ],
     "allergy_info": [
-      "Dairy (Milk, Cream)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "223",
@@ -4674,8 +4671,8 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "May contain Gluten"
+      "Nuts",
+      "Others"
     ],
     "nutrition": {
       "energy": "491",
@@ -4704,8 +4701,8 @@
       "Seasoning Mix (Salt, Spices, Sugar, Flavour Enhancers)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "May contain Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "17",
@@ -4794,8 +4791,8 @@
       "Salt"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
-      "Gluten (Wheat)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "478",
@@ -4851,7 +4848,7 @@
       "Citric Acid/Lemon Juice"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "309",
@@ -4885,7 +4882,7 @@
       "Flour Treatment Agent"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "251",
@@ -4911,7 +4908,7 @@
       "100% Rolled Oats"
     ],
     "allergy_info": [
-      "Gluten (Oats)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "139",
@@ -4938,7 +4935,7 @@
       "Active Lactic Cultures"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "75",
@@ -4966,7 +4963,7 @@
       "Vitamin D"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "75",
@@ -4998,7 +4995,7 @@
       "Contains a source of Phenylalanine"
     ],
     "allergy_info": [
-      "Phenylalanine"
+      "Others"
     ],
     "nutrition": {
       "energy": "0",
@@ -5025,7 +5022,7 @@
       "Water"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "292",
@@ -5059,9 +5056,9 @@
       "Colour (Optional)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "422",
@@ -5114,15 +5111,15 @@
       "Salt",
       "Sugar",
       "Spices (Onion Powder, Garlic Powder, Turmeric, Chilli, Coriander)",
-      "Hydrolyzed Vegetable Protein (Soya)",
+      "Hydrolyzed Vegetable Protein (Soy)",
       "Vegetable Oil",
       "Flavour Enhancers",
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "82",
@@ -5149,7 +5146,7 @@
       "Raspberry Fruit Preparation (Raspberries, Sugar, Water, Stabilizers, Acidity Regulator, Natural Flavour)"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "110",
@@ -5262,8 +5259,8 @@
       "Masala Tastemaker (Spices & Condiments (22.5%) - Red Chilli, Turmeric, Coriander, Cumin, Aniseed, Black Pepper, Fenugreek, Ginger, Clove, Nutmeg, Cardamom), Salt, Sugar, Onion Powder, Garlic Powder, Hydrolyzed Groundnut Protein, Flavour Enhancer (635), Acidity Regulator (Citric Acid), Colour (150d), Vegetable Oil)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "nuts (Groundnut)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "409",
@@ -5295,7 +5292,7 @@
       "Salt"
     ],
     "allergy_info": [
-      "Gluten (Wheat)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "489",
@@ -5331,7 +5328,7 @@
       "Emulsifiers"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Oats, Barley)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "260",
@@ -5413,9 +5410,9 @@
       "Orange Oil"
     ],
     "allergy_info": [
-      "Soya (Soy Lecithin)",
-      "May contain Dairy",
-      "May contain nuts"
+      "Nuts",
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "447",
@@ -5452,7 +5449,7 @@
       "Vitamin D"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "697",
@@ -5512,7 +5509,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
+      "Nuts",
       "Mustard"
     ],
     "nutrition": {
@@ -5572,13 +5569,13 @@
       "Sugar",
       "Vegetable Oil",
       "Dehydrated Vegetables",
-      "Hydrolyzed Vegetable Protein (Soya)",
+      "Hydrolyzed Vegetable Protein (Soy)",
       "Flavour Enhancers",
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "402",
@@ -5599,7 +5596,7 @@
   },
   {
     "item_category": "CHIPS",
-    "item_name": "Soya Chips - Haldiram's - 25",
+    "item_name": "Soy Chips - Haldiram's - 25",
     "ingredients": [
       "Soybean Flour",
       "Tapioca Starch",
@@ -5610,7 +5607,7 @@
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Soya"
+      "Soy"
     ],
     "nutrition": {
       "energy": "542",
@@ -5644,9 +5641,9 @@
       "Artificial Flavour (Chocolate)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "470",
@@ -5681,7 +5678,7 @@
       "Xanthan Gum"
     ],
     "allergy_info": [
-      "Dairy (Milk)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "291",
@@ -5711,7 +5708,7 @@
       "Spices (Optional)"
     ],
     "allergy_info": [
-      "May contain Dairy"
+      "Others"
     ],
     "nutrition": {
       "energy": "555",
@@ -5775,10 +5772,10 @@
       "Barley Malt"
     ],
     "allergy_info": [
-      "Dairy (Milk, Lactose, Butterfat, Yogurt)",
-      "nuts (Hazelnuts)",
-      "Soya (Soy Lecithin)",
-      "Gluten (Wheat, Barley)"
+      "Dairy",
+      "Gluten",
+      "Nuts",
+      "Soy"
     ],
     "nutrition": {
       "energy": "549",
@@ -5807,13 +5804,13 @@
       "Sugar",
       "Vegetable Oil",
       "Dehydrated Vegetables",
-      "Hydrolyzed Vegetable Protein (Soya)",
+      "Hydrolyzed Vegetable Protein (Soy)",
       "Flavour Enhancers",
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "399",
@@ -5847,9 +5844,9 @@
       "Artificial Flavour (Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "413",
@@ -5883,9 +5880,9 @@
       "Preservatives"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Egg",
-      "Dairy (Milk Powder)"
+      "Dairy",
+      "Gluten",
+      "Egg"
     ],
     "nutrition": {
       "energy": "420",
@@ -5912,8 +5909,8 @@
       "Masala Tastemaker (Spices & Condiments, Salt, Sugar, Onion Powder, Garlic Powder, Hydrolyzed Groundnut Protein, Flavour Enhancer, Acidity Regulator, Colour, Vegetable Oil)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "nuts (Groundnut)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "422",
@@ -5944,8 +5941,8 @@
       "Natural Flavours"
     ],
     "allergy_info": [
-      "nuts (Cashews)",
-      "Coconut"
+      "Nuts",
+      "Others"
     ],
     "nutrition": {
       "energy": "390",
@@ -6004,8 +6001,8 @@
       "Natural Flavouring"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "469",
@@ -6129,7 +6126,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "nuts (Peanuts)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "504",
@@ -6163,9 +6160,9 @@
       "Artificial Flavours (Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "502",
@@ -6257,8 +6254,8 @@
       "Silver Leaf (Vark - Optional)"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids, Ghee)",
-      "nuts (Pistachios, Almonds)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "199",
@@ -6292,9 +6289,9 @@
       "Artificial Flavour (Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "517",
@@ -6327,8 +6324,8 @@
       "Baking Soda"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids, Ghee)",
-      "Gluten (Wheat/Semolina)"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "420",
@@ -6357,13 +6354,13 @@
       "Sugar",
       "Vegetable Oil",
       "Dehydrated Vegetables",
-      "Hydrolyzed Vegetable Protein (Soya)",
+      "Hydrolyzed Vegetable Protein (Soy)",
       "Flavour Enhancers",
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "383",
@@ -6399,9 +6396,9 @@
       "Artificial Flavours (Butter, Milk, Nut)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
       "Dairy",
-      "nuts (Cashew)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "504",
@@ -6437,9 +6434,9 @@
       "Artificial Flavours (Butter, Milk, Nut)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
       "Dairy",
-      "nuts (Cashew)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "504",
@@ -6474,9 +6471,9 @@
       "Artificial Flavours (Chocolate, Vanilla)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "Soya (Soy Lecithin)"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "493",
@@ -6503,9 +6500,9 @@
       "Ice Cream (Water, Milk Solids, Sugar, Vegetable Oil, Liquid Glucose, Emulsifiers, Stabilizers, Cocoa Solids, Vanilla Flavour)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Dairy (Milk Solids)",
-      "May contain Soya"
+      "Dairy",
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "282",
@@ -6559,11 +6556,11 @@
       "Tutti Frutti"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "Gluten (Wheat)",
+      "Gluten",
       "Egg",
-      "nuts (Cashew)",
-      "Sulphites (in Tutti Frutti)"
+      "Sulphites",
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "239",
@@ -6598,7 +6595,7 @@
       "Barbecue Flavoring"
     ],
     "allergy_info": [
-      "May contain traces of Milk and Soy"
+      "Others"
     ],
     "nutrition": {
       "energy": "478",
@@ -6628,7 +6625,7 @@
       "Sugar"
     ],
     "allergy_info": [
-      "Gluten (Barley)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "1",
@@ -6697,10 +6694,9 @@
       "Flavour (Chocolate, Almond)"
     ],
     "allergy_info": [
-      "Dairy (Whey, Caseinate, Milk Solids)",
-      "Soya",
-      "nuts (Almonds)",
-      "May contain Peanuts"
+      "Dairy",
+      "Nuts",
+      "Soy"
     ],
     "nutrition": {
       "energy": "270",
@@ -6732,10 +6728,10 @@
       "Vegetable Oil"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "nuts (Almonds, Coconut)",
-      "Dairy (Whey)",
-      "Soya"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "180",
@@ -6770,10 +6766,10 @@
       "Cocoa Powder"
     ],
     "allergy_info": [
-      "Dairy (Whey)",
-      "Soya",
-      "Gluten (Oats)",
-      "nuts (Almonds)"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "250",
@@ -6804,7 +6800,7 @@
       "Chia Seeds"
     ],
     "allergy_info": [
-      "nuts (Cashews, Almonds)"
+      "Nuts"
     ],
     "nutrition": {
       "energy": "210",
@@ -6837,9 +6833,9 @@
       "Natural Flavors"
     ],
     "allergy_info": [
-      "Dairy (Whey, Milk Protein)",
-      "nuts (Almonds)",
-      "May contain Soy"
+      "Dairy",
+      "Nuts",
+      "Others"
     ],
     "nutrition": {
       "energy": "190",
@@ -6872,11 +6868,11 @@
       "Cocoa Powder"
     ],
     "allergy_info": [
-      "nuts (Almonds)",
+      "Gluten",
+      "Soy",
       "Sesame",
-      "Soya",
-      "Gluten (Oats)",
-      "May contain Dairy"
+      "Others",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "150",
@@ -6899,7 +6895,7 @@
     "item_category": "PROTEIN-BAR",
     "item_name": "PhD Smart Bar - Choc Peanut Butter",
     "ingredients": [
-      "Protein Blend (Milk Protein, Collagen Hydrolysate, Soya Protein Isolate)",
+      "Protein Blend (Milk Protein, Collagen Hydrolysate, Soy Protein Isolate)",
       "Caramel Layer",
       "Milk Chocolate Coating",
       "Peanuts",
@@ -6910,10 +6906,10 @@
       "Sweetener (Sucralose)"
     ],
     "allergy_info": [
-      "Dairy (Milk Protein)",
-      "Soya",
-      "nuts (Peanuts)",
-      "May contain Gluten, Egg, other Nuts"
+      "Dairy",
+      "Nuts",
+      "Soy",
+      "Egg"
     ],
     "nutrition": {
       "energy": "238",
@@ -6949,8 +6945,8 @@
       "Almonds"
     ],
     "allergy_info": [
-      "nuts (Peanuts, Almonds)",
-      "Soya"
+      "Nuts",
+      "Soy"
     ],
     "nutrition": {
       "energy": "250",
@@ -6984,10 +6980,10 @@
       "Vegetable Oil"
     ],
     "allergy_info": [
-      "Soya",
-      "Dairy (Whey)",
-      "Gluten (Oats)",
-      "nuts (Peanuts)"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "175",
@@ -7021,8 +7017,8 @@
       "Cinnamon"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "nuts (Almonds, Cashews)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "160",
@@ -7055,7 +7051,7 @@
       "Anti-caking Agent (INS 551)"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "390",
@@ -7087,8 +7083,8 @@
       "Lactase"
     ],
     "allergy_info": [
-      "Dairy (Whey)",
-      "Soya (Lecithin)"
+      "Dairy",
+      "Soy"
     ],
     "nutrition": {
       "energy": "375",
@@ -7114,7 +7110,7 @@
       "Whey Protein Concentrate"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "400",
@@ -7144,9 +7140,9 @@
       "Colour"
     ],
     "allergy_info": [
-      "Dairy (Whey)",
-      "Soya (Lecithin)",
-      "May contain nuts"
+      "Dairy",
+      "Nuts",
+      "Soy"
     ],
     "nutrition": {
       "energy": "410",
@@ -7175,7 +7171,7 @@
       "Sunflower Lecithin"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "395",
@@ -7205,7 +7201,7 @@
       "Stabilizer (Xanthan Gum)"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "380",
@@ -7237,8 +7233,8 @@
       "Acesulfame Potassium"
     ],
     "allergy_info": [
-      "Dairy (Whey)",
-      "Soya (Lecithin)"
+      "Dairy",
+      "Soy"
     ],
     "nutrition": {
       "energy": "370",
@@ -7264,7 +7260,7 @@
       "Whey Protein Isolate"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "375",
@@ -7295,7 +7291,7 @@
       "Sweetener (Steviol Glycoside)"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "360",
@@ -7354,7 +7350,7 @@
       "Salt"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "405",
@@ -7382,7 +7378,7 @@
       "Sweetener (Stevia)"
     ],
     "allergy_info": [
-      "Dairy (Whey)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "390",
@@ -7414,8 +7410,8 @@
       "Stabilizer (INS 415)"
     ],
     "allergy_info": [
-      "Dairy (Whey, Milk)",
-      "Soya"
+      "Dairy",
+      "Soy"
     ],
     "nutrition": {
       "energy": "350",
@@ -7443,8 +7439,8 @@
       "Pea Protein"
     ],
     "allergy_info": [
-      "Soya",
-      "Gluten (Wheat)"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "380",
@@ -7505,8 +7501,8 @@
       "Permitted Stabilizers and Emulsifiers"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "nuts (Almonds, Pistachios)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "210",
@@ -7542,10 +7538,10 @@
       "Stabilizers"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "Gluten (Wheat)",
-      "Soya (Emulsifier)",
-      "May contain Nuts"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "320",
@@ -7579,8 +7575,8 @@
       "Artificial Flavoring Substances (Saffron, Cardamom)"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "nuts (Almonds)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "230",
@@ -7612,7 +7608,7 @@
       "Saffron"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "190",
@@ -7645,8 +7641,8 @@
       "Permitted Stabilizers & Emulsifiers"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "nuts (Cashews, Almonds, Pistachios)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "240",
@@ -7677,7 +7673,7 @@
       "Stabilizers"
     ],
     "allergy_info": [
-      "Dairy (Milk, Cream)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "180",
@@ -7712,7 +7708,7 @@
     ],
     "allergy_info": [
       "Dairy",
-      "May contain Soy, Nuts, Peanuts"
+      "Others"
     ],
     "nutrition": {
       "energy": "300",
@@ -7743,8 +7739,8 @@
       "Permitted Emulsifiers and Stabilizers"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids, Butter)",
-      "Gluten (Wheat)",
+      "Dairy",
+      "Gluten",
       "Egg"
     ],
     "nutrition": {
@@ -7780,7 +7776,7 @@
       "Permitted Synthetic Food Colours & Added Flavours"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "180",
@@ -7815,10 +7811,10 @@
       "Artificial Flavours"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "Gluten (Wheat)",
-      "Soya (Emulsifier)",
-      "May contain Nuts"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "280",
@@ -7849,9 +7845,9 @@
       "Permitted Emulsifiers and Stabilizers"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "nuts (Cashew, Almond, Raisin)",
-      "Sulphites (in candied fruit)"
+      "Dairy",
+      "Sulphites",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "220",
@@ -7883,8 +7879,8 @@
       "Artificial Flavours"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "nuts (Almonds, Cashews, Pistachios)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "260",
@@ -7916,8 +7912,8 @@
       "Stabilizers"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "nuts (Cashew)"
+      "Dairy",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "270",
@@ -7950,7 +7946,7 @@
       "Permitted Food Colours"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "190",
@@ -7983,7 +7979,7 @@
       "Cardamom"
     ],
     "allergy_info": [
-      "Dairy (Milk, Cream)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "215",
@@ -8019,7 +8015,7 @@
       "Acidity Regulator (Citric Acid)"
     ],
     "allergy_info": [
-      "nuts (Peanuts)",
+      "Nuts",
       "Mustard"
     ],
     "nutrition": {
@@ -8050,8 +8046,8 @@
       "Salt"
     ],
     "allergy_info": [
-      "Soya",
-      "Celery"
+      "Soy",
+      "Others"
     ],
     "nutrition": {
       "energy": "250",
@@ -8151,7 +8147,7 @@
       "Kewra Water"
     ],
     "allergy_info": [
-      "Dairy (Yogurt)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "350",
@@ -8184,8 +8180,8 @@
       "Flavour Enhancers"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Soya, Wheat, Milk"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "390",
@@ -8218,8 +8214,8 @@
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Soya, Milk, Nuts"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "385",
@@ -8253,9 +8249,9 @@
       "Flavour Enhancers"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
       "Dairy",
-      "May contain Soya, Wheat"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "410",
@@ -8284,12 +8280,12 @@
       "Salt",
       "Sugar",
       "Edible Vegetable Oil",
-      "Hydrolyzed Vegetable Protein (Soya)",
+      "Hydrolyzed Vegetable Protein (Soy)",
       "Flavour Enhancers"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "375",
@@ -8320,8 +8316,8 @@
       "Jaggery Powder"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Nuts, Seeds"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "395",
@@ -8351,7 +8347,7 @@
       "Organic Jaggery"
     ],
     "allergy_info": [
-      "Gluten (Oats)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "370",
@@ -8385,8 +8381,8 @@
       "Flavour Enhancers"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Wheat, Soy, Milk"
+      "Wheat", "Soy", "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "388",
@@ -8414,7 +8410,7 @@
       "Edible Vegetable Oil"
     ],
     "allergy_info": [
-      "Gluten (Oats)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "392",
@@ -8446,7 +8442,7 @@
       "Edible Vegetable Oil"
     ],
     "allergy_info": [
-      "Gluten (Oats)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "400",
@@ -8477,7 +8473,7 @@
       "Salt"
     ],
     "allergy_info": [
-      "Gluten (Oats)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "360",
@@ -8508,7 +8504,7 @@
       "Edible Vegetable Oil"
     ],
     "allergy_info": [
-      "Gluten (Oats)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "380",
@@ -8541,8 +8537,8 @@
       "Flavour Enhancer"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Soy, Milk"
+      "Gluten",
+      "Others"
     ],
     "nutrition": {
       "energy": "385",
@@ -8571,12 +8567,12 @@
       "Sugar",
       "Edible Vegetable Oil",
       "Dehydrated Vegetables",
-      "Hydrolyzed Vegetable Protein (Soya)",
+      "Hydrolyzed Vegetable Protein (Soy)",
       "Acidity Regulator"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "378",
@@ -8609,8 +8605,8 @@
       "Flavour Enhancers"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Soya, Wheat, Milk"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "385",
@@ -8642,8 +8638,8 @@
       "Hydrolyzed Vegetable Protein"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Soya, Milk, Nuts"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "380",
@@ -8676,8 +8672,8 @@
       "Flavour Enhancers"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Soya, Wheat, Milk"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "395",
@@ -8706,11 +8702,11 @@
       "Sugar",
       "Edible Vegetable Oil",
       "Dehydrated Vegetables (Onion)",
-      "Hydrolyzed Vegetable Protein (Soya)"
+      "Hydrolyzed Vegetable Protein (Soy)"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Soya",
+      "Gluten",
+      "Soy",
       "Mustard"
     ],
     "nutrition": {
@@ -8743,8 +8739,8 @@
       "Edible Vegetable Oil"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Nuts, Seeds"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "390",
@@ -8778,8 +8774,8 @@
       "Flavour Enhancers"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "May contain Wheat, Soy, Milk"
+      "Wheat", "Soy", "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "380",
@@ -8811,8 +8807,8 @@
       "Jaggery Powder"
     ],
     "allergy_info": [
-      "Gluten (Oats)",
-      "Dairy"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "415",
@@ -9010,7 +9006,7 @@
       "Gelatin Capsule Shell"
     ],
     "allergy_info": [
-      "Fish"
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "10",
@@ -9067,7 +9063,7 @@
       "Sorbitol"
     ],
     "allergy_info": [
-      "Soya"
+      "Soy"
     ],
     "nutrition": {
       "energy": "8",
@@ -9094,7 +9090,7 @@
       "Vitamin D3"
     ],
     "allergy_info": [
-      "May contain traces of shellfish"
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "2",
@@ -9277,7 +9273,7 @@
       "Sorbitol"
     ],
     "allergy_info": [
-      "Fish"
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "11",
@@ -9313,7 +9309,7 @@
       "Silicon Dioxide"
     ],
     "allergy_info": [
-      "May contain Milk, Soy, Wheat, Egg, Peanut, Tree Nut, Fish, Shellfish"
+      "Others"
     ],
     "nutrition": {
       "energy": "5",
@@ -9398,8 +9394,8 @@
       "Minerals"
     ],
     "allergy_info": [
-      "Gluten (Barley)",
-      "Dairy (Milk Solids)"
+      "Dairy",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "380",
@@ -9426,7 +9422,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "310",
@@ -9453,7 +9449,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "320",
@@ -9480,7 +9476,7 @@
       "Acidulant (Citric Acid)"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "300",
@@ -9507,7 +9503,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "315",
@@ -9534,9 +9530,9 @@
       "Malabar Parota: Wheat Flour, Water, Edible Vegetable Oil, Salt..."
     ],
     "allergy_info": [
-      "Dairy (Paneer, Cream, Butter)",
-      "nuts (Cashew)",
-      "Gluten (Wheat)"
+      "Dairy",
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "450",
@@ -9569,7 +9565,7 @@
       "Salt"
     ],
     "allergy_info": [
-      "Dairy (Paneer, Yogurt)",
+      "Dairy",
       "Mustard"
     ],
     "nutrition": {
@@ -9597,7 +9593,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "305",
@@ -9624,7 +9620,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "312",
@@ -9651,7 +9647,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "308",
@@ -9678,7 +9674,7 @@
       "Citric Acid"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)"
+      "Dairy"
     ],
     "nutrition": {
       "energy": "310",
@@ -9712,7 +9708,7 @@
       "Stabilizer (INS 451)"
     ],
     "allergy_info": [
-      "Gluten (Breadcrumbs)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "180",
@@ -9746,8 +9742,8 @@
       "Stabilizer (INS 451)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "250",
@@ -9776,7 +9772,7 @@
       "Stabilizer (INS 451)"
     ],
     "allergy_info": [
-      "Crustaceans"
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "90",
@@ -9805,8 +9801,8 @@
       "Edible Vegetable Oil"
     ],
     "allergy_info": [
-      "Fish",
-      "Gluten (Wheat)"
+      "Gluten",
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "230",
@@ -9838,7 +9834,7 @@
       "Preservative (INS 250)"
     ],
     "allergy_info": [
-      "Soya"
+      "Soy"
     ],
     "nutrition": {
       "energy": "200",
@@ -9865,8 +9861,8 @@
       "Filling (Chicken Meat, Onion, Ginger, Garlic, Spices, Soy Sauce, Edible Vegetable Oil)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "210",
@@ -9936,11 +9932,10 @@
       "Colour (INS 160c, INS 120)"
     ],
     "allergy_info": [
-      "Fish",
-      "Gluten (Wheat)",
-      "Soya",
-      "Crustaceans",
-      "Egg"
+      "Egg",
+      "Gluten",
+      "Soy",
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "110",
@@ -9991,7 +9986,7 @@
       "Water (as protective ice glaze)"
     ],
     "allergy_info": [
-      "Fish"
+      "Fish and Shellfish"
     ],
     "nutrition": {
       "energy": "90",
@@ -10023,7 +10018,7 @@
       "Antioxidant (INS 320)"
     ],
     "allergy_info": [
-      "Gluten (Barley Malt)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "380",
@@ -10060,8 +10055,8 @@
       "Antioxidant (INS 306)"
     ],
     "allergy_info": [
-      "Gluten (Oats, Wheat)",
-      "nuts (Almonds)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "400",
@@ -10095,7 +10090,7 @@
       "Antioxidant (INS 320)"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Barley Malt)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "390",
@@ -10130,8 +10125,8 @@
       "Minerals"
     ],
     "allergy_info": [
-      "Dairy (Milk Solids)",
-      "May contain Gluten, Soya"
+      "Dairy",
+      "Others"
     ],
     "nutrition": {
       "energy": "430",
@@ -10162,13 +10157,13 @@
       "Palm Oil",
       "Minerals",
       "Iodized Salt",
-      "Emulsifier (Soya Lecithin)",
+      "Emulsifier (Soy Lecithin)",
       "Vitamins",
       "Antioxidant (307b)"
     ],
     "allergy_info": [
-      "Gluten (Wheat)",
-      "Soya"
+      "Gluten",
+      "Soy"
     ],
     "nutrition": {
       "energy": "385",
@@ -10237,8 +10232,8 @@
       "Antioxidant (INS 320)"
     ],
     "allergy_info": [
-      "Gluten (Wheat, Barley, Oats)",
-      "nuts (Almonds, Cashews, Pistachios)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "410",
@@ -10272,8 +10267,8 @@
       "Antioxidant"
     ],
     "allergy_info": [
-      "Gluten (Oats, Wheat)",
-      "Sulphites (in dried fruits)"
+      "Sulphites",
+      "Gluten"
     ],
     "nutrition": {
       "energy": "395",
@@ -10307,8 +10302,8 @@
       "Antioxidant"
     ],
     "allergy_info": [
-      "nuts (Almonds)",
-      "Gluten (Barley Malt)"
+      "Gluten",
+      "Nuts"
     ],
     "nutrition": {
       "energy": "390",
@@ -10341,7 +10336,7 @@
       "Antioxidant"
     ],
     "allergy_info": [
-      "Gluten (Barley Malt)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "385",
@@ -10370,7 +10365,7 @@
       "Seasoning (Sugar, Salt, Spices & Condiments (Tomato Powder, Chilli Powder, Onion Powder, Garlic Powder), Acidity Regulator (INS 330), Flavour Enhancer (INS 627, INS 631))"
     ],
     "allergy_info": [
-      "May contain Gluten, Milk, Soy"
+      "Others"
     ],
     "nutrition": {
       "energy": "540",
@@ -10439,8 +10434,8 @@
       "Acidity Regulator (INS 330)"
     ],
     "allergy_info": [
-      "nuts (Peanuts, Cashews)",
-      "May contain Gluten"
+      "Nuts",
+      "Others"
     ],
     "nutrition": {
       "energy": "550",
@@ -10499,7 +10494,7 @@
       "Seasoning (Spices & Condiments, Iodised Salt, Sugar, Maltodextrin, Flavour Enhancer (INS 621), Acidity Regulator (INS 330))"
     ],
     "allergy_info": [
-      "May contain Gluten, Soy, Milk"
+      "Others"
     ],
     "nutrition": {
       "energy": "535",
@@ -10531,7 +10526,7 @@
       "Asafoetida"
     ],
     "allergy_info": [
-      "Gluten (Semolina)"
+      "Gluten"
     ],
     "nutrition": {
       "energy": "350",
@@ -10597,7 +10592,7 @@
       "url": "https://www.amazon.in/Raw-Pressery-Dairy-Protein-MILKshake/dp/B08DJPLVFC"
     },
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "nutrients_per_100g": false,
     "nutrients_per": {
@@ -10754,7 +10749,7 @@
       "Fractionated vegetable fat",
       "MILK solids",
       "Cocoa solids (3.9%)",
-      "Emulsifier (Soya lecithin)",
+      "Emulsifier (Soy lecithin)",
       "Raising agent (500(ii))",
       "Yeast",
       "Iodised salt",
@@ -10766,11 +10761,11 @@
       "url": "https://www.amazon.in/Nestle-Munch-Chocolate-Coated-Crunchy/dp/B079T2Q768"
     },
     "allergy_info": [
-      "GLUTEN",
-      "SESAME",
-      "MILK",
-      "SOY",
-      "NUTS"
+      "Gluten",
+      "Soy",
+      "Sesame",
+      "Dairy",
+      "Nuts"
     ],
     "nutrients_per_100g": true,
     "price": 100,
@@ -10934,7 +10929,7 @@
     },
     "servings": 12,
     "allergy_info": [
-      "RAGI"
+      "Others"
     ],
     "final_rating": 4.5,
     "health_impact_rating": 4.6,
@@ -11011,9 +11006,9 @@
     },
     "servings": 4,
     "allergy_info": [
-      "MILK",
-      "SOY",
-      "NUTS"
+      "Dairy",
+      "Nuts",
+      "Soy"
     ],
     "final_rating": 3.2,
     "health_impact_rating": 3,
@@ -11097,7 +11092,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "final_rating": 2.5,
     "health_impact_rating": 2.5,
@@ -11143,8 +11138,8 @@
     "price_per_unit": 0.8292,
     "servings": 35,
     "allergy_info": [
-      "BARLEY",
-      "MILK"
+      "Dairy",
+      "Others"
     ],
     "final_rating": 3,
     "health_impact_rating": 2.5,
@@ -11194,7 +11189,7 @@
     "price_per_unit": 0.75,
     "servings": 60,
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "final_rating": 4,
     "health_impact_rating": 4,
@@ -11292,7 +11287,7 @@
     },
     "servings": 6,
     "allergy_info": [
-      "RAGI"
+      "Others"
     ],
     "final_rating": 4.3,
     "health_impact_rating": 4.2,
@@ -11420,7 +11415,7 @@
     },
     "servings": 33,
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "final_rating": 4.1,
     "health_impact_rating": 4,
@@ -11456,7 +11451,7 @@
     },
     "servings": 25,
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "final_rating": 3.7,
     "health_impact_rating": 3.7,
@@ -11499,7 +11494,7 @@
     "price_per_unit": 0.4,
     "servings": 60,
     "allergy_info": [
-      "SULPHITE"
+      "Sulphites"
     ],
     "final_rating": 2.5,
     "health_impact_rating": 2,
@@ -11542,10 +11537,10 @@
     "price_per_unit": 0.59667,
     "servings": 40,
     "allergy_info": [
-      "MILK",
-      "SOY",
+      "Dairy",
       "OATS",
-      "NUTS"
+      "Nuts",
+      "Soy"
     ],
     "final_rating": 4.5,
     "health_impact_rating": 4.5,
@@ -11593,7 +11588,7 @@
     },
     "servings": 7,
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4.2,
     "health_impact_rating": 4.1,
@@ -11635,7 +11630,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4.5,
     "health_impact_rating": 4.2,
@@ -11674,7 +11669,7 @@
     },
     "servings": 66,
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "final_rating": 4.7,
     "health_impact_rating": 4.8,
@@ -11724,9 +11719,9 @@
     },
     "servings": 1,
     "allergy_info": [
-      "GLUTEN",
-      "SOY",
-      "SESAME"
+      "Sesame",
+      "Gluten",
+      "Soy"
     ],
     "final_rating": 2.6,
     "health_impact_rating": 2.4,
@@ -11779,7 +11774,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4.1,
     "health_impact_rating": 4.3,
@@ -11817,7 +11812,7 @@
     "price_per_unit": 0.13,
     "servings": 20,
     "allergy_info": [
-      "GLUTEN"
+      "Gluten"
     ],
     "final_rating": 3,
     "health_impact_rating": 3,
@@ -11876,7 +11871,7 @@
       "url": "https://www.amazon.in/Chupa-Chups-Bites-Chewy-Toffee/dp/B07HVZBTC6"
     },
     "allergy_info": [
-      "GLUTEN"
+      "Gluten"
     ],
     "nutrients_per_100g": true,
     "price": 30,
@@ -12060,8 +12055,8 @@
     },
     "servings": null,
     "allergy_info": [
-      "SOY",
-      "MILK"
+      "Dairy",
+      "Soy"
     ],
     "final_rating": 3.5,
     "health_impact_rating": 3.5,
@@ -12159,7 +12154,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4,
     "health_impact_rating": 3.9,
@@ -12202,8 +12197,8 @@
     "price_per_unit": 0.08,
     "servings": 20,
     "allergy_info": [
-      "GLUTEN",
-      "SOY"
+      "Gluten",
+      "Soy"
     ],
     "final_rating": 2.5,
     "health_impact_rating": 2.5,
@@ -12252,7 +12247,7 @@
     "price_per_unit": 0.4,
     "servings": 60,
     "allergy_info": [
-      "SULPHITE"
+      "Sulphites"
     ],
     "final_rating": 3.3,
     "health_impact_rating": 3.5,
@@ -12291,11 +12286,11 @@
     "price_per_unit": 0.2604,
     "servings": 40,
     "allergy_info": [
-      "BARLEY",
-      "MILK",
-      "SOY",
       "OATS",
-      "NUTS"
+      "Soy",
+      "Others",
+      "Dairy",
+      "Nuts"
     ],
     "final_rating": 3.8,
     "health_impact_rating": 4,
@@ -12339,11 +12334,11 @@
     },
     "servings": 1,
     "allergy_info": [
-      "NUTS",
-      "MILK",
-      "MUSTARD",
       "OATS",
-      "SOY"
+      "Soy",
+      "Dairy",
+      "Nuts",
+      "Mustard"
     ],
     "final_rating": 2.8,
     "health_impact_rating": 2.8,
@@ -12408,10 +12403,10 @@
     "price_per_unit": 0.4973333333,
     "servings": 150,
     "allergy_info": [
-      "BARLEY",
-      "MILK",
-      "SOY",
-      "GLUTEN"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Others"
     ],
     "final_rating": 3.5,
     "health_impact_rating": 3.2,
@@ -12492,9 +12487,9 @@
     },
     "servings": null,
     "allergy_info": [
-      "BARLEY",
-      "MILK",
-      "GLUTEN"
+      "Dairy",
+      "Gluten",
+      "Others"
     ],
     "final_rating": 2.5,
     "health_impact_rating": 2.5,
@@ -12633,10 +12628,10 @@
     "price_per_unit": 0.498,
     "servings": 50,
     "allergy_info": [
-      "BARLEY",
-      "MILK",
-      "SOY",
-      "GLUTEN"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Others"
     ],
     "final_rating": 3.3,
     "health_impact_rating": 3,
@@ -12767,9 +12762,9 @@
     "price_per_unit": 0.638,
     "servings": 50,
     "allergy_info": [
-      "MILK",
-      "SOY",
-      "NUTS"
+      "Dairy",
+      "Nuts",
+      "Soy"
     ],
     "final_rating": 3.3,
     "health_impact_rating": 3,
@@ -12904,12 +12899,12 @@
     },
     "servings": 1,
     "allergy_info": [
-      "GLUTEN",
-      "MILK",
-      "MUSTARD",
-      "CELERY",
-      "SOY",
-      "NUTS"
+      "Gluten",
+      "Soy",
+      "Others",
+      "Dairy",
+      "Nuts",
+      "Mustard"
     ],
     "final_rating": 3.1,
     "health_impact_rating": 3,
@@ -12964,9 +12959,9 @@
     },
     "servings": 1,
     "allergy_info": [
-      "GLUTEN",
-      "SOY",
-      "SESAME"
+      "Sesame",
+      "Gluten",
+      "Soy"
     ],
     "final_rating": 3,
     "health_impact_rating": 2.8,
@@ -13028,8 +13023,8 @@
     "price_per_unit": 0.699,
     "servings": 40,
     "allergy_info": [
-      "GLUTEN",
-      "OATS"
+      "OATS",
+      "Gluten"
     ],
     "final_rating": 4.2,
     "health_impact_rating": 4.3,
@@ -13172,9 +13167,9 @@
     "price_per_unit": 1.03,
     "servings": 40,
     "allergy_info": [
-      "MILK",
-      "SOY",
-      "NUTS"
+      "Dairy",
+      "Nuts",
+      "Soy"
     ],
     "final_rating": 2.2,
     "health_impact_rating": 2,
@@ -13362,7 +13357,7 @@
     },
     "servings": 20,
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "final_rating": 3.7,
     "health_impact_rating": 3.5,
@@ -13414,9 +13409,9 @@
     "price_per_unit": 0.1066666667,
     "servings": 9,
     "allergy_info": [
-      "GLUTEN",
       "OATS",
-      "SOY"
+      "Gluten",
+      "Soy"
     ],
     "final_rating": 3.7,
     "health_impact_rating": 3.5,
@@ -13465,10 +13460,10 @@
     "price_per_unit": 1.1733,
     "servings": 15,
     "allergy_info": [
-      "GLUTEN",
-      "MILK",
-      "SOY",
-      "NUTS"
+      "Dairy",
+      "Gluten",
+      "Soy",
+      "Nuts"
     ],
     "final_rating": 1.8,
     "health_impact_rating": 1.5,
@@ -13512,16 +13507,15 @@
     "price_per_unit": 0.53667,
     "servings": 40,
     "allergy_info": [
-      "GLUTEN",
-      "SULPHITE",
-      "MILK",
-      "SOY",
       "OATS",
-      "NUTS",
-      "BARLEY",
-      "MUSTARD",
-      "CELERY",
-      "SESAME"
+      "Gluten",
+      "Soy",
+      "Sulphites",
+      "Sesame",
+      "Others",
+      "Dairy",
+      "Nuts",
+      "Mustard"
     ],
     "final_rating": 3.3,
     "health_impact_rating": 3,
@@ -13567,9 +13561,9 @@
     "price_per_unit": 0.75,
     "servings": 50,
     "allergy_info": [
-      "BARLEY",
-      "MILK",
-      "SOY"
+      "Dairy",
+      "Soy",
+      "Others"
     ],
     "final_rating": 3.5,
     "health_impact_rating": 3.5,
@@ -13710,9 +13704,9 @@
     },
     "servings": 1,
     "allergy_info": [
-      "GLUTEN",
-      "SOY",
-      "SESAME"
+      "Sesame",
+      "Gluten",
+      "Soy"
     ],
     "final_rating": 2.8,
     "health_impact_rating": 2.5,
@@ -13776,7 +13770,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4.4,
     "health_impact_rating": 4.2,
@@ -13814,10 +13808,10 @@
     "price_per_unit": 0.50567,
     "servings": 10,
     "allergy_info": [
-      "MILK",
-      "SOY",
+      "Dairy",
       "OATS",
-      "NUTS"
+      "Nuts",
+      "Soy"
     ],
     "final_rating": 4.1,
     "health_impact_rating": 4.1,
@@ -13874,10 +13868,10 @@
       "url": "https://www.amazon.in/Dukes-Eclairs-Chocolate-200-g/dp/B08H5PKZRD"
     },
     "allergy_info": [
-      "MILK",
-      "SOY",
-      "SULPHITE",
-      "NUTS"
+      "Dairy",
+      "Sulphites",
+      "Nuts",
+      "Soy"
     ],
     "nutrients_per_100g": true,
     "price": 50,
@@ -14014,8 +14008,8 @@
     "price_per_unit": 0.8125,
     "servings": 150,
     "allergy_info": [
-      "MILK",
-      "BARLEY"
+      "Dairy",
+      "Others"
     ],
     "final_rating": 3,
     "health_impact_rating": 2.8,
@@ -14060,7 +14054,7 @@
     },
     "servings": 29,
     "allergy_info": [
-      "MILK"
+      "Dairy"
     ],
     "final_rating": 4.2,
     "health_impact_rating": 4,
@@ -14100,7 +14094,7 @@
     "price_per_unit": 0.125,
     "servings": 15,
     "allergy_info": [
-      "GLUTEN"
+      "Gluten"
     ],
     "final_rating": 3.4,
     "health_impact_rating": 3.5,
@@ -14181,7 +14175,7 @@
       "url": "https://www.amazon.in/Haldirams-Navrattan-200g/dp/B0024VD730"
     },
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "nutrients_per_100g": true,
     "price": 54,
@@ -14226,7 +14220,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "GLUTEN"
+      "Gluten"
     ],
     "final_rating": 4,
     "health_impact_rating": 3.9,
@@ -14265,9 +14259,9 @@
     "price_per_unit": 0.1625,
     "servings": 15,
     "allergy_info": [
-      "GLUTEN",
-      "SESAME",
-      "SOY"
+      "Sesame",
+      "Gluten",
+      "Soy"
     ],
     "final_rating": 3.8,
     "health_impact_rating": 3.5,
@@ -14311,7 +14305,7 @@
     "servings": 40,
     "allergy_info": [
       "OATS",
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4.6,
     "health_impact_rating": 4.6,
@@ -14358,10 +14352,10 @@
     },
     "servings": 6,
     "allergy_info": [
-      "GLUTEN",
-      "MILK",
+      "Dairy",
       "OATS",
-      "BARLEY"
+      "Gluten",
+      "Others"
     ],
     "final_rating": 4.4,
     "health_impact_rating": 4.2,
@@ -14434,9 +14428,9 @@
     },
     "servings": null,
     "allergy_info": [
-      "SOY",
-      "MILK",
-      "SULPHITE"
+      "Dairy",
+      "Sulphites",
+      "Soy"
     ],
     "final_rating": 3,
     "health_impact_rating": 3,
@@ -14479,7 +14473,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4.2,
     "health_impact_rating": 4.1,
@@ -14584,7 +14578,7 @@
     "price_per_unit": 0.1857142857,
     "servings": 12,
     "allergy_info": [
-      "GLUTEN"
+      "Gluten"
     ],
     "final_rating": 4.3,
     "health_impact_rating": 4.2,
@@ -14629,12 +14623,12 @@
     },
     "servings": 1,
     "allergy_info": [
-      "GLUTEN",
-      "MILK",
-      "MUSTARD",
-      "CELERY",
-      "SOY",
-      "NUTS"
+      "Gluten",
+      "Soy",
+      "Others",
+      "Dairy",
+      "Nuts",
+      "Mustard"
     ],
     "final_rating": 3,
     "health_impact_rating": 2.9,
@@ -14801,9 +14795,9 @@
     },
     "servings": 10,
     "allergy_info": [
-      "MILK",
+      "Dairy",
       "OATS",
-      "GLUTEN"
+      "Gluten"
     ],
     "final_rating": 4.6,
     "health_impact_rating": 4.7,
@@ -14861,8 +14855,8 @@
     },
     "servings": 16,
     "allergy_info": [
-      "MILK",
-      "SOY"
+      "Dairy",
+      "Soy"
     ],
     "final_rating": 3.6,
     "health_impact_rating": 3.5,
@@ -14998,7 +14992,7 @@
     },
     "servings": null,
     "allergy_info": [
-      "NUTS"
+      "Nuts"
     ],
     "final_rating": 4.3,
     "health_impact_rating": 4,
@@ -15033,7 +15027,7 @@
       "Hydrogenated vegetable fats",
       "Refined Wheat flour (Maida)",
       "Cocoa solids (4.5%)",
-      "Emulsifier (Soya lecithin)",
+      "Emulsifier (Soy lecithin)",
       "Yeast",
       "Raising agent (500(ii))",
       "Artificial (Vanilla) flavouring substance",
@@ -15045,11 +15039,11 @@
       "url": "https://www.amazon.in/Nestl%C3%A9-KITKAT-Chocolate-Coated-Miniature/dp/B079TH8XB6"
     },
     "allergy_info": [
-      "GLUTEN",
-      "MILK",
-      "SESAME",
-      "SOY",
-      "NUTS"
+      "Gluten",
+      "Soy",
+      "Sesame",
+      "Dairy",
+      "Nuts"
     ],
     "nutrients_per_100g": true,
     "price": 120,
@@ -15160,8 +15154,8 @@
     },
     "servings": null,
     "allergy_info": [
-      "SOY",
-      "MILK"
+      "Dairy",
+      "Soy"
     ],
     "final_rating": 3.3,
     "health_impact_rating": 3.5,
