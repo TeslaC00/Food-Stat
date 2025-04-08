@@ -1,0 +1,141 @@
+{# doctor_consultation.jinja #}
+{% extends "base.jinja" %}
+
+{% block title %}
+Nutritionist Consultation - Food-Stat
+{% endblock title %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="bg-primary/5 py-20 mb-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold text-primary mb-4">Consult with a Nutritionist</h1>
+            <p class="text-xl text-neutral leading-relaxed mb-8">
+                Get Personalized Nutrition Advice from Certified Experts.
+            </p>
+            <img id="nutritionist-image"
+                src="https://medintu.in/wp-content/uploads/2021/02/kisspng-clinical-nutrition-dietitian-nutritionist-health-parkside-orange-suites-5d090014f1eb93.3607288515608709329909-1.png"
+                alt="Nutritionist Consultation Hero"
+                class="rounded-xl shadow-lg mx-auto max-w-full h-auto max-h-[80vh]">
+        </div>
+    </section>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Consultation Benefits Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-neutral mb-8 text-center">Why Consult a Nutritionist?</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow text-center">
+                    <div class="text-secondary text-4xl mb-4 flex items-center justify-center">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2">Personalized Advice</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Receive nutrition plans and recommendations tailored specifically to your health needs and goals.
+                    </p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow text-center">
+                    <div class="text-accent text-4xl mb-4 flex items-center justify-center">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2">Expert Guidance</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Get clarity on nutrition myths and facts from certified professionals, ensuring you get reliable information.
+                    </p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow text-center lg:block md:hidden"> {# Hide on medium screens and below #}
+                    <div class="text-primary text-4xl mb-4 flex items-center justify-center">
+                        <i class="fa-solid fa-heart-circle-plus"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2">Health Improvement</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Address specific health concerns, manage conditions, and improve your overall well-being through diet.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultation Form Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-neutral mb-8 text-center">Request a Consultation</h2>
+            <div class="bg-white rounded-xl shadow-md p-8 lg:p-12 max-w-2xl mx-auto">
+                <form action="/submit_consultation_request" method="post"> {# Replace with your actual form submission route #}
+                    <div class="mb-6">
+                        <label for="name" class="block text-neutral text-sm font-bold mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-neutral leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-neutral text-sm font-bold mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-neutral leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="phone" class="block text-neutral text-sm font-bold mb-2">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone" class="shadow appearance-none border rounded w-full py-2 px-3 text-neutral leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter your phone number">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-neutral text-sm font-bold mb-2">Briefly Describe Your Needs</label>
+                        <textarea id="message" name="message" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-neutral leading-tight focus:outline-none focus:shadow-outline" placeholder="What are your nutrition goals or questions?" required></textarea>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <button class="bg-secondary hover:bg-primary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-colors" type="submit">
+                            Request Consultation
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- How it Works Section -->
+        <section class="mb-16 text-center">
+            <h2 class="text-3xl font-bold text-neutral mb-8">How It Works</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <!-- Step 1 -->
+                <div class="p-6">
+                    <div class="text-primary text-5xl mb-4 flex items-center justify-center mx-auto h-16 w-16 rounded-full bg-primary/10">
+                        <span>1</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2">Submit Request</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Fill out the consultation request form with your details and nutritional needs.
+                    </p>
+                </div>
+                <!-- Step 2 -->
+                <div class="p-6">
+                    <div class="text-secondary text-5xl mb-4 flex items-center justify-center mx-auto h-16 w-16 rounded-full bg-secondary/10">
+                        <span>2</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2">Get Matched</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        We'll match you with a nutritionist best suited to address your specific requirements.
+                    </p>
+                </div>
+                <!-- Step 3 -->
+                <div class="p-6">
+                    <div class="text-accent text-5xl mb-4 flex items-center justify-center mx-auto h-16 w-16 rounded-full bg-accent/10">
+                        <span>3</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2">Consult & Achieve</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Start your consultation, receive expert advice, and work towards your health goals.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <h3 class="text-2xl font-semibold text-neutral mb-3">Ready to take the next step?</h3>
+            <p class="text-gray-700 leading-relaxed mb-8">
+                Request your personalized nutritionist consultation today!
+            </p>
+            <a href="#consultation-form" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-full transition-colors shadow-md inline-block">
+                Request Free Consultation
+            </a>
+        </section>
+    </div>
+{% endblock content %}
+
+{% block scripts %}
+{% endblock scripts %}

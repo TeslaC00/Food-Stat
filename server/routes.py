@@ -159,6 +159,16 @@ def contact() -> str:
     return render_template("contact_us.jinja")
 
 
+@routes_bp.get("/aboutus")
+def about_us() -> str:
+    return render_template("about_us.jinja")
+
+
+@routes_bp.get("/doc")
+def doc_consultation() -> str:
+    return render_template("doc_consul.jinja")
+
+
 @routes_bp.get("/signup")
 def sign_up() -> str:
     return render_template("signup.jinja")
