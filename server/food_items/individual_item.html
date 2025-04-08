@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - FoodStat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom color palette -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2B8C44',
+                        secondary: '#83C341',
+                        accent: '#FFD700',
+                        neutral: '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Mobile-friendly Navbar -->
+    <nav class="bg-primary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="/" class="text-white text-2xl font-bold tracking-tight">FoodStat</a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Home</a>
+                        <a href="/categories.html" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Categories</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Search</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Stats</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Profile</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button aria-label="Mobile menu" class="text-white hover:text-accent focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (hidden by default) -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="/" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Home</a>
+                <a href="/categories.html" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Categories</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Search</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Stats</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Detail Section -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="lg:flex lg:space-x-8">
+            <!-- Product Image -->
+            <div class="lg:w-1/2 mb-6 lg:mb-0">
+                <img id="product-image" src="https://via.placeholder.com/600x400/4CAF50/FFFFFF?text=Product+Image" alt="Product Image" class="w-full rounded-xl shadow-md">
+            </div>
+
+            <!-- Product Information -->
+            <div class="lg:w-1/2">
+                <h1 id="product-name" class="text-3xl font-bold text-neutral mb-4">Product Name</h1>
+                <div class="flex items-center mb-4">
+                    <span class="text-accent font-semibold mr-2">Rating:</span>
+                    <span id="product-rating" class="text-xl font-medium">4.5</span> <span class="text-gray-500">(out of 5)</span>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+                    <h2 class="text-xl font-semibold text-neutral mb-4">Nutrition Facts</h2>
+                    <div id="nutrition-facts">
+                        <p><strong>Energy:</strong> <span id="nutrition-energy">Loading...</span></p>
+                        <p><strong>Protein:</strong> <span id="nutrition-protein">Loading...</span></p>
+                        <p><strong>Carbohydrate:</strong> <span id="nutrition-carbohydrate">Loading...</span></p>
+                        <p><strong>Total Fat:</strong> <span id="nutrition-total-fat">Loading...</span></p>
+                        <!-- Add more nutrition facts as needed -->
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+                    <h2 class="text-xl font-semibold text-neutral mb-4">Ingredients</h2>
+                    <ul id="ingredients-list" class="list-disc list-inside text-gray-700">
+                        <li>Loading ingredients...</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h2 class="text-xl font-semibold text-neutral mb-4">Allergy Information</h2>
+                    <ul id="allergy-info-list" class="list-disc list-inside text-red-700">
+                        <li>Loading allergy information...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold mb-4">FoodStat</h3>
+                    <p class="text-sm">Empowering healthier choices through nutrition intelligence.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Guides</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Research</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">About</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Privacy</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Terms</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
+                <p>© 2024 FoodStat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+        document.querySelector('[aria-label="Mobile menu"]').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id'); // Get product ID from query parameter
+
+            if (!productId) {
+                alert('Product ID is missing in the URL.'); // Basic error handling
+                return;
+            }
+
+            fetch(`/api/food_items/${productId}`) // Fetch product data by ID
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`); // Handle HTTP errors
+                    }
+                    return response.json();
+                })
+                .then(product => {
+                    // Populate product details on the page
+                    document.getElementById('product-image').src = product.image_url || "https://via.placeholder.com/600x400/4CAF50/FFFFFF?text=Product+Image"; // Use placeholder if no image URL
+                    document.getElementById('product-name').textContent = product.item_name;
+                    document.getElementById('product-rating').textContent = product.final_rating.toFixed(1); // Display rating with one decimal place
+
+                    // Nutrition Facts
+                    const nutritionFactsContainer = document.getElementById('nutrition-facts');
+                    nutritionFactsContainer.innerHTML = ''; // Clear loading text
+                    if (product.nutrition) {
+                        for (const [nutrient, value] of Object.entries(product.nutrition)) {
+                            const p = document.createElement('p');
+                            p.innerHTML = `<strong>${nutrient}:</strong> <span>${value}</span>`; // Display nutrient name and value
+                            nutritionFactsContainer.appendChild(p);
+                        }
+                    } else {
+                        nutritionFactsContainer.innerHTML = '<p>No nutrition information available.</p>';
+                    }
+
+
+                    // Ingredients List
+                    const ingredientsList = document.getElementById('ingredients-list');
+                    ingredientsList.innerHTML = ''; // Clear loading text
+                    if (product.ingredients && product.ingredients.length > 0) {
+                        product.ingredients.forEach(ingredient => {
+                            const li = document.createElement('li');
+                            li.textContent = ingredient;
+                            ingredientsList.appendChild(li);
+                        });
+                    } else {
+                        ingredientsList.innerHTML = '<li>No ingredients listed.</li>';
+                    }
+
+                    // Allergy Information List
+                    const allergyInfoList = document.getElementById('allergy-info-list');
+                    allergyInfoList.innerHTML = ''; // Clear loading text
+                    if (product.allergy_info && product.allergy_info.length > 0) {
+                        product.allergy_info.forEach(allergy => {
+                            const li = document.createElement('li');
+                            li.textContent = allergy;
+                            allergyInfoList.appendChild(li);
+                        });
+                    } else {
+                        allergyInfoList.innerHTML = '<li>No allergy information available.</li>';
+                    }
+
+                })
+                .catch(error => {
+                    console.error('Error fetching product details:', error);
+                    alert('Failed to load product details.'); // User-friendly error message
+                });
+        });
+    </script>
+</body>
+</html>

@@ -4,197 +4,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food-Stat - Eat Smart, Live Healthy</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Custom Styles (Optional, for further customization) -->
-    <style>
-        body {
-            font-family: 'Arial', sans-serif; /* Choose a pleasant font */
-            background-color: #f8f9fa; /* Light gray background */
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom color palette -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2B8C44',
+                        secondary: '#83C341',
+                        accent: '#FFD700',
+                        neutral: '#1F2937',
+                    }
+                }
+            }
         }
-        .navbar {
-            background-color: #28a745; /* Green navbar */
-        }
-        .navbar-brand, .nav-link {
-            color: white !important; /* White navbar text */
-        }
-        .hero-section {
-            background-color: #e2f0cb; /* Light green hero background */
-            padding: 100px 0;
-            text-align: center;
-        }
-        .hero-title {
-            font-size: 3.5rem;
-            font-weight: bold;
-            color: #28a745; /* Green title */
-            margin-bottom: 20px;
-        }
-        .hero-subtitle {
-            font-size: 1.5rem;
-            color: #555; /* Dark gray subtitle */
-            margin-bottom: 30px;
-        }
-        .category-section {
-            padding: 50px 0;
-        }
-        .category-title {
-            text-align: center;
-            margin-bottom: 40px;
-            color: #28a745; /* Green category title */
-        }
-        .category-card {
-            border: none;
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Soft shadow */
-            transition: transform 0.2s; /* Smooth hover effect */
-        }
-        .category-card:hover {
-            transform: scale(1.05);
-        }
-        .card-img-top {
-            height: 200px; /* Fixed image height for consistency */
-            object-fit: cover; /* Cover container, no distortion */
-        }
-        .card-footer {
-            background-color: #f0f8ea; /* Very light green card footer */
-            border-top: none; /* Remove border */
-            text-align: center;
-        }
-        .btn-primary {
-            background-color: #28a745; /* Green button */
-            border-color: #28a745;
-        }
-        .btn-primary:hover {
-            background-color: #1e7e34; /* Darker green on hover */
-            border-color: #1e7e34;
-        }
-        footer {
-            background-color: #343a40; /* Dark footer */
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 50px;
-        }
-    </style>
+    </script>
 </head>
-<body>
+<body class="bg-gray-50 font-sans">
+    <!-- Mobile-friendly Navbar -->
+    <nav class="bg-primary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-white text-2xl font-bold tracking-tight">FoodStat</a>
+                </div>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Food-Stat</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Categories</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Search Food</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">My Stats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Profile</a>
-                    </li>
-                </ul>
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Home</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Categories</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Search</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Stats</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Profile</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-white hover:text-accent focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (hidden by default) -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Home</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Categories</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Search</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Stats</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Profile</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <h1 class="hero-title">Welcome to Food-Stat</h1>
-            <p class="hero-subtitle">Make Smart Food Choices for a Healthier You.</p>
-            <p>Get detailed nutritional information, explore food categories, and track your food stats to achieve your health goals.</p>
-            <button type="button" class="btn btn-primary btn-lg">Explore Food Categories</button>
+    <section class="bg-gradient-to-r from-primary to-secondary">
+        <div class="max-w-7xl mx-auto px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                    Nourish Your Body,
+                    <span class="block mt-2 text-accent">Energize Your Life</span>
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-xl text-gray-100">
+                    Track your nutrition, discover healthy choices, and achieve your wellness goals.
+                </p>
+                <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                    <button class="bg-accent hover:bg-yellow-400 text-neutral px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105">
+                        Get Started
+                    </button>
+                    <button class="border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition">
+                        Learn More
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Food Category Section -->
-    <section class="category-section">
-        <div class="container">
-            <h2 class="category-title">Explore Food Categories</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-                <!-- Category Card 1 -->
-                <div class="col">
-                    <div class="card category-card">
-                        <img src="https://via.placeholder.com/600x400/FFC107/000000?text=Fruits" class="card-img-top" alt="Fruits">
-                        <div class="card-body">
-                            <h5 class="card-title">Fruits</h5>
-                            <p class="card-text">Discover the nutritional benefits of various fruits.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-outline-success btn-sm">View Fruits</a>
-                        </div>
+    <!-- Food Categories -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-center text-neutral mb-12">
+                Explore Nutritional Categories
+            </h2>
+
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Category Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://via.placeholder.com/600x400/FFC107/000000?text=Fruits"
+                         class="w-full h-48 object-cover"
+                         alt="Fresh Fruits">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral mb-2">Fresh Fruits</h3>
+                        <p class="text-gray-600 text-sm">Discover vitamin-rich fruits for daily nutrition</p>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                            Explore
+                            <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <!-- Category Card 2 -->
-                <div class="col">
-                    <div class="card category-card">
-                        <img src="https://via.placeholder.com/600x400/28A745/FFFFFF?text=Vegetables" class="card-img-top" alt="Vegetables">
-                        <div class="card-body">
-                            <h5 class="card-title">Vegetables</h5>
-                            <p class="card-text">Explore a wide range of vegetables and their nutritional values.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-outline-success btn-sm">View Vegetables</a>
-                        </div>
+
+                <!-- Repeat similar cards for other categories -->
+                <!-- Vegetables Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://via.placeholder.com/600x400/28A745/FFFFFF?text=Vegetables"
+                         class="w-full h-48 object-cover"
+                         alt="Vegetables">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral mb-2">Vegetables</h3>
+                        <p class="text-gray-600 text-sm">Explore fiber-packed vegetable options</p>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                            Explore
+                            <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <!-- Category Card 3 -->
-                <div class="col">
-                    <div class="card category-card">
-                        <img src="https://via.placeholder.com/600x400/007BFF/FFFFFF?text=Grains" class="card-img-top" alt="Grains">
-                        <div class="card-body">
-                            <h5 class="card-title">Grains</h5>
-                            <p class="card-text">Learn about different types of grains and their health benefits.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-outline-success btn-sm">View Grains</a>
-                        </div>
+
+                <!-- Proteins Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://via.placeholder.com/600x400/DC3545/FFFFFF?text=Proteins"
+                         class="w-full h-48 object-cover"
+                         alt="Proteins">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral mb-2">Proteins</h3>
+                        <p class="text-gray-600 text-sm">Essential proteins for muscle health</p>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                            Explore
+                            <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <!-- Category Card 4 -->
-                <div class="col">
-                    <div class="card category-card">
-                        <img src="https://via.placeholder.com/600x400/DC3545/FFFFFF?text=Proteins" class="card-img-top" alt="Proteins">
-                        <div class="card-body">
-                            <h5 class="card-title">Proteins</h5>
-                            <p class="card-text">Find protein-rich foods to support your diet and fitness goals.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-outline-success btn-sm">View Proteins</a>
-                        </div>
+
+                <!-- Grains Card -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://via.placeholder.com/600x400/007BFF/FFFFFF?text=Grains"
+                         class="w-full h-48 object-cover"
+                         alt="Grains">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-neutral mb-2">Whole Grains</h3>
+                        <p class="text-gray-600 text-sm">Nutritious grains for sustained energy</p>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <a href="#" class="inline-flex items-center text-secondary font-medium hover:text-primary">
+                            Explore
+                            <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="cta-section bg-light py-5">
-        <div class="container text-center">
-            <h2>Ready to take control of your diet?</h2>
-            <p class="lead">Start exploring food items and discover valuable nutritional insights.</p>
-            <button type="button" class="btn btn-success btn-lg">Get Started Now</button>
+    <!-- CTA Section -->
+    <section class="bg-neutral text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Start Your Health Journey Today</h2>
+            <p class="text-xl text-gray-300 mb-8">Join thousands of users achieving their nutrition goals with FoodStat</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-accent hover:bg-yellow-400 text-neutral px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105">
+                    Create Free Account
+                </button>
+                <button class="border-2 border-white hover:bg-white/10 px-8 py-3 rounded-lg font-semibold transition">
+                    Watch Demo
+                </button>
+            </div>
         </div>
     </section>
 
-
-    <footer>
-        <div class="container">
-            <p>© 2024 Food-Stat. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold mb-4">FoodStat</h3>
+                    <p class="text-sm">Empowering healthier choices through nutrition intelligence.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Guides</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Research</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">About</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Privacy</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Terms</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
+                <p>&copy; 2024 FoodStat. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq4KpPoe" crossorigin="anonymous"></script>
+    <!-- Mobile menu toggle script -->
+    <script>
+        document.querySelector('[aria-label="Mobile menu"]').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>

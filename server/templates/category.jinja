@@ -1,0 +1,89 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+<!-- Page Content Container -->
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="flex flex-col md:flex-row">
+        <!-- Sidebar -->
+        <aside class="md:w-1/4 pr-6 mb-8 md:mb-0">
+            <div class="bg-white rounded-lg shadow p-4 sticky top-4">
+                <h3 class="font-semibold text-neutral mb-4">Categories</h3>
+                <ul id="category-list" class="space-y-2">
+                    <!-- Categories will be dynamically inserted here by JavaScript -->
+                    <li><span class="block px-4 py-2 rounded hover:bg-gray-100 transition 
+                        text-neutral">Loading categories...</span></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="md:w-3/4">
+            <div class="mb-6">
+                <label for="food-search" class="block mb-2 text-sm font-medium text-gray-900 
+                    sr-only">Search</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 
+                        pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7a7 7 0 1 1-14 0 7 7 0 0 1 14 0z" />
+                        </svg>
+                    </div>
+                    <input type="search" id="food-search" class="block w-full p-4 pl-10 text-sm 
+                        text-gray-900 border border-gray-300 rounded-lg bg-gray-50 
+                        focus:ring-primary focus:border-primary" placeholder="Search for food items..." required>
+                    <button type="submit" class="text-white absolute right-2.5 bottom-2.5 
+                        bg-primary hover:bg-secondary focus:ring-4 focus:outline-none 
+                        focus:ring-primary font-medium rounded-lg text-sm px-4 py-2">Search</button>
+                </div>
+            </div>
+
+            <h2 class="text-2xl font-bold text-neutral mb-6">Featured Products</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {% for food_item in food_items%}
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                    <img src="{{ food_item.image_url }}" alt="{{ food_item.alt }}" class="w-full h-48 object-contain">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-neutral mb-2">{{ food_item.title }}</h3>
+                        <p class="text-gray-600 text-sm mb-4">{{ food_item.desc }}</p>
+                        <a href="{{ url_for('routes_bp.food_item', food_item_id=food_item.id) }}" class="inline-block bg-secondary text-white px-4 py-2 rounded-md text-sm 
+                        font-medium hover:bg-primary transition">View Details</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </main>
+    </div>
+</div>
+{% endblock content %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('/api/categories') // Fetch categories from your Flask API
+            .then(response => response.json())
+            .then(categories => {
+                const categoryList = document.getElementById('category-list');
+                categoryList.innerHTML = ''; // Clear the "Loading..." message
+
+                categories.forEach(categoryName => {
+                    const listItem = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.href = `/category/${categoryName.toLowerCase()}.html`; // Create link based on category name (adjust as needed)
+                    link.textContent = categoryName;
+                    link.classList.add('block', 'px-4', 'py-2', 'rounded', 'hover:bg-gray-100', 'transition', 'text-neutral'); // Tailwind classes
+                    listItem.appendChild(link);
+                    categoryList.appendChild(listItem);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching categories:', error);
+                const categoryList = document.getElementById('category-list');
+                categoryList.innerHTML = '<li><span class="block px-4 py-2 rounded text-red-500">Error loading categories</span></li>'; // Display error message
+            });
+    });
+</script>
+{% endblock scripts %}

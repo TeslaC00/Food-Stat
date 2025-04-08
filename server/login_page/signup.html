@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - FoodStat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom color palette -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2B8C44',
+                        secondary: '#83C341',
+                        accent: '#FFD700',
+                        neutral: '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Mobile-friendly Navbar -->
+    <nav class="bg-primary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="/" class="text-white text-2xl font-bold tracking-tight">FoodStat</a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Home</a>
+                        <a href="/categories.html" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Categories</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Search</a>
+                        <a href="#" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Stats</a>
+                        <a href="/profile.html" class="text-white hover:bg-secondary/20 px-3 py-2 rounded-md transition">Profile</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button aria-label="Mobile menu" class="text-white hover:text-accent focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (hidden by default) -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="/" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Home</a>
+                <a href="/categories.html" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Categories</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Search</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Stats</a>
+                <a href="/profile.html" class="text-white block px-3 py-2 rounded-md hover:bg-secondary/20">Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-secondary">
+        <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-3xl font-extrabold text-neutral sm:text-4xl lg:text-5xl">
+                    Join FoodStat Today
+                </h1>
+                <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-700">
+                    Create your account and start your journey to healthier eating by telling us more about you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Form Section -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="max-w-lg mx-auto bg-white rounded-xl shadow-md overflow-hidden p-8">
+            <h2 class="text-2xl font-bold text-neutral mb-6 text-center">Create a New Account</h2>
+            <form id="signup-form" class="space-y-6">
+                <div>
+                    <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+                    <div class="mt-1">
+                        <input type="text" id="username" name="username" required class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Choose a username">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                    <div class="mt-1">
+                        <input type="password" id="password" name="password" required class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Create a password">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
+                    <div class="mt-1">
+                        <input type="text" id="firstName" name="firstName" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Your first name">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
+                    <div class="mt-1">
+                        <input type="text" id="lastName" name="lastName" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Your last name">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="gender" class="block text-sm font-medium text-gray-700">Gender</label>
+                    <div class="mt-1">
+                        <select id="gender" name="gender" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="age" class="block text-sm font-medium text-gray-700">Age</label>
+                    <div class="mt-1">
+                        <input type="number" id="age" name="age" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Your age">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="weight" class="block text-sm font-medium text-gray-700">Weight (in kg)</label>
+                    <div class="mt-1">
+                        <input type="number" id="weight" name="weight" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Your weight">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="height" class="block text-sm font-medium text-gray-700">Height (in cm)</label>
+                    <div class="mt-1">
+                        <input type="number" id="height" name="height" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="Your height">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="dietType" class="block text-sm font-medium text-gray-700">Diet Type</label>
+                    <div class="mt-1">
+                        <select id="dietType" name="dietType" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md">
+                            <option value="Omnivore">Omnivore</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Vegan">Vegan</option>
+                            <option value="Pescatarian">Pescatarian</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="allergy_info" class="block text-sm font-medium text-gray-700">Allergies (comma-separated)</label>
+                    <div class="mt-1">
+                        <input type="text" id="allergy_info" name="allergy_info" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="e.g., peanuts, gluten, dairy">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="diseases" class="block text-sm font-medium text-gray-700">Diseases (comma-separated)</label>
+                    <div class="mt-1">
+                        <input type="text" id="diseases" name="diseases" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" placeholder="e.g., Diabetes, Hypertension">
+                    </div>
+                </div>
+
+
+                <div>
+                    <button type="submit" class="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        Sign Up
+                    </button>
+                </div>
+            </form>
+
+            <div class="mt-6 text-center">
+                <p class="text-sm text-gray-600">
+                    Already have an account? <a href="/login.html" class="font-medium text-secondary hover:text-primary transition">Log in</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white font-bold mb-4">FoodStat</h3>
+                    <p class="text-sm">Empowering healthier choices through nutrition intelligence.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Guides</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Research</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">About</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-accent transition">Privacy</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Terms</a></li>
+                        <li><a href="#" class="hover:text-accent transition">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
+                <p>© 2024 FoodStat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+        document.querySelector('[aria-label="Mobile menu"]').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const signupForm = document.getElementById('signup-form');
+
+            signupForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent default form submission
+
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+                const firstName = document.getElementById('firstName').value;
+                const lastName = document.getElementById('lastName').value;
+                const gender = document.getElementById('gender').value;
+                const age = document.getElementById('age').value;
+                const weight = document.getElementById('weight').value;
+                const height = document.getElementById('height').value;
+                const dietType = document.getElementById('dietType').value;
+                const allergy_info = document.getElementById('allergy_info').value;
+                const diseases = document.getElementById('diseases').value;
+
+
+                const signupData = {
+                    username: username,
+                    password: password,
+                    firstName: firstName,
+                    lastName: lastName,
+                    gender: gender,
+                    age: age,
+                    weight: weight,
+                    height: height,
+                    dietType: dietType,
+                    allergy_info: allergy_info,
+                    diseases: diseases
+                };
+
+                fetch('/sign_up', { // Your Flask signup route
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(signupData)
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Signup failed. Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Signup successful - handle redirection
+                    console.log('Signup successful!', data);
+                    alert('Signup successful! Please log in.');
+                    // Redirect to login page after successful signup:
+                    window.location.href = '/login.html';
+                })
+                .catch(error => {
+                    console.error('Signup error:', error);
+                    alert('Signup failed. Please try again.'); // User-friendly error message
+                });
+            });
+        });
+    </script>
+</body>
+</html>
