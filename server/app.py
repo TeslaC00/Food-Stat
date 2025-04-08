@@ -208,6 +208,9 @@ def get_categories():
     return jsonify(categories)
 
 
+from flask import jsonify
+from bson import ObjectId
+
 @app.route("/api/food_items/category/<category>/filter/<profile_id>", methods=["GET"])
 def get_food_items_by_profile(category, profile_id):
     projection = {
@@ -217,38 +220,63 @@ def get_food_items_by_profile(category, profile_id):
         "image_url": 1,
         "final_rating": 1,
         "allergy_info": 1,
-        "nutrition": 1  # Needed for personalization
+        "nutrition": 1,
+        "veg": 1  # Needed for vegetarian check
     }
-    users = db["users"]
-    user = users.find_one(ObjectId(profile_id)) ## User found
-    if user is None:
-        return jsonify({"Error": "Object not found"}), 404
 
-     # 👇 Querying food items by category from MongoDB
+    users = db["users"]
+    user = users.find_one(ObjectId(profile_id))
+    if user is None:
+        return jsonify({"Error": "User not found"}), 404
+
     food_items_cursor = collection.find({"item_category": category.upper()}, projection)
-    user_type = user.get('userType')
+
+    # Ensure consistent formats
+    user_type = user.get("userType", "general_fitness")
+    user_dietType = user.get("dietType", "veg")
+    user_allergies = user.get("allergy_info", [])
+    user_diseases = user.get("diseases", [])
+
     results = []
 
     for item in food_items_cursor:
-        base_score = item.get("final_rating", 2.5)
+        base_score = item.get("final_rating", 1.5)
         nutrition = item.get("nutrition", {})
+        vegFood = item.get("veg", True)
+        item_allergies = item.get("allergy_info", [])
+
+        food_item = {
+            "nutrition": nutrition,
+            "veg": vegFood,
+            "allergy_info": item_allergies,
+            "user_allergies": user_allergies  # Needed for allergy comparison
+        }
 
         try:
             personalized_score = personalize_score(
-                food_item={"nutrition": nutrition},
-                user_type=user_type,
+                food_item=food_item,
+                vegFood=vegFood,
+                user_dict={
+                    "user_type": user_type,
+                    "user_allergies": user_allergies,
+                    "user_diseases": user_diseases,
+                    "user_dietType": user_dietType 
+                },
                 base_health_score=base_score
             )
         except Exception as e:
             print(f"Error scoring item '{item.get('item_name', '')}': {e}")
-            personalized_score = base_score  # fallback if error
+            personalized_score = base_score  # fallback score
 
         item["_id"] = str(item["_id"])
         item["personalised_score"] = personalized_score
         results.append(item)
 
+    # Sort by personalised score (descending)
     results.sort(key=lambda x: x["personalised_score"], reverse=True)
+
     return jsonify(results)
+
 
 
 @app.route("/api/food_items/category/<category>", methods=["GET"])

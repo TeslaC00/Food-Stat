@@ -10606,9 +10606,9 @@
       "unit": "ml"
     },
     "score": null,
-    "nutritional_content_rating": 4,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 4,
     "final_rating": 4,
     "veg": true,
     "servings_size": {
@@ -10663,9 +10663,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3.5,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.7,
     "veg": true,
     "servings_size": {
@@ -10717,9 +10717,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3.5,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 3,
     "final_rating": 3.5,
     "veg": true,
     "item_category": "PROTEIN-BAR",
@@ -10775,9 +10775,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 1.8,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 1.8,
+    "NUTRITIONAL_CONTENT_RATING": 1.8,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 1.8,
     "final_rating": 1.7,
     "veg": true,
     "item_category": "SWEETS",
@@ -10816,9 +10816,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3.5,
-    "ingredient_quality_rating": 3.5,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.5,
     "veg": true,
     "servings_size": {
@@ -10852,8 +10852,8 @@
     "servings": 5,
     "allergy_info": null,
     "final_rating": 3.7,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 4,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 4,
     "ingredients": [
       "ALPHONSO MANGO PULP(51%)",
       "WATER",
@@ -10875,7 +10875,7 @@
       "calcium": 8.86,
       "potassium": 100.33
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "ML",
     "veg": true,
     "image_url": "https://www.bigbasket.com/media/uploads/p/l/40115018_7-raw-pressery-mango-100-natural-cold-pressed-juice.jpg",
@@ -10891,8 +10891,8 @@
     "servings": 1,
     "allergy_info": null,
     "final_rating": 2.2,
-    "health_impact_rating": 2,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "WATER",
       "SUGAR",
@@ -10914,7 +10914,7 @@
       "total_fat": 0,
       "sodium": 0
     },
-    "nutritional_content_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
     "unit": "ML",
     "veg": true,
     "image_url": "https://www.jiomart.com/images/product/original/491695599/maaza-refresh-mango-drink-135-ml-10-pcs-product-images-o491695599-p590114753-1-202302240829.jpg?im=Resize=(1000,1000)",
@@ -10932,8 +10932,8 @@
       "Others"
     ],
     "final_rating": 4.5,
-    "health_impact_rating": 4.6,
-    "ingredient_quality_rating": 4.7,
+    "HEALTH_IMPACT_RATING": 4.6,
+    "INGREDIENT_QUALITY_RATING": 4.7,
     "ingredients": [
       "SPROUTED RAGI(100%)"
     ],
@@ -10952,7 +10952,7 @@
       "added_sugars": 0,
       "sodium": 16.2
     },
-    "nutritional_content_rating": 4.6,
+    "NUTRITIONAL_CONTENT_RATING": 4.6,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.yogabars.in/cdn/shop/files/ragiMix250gcopy.jpg?v=1701339719&width=1946",
@@ -10966,8 +10966,8 @@
     "servings": 25,
     "allergy_info": null,
     "final_rating": 2.2,
-    "health_impact_rating": 2,
-    "ingredient_quality_rating": 2,
+    "HEALTH_IMPACT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 2,
     "ingredients": [
       "SUGAR",
       "MIX FRUITS PULP BLEND (46%) (BANANA, PAPAYA, PEAR, MANGO PULP, PINEAPPLE, APPLE, GRAPES, ORANGE JUICE)",
@@ -10991,7 +10991,7 @@
       "sodium": 51,
       "fiber": 0.8
     },
-    "nutritional_content_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71L3BDZWGaL.jpg",
@@ -11011,8 +11011,8 @@
       "Soy"
     ],
     "final_rating": 3.2,
-    "health_impact_rating": 3,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "WATER",
       "SUGAR",
@@ -11039,7 +11039,7 @@
       "total_fat": 0,
       "sodium": 5
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "ML",
     "veg": true,
     "image_url": "https://www.bigbasket.com/media/uploads/p/xxl/1213605-2_2-b-natural-juice-orange-oomph.jpg",
@@ -11055,8 +11055,8 @@
     "servings": 2,
     "allergy_info": null,
     "final_rating": 2.5,
-    "health_impact_rating": 2.5,
-    "ingredient_quality_rating": 2,
+    "HEALTH_IMPACT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2,
     "ingredients": [
       "ORANGE JUICE (10.5%)(RECONSTITUTED FROM ORANGE JUICE CONCENTRATE & ORANGEPULP CELLS)",
       "WATER",
@@ -11077,7 +11077,7 @@
       "total_fat": 0,
       "sodium": 9.6
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "ML",
     "veg": true,
     "image_url": "https://www.bigbasket.com/media/uploads/p/xxl/265722_12-minute-maid-fruit-drink-pulpy-orange.jpg",
@@ -11095,8 +11095,8 @@
       "Dairy"
     ],
     "final_rating": 2.5,
-    "health_impact_rating": 2.5,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "POTATO",
       "EDIBLE VEGETABLE OIL (PALMOLEIN, SUNFLOWER OIL)",
@@ -11125,7 +11125,7 @@
       "trans_fat": 0.1,
       "sodium": 591
     },
-    "nutritional_content_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/51UbDDZIoAL.jpg",
@@ -11142,8 +11142,8 @@
       "Others"
     ],
     "final_rating": 3,
-    "health_impact_rating": 2.5,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "MALTED BEVERAGE POWDER OVOMALTINE 33% (BARLEY MALT EXTRACT 17%, CONDENSED SKIMMED MILK, CONDENSED MILK PERMEATE, FAT-REDUCED COCOA POWDER 4.3%, SUGAR, FRUCTOSE )",
       "MINERALS (MAGNESIUM CARBONATE, DICALCIUM PHOSPHATE)",
@@ -11176,7 +11176,7 @@
       "sodium": 66,
       "fiber": null
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/618YmTYrsJL.jpg",
@@ -11192,8 +11192,8 @@
       "Dairy"
     ],
     "final_rating": 4,
-    "health_impact_rating": 4,
-    "ingredient_quality_rating": 4.5,
+    "HEALTH_IMPACT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4.5,
     "ingredients": [
       "MILK POWDER",
       "POPPED RAGI",
@@ -11216,7 +11216,7 @@
       "cholestrol": 0,
       "fiber": 8.6
     },
-    "nutritional_content_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
     "unit": "G",
     "veg": true,
     "image_url": "https://trumillets.in/wp-content/uploads/2020/09/IJ-3FSW-ZLU4-3.jpg",
@@ -11251,9 +11251,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 4.2,
-    "ingredient_quality_rating": 3.5,
-    "health_impact_rating": 3.8,
+    "NUTRITIONAL_CONTENT_RATING": 4.2,
+    "INGREDIENT_QUALITY_RATING": 3.5,
+    "HEALTH_IMPACT_RATING": 3.8,
     "final_rating": 3.8,
     "veg": true,
     "servings_size": {
@@ -11290,8 +11290,8 @@
       "Others"
     ],
     "final_rating": 4.3,
-    "health_impact_rating": 4.2,
-    "ingredient_quality_rating": 4.5,
+    "HEALTH_IMPACT_RATING": 4.2,
+    "INGREDIENT_QUALITY_RATING": 4.5,
     "ingredients": [
       "NATURAL FRUITS",
       "MULTIGRAINS POWDER",
@@ -11310,7 +11310,7 @@
       "iron": 5.8,
       "calcium": 258
     },
-    "nutritional_content_rating": 4.4,
+    "NUTRITIONAL_CONTENT_RATING": 4.4,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/81Kdr5OPfJL.jpg",
@@ -11386,9 +11386,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 4.5,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 4.5,
     "final_rating": 4.3,
     "veg": true,
     "item_category": "PROTEIN-BAR",
@@ -11418,8 +11418,8 @@
       "Dairy"
     ],
     "final_rating": 4.1,
-    "health_impact_rating": 4,
-    "ingredient_quality_rating": 4,
+    "HEALTH_IMPACT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4,
     "ingredients": [
       "WHEY PROTEIN CONCENTRATE(80% POWDER)"
     ],
@@ -11436,7 +11436,7 @@
       "isoleucine": 4.6,
       "valine": 4.6
     },
-    "nutritional_content_rating": 4.3,
+    "NUTRITIONAL_CONTENT_RATING": 4.3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/717z92AB6PL.jpg",
@@ -11454,8 +11454,8 @@
       "Dairy"
     ],
     "final_rating": 3.7,
-    "health_impact_rating": 3.7,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3.7,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "WHEY PROTEIN MATRIX 70% (WHEY PROTEIN CONCENTRATE, WHEY PROTEIN ISOLATE)",
       "DIGESTIVE ENZYMES",
@@ -11481,7 +11481,7 @@
       "isoleucine": 3.4,
       "valine": 3.45
     },
-    "nutritional_content_rating": 3.8,
+    "NUTRITIONAL_CONTENT_RATING": 3.8,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.muscleasylum.in/cdn/shop/files/MainImage_grande@2x.jpg",
@@ -11497,8 +11497,8 @@
       "Sulphites"
     ],
     "final_rating": 2.5,
-    "health_impact_rating": 2,
-    "ingredient_quality_rating": 2,
+    "HEALTH_IMPACT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 2,
     "ingredients": [
       "SUGAR",
       "ORANGE EXTRACT (45%)",
@@ -11524,7 +11524,7 @@
       "sodium": 30,
       "fiber": 0.6
     },
-    "nutritional_content_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/51Z9MT2DLuL.jpg",
@@ -11543,8 +11543,8 @@
       "Soy"
     ],
     "final_rating": 4.5,
-    "health_impact_rating": 4.5,
-    "ingredient_quality_rating": 4.5,
+    "HEALTH_IMPACT_RATING": 4.5,
+    "INGREDIENT_QUALITY_RATING": 4.5,
     "ingredients": [
       "WHOLE GRAINS 48% (ROLLED OATS (25%), MILLETS(23%), RAGI FLAKES, JOWAR FLAKES)",
       "PROTEIN BLEND 23% (TEXTURIZED SOY PROTEIN AND WHEY PROTEIN ISOLATE)",
@@ -11573,7 +11573,7 @@
       "fiber": 7,
       "omega-3": 0.5
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/713Nlcv7mgL.jpg",
@@ -11591,8 +11591,8 @@
       "Nuts"
     ],
     "final_rating": 4.2,
-    "health_impact_rating": 4.1,
-    "ingredient_quality_rating": 4.6,
+    "HEALTH_IMPACT_RATING": 4.1,
+    "INGREDIENT_QUALITY_RATING": 4.6,
     "ingredients": [
       "WHOLE WHEAT(80%)",
       "DATES(13%)",
@@ -11615,7 +11615,7 @@
       "salt": 0.05,
       "added_salt": 0
     },
-    "nutritional_content_rating": 4.3,
+    "NUTRITIONAL_CONTENT_RATING": 4.3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61STfndsW4L._AC_UF894,1000_QL80_.jpg",
@@ -11633,8 +11633,8 @@
       "Nuts"
     ],
     "final_rating": 4.5,
-    "health_impact_rating": 4.2,
-    "ingredient_quality_rating": 4.8,
+    "HEALTH_IMPACT_RATING": 4.2,
+    "INGREDIENT_QUALITY_RATING": 4.8,
     "ingredients": [
       "ROASTED PEANUTS(100%)"
     ],
@@ -11654,7 +11654,7 @@
       "sodium": 7,
       "cholesterol": 0
     },
-    "nutritional_content_rating": 4.6,
+    "NUTRITIONAL_CONTENT_RATING": 4.6,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61ZSRcVPCmL._AC_UF1000,1000_QL80_.jpg",
@@ -11672,8 +11672,8 @@
       "Dairy"
     ],
     "final_rating": 4.7,
-    "health_impact_rating": 4.8,
-    "ingredient_quality_rating": 4.5,
+    "HEALTH_IMPACT_RATING": 4.8,
+    "INGREDIENT_QUALITY_RATING": 4.5,
     "ingredients": [
       "WHEY PROTEIN ISOLATE",
       "MINERALS",
@@ -11704,7 +11704,7 @@
       "copper": 2,
       "manganese": 2
     },
-    "nutritional_content_rating": 4.7,
+    "NUTRITIONAL_CONTENT_RATING": 4.7,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.jiomart.com/images/product/original/rvwuzhyvar/bon-iso-whey-100-protein-isolate-for-muscle-strength-and-bone-health-whey-protein-2-kg-irish-chocolate-product-images-orvwuzhyvar-p599023846-0-202303030707.jpg",
@@ -11724,8 +11724,8 @@
       "Soy"
     ],
     "final_rating": 2.6,
-    "health_impact_rating": 2.4,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 2.4,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "REFINED WHEAT FLOUR (MAIDA)",
       "EDIBLE VEGETABLE OIL (PALM OIL)",
@@ -11759,7 +11759,7 @@
       "cholestrol": 0.099,
       "sodium": 1409.17
     },
-    "nutritional_content_rating": 2.9,
+    "NUTRITIONAL_CONTENT_RATING": 2.9,
     "unit": "G",
     "veg": false,
     "image_url": "https://m.media-amazon.com/images/I/81H5f1NFXmL.jpg",
@@ -11777,8 +11777,8 @@
       "Nuts"
     ],
     "final_rating": 4.1,
-    "health_impact_rating": 4.3,
-    "ingredient_quality_rating": 4.5,
+    "HEALTH_IMPACT_RATING": 4.3,
+    "INGREDIENT_QUALITY_RATING": 4.5,
     "ingredients": [
       "PEANUTS(78%)",
       "ORGANIC JAGGERY(12%)",
@@ -11799,7 +11799,7 @@
       "cholesterol": 15,
       "sodium": 17.9
     },
-    "nutritional_content_rating": 4.4,
+    "NUTRITIONAL_CONTENT_RATING": 4.4,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61YFh9xFQUL.jpg",
@@ -11815,8 +11815,8 @@
       "Gluten"
     ],
     "final_rating": 3,
-    "health_impact_rating": 3,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "WHEAT FLOUR (ATTA) (6%)",
       "YEAST",
@@ -11847,7 +11847,7 @@
       "sodium": null,
       "fiber": 6
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.bigbasket.com/media/uploads/p/l/40162924_6-britannia-100-whole-wheat-bread.jpg",
@@ -11881,9 +11881,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 1.5,
-    "ingredient_quality_rating": 1,
-    "health_impact_rating": 1.5,
+    "NUTRITIONAL_CONTENT_RATING": 1.5,
+    "INGREDIENT_QUALITY_RATING": 1,
+    "HEALTH_IMPACT_RATING": 1.5,
     "final_rating": 1.3,
     "veg": true,
     "item_category": "SWEETS",
@@ -11912,8 +11912,8 @@
     "servings": null,
     "allergy_info": null,
     "final_rating": 4.17,
-    "health_impact_rating": 4,
-    "ingredient_quality_rating": 4,
+    "HEALTH_IMPACT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4,
     "ingredients": [
       "MILLETS & PULSES BLEND FLOUR (55%) (JOWAR/SORGHUM, CHICKPEAS, QUINOA, WHOLE GRAIN OATS, RAGI, SOY, URAD)",
       "RICE BRAN OIL",
@@ -11947,7 +11947,7 @@
       "saturated_fat": 4.5,
       "total_fat": 22.8
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/91EArnN-wlL.jpg",
@@ -11971,9 +11971,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.3,
     "veg": true,
     "servings_size": {
@@ -12025,9 +12025,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 4,
-    "ingredient_quality_rating": 3.5,
-    "health_impact_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 3.5,
+    "HEALTH_IMPACT_RATING": 4,
     "final_rating": 3.8,
     "veg": true,
     "item_category": "PROTEIN-BAR",
@@ -12059,8 +12059,8 @@
       "Soy"
     ],
     "final_rating": 3.5,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "POTATO",
       "EDIBLE REFINED VEGETABLE OIL",
@@ -12097,7 +12097,7 @@
       "saturated_fat": 10.7,
       "total_fat": 38.2
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/6111Ohd68KL.jpg",
@@ -12113,8 +12113,8 @@
     "servings": 6,
     "allergy_info": null,
     "final_rating": 2.7,
-    "health_impact_rating": 2.5,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "APPLE JUICE CONCENTRATE(3.85%)",
       "WATER",
@@ -12139,7 +12139,7 @@
       "iron": 0.4,
       "potassium": 15
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "ML",
     "veg": true,
     "image_url": "https://www.grocerslocal.in/media/catalog/product/cache/2c7666b95835e0d8816b2ed2e9c41efb/8/9/8901207021220_7.jpg",
@@ -12157,8 +12157,8 @@
       "Nuts"
     ],
     "final_rating": 4,
-    "health_impact_rating": 3.9,
-    "ingredient_quality_rating": 4.2,
+    "HEALTH_IMPACT_RATING": 3.9,
+    "INGREDIENT_QUALITY_RATING": 4.2,
     "ingredients": [
       "ROASTED PEANUTS",
       "STABILIZER (MONO AND DIGLYCERIDES OF_FATTY ACIDS)",
@@ -12184,7 +12184,7 @@
       "cholesterol": 0,
       "sodium": 345
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/81dR2Ca85rL.jpg",
@@ -12201,8 +12201,8 @@
       "Soy"
     ],
     "final_rating": 2.5,
-    "health_impact_rating": 2.5,
-    "ingredient_quality_rating": 2,
+    "HEALTH_IMPACT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2,
     "ingredients": [
       "REFINED WHEAT FLOUR (MAIDA)",
       "SUGAR",
@@ -12234,7 +12234,7 @@
       "sodium": 333.52,
       "fiber": 6.34
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/81C38DNA4tL.jpg",
@@ -12250,8 +12250,8 @@
       "Sulphites"
     ],
     "final_rating": 3.3,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 4,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 4,
     "ingredients": [
       "FRUIT [ORANGE (35%), GULGUL GIANT INDIAN LEMON (10%)]",
       "SUGAR",
@@ -12273,7 +12273,7 @@
       "sodium": 62.3,
       "fiber": 1
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/51rt9jAxycL.jpg",
@@ -12293,8 +12293,8 @@
       "Nuts"
     ],
     "final_rating": 3.8,
-    "health_impact_rating": 4,
-    "ingredient_quality_rating": 4,
+    "HEALTH_IMPACT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4,
     "ingredients": [
       "CORN GRITS (90%)",
       "SUGAR",
@@ -12319,7 +12319,7 @@
       "sodium": 490,
       "fiber": 2.5
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.jiomart.com/images/product/original/491586426/kellogg-s-corn-flakes-1-2-kg-product-images-o491586426-p491586426-3-202403011830.jpg",
@@ -12341,8 +12341,8 @@
       "Mustard"
     ],
     "final_rating": 2.8,
-    "health_impact_rating": 2.8,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 2.8,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "REFINED WHEAT FLOUR (MAIDA)",
       "PALM OIL",
@@ -12390,7 +12390,7 @@
       "sodium": 1028.3,
       "iron": 6.9
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "G",
     "veg": true,
     "image_url": "https://5.imimg.com/data5/SELLER/Default/2021/9/DS/FG/NF/25679466/3.jpg",
@@ -12409,8 +12409,8 @@
       "Others"
     ],
     "final_rating": 3.5,
-    "health_impact_rating": 3.2,
-    "ingredient_quality_rating": 3.7,
+    "HEALTH_IMPACT_RATING": 3.2,
+    "INGREDIENT_QUALITY_RATING": 3.7,
     "ingredients": [
       "CEREAL EXTRACT (56%) [BARLEY, WHEAT, MILLETS]",
       "COCOA SOLIDS",
@@ -12472,7 +12472,7 @@
       "inositol": null,
       "taurine": null
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61bAWdUjwDL.jpg",
@@ -12492,8 +12492,8 @@
       "Others"
     ],
     "final_rating": 2.5,
-    "health_impact_rating": 2.5,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "DRIED POTATO",
       "EDIBLE VEGETABLE OIL (COCONUT OIL & PALM OIL)",
@@ -12517,7 +12517,7 @@
       "saturated_fat": 15,
       "total_fat": 30.9
     },
-    "nutritional_content_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71C9IJ7JOrL.jpg",
@@ -12533,8 +12533,8 @@
     "servings": 4,
     "allergy_info": null,
     "final_rating": 4.2,
-    "health_impact_rating": 4,
-    "ingredient_quality_rating": 5,
+    "HEALTH_IMPACT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 5,
     "ingredients": [
       "CRANBERRY(100%)"
     ],
@@ -12550,7 +12550,7 @@
       "total_fat": 0,
       "sodium": 10
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "ML",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/615rvgmw5VL.jpg",
@@ -12595,9 +12595,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 2.5,
-    "ingredient_quality_rating": 2.5,
-    "health_impact_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2.5,
+    "HEALTH_IMPACT_RATING": 2.5,
     "final_rating": 2.5,
     "veg": true,
     "servings_size": {
@@ -12634,8 +12634,8 @@
       "Others"
     ],
     "final_rating": 3.3,
-    "health_impact_rating": 3,
-    "ingredient_quality_rating": 3.4,
+    "HEALTH_IMPACT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 3.4,
     "ingredients": [
       "CEREAL EXTRACT (44%) [MALTED BARLEY (13%), BARLEY (11%), WHEAT MALT (11%), WHEAT (9%)]",
       "MILK SOLIDS (2%)",
@@ -12697,7 +12697,7 @@
       "inositol": null,
       "taurine": null
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61MhNvUnqxL.jpg",
@@ -12729,9 +12729,9 @@
       "unit": "ml"
     },
     "score": null,
-    "nutritional_content_rating": 2.5,
-    "ingredient_quality_rating": 2,
-    "health_impact_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2,
+    "HEALTH_IMPACT_RATING": 2.5,
     "final_rating": 2.3,
     "veg": true,
     "servings_size": {
@@ -12767,8 +12767,8 @@
       "Soy"
     ],
     "final_rating": 3.3,
-    "health_impact_rating": 3,
-    "ingredient_quality_rating": 3.2,
+    "HEALTH_IMPACT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 3.2,
     "ingredients": [
       "MILK SOLIDS (54.7%)",
       "SUGAR",
@@ -12826,7 +12826,7 @@
       "inositol": 30,
       "taurine": 15
     },
-    "nutritional_content_rating": 3.7,
+    "NUTRITIONAL_CONTENT_RATING": 3.7,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/618ChkFF7tL.jpg",
@@ -12861,9 +12861,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 2,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 2,
     "final_rating": 1.8,
     "veg": true,
     "servings_size": {
@@ -12907,8 +12907,8 @@
       "Mustard"
     ],
     "final_rating": 3.1,
-    "health_impact_rating": 3,
-    "ingredient_quality_rating": 2.9,
+    "HEALTH_IMPACT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 2.9,
     "ingredients": [
       "REFINED WHEAT FLOUR (MAIDA)",
       "THICKENER -1420",
@@ -12944,7 +12944,7 @@
       "salt": 4.5,
       "fiber": 2.8
     },
-    "nutritional_content_rating": 3.3,
+    "NUTRITIONAL_CONTENT_RATING": 3.3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/81jvuBiWgAL.jpg",
@@ -12964,8 +12964,8 @@
       "Soy"
     ],
     "final_rating": 3,
-    "health_impact_rating": 2.8,
-    "ingredient_quality_rating": 3,
+    "HEALTH_IMPACT_RATING": 2.8,
+    "INGREDIENT_QUALITY_RATING": 3,
     "ingredients": [
       "WHEAT FLOUR",
       "MODIFIED TAPIOCA STARCH",
@@ -13010,7 +13010,7 @@
       "sodium": 630,
       "iron": 6.9
     },
-    "nutritional_content_rating": 3.2,
+    "NUTRITIONAL_CONTENT_RATING": 3.2,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71ymXNtUKrL._AC_UF1000,1000_QL80_.jpg",
@@ -13027,8 +13027,8 @@
       "Gluten"
     ],
     "final_rating": 4.2,
-    "health_impact_rating": 4.3,
-    "ingredient_quality_rating": 4.2,
+    "HEALTH_IMPACT_RATING": 4.3,
+    "INGREDIENT_QUALITY_RATING": 4.2,
     "ingredients": [
       "WHEAT GLAKES (60.19%)",
       "ROLLED OATS (33.68%)",
@@ -13051,7 +13051,7 @@
       "sodium": 0,
       "fiber": null
     },
-    "nutritional_content_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/710GYc8VryL.jpg",
@@ -13083,9 +13083,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3.5,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.7,
     "veg": true,
     "item_category": "PROTEIN-BAR",
@@ -13132,9 +13132,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 2,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 2,
     "final_rating": 1.8,
     "veg": true,
     "servings_size": {
@@ -13172,8 +13172,8 @@
       "Soy"
     ],
     "final_rating": 2.2,
-    "health_impact_rating": 2,
-    "ingredient_quality_rating": 2.5,
+    "HEALTH_IMPACT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 2.5,
     "ingredients": [
       "SUGAR",
       "PALM OIL",
@@ -13198,7 +13198,7 @@
       "sodium": 577,
       "fiber": null
     },
-    "nutritional_content_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/51M2TOk4RJL.jpg",
@@ -13223,9 +13223,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3,
-    "ingredient_quality_rating": 3.5,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.3,
     "veg": true,
     "servings_size": {
@@ -13266,9 +13266,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 4.5,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 4.2,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 4.2,
     "final_rating": 4.3,
     "veg": true,
     "servings_size": {
@@ -13328,9 +13328,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 4,
-    "ingredient_quality_rating": 4,
-    "health_impact_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4,
+    "HEALTH_IMPACT_RATING": 4,
     "final_rating": 4,
     "veg": true,
     "item_category": "PROTEIN-BAR",
@@ -13360,8 +13360,8 @@
       "Dairy"
     ],
     "final_rating": 3.7,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "WHEY ISOLATE PROTEIN & PEPTIDE BLEND",
       "HYDROLYZED WHEY PROTEIN ISOLATE",
@@ -13396,7 +13396,7 @@
       "boron": 0.00666,
       "tribulus": 2222
     },
-    "nutritional_content_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61qLmcCV6IL.jpg",
@@ -13414,8 +13414,8 @@
       "Soy"
     ],
     "final_rating": 3.7,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "WHEAT PRODUCTS (54%) [WHEAT FLOUR(ATTA), WHEAT BRAN AND BROKEN WHEAT]",
       "OIL SEEDS - 5% (LINSEED,SESAME, SUNFLOWER AND WATER-MELON)",
@@ -13447,7 +13447,7 @@
       "sodium": 424,
       "fiber": 6.5
     },
-    "nutritional_content_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/51rofeoE0WL.jpg",
@@ -13466,8 +13466,8 @@
       "Nuts"
     ],
     "final_rating": 1.8,
-    "health_impact_rating": 1.5,
-    "ingredient_quality_rating": 2,
+    "HEALTH_IMPACT_RATING": 1.5,
+    "INGREDIENT_QUALITY_RATING": 2,
     "ingredients": [
       "SUGAR",
       "EDIBLE VEGETABLE OIL (PALM OIL)",
@@ -13494,7 +13494,7 @@
       "sodium": 140,
       "fiber": null
     },
-    "nutritional_content_rating": 1.8,
+    "NUTRITIONAL_CONTENT_RATING": 1.8,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61YFsXe-XcL.jpg",
@@ -13518,8 +13518,8 @@
       "Mustard"
     ],
     "final_rating": 3.3,
-    "health_impact_rating": 3,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "WHOLE EHEAT FLOUR (ATTA) (46.8%)",
       "SUGAR",
@@ -13548,7 +13548,7 @@
       "sodium": 146.4,
       "fiber": 5.1
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71qLXUwBXDL.jpg",
@@ -13566,8 +13566,8 @@
       "Others"
     ],
     "final_rating": 3.5,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "CEREAL EXTRACT (44%) [MALTED BARLEY (13%), BARLEY (11%), WHEAT MALT (11%), WHEAT (9%)]",
       "MILK SOLIDS (2%)",
@@ -13623,7 +13623,7 @@
       "selenium": 43,
       "potassium": 542
     },
-    "nutritional_content_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61bdShEdmpL.jpg",
@@ -13661,9 +13661,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 2,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 2,
     "final_rating": 1.8,
     "veg": true,
     "servings_size": {
@@ -13709,8 +13709,8 @@
       "Soy"
     ],
     "final_rating": 2.8,
-    "health_impact_rating": 2.5,
-    "ingredient_quality_rating": 2.7,
+    "HEALTH_IMPACT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2.7,
     "ingredients": [
       "REFINED WHEAT FLOUR",
       "POTATO STARCH",
@@ -13755,7 +13755,7 @@
       "saturated_fat": 14,
       "sodium": 1470
     },
-    "nutritional_content_rating": 3.1,
+    "NUTRITIONAL_CONTENT_RATING": 3.1,
     "unit": "G",
     "veg": true,
     "image_url": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/app/videos/products/thumbnail/d532e8aa-7cdc-4f87-8b1a-419b37f4c25c.jpg",
@@ -13773,8 +13773,8 @@
       "Nuts"
     ],
     "final_rating": 4.4,
-    "health_impact_rating": 4.2,
-    "ingredient_quality_rating": 4.7,
+    "HEALTH_IMPACT_RATING": 4.2,
+    "INGREDIENT_QUALITY_RATING": 4.7,
     "ingredients": [
       "ROASTED PEANUTS(100%)"
     ],
@@ -13795,7 +13795,7 @@
       "cholesterol": 0,
       "sodium": 19
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/61gupyFLD3L.jpg",
@@ -13814,8 +13814,8 @@
       "Soy"
     ],
     "final_rating": 4.1,
-    "health_impact_rating": 4.1,
-    "ingredient_quality_rating": 4,
+    "HEALTH_IMPACT_RATING": 4.1,
+    "INGREDIENT_QUALITY_RATING": 4,
     "ingredients": [
       "MULTIGRAIN 50% (ROLLED OATS 28.9%. WHOLE WHEAT FLAKES 21.1% (WHEAT, SUGAR, IODIZED SALT. CEREAL ANTIOXIDANTS (INS 322 & 307B))",
       "PROTEIN BLEND 17% (WHEY PROTEIN (6.1%). SOY PROTEIN ISOLATE (5.6%)",
@@ -13843,7 +13843,7 @@
       "fiber": 6.6,
       "omega-3": null
     },
-    "nutritional_content_rating": 4.2,
+    "NUTRITIONAL_CONTENT_RATING": 4.2,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/711i4YJxZ1L.jpg",
@@ -13881,9 +13881,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 1.5,
-    "ingredient_quality_rating": 1,
-    "health_impact_rating": 1.5,
+    "NUTRITIONAL_CONTENT_RATING": 1.5,
+    "INGREDIENT_QUALITY_RATING": 1,
+    "HEALTH_IMPACT_RATING": 1.5,
     "final_rating": 1.3,
     "veg": true,
     "item_category": "SWEETS",
@@ -13931,9 +13931,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 2,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 2,
     "final_rating": 1.8,
     "veg": true,
     "servings_size": {
@@ -13982,9 +13982,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 1.5,
-    "ingredient_quality_rating": 1,
-    "health_impact_rating": 1.5,
+    "NUTRITIONAL_CONTENT_RATING": 1.5,
+    "INGREDIENT_QUALITY_RATING": 1,
+    "HEALTH_IMPACT_RATING": 1.5,
     "final_rating": 1.3,
     "veg": true,
     "item_category": "SWEETS",
@@ -14012,8 +14012,8 @@
       "Others"
     ],
     "final_rating": 3,
-    "health_impact_rating": 2.8,
-    "ingredient_quality_rating": 3.2,
+    "HEALTH_IMPACT_RATING": 2.8,
+    "INGREDIENT_QUALITY_RATING": 3.2,
     "ingredients": [
       "SUGAR",
       "RAGI(25%)",
@@ -14039,7 +14039,7 @@
       "fiber": null,
       "phosphorus": 213.12
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71HRHypYAhS.jpg",
@@ -14057,8 +14057,8 @@
       "Dairy"
     ],
     "final_rating": 4.2,
-    "health_impact_rating": 4,
-    "ingredient_quality_rating": 4,
+    "HEALTH_IMPACT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4,
     "ingredients": [
       "WHEY PROTEIN",
       "SUNFLOWER LECITHIN"
@@ -14081,7 +14081,7 @@
       "isoleucine": 5.7,
       "valine": 5.8
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/51iSW5pjjXL.jpg",
@@ -14097,8 +14097,8 @@
       "Gluten"
     ],
     "final_rating": 3.4,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3,
     "ingredients": [
       "WHOLE WHEAT FLOUR - ATTA (52.4%)",
       "WATER",
@@ -14128,7 +14128,7 @@
       "sodium": 577,
       "fiber": 8.4
     },
-    "nutritional_content_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/51mPt2i9ahL.jpg",
@@ -14184,9 +14184,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 4,
-    "ingredient_quality_rating": 3.5,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.7,
     "veg": true,
     "servings_size": {
@@ -14223,8 +14223,8 @@
       "Gluten"
     ],
     "final_rating": 4,
-    "health_impact_rating": 3.9,
-    "ingredient_quality_rating": 4.3,
+    "HEALTH_IMPACT_RATING": 3.9,
+    "INGREDIENT_QUALITY_RATING": 4.3,
     "ingredients": [
       "SUPERGRAIN BLEND (CORN GRIT, JOWAR FLOUR)(75%)",
       "VEGETABLE BLEND (TOMATO POWDER,CARROT POWDER, SPINACH POWDER)(15%)",
@@ -14246,7 +14246,7 @@
       "trans_fat": 0,
       "cholesterol": 0
     },
-    "nutritional_content_rating": 4.1,
+    "NUTRITIONAL_CONTENT_RATING": 4.1,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71HEx4ng1DL.jpg",
@@ -14264,8 +14264,8 @@
       "Soy"
     ],
     "final_rating": 3.8,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3.8,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.8,
     "ingredients": [
       "WHEAT FLOUR - ATTA (45%)",
       "WATER",
@@ -14291,7 +14291,7 @@
       "sodium": 470,
       "fiber": 8.13
     },
-    "nutritional_content_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.bigbasket.com/media/uploads/p/l/40277223-2_2-bonn-multigrain-bread-hi-fibre-high-protein-0-trans-fat.jpg",
@@ -14308,8 +14308,8 @@
       "Nuts"
     ],
     "final_rating": 4.6,
-    "health_impact_rating": 4.6,
-    "ingredient_quality_rating": 4.8,
+    "HEALTH_IMPACT_RATING": 4.6,
+    "INGREDIENT_QUALITY_RATING": 4.8,
     "ingredients": [
       "ROLLED OATS (61 %)",
       "UNSWEETENED PEANUT BUTTER (26%)",
@@ -14337,7 +14337,7 @@
       "fiber": 7,
       "calcium": 61.4
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://alpino.store/cdn/shop/files/2.2_1.jpg?v=1726908296",
@@ -14358,8 +14358,8 @@
       "Others"
     ],
     "final_rating": 4.4,
-    "health_impact_rating": 4.2,
-    "ingredient_quality_rating": 4.5,
+    "HEALTH_IMPACT_RATING": 4.2,
+    "INGREDIENT_QUALITY_RATING": 4.5,
     "ingredients": [
       "WHEAT FLOUR (ATTA) (36.5%)",
       "MILK SOLIDS (27.4%)",
@@ -14413,7 +14413,7 @@
       "biotin": 8,
       "saturated_fat": 4.6
     },
-    "nutritional_content_rating": 4.3,
+    "NUTRITIONAL_CONTENT_RATING": 4.3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71rwkacC2+L.jpg",
@@ -14433,8 +14433,8 @@
       "Soy"
     ],
     "final_rating": 3,
-    "health_impact_rating": 3,
-    "ingredient_quality_rating": 3,
+    "HEALTH_IMPACT_RATING": 3,
+    "INGREDIENT_QUALITY_RATING": 3,
     "ingredients": [
       "POTATO",
       "EDIBLE VEGETABLE OIL (PALMOLEIN, SUNFLOWER OIL)",
@@ -14458,7 +14458,7 @@
       "saturated_fat": 14.8,
       "total_fat": 33.1
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71kOsITKSkL.jpg",
@@ -14476,8 +14476,8 @@
       "Nuts"
     ],
     "final_rating": 4.2,
-    "health_impact_rating": 4.1,
-    "ingredient_quality_rating": 4.6,
+    "HEALTH_IMPACT_RATING": 4.1,
+    "INGREDIENT_QUALITY_RATING": 4.6,
     "ingredients": [
       "PEANUTS(85%)",
       "DATE POWDER(15%)"
@@ -14498,7 +14498,7 @@
       "cholesterol": 0,
       "sodium": 31.1
     },
-    "nutritional_content_rating": 4.3,
+    "NUTRITIONAL_CONTENT_RATING": 4.3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71qLM81bNgL.jpg",
@@ -14542,9 +14542,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3.5,
-    "ingredient_quality_rating": 3,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.3,
     "veg": true,
     "servings_size": {
@@ -14581,8 +14581,8 @@
       "Gluten"
     ],
     "final_rating": 4.3,
-    "health_impact_rating": 4.2,
-    "ingredient_quality_rating": 4.5,
+    "HEALTH_IMPACT_RATING": 4.2,
+    "INGREDIENT_QUALITY_RATING": 4.5,
     "ingredients": [
       "WHOLE WHEAT FLOUR - ATTA (100.0%)",
       "GLUTEN",
@@ -14608,7 +14608,7 @@
       "sodium": 333.52,
       "fiber": 6.34
     },
-    "nutritional_content_rating": 4,
+    "NUTRITIONAL_CONTENT_RATING": 4,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.thehealthfactory.in/cdn/shop/files/Main-Image_2.jpg",
@@ -14631,8 +14631,8 @@
       "Mustard"
     ],
     "final_rating": 3,
-    "health_impact_rating": 2.9,
-    "ingredient_quality_rating": 2.8,
+    "HEALTH_IMPACT_RATING": 2.9,
+    "INGREDIENT_QUALITY_RATING": 2.8,
     "ingredients": [
       "REFINED WHEAT FLOUR (MAIDA)",
       "THICKENER -1420",
@@ -14670,7 +14670,7 @@
       "sodium": 1028.3,
       "iron": 6.9
     },
-    "nutritional_content_rating": 3.2,
+    "NUTRITIONAL_CONTENT_RATING": 3.2,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.jiomart.com/images/product/original/494340426/knorr-k-pot-spicy-kimchi-veg-meal-korean-ramen-96-g-product-images-o494340426-p606780080-0-202312181747.jpg",
@@ -14707,9 +14707,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 2,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 2,
     "final_rating": 1.8,
     "veg": true,
     "servings_size": {
@@ -14758,9 +14758,9 @@
       "unit": "ml"
     },
     "score": null,
-    "nutritional_content_rating": 2.5,
-    "ingredient_quality_rating": 2,
-    "health_impact_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2,
+    "HEALTH_IMPACT_RATING": 2.5,
     "final_rating": 2.3,
     "veg": true,
     "servings_size": {
@@ -14800,8 +14800,8 @@
       "Gluten"
     ],
     "final_rating": 4.6,
-    "health_impact_rating": 4.7,
-    "ingredient_quality_rating": 4.8,
+    "HEALTH_IMPACT_RATING": 4.7,
+    "INGREDIENT_QUALITY_RATING": 4.8,
     "ingredients": [
       "SUPERGRAIN BLEND (SPROUTED RAGI, JOWAR, RICE)(35%),",
       "MILK SOLIDS (30%)",
@@ -14840,7 +14840,7 @@
       "iron": 9,
       "zinc": 5
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71KwIbGmrZL.jpg",
@@ -14859,8 +14859,8 @@
       "Soy"
     ],
     "final_rating": 3.6,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "WHEY PROTEIN CONCENTRATE(CROSS-FLOW MICROFILTERED"
     ],
@@ -14884,7 +14884,7 @@
       "phosphorus": 2.22,
       "potassium": 6.66
     },
-    "nutritional_content_rating": 3.8,
+    "NUTRITIONAL_CONTENT_RATING": 3.8,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/610cToOwrZL.jpg",
@@ -14913,9 +14913,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 2,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 2,
+    "NUTRITIONAL_CONTENT_RATING": 2,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 2,
     "final_rating": 1.8,
     "veg": true,
     "item_category": "SWEETS",
@@ -14956,9 +14956,9 @@
       "unit": "ml"
     },
     "score": null,
-    "nutritional_content_rating": 2.5,
-    "ingredient_quality_rating": 2,
-    "health_impact_rating": 2.5,
+    "NUTRITIONAL_CONTENT_RATING": 2.5,
+    "INGREDIENT_QUALITY_RATING": 2,
+    "HEALTH_IMPACT_RATING": 2.5,
     "final_rating": 2.3,
     "veg": true,
     "servings_size": {
@@ -14995,8 +14995,8 @@
       "Nuts"
     ],
     "final_rating": 4.3,
-    "health_impact_rating": 4,
-    "ingredient_quality_rating": 4.7,
+    "HEALTH_IMPACT_RATING": 4,
+    "INGREDIENT_QUALITY_RATING": 4.7,
     "ingredients": [
       "DRY ROASTED PEANUTS(100%)"
     ],
@@ -15010,7 +15010,7 @@
       "added_sugars": 0,
       "total_fat": 50
     },
-    "nutritional_content_rating": 4.5,
+    "NUTRITIONAL_CONTENT_RATING": 4.5,
     "unit": "G",
     "veg": true,
     "image_url": "https://www.thebutternutcompany.com/cdn/shop/products/61Ccdzs1EjL.jpg?v=1713939903",
@@ -15053,9 +15053,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 1.8,
-    "ingredient_quality_rating": 1.5,
-    "health_impact_rating": 1.8,
+    "NUTRITIONAL_CONTENT_RATING": 1.8,
+    "INGREDIENT_QUALITY_RATING": 1.5,
+    "HEALTH_IMPACT_RATING": 1.8,
     "final_rating": 1.7,
     "veg": true,
     "item_category": "SWEETS",
@@ -15125,9 +15125,9 @@
       "unit": "g"
     },
     "score": null,
-    "nutritional_content_rating": 3.5,
-    "ingredient_quality_rating": 3,
-    "health_impact_rating": 3.5,
+    "NUTRITIONAL_CONTENT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3,
+    "HEALTH_IMPACT_RATING": 3.5,
     "final_rating": 3.3,
     "veg": true,
     "item_category": "PROTEIN-BAR",
@@ -15158,8 +15158,8 @@
       "Soy"
     ],
     "final_rating": 3.3,
-    "health_impact_rating": 3.5,
-    "ingredient_quality_rating": 3.5,
+    "HEALTH_IMPACT_RATING": 3.5,
+    "INGREDIENT_QUALITY_RATING": 3.5,
     "ingredients": [
       "RICE",
       "RICE BRAN OIL",
@@ -15183,7 +15183,7 @@
       "saturated_fat": 3.2,
       "total_fat": 14
     },
-    "nutritional_content_rating": 3,
+    "NUTRITIONAL_CONTENT_RATING": 3,
     "unit": "G",
     "veg": true,
     "image_url": "https://m.media-amazon.com/images/I/71DoUmPz-KL.jpg",

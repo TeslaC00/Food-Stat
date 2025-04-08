@@ -79,39 +79,56 @@ def parse_float(value: Union[str, float, int]) -> float:
         return 0.0
 
 
-def clamp_score(score: float) -> float:
-    return max(0.0, min(5.0, round(score, 2)))
-
-
-def personalize_score(food_item: Dict, user_type: str, base_health_score: float = 3.5) -> float:
+def personalize_score(
+    food_item: Dict,
+    vegFood: Union[str, bool],
+    user_dict: Dict,
+    base_health_score: float = 2.5
+) -> float:
+    user_type = user_dict.get("user_type", "general_fitness")
     normalized_type = user_type.strip().lower().replace(" ", "_")
+
     rules = RULE_SETS.get(normalized_type)
     if not rules:
         raise ValueError(f"Unsupported user type: {user_type}")
 
+    user_diet = user_dict.get("user_dietType", "non-veg").lower()
+    user_allergies = user_dict.get("user_allergies") or []
+
     # Vegetarian check
-    if user_type.lower() == "vegetarian" and not food_item.get("veg", True):
-        return 0.0
+    if isinstance(vegFood, str):
+        if user_diet == "veg" and vegFood.lower() != "vegetarian":
+            print("VEG CONFLICT")
+            return 0.0
+    elif isinstance(vegFood, bool):
+        if user_diet == "veg" and not vegFood:
+            print("VEG CONFLICT")
+            return 0.0
 
     # Allergy check
-    user_allergies = food_item.get("user_allergies", [])
     item_allergies = [a.lower() for a in food_item.get("allergy_info", [])]
     if any(allergen.lower() in item_allergies for allergen in user_allergies):
+        print("ALLERGY CONFLICT")
         return 0.0
 
     nutrition = food_item.get("nutrition", {})
     score = base_health_score
 
+    # Boost nutrients
     for nutrient, weight in rules.get("boost", {}).items():
         value = parse_float(nutrition.get(nutrient, 0))
-        score += weight * value
+        score += weight * min(value, 100) / 100  # scale each nutrient to [0–1]
 
+    # Penalize nutrients
     for nutrient, weight in rules.get("penalize", {}).items():
         value = parse_float(nutrition.get(nutrient, 0))
-        score -= weight * value
+        score -= weight * min(value, 100) / 100
 
     return clamp_score(score)
 
+
+def clamp_score(score: float) -> float:
+    return round(max(0.0, min(5.0, score)), 2)
 
 # Demo
 
