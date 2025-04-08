@@ -18,7 +18,7 @@ Your Profile
             <!-- Avatar Placeholder -->
         </div>
         <h1 class="text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl tracking-tight mb-4">
-            Welcome, <span id="profile-name" class="font-accent font-semibold">{{ user_profile.profile_name }}</span>
+            Welcome, <span id="profile-name" class="font-accent font-semibold">{{ user.profile_name }}</span>
         </h1>
         <p class="mt-4 max-w-3xl mx-auto text-xl text-gray-100">
             Explore your personalized food profile and manage your health preferences. Let's make healthy eating easier!
@@ -29,7 +29,7 @@ Your Profile
 <!-- Edit Profile Button Section -->
 <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center flex justify-center items-center gap-5">
     {# TODO: Link edit profile button to edit profile route #}
-    <a href="{{ url_for('routes_bp.edit_profile', profile_id=user_profile._id) }}" id="edit-profile-button"
+    <a href="#" id="edit-profile-button"
         class="bg-secondary hover:bg-primary text-white font-semibold py-2 px-6 rounded-md transition focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-opacity-50">
         <i class="fa-solid fa-pen-to-square mr-2"></i> Edit Profile
     </a>
@@ -48,18 +48,18 @@ Your Profile
             <h2 class="text-3xl font-bold text-neutral mb-8 text-center">Your Profile Information</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl max-auto">
                 {% set profile_fields_left = [
-                ('fa-user-tag', 'Profile Name', 'profile_name', user_profile.profile_name),
-                ('fa-user', 'First Name', 'firstName', user_profile.firstName),
-                ('fa-user-group', 'Last Name', 'lastName', user_profile.lastName),
-                ('fa-venus-mars', 'Gender', 'gender', user_profile.gender),
-                ('fa-weight-scale', 'Weight', 'weight', user_profile.weight ~ ' kg' if user_profile.weight is not none else 'N/A')
+                ('fa-user-tag', 'Profile Name', 'profile_name', user.profile_name),
+                ('fa-user', 'First Name', 'first_name', user.first_name),
+                ('fa-user-group', 'Last Name', 'last_name', user.last_name),
+                ('fa-venus-mars', 'Gender', 'gender', user.gender),
+                ('fa-weight-scale', 'Weight', 'weight', user.weight ~ ' kg' if user.weight is not none else 'N/A')
                 ] %}
 
                 {% set profile_fields_right = [
-                ('fa-ruler-vertical', 'Height', 'height', user_profile.height ~ ' cm' if user_profile.height is not none else 'N/A'),
-                ('fa-calendar-alt', 'Age', 'age', user_profile.age ~ ' years' if user_profile.age is not none else 'N/A'),
-                ('fa-users', 'User Type', 'userType', user_profile.userType),
-                ('fa-utensils', 'Diet Type', 'dietType', user_profile.dietType)
+                ('fa-ruler-vertical', 'Height', 'height', user.height ~ ' cm' if user.height is not none else 'N/A'),
+                ('fa-calendar-alt', 'Age', 'age', user.age ~ ' years' if user.age is not none else 'N/A'),
+                ('fa-users', 'User Type', 'user_type', user.user_type),
+                ('fa-utensils', 'Diet Type', 'diet_type', user.diet_type)
                 ] %}
 
                 <div class="px-2 md:px-6">
@@ -85,7 +85,7 @@ Your Profile
 
             <!-- Allergy and Diseases Sections as Cards -->
             <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div id="allergy-info-card" class="bg-light-green rounded-lg p-6 shadow-sm" {% if not user_profile.allergy_info or user_profile.allergy_info|length == 0 %}style="display: none;"{% endif %}>
+                <div id="allergy-info-card" class="bg-light-green rounded-lg p-6 shadow-sm">
                     <h3 class="font-semibold text-xl text-neutral mb-4 pl-12">
                         <i class="fa-solid fa-exclamation-triangle text-red-500 mr-2"></i> Allergies
                     </h3>
@@ -100,15 +100,15 @@ Your Profile
                     </ul>
                 </div>
 
-                <div id="diseases-card" class="bg-light-green rounded-lg p-6 shadow-sm" {% if not user_profile.diseases or user_profile.diseases|length == 0 %}style="display: none;"{% endif %}>
+                <div id="diseases-card" class="bg-light-green rounded-lg p-6 shadow-sm">
                     <h3 class="font-semibold text-xl text-neutral mb-4 pl-12">
                         <i class="fa-solid fa-heartbeat text-red-500 mr-2"></i> Diseases
                     </h3>
                     <ul id="diseases-list" class="list-disc list-inside text-red-700 pl-16">
-                        {% if user_profile.diseases %}
-                            {% for disease in user_profile.diseases %}
-                                <li>{{ disease }}</li>
-                            {% endfor %}
+                        {% if user.diseases %}
+                        {% for disease in user.diseases %}
+                        <li>{{ disease }}</li>
+                        {% endfor %}
                         {% else %}
                         <li>None</li>
                         {% endif %}

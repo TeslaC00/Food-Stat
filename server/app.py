@@ -42,8 +42,12 @@ def login():
     username = request.form["username"]
     password = request.form["password"]
     next_page = request.args.get("next")
-    user_doc = users_collection.find_one({"username": username})
+    user_doc = accounts_collection.find_one({"username": username})
+    print(f"username:{username},password:{password}")
+    print(user_doc)
+    print(f"success:{user_doc["password"] == password}")
     if user_doc and user_doc["password"] == password:
+        print("Logged in")
         login_user(User(user_doc))
         flash(f"Logged in as {username}", "info")
         return redirect(next_page or url_for("routes_bp.profile"))
