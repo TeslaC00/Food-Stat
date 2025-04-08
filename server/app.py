@@ -45,7 +45,8 @@ def login():
         print("user logged in")
         flash(f"Logged in as {username}", "info")
         return redirect(next_page or url_for("routes_bp.profile"))
-    return "Invalid credentials"
+    flash("Invalid credentials", "error")
+    return redirect(url_for("routes_bp.login"))
 
 
 @app.post("/sign_up")
