@@ -66,7 +66,7 @@ Your Profile
 
                 <div class="px-2 md:px-6">
                     {% for icon, label, element_id, value in profile_fields_left %}
-                    <div class="flex mb-3 pl-16">
+                    <div class="flex mb-3 pl-20">
                         <i class="fa-solid {{ icon }} text-primary mr-2"></i>
                         <span class="font-semibold text-neutral mr-2">{{ label }}:</span>
                         <span id="{{ element_id }}" class="text-gray-700">{{ value or 'Loading...' }}</span>
@@ -76,7 +76,7 @@ Your Profile
 
                 <div class="px-2 md:px-6">
                     {% for icon, label, element_id, value in profile_fields_right %}
-                    <div class="flex mb-3 pl-15">
+                    <div class="flex mb-3 pl-20">
                         <i class="fa-solid {{ icon }} text-primary mr-2"></i>
                         <span class="font-semibold text-neutral mr-2">{{ label }}:</span>
                         <span id="{{ element_id }}" class="text-gray-700">{{ value or 'Loading...' }}</span>
