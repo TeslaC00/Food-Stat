@@ -120,9 +120,9 @@
   "firstName": "admin",
   "lastName": "admin",
   "gender": "Male",
-  "weight": null,
-  "height": null,
-  "age": 9,
+  "weight": 65,
+  "height": 1.77,
+  "age": 29,
   "dietType": "Vegetarian",
   "allergy_info": [
     "Peanuts"
@@ -134,7 +134,7 @@
     "$oid": "67f40b25bb8d7822d5d2cd2e"
   },
   "account_id": "67f40b1bbb8d7822d5d2cd2b",
-  "userType": "General Fitness",
+  "userType": "Weight Gain",
   "profile_name": "profile for admin",
   "firstName": "admin",
   "lastName": "admin",

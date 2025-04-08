@@ -3,9 +3,9 @@ from flask import Flask, flash, jsonify, redirect, request, url_for
 from flask_login import LoginManager, login_user
 from pymongo import ASCENDING, DESCENDING
 from database import db
-from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
 from models import User
 from routes import register_routes
+from ML_APIS.personalizer import personalize_score
 from ML_APIS.Gemini_API.fetch_ratings import get_structured_rating
 
 # Collection Database
@@ -208,7 +208,7 @@ def get_categories():
     return jsonify(categories)
 
 
-@app.route("/api/food_items/<category>/filter/<profile_id>", methods=["GET"])
+@app.route("/api/food_items/category/<category>/filter/<profile_id>", methods=["GET"])
 def get_food_items_by_profile(category, profile_id):
     projection = {
         "_id": 1,
@@ -217,33 +217,37 @@ def get_food_items_by_profile(category, profile_id):
         "image_url": 1,
         "final_rating": 1,
         "allergy_info": 1,
+        "nutrition": 1  # Needed for personalization
     }
     users = db["users"]
-    user = users.find_one(ObjectId(profile_id))
+    user = users.find_one(ObjectId(profile_id)) ## User found
     if user is None:
         return jsonify({"Error": "Object not found"}), 404
 
-    food_items_list = personalize_food_recommendation(
-        category=category,
-        user_type=user["userType"],
-        sex=user["gender"],
-        height=user["height"],
-        weight=user["weight"],
-        age=user["age"],
-    )
-
+     # 👇 Querying food items by category from MongoDB
+    food_items_cursor = collection.find({"item_category": category.upper()}, projection)
+    user_type = user.get('userType')
     results = []
 
-    for food_items in food_items_list:
-        name = food_items[0]
-        personalised_score = food_items[1]
-        document = collection.find_one({"item_name": name}, projection)
-        if document is not None:
-            document["_id"] = str(document["_id"])
-            document["personalised_score"] = personalised_score
-            results.append(document)
+    for item in food_items_cursor:
+        base_score = item.get("final_rating", 2.5)
+        nutrition = item.get("nutrition", {})
 
-    results = sorted(results, key=lambda x: x["personalised_score"], reverse=True)
+        try:
+            personalized_score = personalize_score(
+                food_item={"nutrition": nutrition},
+                user_type=user_type,
+                base_health_score=base_score
+            )
+        except Exception as e:
+            print(f"Error scoring item '{item.get('item_name', '')}': {e}")
+            personalized_score = base_score  # fallback if error
+
+        item["_id"] = str(item["_id"])
+        item["personalised_score"] = personalized_score
+        results.append(item)
+
+    results.sort(key=lambda x: x["personalised_score"], reverse=True)
     return jsonify(results)
 
 
@@ -274,18 +278,7 @@ def get_food_items_by_category(category):
 
 
 @app.route("/api/form/rating",  methods=["POST"])
-def get_food_item_rating():
-    keys = [
-        "NUTRITION.ENERGY",  # Example energy value
-        "NUTRITION.PROTEIN",  # Example protein value
-        "NUTRITION.CARBOHYDRATE",  # Example carbs value
-        "NUTRITION.TOTAL_SUGARS",  # Example sugars value
-        "NUTRITION.ADDED_SUGARS",  # Example added sugars value
-        "NUTRITION.TOTAL_FAT",  # Example fat value
-        "NUTRITION.SATURATED_FAT",  # Example saturated fat value
-        "NUTRITION.FIBER",  # Example fiber value
-        "NUTRITION.SODIUM",  # Example sodium value
-    ]
+def get_food_item_rating(): ## GEMINI_CALLS
     data = request.json
     print(data)
     result = get_structured_rating(data)
