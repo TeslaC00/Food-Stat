@@ -208,6 +208,7 @@ def get_categories():
     return jsonify(categories)
 
 
+## RULE BASED AI
 @app.route("/api/food_items/category/<category>/filter/<profile_id>", methods=["GET"])
 def get_food_items_by_profile(category, profile_id):
     projection = {
@@ -235,19 +236,25 @@ def get_food_items_by_profile(category, profile_id):
 
         try:
             personalized_score = personalize_score(
-                food_item={"nutrition": nutrition},
+                food_item={
+                    "nutrition": nutrition,
+                    "veg": item.get("veg", True),
+                    "allergy_info": item.get("allergy_info", []), ## from 
+                    "user_allergies": user.get("allergy_info", []),
+                    "user_diseases": [user.get("diseases")] if user.get("diseases") else [],
+                    "dietType" : [user.get('dietType')] if user.get("dietType") else ['veg']
+                },
                 user_type=user_type,
                 base_health_score=base_score
             )
+
         except Exception as e:
             print(f"Error scoring item '{item.get('item_name', '')}': {e}")
-            personalized_score = base_score  # fallback if error
+            personalized_score = base_score
 
-        item["_id"] = str(item["_id"])
-        item["personalised_score"] = personalized_score
-        results.append(item)
-
-    results.sort(key=lambda x: x["personalised_score"], reverse=True)
+    item["_id"] = str(item["_id"])
+    item["personalised_score"] = personalized_score
+    results.append(item)
     return jsonify(results)
 
 
