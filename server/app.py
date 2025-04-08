@@ -8,6 +8,7 @@ from routes import register_routes
 from ML_APIS.personalizer import personalize_score
 from ML_APIS.Gemini_API.fetch_ratings import get_structured_rating
 from Barcode.barcode_utils import analyze_barcode_from_base64
+
 # Collection Database
 collection = db["food_items"]
 accounts_collection = db["accounts"]
@@ -222,8 +223,6 @@ def get_user_profile(profile_id):
             return jsonify({"message": "Error updating profile"}), 500
 
 
-
-
 @app.route("/api/food_items/<id>", methods=["GET"])
 def get_food_item_by_id(id):
     projection = {
@@ -260,9 +259,6 @@ def get_categories():
     return jsonify(categories)
 
 
-from flask import jsonify
-from bson import ObjectId
-
 @app.route("/api/food_items/category/<category>/filter/<profile_id>", methods=["GET"])
 def get_food_items_by_profile(category, profile_id):
     projection = {
@@ -273,7 +269,7 @@ def get_food_items_by_profile(category, profile_id):
         "final_rating": 1,
         "allergy_info": 1,
         "nutrition": 1,
-        "veg": 1  # Needed for vegetarian check
+        "veg": 1,  # Needed for vegetarian check
     }
 
     users = db["users"]
@@ -301,7 +297,7 @@ def get_food_items_by_profile(category, profile_id):
             "nutrition": nutrition,
             "veg": vegFood,
             "allergy_info": item_allergies,
-            "user_allergies": user_allergies  # Needed for allergy comparison
+            "user_allergies": user_allergies,  # Needed for allergy comparison
         }
 
         try:
@@ -312,9 +308,9 @@ def get_food_items_by_profile(category, profile_id):
                     "user_type": user_type,
                     "user_allergies": user_allergies,
                     "user_diseases": user_diseases,
-                    "user_dietType": user_dietType 
+                    "user_dietType": user_dietType,
                 },
-                base_health_score=base_score
+                base_health_score=base_score,
             )
         except Exception as e:
             print(f"Error scoring item '{item.get('item_name', '')}': {e}")
@@ -328,7 +324,6 @@ def get_food_items_by_profile(category, profile_id):
     results.sort(key=lambda x: x["personalised_score"], reverse=True)
 
     return jsonify(results)
-
 
 
 @app.route("/api/food_items/category/<category>", methods=["GET"])
@@ -357,12 +352,13 @@ def get_food_items_by_category(category):
     return jsonify(results)
 
 
-@app.route("/api/form/rating",  methods=["POST"])
-def get_food_item_rating(): ## GEMINI_CALLS
+@app.route("/api/form/rating", methods=["POST"])
+def get_food_item_rating():  ## GEMINI_CALLS
     data = request.json
     print(data)
     result = get_structured_rating(data)
     return jsonify({"Rating": result}), 200
+
 
 @app.post("/api/message")
 def add_message():
@@ -381,7 +377,7 @@ def add_message():
     return redirect(url_for("routes_bp.contact"))
 
 
-@app.route('/upload-scan', methods=['POST'])
+@app.route("/upload-scan", methods=["POST"])
 def upload_scan():
     try:
         data = request.get_json()
@@ -391,10 +387,7 @@ def upload_scan():
 
         barcodes = analyze_barcode_from_base64(image_data)
 
-        return jsonify({
-            "message": "Barcode analysis complete",
-            "barcodes": barcodes
-        })
+        return jsonify({"message": "Barcode analysis complete", "barcodes": barcodes})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
