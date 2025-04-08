@@ -10,7 +10,8 @@ from routes import register_routes
 
 # Collection Database
 collection = db["food_items"]
-users_collection = db["accounts"]
+accounts_collection = db["accounts"]
+users_collection = db["users"]
 
 # Flask extension initialization
 login_manager = LoginManager()
@@ -19,13 +20,16 @@ login_manager.login_view = "routes_bp.login"
 
 @login_manager.user_loader
 def load_user(user_id):
-    user_doc = users_collection.find_one({"_id": ObjectId(user_id)})
+    user_doc = accounts_collection.find_one({"_id": ObjectId(user_id)})
     return User(user_doc) if user_doc else None
 
 
 # Flask App Setup
 app = Flask(__name__)
 app.secret_key = "25_din_mai_paisa_double"  # TODO: take secret key from env
+
+# App Logger alias
+log = app.logger
 
 # Flask extensions setup
 login_manager.init_app(app)
@@ -38,7 +42,7 @@ def login():
     password = request.form["password"]
     next_page = request.args.get("next")
     print(f"Username:{username}, password:{password}, next_page:{next_page}")
-    user_doc = users_collection.find_one({"username": username})
+    user_doc = accounts_collection.find_one({"username": username})
     if user_doc and user_doc["password"] == password:
         print("User exists")
         login_user(User(user_doc))
@@ -51,14 +55,61 @@ def login():
 
 @app.post("/sign_up")
 def sign_up():
-    username = request.form["username"]
-    password = request.form["password"]
-    print(f"Username:{username}, password:{password}")
-    if users_collection.find_one({"username": username}):
+    form = request.form.to_dict()
+    log.info(form)
+
+    username = form.get("username")
+    password = form.get("password")
+
+    # Check if user exists
+    if accounts_collection.find_one({"username": username}):
         flash(f"{username} already exits", "info")
         return redirect(url_for("routes_bp.login"))
-    users_collection.insert_one({"username": username, "password": password})
-    flash("Account created succesfully! Log In")
+
+    # Create account without any profile
+    account = {
+        "username": username,
+        "password": password,
+        "default_profile_id": None,
+        "profiles": [],
+    }
+    account_result = accounts_collection.insert_one(account)
+    account_id = account_result.inserted_id
+
+    # Create user profile
+    profile = {
+        "account_id": account_id,
+        "profile_name": form.get("profile_name") or form.get("username"),
+        "first_name": form.get("first_name"),
+        "last_name": form.get("last_name"),
+        "gender": form.get("gender"),
+        "user_type": form.get("user_type"),
+        "weight": float(form.get("weight", 0)),
+        "height": float(form.get("height", 0)),
+        "age": int(form.get("age", 0)),
+        "diet_type": form.get("diet_type"),
+        "allergy_info": [
+            item.strip()
+            for item in form.get("allergy_info", "").split(",")
+            if item.strip()
+        ],  # comma seperated values
+        "disease_info": [
+            item.strip()
+            for item in form.get("disease_info", "").split(",")
+            if item.strip()
+        ],  # comma seperated values
+    }
+
+    profile_result = users_collection.insert_one(profile)
+    profile_id = profile_result.inserted_id
+
+    # Update account with default_profile_id and profiles list
+    accounts_collection.update_one(
+        {"_id": account_id},
+        {"$set": {"default_profile_id": profile_id}, "$push": {"profiles": profile_id}},
+    )
+
+    flash("Account created succesfully! Please Log in")
     return redirect(url_for("routes_bp.login"))
 
 
