@@ -93,7 +93,7 @@ def sign_up():
             for item in form.get("allergy_info", "").split(",")
             if item.strip()
         ],  # comma seperated values
-        "disease_info": [
+        "diseases": [
             item.strip()
             for item in form.get("disease_info", "").split(",")
             if item.strip()
