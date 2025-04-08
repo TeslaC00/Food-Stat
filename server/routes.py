@@ -1,3 +1,4 @@
+from bson import ObjectId
 import flask
 from flask import (
     Blueprint,
@@ -7,7 +8,8 @@ from flask import (
     render_template,
     url_for,
 )
-from flask_login import login_required, logout_user
+from flask_login import current_user, login_required, logout_user
+from database import db
 
 
 routes_bp = Blueprint("routes_bp", __name__)
@@ -172,23 +174,41 @@ def logout() -> str:
     return redirect(url_for("routes_bp.home"))
 
 
+USER_TYPE_LABELS = {
+    "weight_loss": "Weight Loss",
+    "weight_gain": "Weight Gain",
+    "muscle_gain": "Muscle Gain",
+    "pregnant_mother": "Pregnant Mother",
+    "infant": "Infant",
+    "general_fitness": "General Fitness",
+}
+
+
 @routes_bp.get("/profile")
 @login_required
 def profile() -> str:
-    user = {
-        "profile_name": "John Doe",
-        "first_name": "John",
-        "last_name": "Doe",
-        "gender": "Male",
-        "weight": 70,
-        "height": 175,
-        "age": 30,
-        "user_type": "Admin",
-        "diet_type": "Vegan",
-        "allergies": ["Peanuts", "Shellfish"],
-        "diseases": ["Diabetes"],
-    }
-    return render_template("profile.jinja", user=user)
+    accounts_collection = db["accounts"]
+    users_collection = db["users"]
+
+    username = current_user.username
+
+    account = accounts_collection.find_one({"username": username})
+    if not account:
+        flash("Account not found.", "error")
+        return redirect(url_for("routes_bp.login"))
+
+    default_profile_id = account.get("default_profile_id")
+    if not default_profile_id:
+        flash("No default profile set.", "warning")
+        return redirect(url_for("routes_bp.login"))
+
+    profile = users_collection.find_one({"_id": ObjectId(default_profile_id)})
+    if not profile:
+        flash("Profile not found", "error")
+        return redirect(url_for("routes_bp.login"))
+    profile["user_type"] = USER_TYPE_LABELS.get(profile.get("user_type"), "Unkown")
+
+    return render_template("profile.jinja", user=profile)
 
 
 def register_routes(app: flask.Flask) -> None:
