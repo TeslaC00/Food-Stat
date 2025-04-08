@@ -1,5 +1,5 @@
 import json
-from auth import get_model
+from ML_APIS.Gemini_API.auth import get_model
 
 def format_prompt(food_data: dict) -> str:
     return f"""
@@ -50,7 +50,7 @@ def get_structured_rating(food_data):
         return None
 
 
-if __name__ == "__main__":
+def example():
     food_json = {
         "item_category": "NAMKEEN",
         "item_name": "Salted Peanuts - Panjwani",

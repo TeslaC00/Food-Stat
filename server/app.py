@@ -5,6 +5,7 @@ from database import db
 from flask_cors import CORS
 from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
 from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
+from ML_APIS.Gemini_API.fetch_ratings import get_structured_rating
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
@@ -80,7 +81,7 @@ def get_user_profiles(user_id):
 def post_user_profiles(user_id):
     accounts = db["accounts"]
     users = db["users"]
-    account = accounts.find_one(ObjectId(user_id), {"profiles": 1})
+    account = accounts.find_one(str(user_id), {"profiles": 1})
 
     if account is None:
         return jsonify("Error, Account not found"), 400
@@ -134,6 +135,7 @@ def get_user_profile(profile_id):
         return jsonify("No User Found"), 404
     user["_id"] = str(user["_id"])
     return jsonify(user)
+
 
 
 @app.route("/api/food_items/<id>", methods=["GET"])
@@ -226,7 +228,7 @@ def get_food_items_by_category(category):
     return jsonify(results)
 
 
-@app.route("/api/food_items/rating", methods=["POST"])
+@app.route("/api/form/rating",  methods=["POST"])
 def get_food_item_rating():
     keys = [
         "NUTRITION.ENERGY",  # Example energy value
@@ -241,17 +243,8 @@ def get_food_item_rating():
     ]
     data = request.json
     print(data)
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    nutrition_info = {}
-    for key in keys:
-        nutrition_info[key] = int(data.get(key, 0))
-
-    nutrition_model = load_model("ML_APIS/pipeline.joblib")
-    rating = predict_food_rating(input_data=nutrition_info, model=nutrition_model)
-    print("Type of rating:", type(rating))
-    return jsonify({"Rating": rating}), 200
-
+    result = get_structured_rating(data)
+    return jsonify({"Rating": result}), 200
 
 if __name__ == "__main__":
     app.run(debug=True)
