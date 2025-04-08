@@ -6,12 +6,15 @@ Your Profile
 
 {% block content %}
 <!-- Hero Section -->
-<section class="bg-gradient-to-r from-secondary to-primary py-20">
+<section class="bg-gradient-to-r from-secondary to-primary py-0"> <!-- Gradient background -->
     <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 sm:px-6 lg:px-8 text-center">
         <div class="mb-8">
             {# TODO: change img url to user image #}
-            <img src="https://plus.unsplash.com/premium_photo-1723478515704-629ab1575612?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHxwaG90by1wYWdlfHx8fA%3D%3D"
+            {# <img
+                src="https://plus.unsplash.com/premium_photo-1723478515704-629ab1575612?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="User Avatar" class="rounded-full mx-auto h-24 w-24 border-4 border-white shadow-md object-cover">
+            #}
+            <i class="fa-regular fa-user text-6xl bg-white rounded-full h-24 w-24 pt-3"></i>
             <!-- Avatar Placeholder -->
         </div>
         <h1 class="text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl tracking-tight mb-4">
@@ -60,8 +63,8 @@ Your Profile
                 ] %}
 
                 <div class="px-2 md:px-6">
-                    {% for icon, label, field_name, value in profile_fields_left %}
-                    <div class="flex mb-3 pl-16">
+                    {% for icon, label, element_id, value in profile_fields_left %}
+                    <div class="flex mb-3 pl-20">
                         <i class="fa-solid {{ icon }} text-primary mr-2"></i>
                         <span class="font-semibold text-neutral mr-2">{{ label }}:</span>
                         <span id="{{ field_name }}" class="text-gray-700">{{ value or 'N/A' }}</span>
@@ -70,8 +73,8 @@ Your Profile
                 </div>
 
                 <div class="px-2 md:px-6">
-                    {% for icon, label, field_name, value in profile_fields_right %}
-                    <div class="flex mb-3 pl-16">
+                    {% for icon, label, element_id, value in profile_fields_right %}
+                    <div class="flex mb-3 pl-20">
                         <i class="fa-solid {{ icon }} text-primary mr-2"></i>
                         <span class="font-semibold text-neutral mr-2">{{ label }}:</span>
                         <span id="{{ field_name }}" class="text-gray-700">{{ value or 'N/A' }}</span>
@@ -87,12 +90,12 @@ Your Profile
                         <i class="fa-solid fa-exclamation-triangle text-red-500 mr-2"></i> Allergies
                     </h3>
                     <ul id="allergy-info-list" class="list-disc list-inside text-red-700 pl-16">
-                        {% if user_profile.allergy_info %}
-                            {% for allergy in user_profile.allergy_info %}
-                                <li>{{ allergy }}</li>
-                            {% endfor %}
+                        {% if user.allergy_info %}
+                        {% for allergy in user.allergy_info %}
+                        <li>{{ allergy }}</li>
+                        {% endfor %}
                         {% else %}
-                            <li>No allergies specified.</li>
+                        <li>None</li>
                         {% endif %}
                     </ul>
                 </div>
@@ -107,7 +110,7 @@ Your Profile
                                 <li>{{ disease }}</li>
                             {% endfor %}
                         {% else %}
-                            <li>No diseases specified.</li>
+                        <li>None</li>
                         {% endif %}
                     </ul>
                 </div>
@@ -119,7 +122,3 @@ Your Profile
 <!-- Edit Profile Modal - No longer needed on this page -->
 
 {% endblock content %}
-
-{% block scripts %}
-<script src="https://kit.fontawesome.com/0340a8219c.js" crossorigin="anonymous"></script>
-{% endblock scripts %}

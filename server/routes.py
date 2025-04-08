@@ -1,3 +1,4 @@
+from bson import ObjectId
 import flask
 from database import db
 from flask import (
@@ -6,10 +7,11 @@ from flask import (
     flash,
     redirect,
     render_template,
+    request,
     url_for,
 )
-from flask_login import login_required, logout_user
-from bson import ObjectId
+from flask_login import current_user, login_required, logout_user
+from database import db
 
 
 collection = db["food_items"]
@@ -59,97 +61,69 @@ def home() -> str:
 @routes_bp.get("/category")
 def category() -> str:
     # TODO: add database query to get category data
+    categories_collection = db["categories"]
+    items_collection = db["food_items"]
 
-    food_items = [
-        {
-            "id": 1,
-            "title": "Green Apple",
-            "desc": "Crisp and sweet organic green apples.",
-            "image_url": "https://media.istockphoto.com/id/629734762/photo/green-apple-with-leaf-isolated-on-white-clipping-path-included.jpg?s=1024x1024&w=is&k=20&c=QzSTeGlb1GkZWQ0O2VBlAeB8-ZYPzXFv7YSUYxE2AoI=",
-            "alt": "Green Apple",
-        },
-        {
-            "id": 2,
-            "title": "Red Apple",
-            "desc": "Crisp and sweet organic red apples.",
-            "image_url": "https://media.istockphoto.com/id/614871876/photo/apple-isolated-on-wood-background.jpg?s=1024x1024&w=is&k=20&c=HlmdzA8HWMiVdSicwDiEa77FSxQEEvxm6nGzeSRGBZ4=",
-            "alt": "Red Apple",
-        },
-        {
-            "id": 3,
-            "title": "Pasta",
-            "desc": "Restaurant level delicious pasta.",
-            "image_url": "https://media.istockphoto.com/id/482964545/photo/arrabiata-pasta.jpg?s=1024x1024&w=is&k=20&c=WV35LbX2fkLqb2jYSPqFQcyN0OlbF_HAJ0tWbfQ9KzA=",
-            "alt": "Pasta",
-        },
-        {
-            "id": 4,
-            "title": "Noodles",
-            "desc": "Long, slippery and saucy noooodles.",
-            "image_url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=1292&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "alt": "Noodles",
-        },
-    ]
+    # All categories for sidebar
+    categories = list(categories_collection.find({}).sort("_id", 1))
 
-    return render_template("category.jinja", food_items=food_items)
+    # Parse filters from request
+    selected_categories = request.args.getlist("categories")
+    selected_types = request.args.getlist("type")
+    personalized = request.args.get("personalized")
+    search_query = request.args.get("search", "").strip()
+
+    query = {}
+
+    if search_query:
+        query["item_name"] = {"$regex": search_query, "$options": "i"}
+
+    if selected_categories:
+        query["item_category"] = {"$in": selected_categories}
+
+    if "veg" in selected_types and "nonveg" not in selected_types:
+        query["veg"] = True
+    elif "nonveg" in selected_types and "veg" not in selected_types:
+        query["veg"] = False
+
+    # Add personal recommendation filter
+    if personalized:
+        if not current_user.is_authenticated:
+            flash("Log in to use personalized recommendations.", "warning")
+            return redirect(url_for("routes_bp.login", next=request.full_path))
+
+        profile_id = current_user.default_profile_id
+        profile = db["users"].find_one({"_id": ObjectId(profile_id)})
+        if profile:
+            diet_type = profile.get("diet_type")
+            allergies = profile.get("allergy_info", [])
+            query["diet_type"] = diet_type
+            query["ingredients"] = {"$nin": allergies}
+
+    items = list(items_collection.find(query))
+
+    return render_template(
+        "category.jinja",
+        categories=categories,
+        items=items,
+        selected_categories=selected_categories,
+        selected_types=selected_types,
+        personalized=bool(personalized),
+        search_query=search_query,
+    )
 
 
-@routes_bp.get("/food_item/<int:food_item_id>")
-def food_item(food_item_id: int) -> str:
-    # TODO: add database query to get food item data
+@routes_bp.get("/food_item/<food_item_id>")
+def food_item(food_item_id: str) -> str:
+    items_collection = db["food_items"]
 
-    food_items = [
-        {
-            "id": 1,
-            "title": "Green Apple",
-            "image_url": "https://media.istockphoto.com/id/629734762/photo/green-apple-with-leaf-isolated-on-white-clipping-path-included.jpg?s=1024x1024&w=is&k=20&c=QzSTeGlb1GkZWQ0O2VBlAeB8-ZYPzXFv7YSUYxE2AoI=",
-            "alt": "Green Apple",
-            "rating": 1,
-            "energy": 1,
-            "ingredients": ["Hara", "Apple"],
-            "allergies": ["Hara ranga"],
-        },
-        {
-            "id": 2,
-            "title": "Red Apple",
-            "image_url": "https://media.istockphoto.com/id/614871876/photo/apple-isolated-on-wood-background.jpg?s=1024x1024&w=is&k=20&c=HlmdzA8HWMiVdSicwDiEa77FSxQEEvxm6nGzeSRGBZ4=",
-            "alt": "Red Apple",
-            "rating": 4.0,
-            "energy": 11,
-            "protein": 30,
-            "carbs": 50,
-            "fat": 100,
-            "ingredients": [],
-            "allergies": [],
-        },
-        {
-            "id": 3,
-            "title": "Pasta",
-            "image_url": "https://media.istockphoto.com/id/482964545/photo/arrabiata-pasta.jpg?s=1024x1024&w=is&k=20&c=WV35LbX2fkLqb2jYSPqFQcyN0OlbF_HAJ0tWbfQ9KzA=",
-            "alt": "Pasta",
-            "rating": 3.5,
-            "energy": 100,
-            "carbs": 6,
-            "fat": 22,
-            "ingredients": ["Sauce", "Namak", "Masala", "Atta"],
-            "allergies": ["Poink", "Oink", "Khujli"],
-        },
-        {
-            "id": 4,
-            "title": "Noodles",
-            "image_url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?q=80&w=1292&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "alt": "Noodles",
-            "rating": 4.5,
-            "energy": 1,
-            "protein": 23,
-            "carbs": 20,
-            "fat": 202,
-            "ingredients": ["Lamba Atta", "Chota masala", "Peela oil"],
-            "allergies": ["Nuinui", "Nainai"],
-        },
-    ]
+    # Fetch item from database
+    food_item = items_collection.find_one({"_id": ObjectId(food_item_id)})
+    print(food_item)
 
-    food_item = food_items[food_item_id - 1]
+    if not food_item:
+        flash("Food item not found.", "danger")
+        return redirect(url_for("routes_bp.category"))
 
     return render_template("food_item.jinja", food_item=food_item)
 
@@ -177,13 +151,41 @@ def logout() -> str:
     return redirect(url_for("routes_bp.home"))
 
 
-@routes_bp.get("/profile/<profile_id>")  # Route now takes profile_id as URL parameter
+USER_TYPE_LABELS = {
+    "weight_loss": "Weight Loss",
+    "weight_gain": "Weight Gain",
+    "muscle_gain": "Muscle Gain",
+    "pregnant_mother": "Pregnant Mother",
+    "infant": "Infant",
+    "general_fitness": "General Fitness",
+}
+
+
+@routes_bp.get("/profile")
 @login_required
-def profile(profile_id) -> str:
-    user_profile = users_collection.find_one({"_id": ObjectId(profile_id)}) # Fetch profile from DB
-    if not user_profile:
-        flash("Profile not found.", "error") # Handle case where profile is not found
-        return redirect(url_for('routes_bp.home')) # Redirect to home or login
+def profile() -> str:
+    accounts_collection = db["accounts"]
+    users_collection = db["users"]
+
+    username = current_user.username
+
+    account = accounts_collection.find_one({"username": username})
+    if not account:
+        flash("Account not found.", "error")
+        return redirect(url_for("routes_bp.login"))
+
+    default_profile_id = account.get("default_profile_id")
+    if not default_profile_id:
+        flash("No default profile set.", "warning")
+        return redirect(url_for("routes_bp.login"))
+
+    profile = users_collection.find_one({"_id": ObjectId(default_profile_id)})
+    if not profile:
+        flash("Profile not found", "error")
+        return redirect(url_for("routes_bp.login"))
+    profile["user_type"] = USER_TYPE_LABELS.get(profile.get("user_type"), "Unkown")
+
+    return render_template("profile.jinja", user=profile)
 
     user_profile["_id"] = str(user_profile["_id"]) # Convert ObjectId to string for Jinja
 
