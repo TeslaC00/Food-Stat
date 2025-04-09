@@ -1,5 +1,6 @@
 from bson import ObjectId
 import flask
+import random
 from database import db
 from flask import (
     Blueprint,
@@ -16,6 +17,7 @@ from database import db
 
 collection = db["food_items"]
 users_collection = db["accounts"]
+images_collection = db["images"]
 
 routes_bp = Blueprint("routes_bp", __name__)
 
@@ -137,6 +139,17 @@ def category() -> str:
 
             # Sort by personalised score (descending)
             items = sorted(results, key=lambda x: x["personalised_score"], reverse=True)
+    
+    category_images = {
+        img["_id"]: img["image_url"] for img in images_collection.find({})
+    }
+
+    for item in items:
+        if not item.get("image_url"):
+            cat = item.get("item_category","").upper()
+            fallback_imgs = category_images.get(cat, [])
+            if fallback_imgs:
+                item["image_url"] = random.choice(fallback_imgs)
 
     return render_template(
         "category.jinja",
