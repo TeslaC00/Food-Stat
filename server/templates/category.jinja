@@ -119,10 +119,12 @@
                             {% endif %}
                         </p>
                         <div class="mt-2 space-y-1 text-xs text-gray-600">
+                            {% if item.personalised_score %}
                             <p>
                                 <span class="font-semibold">Personalized Score:</span> {{ item.personalised_score
                                 }}/5
                             </p>
+                            {% endif %}
                             <p><span class="font-semibold">Ingredient Quality:</span> {{ item.INGREDIENT_QUALITY_RATING
                                 }}/5</p>
                             <p><span class="font-semibold">Health Impact:</span> {{ item.HEALTH_IMPACT_RATING }}/5</p>
