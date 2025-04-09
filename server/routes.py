@@ -169,11 +169,18 @@ def food_item(food_item_id: str) -> str:
 
     # Fetch item from database
     food_item = items_collection.find_one({"_id": ObjectId(food_item_id)})
-    print(food_item)
 
     if not food_item:
         flash("Food item not found.", "danger")
         return redirect(url_for("routes_bp.category"))
+    
+    if not food_item.get("image_url"):
+        cat = food_item.get("item_category","").upper()
+        category_image_doc = images_collection.find_one({"_id":cat})
+        if category_image_doc and "image_url" in category_image_doc:
+            fallback_images = category_image_doc["image_url"]
+            if fallback_images:
+                food_item["image_url"] = random.choice(fallback_images)
 
     return render_template("food_item.jinja", food_item=food_item)
 
