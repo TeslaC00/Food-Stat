@@ -149,7 +149,6 @@ def category() -> str:
     )
 
 
-
 @routes_bp.get("/food_item/<food_item_id>")
 def food_item(food_item_id: str) -> str:
     items_collection = db["food_items"]
@@ -224,19 +223,32 @@ def profile() -> str:
 
     return render_template("profile.jinja", user=profile)
 
-    user_profile["_id"] = str(user_profile["_id"]) # Convert ObjectId to string for Jinja
-
-    return render_template("profile.jinja", user_profile=user_profile) # Pass user_profile to template
-
 
 @routes_bp.get("/scan")
 def scan() -> str:
     return render_template("scan.jinja")
 
+
 @routes_bp.get("/form")
 def form() -> str:
     return render_template("form.jinja")
 
+
+@routes_bp.get("/aboutus")
+def about_us() -> str:
+    return render_template("about_us.jinja")
+
+
+@routes_bp.get("/doc")
+def doc_consultation() -> str:
+    return render_template("doc_consul.jinja")
+
+
+@routes_bp.post("/doc")
+def submit_consult() -> str:
+    flash("Your request have successfully submitted", "success")
+    return redirect(url_for("routes_bp.doc_consultation"))
+
+
 def register_routes(app: flask.Flask) -> None:
     app.register_blueprint(routes_bp)
-

@@ -45,24 +45,24 @@
                     <!-- Desktop Menu -->
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
-                            <a href="/" class="text-white hover:bg-secondary/20 px-3 py-2 
+                            <a href="/" class="text-white hover:bg-secondary/20 px-3 py-2
                                 rounded-md transition">Home</a>
-                            <a href="/category" class="text-white hover:bg-secondary/20 px-3 py-2 
+                            <a href="/category" class="text-white hover:bg-secondary/20 px-3 py-2
                                 rounded-md transition">Categories</a>
-                            <a href="{{url_for('routes_bp.scan')}}" class="text-white hover:bg-secondary/20 px-3 py-2 
+                            <a href="{{url_for('routes_bp.scan')}}" class="text-white hover:bg-secondary/20 px-3 py-2
                                 rounded-md transition">Scan</a>
-                            <a href="{{url_for('routes_bp.form')}}" class="text-white hover:bg-secondary/20 px-3 py-2 
+                            <a href="{{url_for('routes_bp.form')}}" class="text-white hover:bg-secondary/20 px-3 py-2
                                 rounded-md transition">Form</a>
-                            <a href="/profile" class="text-white hover:bg-secondary/20 px-3 py-2 
+                            <a href="/profile" class="text-white hover:bg-secondary/20 px-3 py-2
                                 rounded-md transition">Profile</a>
-                            <a href="/contact" class="text-white hover:bg-secondary/20 px-3 
-                                py-2 rounded-md transition">Contact Us</a>
+                            <a href="{{ url_for('routes_bp.contact') }}" class="text-white hover:bg-secondary/20 px-3
+                                py-2 rounded-md transition">Contact Us</a> {# Used url_for for consistency #}
                         </div>
                     </div>
 
                     <!-- Mobile menu button -->
                     <div class="md:hidden">
-                        <button aria-label="Mobile menu" class="text-white hover:text-accent 
+                        <button aria-label="Mobile menu" class="text-white hover:text-accent
                         focus:outline-none">
                             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -76,18 +76,19 @@
             <!-- Mobile Menu (hidden by default) -->
             <div class="md:hidden hidden" id="mobile-menu">
                 <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                    <a href="/" class="text-white block px-3 py-2 rounded-md 
+                    <a href="/" class="text-white block px-3 py-2 rounded-md
                         hover:bg-secondary/20">Home</a>
-                    <a href="/category" class="text-white block px-3 py-2 rounded-md 
+                    <a href="/category" class="text-white block px-3 py-2 rounded-md
                         hover:bg-secondary/20">Categories</a>
-                    <a href="#" class="text-white block px-3 py-2 rounded-md 
-                        hover:bg-secondary/20">Search</a>
-                    <a href="#" class="text-white block px-3 py-2 rounded-md 
-                        hover:bg-secondary/20">Stats</a>
-                    <a href="/profile" class="text-white block px-3 py-2 rounded-md 
+                    {# Note: Mobile menu might need updating to match desktop (Scan/Form vs Search/Stats) #}
+                    <a href="{{url_for('routes_bp.scan')}}" class="text-white block px-3 py-2 rounded-md
+                        hover:bg-secondary/20">Scan</a>
+                    <a href="{{url_for('routes_bp.form')}}" class="text-white block px-3 py-2 rounded-md
+                        hover:bg-secondary/20">Form</a>
+                    <a href="/profile" class="text-white block px-3 py-2 rounded-md
                         hover:bg-secondary/20">Profile</a>
-                    <a href="/contact" class="text-white hover:bg-secondary/20 px-3 py-2 
-                        rounded-md transition">Contact Us</a>
+                    <a href="{{ url_for('routes_bp.contact') }}" class="text-white hover:bg-secondary/20 px-3 py-2
+                        rounded-md transition">Contact Us</a> {# Used url_for for consistency #}
                 </div>
             </div>
         </nav>
@@ -110,7 +111,7 @@
                 <div>
                     <h4 class="text-white font-semibold mb-4">Resources</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#" class="hover:text-accent transition">Blog</a></li>
+                        <li><a href="/aboutus" class="hover:text-accent transition">Blog</a></li> {# Assuming /aboutus is correct for Blog link #}
                         <li><a href="#" class="hover:text-accent transition">Guides</a></li>
                         <li><a href="#" class="hover:text-accent transition">Research</a></li>
                     </ul>
@@ -118,10 +119,12 @@
                 <div>
                     <h4 class="text-white font-semibold mb-4">Company</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#" class="hover:text-accent transition">About</a></li>
-                        <li><a href="#" class="hover:text-accent transition">Careers</a></li>
+                        <li><a href="/aboutus" class="hover:text-accent transition">About</a></li> {# Assuming /aboutus is correct for About link #}
+                        <li><a href="{{url_for('routes_bp.doc_consultation')}}" class="hover:text-accent transition">Consult Doctor</a></li>
+                        {# --- Conflict Resolved Below --- #}
                         <li><a href="{{ url_for('routes_bp.contact') }}"
                                 class="hover:text-accent transition">Contact</a></li>
+                        {# --- Conflict Resolved Above --- #}
                     </ul>
                 </div>
                 <div>
@@ -134,22 +137,22 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
-                <p>&copy; 2024 FoodStat. All rights reserved.</p>
+                <p>© 2024 FoodStat. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     {# Custom Alert popup #}
     <div id="custom-alert" style="
-        display:none; 
-        position:fixed; 
-        top:20px; 
+        display:none;
+        position:fixed;
+        top:20px;
         left:50%;
-        transform: translateX(-50%); 
-        background:#333; 
-        color:white; 
-        padding:10px 20px; 
-        border-radius:8px; 
+        transform: translateX(-50%);
+        background:#333;
+        color:white;
+        padding:10px 20px;
+        border-radius:8px;
         z-index:1000;">
         <span id="alert-message"></span>
     </div>
