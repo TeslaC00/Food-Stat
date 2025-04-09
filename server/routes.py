@@ -60,7 +60,6 @@ def home() -> str:
 
 @routes_bp.get("/category")
 def category() -> str:
-    # TODO: add database query to get category data
     categories_collection = db["categories"]
     items_collection = db["food_items"]
 
@@ -86,7 +85,9 @@ def category() -> str:
     elif "nonveg" in selected_types and "veg" not in selected_types:
         query["veg"] = False
 
-    # Add personal recommendation filter
+    items = list(items_collection.find(query))
+
+    # --- Personalized logic ---
     if personalized:
         if not current_user.is_authenticated:
             flash("Log in to use personalized recommendations.", "warning")
@@ -94,13 +95,48 @@ def category() -> str:
 
         profile_id = current_user.default_profile_id
         profile = db["users"].find_one({"_id": ObjectId(profile_id)})
-        if profile:
-            diet_type = profile.get("diet_type")
-            allergies = profile.get("allergy_info", [])
-            query["diet_type"] = diet_type
-            query["ingredients"] = {"$nin": allergies}
 
-    items = list(items_collection.find(query))
+        if profile:
+            user_type = profile.get("userType", "general_fitness")
+            user_dietType = profile.get("dietType", "veg")
+            user_allergies = profile.get("allergy_info", [])
+            user_diseases = profile.get("diseases", [])
+
+            results = []
+            for item in items:
+                base_score = item.get("final_rating", 1.5)
+                nutrition = item.get("nutrition", {})
+                vegFood = item.get("veg", True)
+                item_allergies = item.get("allergy_info", [])
+
+                food_item = {
+                    "nutrition": nutrition,
+                    "veg": vegFood,
+                    "allergy_info": item_allergies,
+                    "user_allergies": user_allergies,
+                }
+
+                try:
+                    personalized_score = personalize_score(
+                        food_item=food_item,
+                        vegFood=vegFood,
+                        user_dict={
+                            "user_type": user_type,
+                            "user_allergies": user_allergies,
+                            "user_diseases": user_diseases,
+                            "user_dietType": user_dietType,
+                        },
+                        base_health_score=base_score,
+                    )
+                except Exception as e:
+                    print(f"Error scoring item '{item.get('item_name', '')}': {e}")
+                    personalized_score = base_score  # fallback score
+
+                item["personalised_score"] = personalized_score
+                results.append(item)
+
+            # Sort by personalised score (descending)
+            items = sorted(results, key=lambda x: x["personalised_score"], reverse=True)
 
     return render_template(
         "category.jinja",
@@ -111,6 +147,7 @@ def category() -> str:
         personalized=bool(personalized),
         search_query=search_query,
     )
+
 
 
 @routes_bp.get("/food_item/<food_item_id>")

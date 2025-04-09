@@ -6,3 +6,4 @@ class User(UserMixin):
         super().__init__()
         self.id = str(user_doc["_id"])
         self.username = user_doc["username"]
+        self.default_profile_id = user_doc["default_profile_id"]
