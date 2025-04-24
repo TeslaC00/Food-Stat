@@ -1,0 +1,88 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+<!-- Product Detail Section -->
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="flex flex-col lg:flex-row lg:space-x-8">
+        <!-- Product Image -->
+        <div class="w-full lg:w-1/2 mb-6 lg:mb-0 flex justify-center">
+            {% if food_item.image_url %}
+            <img id="product-image" src="{{ food_item.image_url }}" alt="{{ food_item.alt or 'Product Image' }}"
+                class="w-full max-w-md lg:max-w-full h-auto sm:max-h-[400px] lg:max-h-[600px] object-cover rounded-xl shadow-md">
+            {% else %}
+            <div
+                class="w-full max-w-md lg:max-w-full h-[300px] sm:h-[400px] lg:h-[600px] bg-gray-100 text-gray-500 flex items-center justify-center text-center rounded-xl shadow-md p-4">
+                <span>No image available</span>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Product Information -->
+        <div class="w-full lg:w-1/2">
+            <h1 id="product-name" class="text-3xl font-bold text-neutral mb-4">{{ food_item.title }}</h1>
+            <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-6 mb-4 text-sm text-gray-800">
+                <div class="mb-2 sm:mb-0">
+                    <span class="text-accent font-semibold mr-1">Ingredient Quality:</span>
+                    <span class="font-medium">{{ food_item.get("INGREDIENT_QUALITY_RATING", "N/A") }}</span>
+                    <span class="text-gray-500">/ 5</span>
+                </div>
+                <div class="mb-2 sm:mb-0">
+                    <span class="text-accent font-semibold mr-1">Health Impact:</span>
+                    <span class="font-medium">{{ food_item.get("HEALTH_IMPACT_RATING", "N/A") }}</span>
+                    <span class="text-gray-500">/ 5</span>
+                </div>
+                <div>
+                    <span class="text-accent font-semibold mr-1">Nutrition Score:</span>
+                    <span class="font-medium">{{ food_item.get("NUTRITIONAL_CONTENT_RATING", "N/A") }}</span>
+                    <span class="text-gray-500">/ 5</span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+                <h2 class="text-xl font-semibold text-neutral mb-4">Nutrition Facts</h2>
+                <div id="nutrition-facts">
+                    {% set nutrition_labels = {
+                    "energy": "Energy",
+                    "protein": "Protein",
+                    "carbohydrate": "Carbohydrate",
+                    "total_fat": "Total Fat",
+                    "total_sugars": "Total Sugars",
+                    "added_sugars": "Added Sugars",
+                    "saturated_fat": "Saturated Fat",
+                    "trans_fat": "Trans Fat"
+                    } %}
+                    {% for key, label in nutrition_labels.items() %}
+                    <p><strong>{{ label }}:</strong> {{ food_item.get("nutrition", {}).get(key, "N/A") }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+                <h2 class="text-xl font-semibold text-neutral mb-4">Ingredients</h2>
+                <ul class="list-disc list-inside text-gray-700">
+                    {% if food_item.ingredients and food_item.ingredients | length > 0 %}
+                    {% for ingredient in food_item.ingredients %}
+                    <li>{{ ingredient if ingredient else "Missing ingredients so, Loading..." }}</li>
+                    {% endfor %}
+                    {% else %}
+                    <li>No ingredients available</li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md p-6">
+                <h2 class="text-xl font-semibold text-neutral mb-4">Allergy Information</h2>
+                <ul class="list-disc list-inside text-red-700">
+                    {% if food_item.allergies and food_item.allergies | length > 0 %}
+                    {% for allergy in food_item.allergies %}
+                    <li>{{ allergy if allergy else "Missing allergies so, Loading..." }}</li>
+                    {% endfor %}
+                    {% else %}
+                    <li>No allergy information available</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

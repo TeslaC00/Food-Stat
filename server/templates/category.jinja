@@ -1,0 +1,151 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+<!-- Page Content Container -->
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="flex flex-col md:flex-row md:gap-4">
+        <!-- Sidebar -->
+        <aside class="md:w-1/4 pr-6 mb-8 md:mb-0">
+            <form method="get" action="{{ url_for('routes_bp.category') }}">
+                <div class="bg-white rounded-lg shadow p-4 sticky top-4 px-2">
+                    <h3 class="font-semibold text-neutral mb-4">Filters</h3>
+
+                    <!-- Personalized toggle -->
+                    <label class="flex items-center mb-4 space-x-2 text-sm">
+                        <input type="checkbox" name="personalized" value="1" {% if personalized %}checked{% endif %}>
+                        <span class="break-all">🔒 Personalized</span>
+                    </label>
+
+                    <!-- Veg/Non-Veg Filter -->
+                    <h4 class="font-medium text-base text-neutral mt-4 mb-2">Type</h4>
+                    <ul class="space-y-2">
+                        <li>
+                            <label class="flex items-center space-x-2 text-sm">
+                                <input type="checkbox" name="type" value="veg" {% if 'veg' in selected_types %}checked{%
+                                    endif %}>
+                                <i class="fa-solid fa-leaf text-green-600"></i>
+                                <span>Veg</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="flex items-center space-x-2 text-sm">
+                                <input type="checkbox" name="type" value="nonveg" {% if 'nonveg' in selected_types
+                                    %}checked{% endif %}>
+                                <i class="fa-solid fa-drumstick-bite text-red-600"></i>
+                                <span>Non-Veg</span>
+                            </label>
+                        </li>
+                    </ul>
+
+                    <!-- Categories -->
+                    <h4 class="font-medium text-base text-neutral my-2">Categories</h4>
+                    <ul class="space-y-2 max-h-64 overflow-y-auto">
+                        {% for cat in categories %}
+                        <li>
+                            <label class="flex items-center space-x-2 text-sm text-wrap">
+                                <input type="checkbox" name="categories" value="{{ cat._id }}" {% if cat._id in
+                                    selected_categories %}checked{% endif %}>
+                                <img src="{{ cat.image_url }}" alt="{{ cat._id }}"
+                                    class="h-6 w-6 rounded object-cover shrink-0">
+                                <span class="break-all">{{ cat._id.replace('_', ' ').title() }}</span>
+                            </label>
+                        </li>
+                        {% endfor %}
+                    </ul>
+
+                    <button type="submit"
+                        class="mt-4 w-full bg-primary hover:bg-secondary text-white py-2 px-4 rounded text-sm">
+                        Apply Filters
+                    </button>
+                </div>
+            </form>
+        </aside>
+
+        <!-- Main Content -->
+        <section class="md:w-3/4">
+            <form method="get" action="{{ url_for('routes_bp.category') }}" class="mb-6">
+                <label for="food-search" class="block mb-2 text-sm font-medium text-gray-900 
+                            sr-only">Search</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 
+                                pointer-events-none">
+                        <svg class="w-4 h-4 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7a7 7 0 1 1-14 0 7 7 0 0 1 14 0z" />
+                        </svg>
+                    </div>
+                    <input type="search" id="food-search" name="search"
+                        class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary focus:border-primary"
+                        placeholder="Search for food items..." value="{{ search_query }}">
+                    <button type="submit" class="text-white absolute right-2.5 bottom-2.5 
+                                bg-primary hover:bg-secondary focus:ring-4 focus:outline-none 
+                                focus:ring-primary font-medium rounded-lg text-sm px-4 py-2">Search</button>
+                </div>
+                {# Preserve selected categories #}
+                {% for cat in selected_categories %}
+                <input type="hidden" name="categories" value="{{ cat }}">
+                {% endfor %}
+
+                {# Preserve selected types (veg/nonveg) #}
+                {% for t in selected_types %}
+                <input type="hidden" name="type" value="{{ t }}">
+                {% endfor %}
+
+                {# Preserve personalized toggle #}
+                {% if personalized %}
+                <input type="hidden" name="personalized" value="1">
+                {% endif %}
+            </form>
+
+            <h2 class="text-2xl font-bold text-neutral mb-6">Featured Products</h2>
+
+            {% if items %}
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                {% for item in items %}
+                <div class="bg-white rounded shadow p-4 flex flex-col h-full">
+                    <div class="flex-grow">
+                        <img src="{{ item.image_url or 'https://via.placeholder.com/150' }}" alt="{{ item.item_name }}"
+                            class="w-full h-40 object-cover rounded mb-2">
+                        <h4 class="font-bold text-lg line-clamp-2">{{ item.item_name }}</h4>
+                        <p class="text-sm text-gray-500 mb-1">Category: {{ item.item_category }}</p>
+                        <p class="text-sm text-gray-500 mb-1 flex items-center space-x-1">
+                            {% if item.veg %}
+                            <i class="fa-solid fa-leaf text-green-600"></i>
+                            <span>Veg</span>
+                            {% else %}
+                            <i class="fa-solid fa-drumstick-bite text-red-600"></i>
+                            <span>Non-Veg</span>
+                            {% endif %}
+                        </p>
+                        <div class="mt-2 space-y-1 text-xs text-gray-600">
+                            {% if item.personalised_score %}
+                            <p>
+                                <span class="font-semibold">Personalized Score:</span> {{ item.personalised_score
+                                }}/5
+                            </p>
+                            {% endif %}
+                            <p><span class="font-semibold">Ingredient Quality:</span> {{ item.INGREDIENT_QUALITY_RATING
+                                }}/5</p>
+                            <p><span class="font-semibold">Health Impact:</span> {{ item.HEALTH_IMPACT_RATING }}/5</p>
+                            <p>
+                                <span class="font-semibold">Nutrition Score:</span> {{ item.NUTRITIONAL_CONTENT_RATING
+                                }}/5
+                            </p>
+                        </div>
+                    </div>
+                    <a href="{{ url_for('routes_bp.food_item', food_item_id=item._id|string) }}"
+                        class="mt-4 inline-block bg-secondary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary transition text-center">
+                        View Details
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p class="text-gray-500">No items match your filters.</p>
+            {% endif %}
+        </section>
+
+    </div>
+</div>
+{% endblock content %}

@@ -1,60 +1,118 @@
 from bson import ObjectId
-from flask import Flask, jsonify, request
+from flask import Flask, flash, jsonify, redirect, request, url_for
+from flask_login import LoginManager, login_user
 from pymongo import ASCENDING, DESCENDING
 from database import db
-from flask_cors import CORS
-from ML_APIS.PredictNutritionalRating import predict_food_rating, load_model
-from ML_APIS.RuleBasedRecommendation import personalize_food_recommendation
+from models import User
+from routes import register_routes
+from ML_APIS.personalizer import personalize_score
+from ML_APIS.Gemini_API.fetch_ratings import get_structured_rating
+from Barcode.barcode_utils import analyze_barcode_from_base64
 
-app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000", "http://localhost:5000"])
+# Collection Database
 collection = db["food_items"]
+accounts_collection = db["accounts"]
+users_collection = db["users"]
+
+# Flask extension initialization
+login_manager = LoginManager()
+login_manager.login_view = "routes_bp.login"
 
 
-@app.route("/login", methods=["POST"])
+@login_manager.user_loader
+def load_user(user_id):
+    user_doc = accounts_collection.find_one({"_id": ObjectId(user_id)})
+    return User(user_doc) if user_doc else None
+
+
+# Flask App Setup
+app = Flask(__name__)
+app.secret_key = "25_din_mai_paisa_double"  # TODO: take secret key from env
+
+# App Logger alias
+log = app.logger
+
+# Flask extensions setup
+login_manager.init_app(app)
+register_routes(app)
+
+
+@app.post("/login")
 def login():
-    data = request.json
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    username = data.get("username")
-    password = data.get("password")
-
-    accounts = db["accounts"]
-
-    try:
-        if not username or not password:
-            raise ValueError
-
-        account = accounts.find_one({"username": username}, {"password": 1, "_id": 1})
-        if account is None:
-            raise ValueError
-
-        if account["password"] != password:
-            raise ValueError
-
-    except ValueError:
-        return jsonify("Error, Invalid credentials"), 400
-
-    return jsonify({"id": str(account["_id"])}), 200
+    username = request.form["username"]
+    password = request.form["password"]
+    next_page = request.args.get("next")
+    user_doc = accounts_collection.find_one({"username": username})
+    print(f"username:{username},password:{password}")
+    print(user_doc)
+    print(f"success:{user_doc["password"] == password}")
+    if user_doc and user_doc["password"] == password:
+        print("Logged in")
+        login_user(User(user_doc))
+        flash(f"Logged in as {username}", "info")
+        return redirect(next_page or url_for("routes_bp.profile"))
+    flash("Invalid credentials", "error")
+    return redirect(url_for("routes_bp.login"))
 
 
-@app.route("/sign_up", methods=["POST"])
+@app.post("/sign_up")
 def sign_up():
-    data = request.json
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    username = data.get("username")
-    password = data.get("password")
-    try:
-        if not username or not password:
-            raise ValueError
-        account = {"username": username, "password": password}
-        accounts = db["accounts"]
-        accounts.insert_one(account)
-    except ValueError:
-        return jsonify("Error, Invalid credentials"), 400
+    form = request.form.to_dict()
+    log.info(form)
 
-    return jsonify({"id": str(account["_id"])}), 200
+    username = form.get("username")
+    password = form.get("password")
+
+    # Check if user exists
+    if accounts_collection.find_one({"username": username}):
+        flash(f"{username} already exits", "info")
+        return redirect(url_for("routes_bp.login"))
+
+    # Create account without any profile
+    account = {
+        "username": username,
+        "password": password,
+        "default_profile_id": None,
+        "profiles": [],
+    }
+    account_result = accounts_collection.insert_one(account)
+    account_id = account_result.inserted_id
+
+    # Create user profile
+    profile = {
+        "account_id": account_id,
+        "profile_name": form.get("profile_name") or form.get("username"),
+        "first_name": form.get("first_name"),
+        "last_name": form.get("last_name"),
+        "gender": form.get("gender"),
+        "user_type": form.get("user_type"),
+        "weight": float(form.get("weight", 0)),
+        "height": float(form.get("height", 0)),
+        "age": int(form.get("age", 0)),
+        "diet_type": form.get("diet_type"),
+        "allergy_info": [
+            item.strip()
+            for item in form.get("allergy_info", "").split(",")
+            if item.strip()
+        ],  # comma seperated values
+        "diseases": [
+            item.strip()
+            for item in form.get("disease_info", "").split(",")
+            if item.strip()
+        ],  # comma seperated values
+    }
+
+    profile_result = users_collection.insert_one(profile)
+    profile_id = profile_result.inserted_id
+
+    # Update account with default_profile_id and profiles list
+    accounts_collection.update_one(
+        {"_id": account_id},
+        {"$set": {"default_profile_id": profile_id}, "$push": {"profiles": profile_id}},
+    )
+
+    flash("Account created succesfully! Please Log in")
+    return redirect(url_for("routes_bp.login"))
 
 
 @app.route("/api/user/<user_id>/profiles", methods=["GET"])
@@ -80,7 +138,7 @@ def get_user_profiles(user_id):
 def post_user_profiles(user_id):
     accounts = db["accounts"]
     users = db["users"]
-    account = accounts.find_one(ObjectId(user_id), {"profiles": 1})
+    account = accounts.find_one(str(user_id), {"profiles": 1})
 
     if account is None:
         return jsonify("Error, Account not found"), 400
@@ -90,7 +148,7 @@ def post_user_profiles(user_id):
         return jsonify("Error, Please provide valid data in form"), 400
 
     userType = data.get("user_type", "General Fitness")
-    profile_name = data("profile_name", "profile 1")
+    profile_name = data.get("profile_name", "profile 1")
     firstName = data.get("firstName", "")
     lastName = data.get("lastName", "")
     gender = data.get("gender", "Male")
@@ -126,14 +184,47 @@ def post_user_profiles(user_id):
     )
 
 
-@app.route("/api/profiles/<profile_id>", methods=["GET"])
+@app.route("/api/profiles/<profile_id>", methods=["GET", "PUT"])  # Add PUT method
 def get_user_profile(profile_id):
     users = db["users"]
-    user = users.find_one(ObjectId(profile_id))
-    if not user:
-        return jsonify("No User Found"), 404
-    user["_id"] = str(user["_id"])
-    return jsonify(user)
+    if request.method == "GET":  # Existing GET logic
+        user = users.find_one(ObjectId(profile_id))
+        if not user:
+            return jsonify("No User Found"), 404
+        user["_id"] = str(user["_id"])
+        return jsonify(user)
+    elif request.method == "PUT":  # New PUT logic for updates
+        data = request.json
+        if not data:
+            return jsonify({"message": "No data provided for update"}), 400
+
+        updated_user_data = {
+            "profile_name": data.get("profile_name"),
+            "firstName": data.get("firstName"),
+            "lastName": data.get("lastName"),
+            "gender": data.get("gender"),
+            "weight": data.get("weight"),
+            "height": data.get("height"),
+            "age": data.get("age"),
+            "userType": data.get("userType"),
+            "dietType": data.get("dietType"),
+            "allergy_info": data.get("allergy_info"),
+            "diseases": data.get("diseases"),
+        }
+
+        try:
+            users.update_one({"_id": ObjectId(profile_id)}, {"$set": updated_user_data})
+            updated_user = users.find_one(ObjectId(profile_id))  # Fetch updated user
+            updated_user["_id"] = str(updated_user["_id"])  # Convert ObjectId to string
+            return (
+                jsonify(
+                    {"message": "Profile updated successfully", "profile": updated_user}
+                ),
+                200,
+            )
+        except Exception as e:
+            print(f"Error updating profile: {e}")
+            return jsonify({"message": "Error updating profile"}), 500
 
 
 @app.route("/api/food_items/<id>", methods=["GET"])
@@ -161,7 +252,18 @@ def get_food_item_by_id(id):
     return jsonify(document)
 
 
-@app.route("/api/food_items/<category>/filter/<profile_id>", methods=["GET"])
+@app.route("/api/categories", methods=["GET"])
+def get_categories():
+    """
+    Returns a list of distinct food categories from the database.
+    """
+    categories = collection.distinct(
+        "item_category"
+    )  # 'collection' is your MongoDB collection object
+    return jsonify(categories)
+
+
+@app.route("/api/food_items/category/<category>/filter/<profile_id>", methods=["GET"])
 def get_food_items_by_profile(category, profile_id):
     projection = {
         "_id": 1,
@@ -170,33 +272,61 @@ def get_food_items_by_profile(category, profile_id):
         "image_url": 1,
         "final_rating": 1,
         "allergy_info": 1,
+        "nutrition": 1,
+        "veg": 1,  # Needed for vegetarian check
     }
+
     users = db["users"]
     user = users.find_one(ObjectId(profile_id))
     if user is None:
-        return jsonify({"Error": "Object not found"}), 404
+        return jsonify({"Error": "User not found"}), 404
 
-    food_items_list = personalize_food_recommendation(
-        category=category,
-        user_type=user["userType"],
-        sex=user["gender"],
-        height=user["height"],
-        weight=user["weight"],
-        age=user["age"],
-    )
+    food_items_cursor = collection.find({"item_category": category.upper()}, projection)
+
+    # Ensure consistent formats
+    user_type = user.get("userType", "general_fitness")
+    user_dietType = user.get("dietType", "veg")
+    user_allergies = user.get("allergy_info", [])
+    user_diseases = user.get("diseases", [])
 
     results = []
 
-    for food_items in food_items_list:
-        name = food_items[0]
-        personalised_score = food_items[1]
-        document = collection.find_one({"item_name": name}, projection)
-        if document is not None:
-            document["_id"] = str(document["_id"])
-            document["personalised_score"] = personalised_score
-            results.append(document)
+    for item in food_items_cursor:
+        base_score = item.get("final_rating", 1.5)
+        nutrition = item.get("nutrition", {})
+        vegFood = item.get("veg", True)
+        item_allergies = item.get("allergy_info", [])
 
-    results = sorted(results, key=lambda x: x["personalised_score"], reverse=True)
+        food_item = {
+            "nutrition": nutrition,
+            "veg": vegFood,
+            "allergy_info": item_allergies,
+            "user_allergies": user_allergies,  # Needed for allergy comparison
+        }
+
+        try:
+            personalized_score = personalize_score(
+                food_item=food_item,
+                vegFood=vegFood,
+                user_dict={
+                    "user_type": user_type,
+                    "user_allergies": user_allergies,
+                    "user_diseases": user_diseases,
+                    "user_dietType": user_dietType,
+                },
+                base_health_score=base_score,
+            )
+        except Exception as e:
+            print(f"Error scoring item '{item.get('item_name', '')}': {e}")
+            personalized_score = base_score  # fallback score
+
+        item["_id"] = str(item["_id"])
+        item["personalised_score"] = personalized_score
+        results.append(item)
+
+    # Sort by personalised score (descending)
+    results.sort(key=lambda x: x["personalised_score"], reverse=True)
+
     return jsonify(results)
 
 
@@ -226,32 +356,49 @@ def get_food_items_by_category(category):
     return jsonify(results)
 
 
-@app.route("/api/food_items/rating", methods=["POST"])
-def get_food_item_rating():
-    keys = [
-        "NUTRITION.ENERGY",  # Example energy value
-        "NUTRITION.PROTEIN",  # Example protein value
-        "NUTRITION.CARBOHYDRATE",  # Example carbs value
-        "NUTRITION.TOTAL_SUGARS",  # Example sugars value
-        "NUTRITION.ADDED_SUGARS",  # Example added sugars value
-        "NUTRITION.TOTAL_FAT",  # Example fat value
-        "NUTRITION.SATURATED_FAT",  # Example saturated fat value
-        "NUTRITION.FIBER",  # Example fiber value
-        "NUTRITION.SODIUM",  # Example sodium value
-    ]
+@app.route("/api/form/rating", methods=["POST"])
+def get_food_item_rating():  ## GEMINI_CALLS
     data = request.json
     print(data)
-    if data is None:
-        return jsonify("Error, Please provide valid data in form"), 400
-    nutrition_info = {}
-    for key in keys:
-        nutrition_info[key] = int(data.get(key, 0))
+    result = get_structured_rating(data)
+    return jsonify({"Rating": result}), 200
 
-    nutrition_model = load_model("ML_APIS/pipeline.joblib")
-    rating = predict_food_rating(input_data=nutrition_info, model=nutrition_model)
-    print("Type of rating:", type(rating))
-    return jsonify({"Rating": rating}), 200
+
+@app.post("/api/message")
+def add_message():
+    name = request.form["name"]
+    email = request.form["email"]
+    message = request.form["message"]
+
+    message_collection = db["message"]
+    try:
+        message_collection.insert_one(
+            {"name": name, "email": email, "message": message}
+        )
+        flash("Your Message has been sent successfully", "info")
+    except:
+        flash("Sorry an Error Occurred! We cannot recieve your message :(", "error")
+    return redirect(url_for("routes_bp.contact"))
+
+
+@app.route("/upload-scan", methods=["POST"])
+def upload_scan():
+    try:
+        data = request.get_json()
+        image_data = data.get("image")
+        if not image_data:
+            return jsonify({"error": "No image data received"}), 400
+
+        barcodes = analyze_barcode_from_base64(image_data)
+
+        return jsonify({"message": "Barcode analysis complete", "barcodes": barcodes})
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# for rule in app.url_map.iter_rules():
+#     print(rule)

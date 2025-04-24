@@ -1,0 +1,4529 @@
+[{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3245"
+  },
+  "ingredients": [
+    "SKIMMED MILK (50%)",
+    "Water",
+    "FRUCTO-OLIGOSACCHARIDES",
+    "MILK PROTEIN CONCENTRATE",
+    "ALKALISED COCO POWDER (1%)",
+    "coffee (0.32%)",
+    "NATURAL FLAVOUR",
+    "Acidity Regulator [INS 452(i), INS 340(ii & iii)]",
+    "CITRUS FIBER",
+    "STEVIA",
+    "NATURE IDENTICAL FLAVOURING SUBSTANCE (MINT, SPEARMINT)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Raw-Pressery-Dairy-Protein-MILKshake/dp/B08DJPLVFC"
+  },
+  "allergy_info": [
+    "MILK"
+  ],
+  "nutrients_per_100g": false,
+  "nutrients_per": {
+    "value": 200,
+    "unit": "ml"
+  },
+  "price": 660,
+  "quantity": 6,
+  "weight": {
+    "value": 200,
+    "unit": "ml"
+  },
+  "score": null,
+  "nutritional_content_rating": 4,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 4,
+  "final_rating": 4,
+  "veg": true,
+  "servings_size": {
+    "value": 200,
+    "unit": "ml",
+    "count": null
+  },
+  "servings_per_pack": 1,
+  "item_category": "BEVERAGES",
+  "item_name": "Raw Pressery Dairy Protein MILKshake Choco Mint",
+  "nutrition": {
+    "energy": 172.2,
+    "protein": 18,
+    "carbohydrate": 24.48,
+    "total_sugars": 15.71,
+    "added_sugars": null,
+    "fiber": 8.8,
+    "total_fat": 0.58,
+    "saturated_fat": 0.36,
+    "trans_fat": 0.01,
+    "sodium": 82.2,
+    "calcium": 402.7,
+    "cholesterol": 10
+  },
+  "image_url": "https://m.media-amazon.com/images/I/51ZZ8FwQLIL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3249"
+  },
+  "ingredients": [
+    "Tepary Beans Flour",
+    "Edible Vegetable Oil (Cotton Seed, Corn & Palmolein Oil)",
+    "Gram Pulse Flour",
+    "Iodised Salt",
+    "Black Pepper Powder",
+    "Ginger Ginger Powder",
+    "Clove Powder",
+    "Mace Powder",
+    "Nutmeg Powder",
+    "Cardamom Powder"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Haldirams-Bhujia-Plain-200g/dp/B005OR9F0A"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 58,
+  "weight": {
+    "value": 200,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3.5,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.7,
+  "veg": true,
+  "servings_size": {
+    "value": 20,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": 20,
+  "item_category": "NAMKEEN",
+  "item_name": "Haldirams Bhujia Plain",
+  "nutrition": {
+    "energy": 581.3,
+    "protein": 13.4,
+    "carbohydrate": 39.9,
+    "total_sugars": 4.1,
+    "added_sugars": null,
+    "total_fat": 49,
+    "saturated_fat": 13.5,
+    "sodium": 922.2
+  },
+  "image_url": "https://m.media-amazon.com/images/I/710pBA20CrL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3250"
+  },
+  "ingredients": [
+    "hazel nuts (34%)",
+    "dates (27%)",
+    "whey protein concentrate (17%)",
+    "Almonds (14%)",
+    "Cocoa Powder (5%)",
+    "cocoa butter (3%)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Whole-Truth-Hazelnut-Protein-Preservatives/dp/B0C1GC6CY2"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "nutrients_per": {
+    "value": 52,
+    "unit": "g"
+  },
+  "price": 900,
+  "quantity": 6,
+  "weight": {
+    "value": 96,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3.5,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 3,
+  "final_rating": 3.5,
+  "veg": true,
+  "item_category": "PROTEIN-BAR",
+  "item_name": "The Whole Truth - Hazelnut Cocoa Protein Bar with 12g Protein (Pack of 6)",
+  "nutrition": {
+    "energy": 265.3,
+    "protein": 12.1,
+    "carbohydrate": 15.6,
+    "total_sugars": 11.4,
+    "fiber": 2.2,
+    "total_fat": 17.2,
+    "saturated_fat": 27,
+    "mufa+pufa": 14.6,
+    "sodium": 13.2
+  },
+  "image_url": "https://m.media-amazon.com/images/I/51IXH0P-1IL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e323c"
+  },
+  "ingredients": [
+    "Sugar",
+    "Refined Wheat flour (Maida)",
+    "Hydrogenated vegetable fat",
+    "Fractionated vegetable fat",
+    "MILK solids",
+    "Cocoa solids (3.9%)",
+    "Emulsifier (Soya lecithin)",
+    "Raising agent (500(ii))",
+    "Yeast",
+    "Iodised salt",
+    "Flour treatment agent (516)",
+    "Artificial (Vanilla)",
+    "Nature-Identical flavouring substances"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Nestle-Munch-Chocolate-Coated-Crunchy/dp/B079T2Q768"
+  },
+  "allergy_info": [
+    "GLUTEN",
+    "SESAME",
+    "MILK",
+    "SOY",
+    "NUTS"
+  ],
+  "nutrients_per_100g": true,
+  "price": 100,
+  "quantity": 18,
+  "weight": {
+    "value": 160.2,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 1.8,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 1.8,
+  "final_rating": 1.7,
+  "veg": true,
+  "item_category": "CHOCOLATE",
+  "item_name": "Nestlé Munch Chocolate Coated Crunchy Wafer Share Pack",
+  "nutrition": {
+    "energy": 435,
+    "protein": 6,
+    "carbohydrate": 50,
+    "total_sugars": 32.9,
+    "added_sugars": 29.3,
+    "total_fat": 23.4,
+    "saturated_fat": 23.1,
+    "trans_fat": 0.06,
+    "sodium": 89.3
+  },
+  "image_url": "https://m.media-amazon.com/images/I/71tgDqle1IL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3248"
+  },
+  "ingredients": [
+    "Moong Dal (75%)",
+    "Edible Vegetable Oils (Refined Palmolein Oil and Refined Cotton Seed Oil)",
+    "Iodized Salt"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/CRAX-MOONG-DAL-Namkeen-160G/dp/B0CRDDDMYF"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 55,
+  "weight": {
+    "value": 160,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3.5,
+  "ingredient_quality_rating": 3.5,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.5,
+  "veg": true,
+  "servings_size": {
+    "value": 30,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": 5,
+  "item_category": "NAMKEEN",
+  "item_name": "Crax Moong Dal Namkeen",
+  "nutrition": {
+    "energy": 477,
+    "protein": 23,
+    "carbohydrate": 49,
+    "total_sugars": 2.1,
+    "added_sugars": null,
+    "total_fat": 21,
+    "saturated_fat": 9.3,
+    "sodium": 656
+  },
+  "image_url": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/cdee0f737c1c87e5071cdb8318da7338"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3262"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.22"
+  },
+  "servings": 5,
+  "allergy_info": null,
+  "final_rating": 3.7,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 4,
+  "ingredients": [
+    "ALPHONSO MANGO PULP(51%)",
+    "WATER",
+    "FRUCTOSE",
+    "ANTIOXIDANT[(VITAMIN C - INS 300),INS 224]"
+  ],
+  "item_category": "BEVERAGES",
+  "item_name": "RAW PRESSERY JUICE, MANGO 1L",
+  "nutrition": {
+    "energy": 41.7,
+    "protein": 0.45,
+    "carbohydrate": 10.43,
+    "total_sugars": 8.69,
+    "added_sugars": 3.41,
+    "fiber": 0.91,
+    "total_fat": 0,
+    "sodium": 1.04,
+    "vitamin_c": 58.76,
+    "calcium": 8.86,
+    "potassium": 100.33
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "ML",
+  "veg": true,
+  "image_url": "https://www.bigbasket.com/media/uploads/p/l/40115018_7-raw-pressery-mango-100-natural-cold-pressed-juice.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e325f"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.0633"
+  },
+  "servings": 1,
+  "allergy_info": null,
+  "final_rating": 2.2,
+  "health_impact_rating": 2,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "WATER",
+    "SUGAR",
+    "MANGO PULP(10.7%)",
+    "ACIDITY REGULATORS (330, 331(IIIL)",
+    "STABILIZER(466)",
+    "ANTIOXIDANT (300)",
+    "COLOUR (110)",
+    "MANGO FLAVOURS (NATURE-IDENTICAL & ARTIFICIAL FLAVORING SUBSTANCES)"
+  ],
+  "item_category": "BEVERAGES",
+  "item_name": "MAAZA MANGO DRINK 135ML",
+  "nutrition": {
+    "energy": 60,
+    "protein": 0,
+    "carbohydrate": 15,
+    "total_sugars": 14.8,
+    "added_sugars": 13.5,
+    "total_fat": 0,
+    "sodium": 0
+  },
+  "nutritional_content_rating": 2,
+  "unit": "ML",
+  "veg": true,
+  "image_url": "https://www.jiomart.com/images/product/original/491695599/maaza-refresh-mango-drink-135-ml-10-pcs-product-images-o491695599-p590114753-1-202302240829.jpg?im=Resize=(1000,1000)"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3258"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.68"
+  },
+  "servings": 12,
+  "allergy_info": [
+    "RAGI"
+  ],
+  "final_rating": 4.5,
+  "health_impact_rating": 4.6,
+  "ingredient_quality_rating": 4.7,
+  "ingredients": [
+    "SPROUTED RAGI(100%)"
+  ],
+  "item_category": "BABY-FOOD",
+  "item_name": "YOGABAR YOGABABY SPROUTED RAGI MIX 250G",
+  "nutrition": {
+    "energy": 376,
+    "protein": 7.1,
+    "total_fat": 1.1,
+    "saturated_fat": 0.4,
+    "trans_fat": 0,
+    "cholesterol": 0,
+    "carbohydrate": 84.2,
+    "fiber": 11.8,
+    "total_sugars": 1.3,
+    "added_sugars": 0,
+    "sodium": 16.2
+  },
+  "nutritional_content_rating": 4.6,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.yogabars.in/cdn/shop/files/ragiMix250gcopy.jpg?v=1701339719&width=1946"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3279"
+  },
+  "price_per_unit": 0.4,
+  "servings": 25,
+  "allergy_info": null,
+  "final_rating": 2.2,
+  "health_impact_rating": 2,
+  "ingredient_quality_rating": 2,
+  "ingredients": [
+    "SUGAR",
+    "MIX FRUITS PULP BLEND (46%) (BANANA, PAPAYA, PEAR, MANGO PULP, PINEAPPLE, APPLE, GRAPES, ORANGE JUICE)",
+    "THICKNER (440)",
+    "ACIDITY REGULATOR (330)",
+    "VITAMIN B3",
+    "PRESERVATIVES (211, 223 OR 202)"
+  ],
+  "item_category": "BREAKFAST-SPREADS",
+  "item_name": "KISSAN MIXED FRUIT JAM 200 G",
+  "nutrition": {
+    "energy": 285,
+    "protein": 0.3,
+    "carbohydrate": 70.5,
+    "total_sugars": 68.1,
+    "added_sugars": 62.6,
+    "total_fat": 0.1,
+    "saturated_fat": 0,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 51,
+    "fiber": 0.8
+  },
+  "nutritional_content_rating": 2.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71L3BDZWGaL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3260"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.101"
+  },
+  "servings": 4,
+  "allergy_info": [
+    "MILK",
+    "SOY",
+    "NUTS"
+  ],
+  "final_rating": 3.2,
+  "health_impact_rating": 3,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "WATER",
+    "SUGAR",
+    "GUAVA PULP (20%)",
+    "ACIDITY REGULATORS (INS 330, INS 296)",
+    "STABILIZER(INS 440, INS 415, INS 466)",
+    "ANTIOXIDANT (300)",
+    "VITAMINS",
+    "IODIZED SALT",
+    "POLYDEXTROSE(FIBER) (0.01%)",
+    "COLOURS(INS 150D, INS 124)",
+    "NATURAL FLAVOURS AND NATURAL FLAVOURING SUBSTANCES"
+  ],
+  "item_category": "BEVERAGES",
+  "item_name": "B NATURAL GUAVA JUICE GOODNESS OF FIBER 1L",
+  "nutrition": {
+    "energy": 52,
+    "protein": 0.1,
+    "carbohydrate": 13.18,
+    "total_sugars": 12.4,
+    "added_sugars": 10.6,
+    "sugar_natural": 1.8,
+    "fiber": 0.78,
+    "total_fat": 0,
+    "sodium": 5
+  },
+  "nutritional_content_rating": 3,
+  "unit": "ML",
+  "veg": true,
+  "image_url": "https://www.bigbasket.com/media/uploads/p/xxl/1213605-2_2-b-natural-juice-orange-oomph.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3264"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.062"
+  },
+  "servings": 2,
+  "allergy_info": null,
+  "final_rating": 2.5,
+  "health_impact_rating": 2.5,
+  "ingredient_quality_rating": 2,
+  "ingredients": [
+    "ORANGE JUICE (10.5%)(RECONSTITUTED FROM ORANGE JUICE CONCENTRATE & ORANGEPULP CELLS)",
+    "WATER",
+    "ACIDITY REGULATORS (330, 331)",
+    "SUGAR",
+    "PERMITTED SYNTHETIC FOOD COLOURS (110,102)",
+    "ADDED ORANGE FLAVOURS(NATURALLY, NATURE-INDETICAL AND ARTIFICIAL FLAVOURING SUBSTANCES)",
+    "ANTIOXIDANT(300)"
+  ],
+  "item_category": "BEVERAGES",
+  "item_name": "MINUTE MAID PULPY ORANGE JUICE DRINK 1L",
+  "nutrition": {
+    "energy": 52,
+    "protein": 0,
+    "carbohydrate": 13.1,
+    "total_sugars": 12.7,
+    "added_sugars": 11.5,
+    "total_fat": 0,
+    "sodium": 9.6
+  },
+  "nutritional_content_rating": 3,
+  "unit": "ML",
+  "veg": true,
+  "image_url": "https://www.bigbasket.com/media/uploads/p/xxl/265722_12-minute-maid-fruit-drink-pulpy-orange.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e325e"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.625"
+  },
+  "servings": null,
+  "allergy_info": [
+    "MILK"
+  ],
+  "final_rating": 2.5,
+  "health_impact_rating": 2.5,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "POTATO",
+    "EDIBLE VEGETABLE OIL (PALMOLEIN, SUNFLOWER OIL)",
+    "SEASONING (SUGAR, IODISED SALT, SPICES AND CONDIMENTS, ACIDITY REGULATORS (330, 334, 296))",
+    "MALTODEXTRIN",
+    "EDIBLE STARCH",
+    "SALT SUBSTITUTE (POTASSIUM CHLORIDE)",
+    "MILK SOLIDS",
+    "ANTICAKING AGENTS (551, 470)",
+    "FLAVOUR ENHANCERS (631, 627)",
+    "COLOUR (150D)",
+    "FLAVOUR (NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES)",
+    "MODIFIED STARCH (1450)",
+    "CONTAINS ONION"
+  ],
+  "item_category": "CHIPS",
+  "item_name": "UNCLE CHIPPS SPICY TREAT 80G",
+  "nutrition": {
+    "energy": 548,
+    "protein": 6.7,
+    "carbohydrate": 52,
+    "total_sugars": 0.6,
+    "added_sugars": 0,
+    "total_fat": 35,
+    "saturated_fat": 15.5,
+    "trans_fat": 0.1,
+    "sodium": 591
+  },
+  "nutritional_content_rating": 2.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/51UbDDZIoAL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e327c"
+  },
+  "price_per_unit": 0.8292,
+  "servings": 35,
+  "allergy_info": [
+    "BARLEY",
+    "MILK"
+  ],
+  "final_rating": 3,
+  "health_impact_rating": 2.5,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "MALTED BEVERAGE POWDER OVOMALTINE 33% (BARLEY MALT EXTRACT 17%, CONDENSED SKIMMED MILK, CONDENSED MILK PERMEATE, FAT-REDUCED COCOA POWDER 4.3%, SUGAR, FRUCTOSE )",
+    "MINERALS (MAGNESIUM CARBONATE, DICALCIUM PHOSPHATE)",
+    "RAPESEED OIL 0.2%",
+    "VITAMINS (E,C, THIAMIN, RIBOFLAVIN, NIACIN, B6, FOLIC ACID, B12, BIOTIN, PANTOTHENIC ACID)",
+    "SALT",
+    "NATURAL IDENTICAL FLAVORING (VANILLIN)",
+    "SUGAR",
+    "VEGETABLE OILS 29% (RAPESEED OIL, FULLY HYDROGENATED RAPESEED OIL)",
+    "HAZELNUTS",
+    "EMULSIFIERS (LECHITINS, MONO-AND DIGLYCERIDES OF FATTY ACIDS)",
+    "MINERAL (DICALCIUM PHOSPHATE)",
+    "FAT-REDUCED  COCOA POWDER 0.4%",
+    "ANTIOXIDANTS (L-ASCORBYL PALMITATE, ALPHA-TOCOPHEROL)",
+    "NATURAL IDENTICAL FLAVOURING (VANILLIN)",
+    "VEGETABLE FAT SPREAD WITH 33% MALTED BEVERAGE POWDER OVOMALTINE"
+  ],
+  "item_category": "BREAKFAST-SPREADS",
+  "item_name": "OVOMALTINE CRUNCHY CREAM SPREAD WITH MALTED CRUNCHY PIECES AND COCOA, DELICIOUS SWISS CHOCOLATE, TASTY AND HEALTHY BREAKFAST BREAD SPREAD, VEGETARIAN, MADE IN SWITZERLAND, 240G (PACK OF 1)",
+  "nutrition": {
+    "energy": 547,
+    "protein": 3.7,
+    "carbohydrate": 59.4,
+    "total_sugars": 50.1,
+    "added_sugars": 37.7,
+    "total_fat": 32.4,
+    "saturated_fat": 5.5,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 66,
+    "fiber": null
+  },
+  "nutritional_content_rating": 3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/618YmTYrsJL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e328d"
+  },
+  "price_per_unit": 0.75,
+  "servings": 60,
+  "allergy_info": [
+    "MILK"
+  ],
+  "final_rating": 4,
+  "health_impact_rating": 4,
+  "ingredient_quality_rating": 4.5,
+  "ingredients": [
+    "MILK POWDER",
+    "POPPED RAGI",
+    "JAGGERY",
+    "GREEN GRAM",
+    "CARDAMOM",
+    "IODISED SALT."
+  ],
+  "item_category": "MILK-FLAVOURING",
+  "item_name": "HEALTHY MILLET DRINK | INSTANT MIX | POPPED RAGI MILK | 200 G | PACK OF 2",
+  "nutrition": {
+    "energy": 392.4,
+    "protein": 13.8,
+    "carbohydrate": 81.3,
+    "total_sugars": 54.4,
+    "added_sugars": null,
+    "total_fat": 1.2,
+    "saturated_fat": 0.5,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "fiber": 8.6
+  },
+  "nutritional_content_rating": 4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://trumillets.in/wp-content/uploads/2020/09/IJ-3FSW-ZLU4-3.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e324b"
+  },
+  "ingredients": [
+    "Gram Pulse",
+    "Peanuts",
+    "Edible Vegetable Oil (Cotton Seed, Corn & Palmolein Oil)",
+    "Gram Pulse Flour",
+    "Green Peas",
+    "Iodised Salt Black Salt Powder",
+    "Red Chilli Powder",
+    "Turmeric Powder",
+    "Mango Powder",
+    "Asafetida Powder",
+    "Paprika Extract (INS 160c)",
+    "Synthetic Food Colour (INS 133)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Haldirams-Delhi-Bombay-Mixture-200g/dp/B005OR9ED8"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 50,
+  "weight": {
+    "value": 200,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 4.2,
+  "ingredient_quality_rating": 3.5,
+  "health_impact_rating": 3.8,
+  "final_rating": 3.8,
+  "veg": true,
+  "servings_size": {
+    "value": 20,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": 10,
+  "item_category": "NAMKEEN",
+  "item_name": "Haldirams Namkeen - Bombay Mixture",
+  "nutrition": {
+    "energy": 483.2,
+    "protein": 18.9,
+    "carbohydrate": 50.6,
+    "total_sugars": 1.6,
+    "added_sugars": null,
+    "total_fat": 22.8,
+    "saturated_fat": 5,
+    "trans_fat": 0.1,
+    "sodium": 522.7
+  },
+  "image_url": "https://m.media-amazon.com/images/I/71ACZ9wB-QL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3257"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.33"
+  },
+  "servings": 6,
+  "allergy_info": [
+    "RAGI"
+  ],
+  "final_rating": 4.3,
+  "health_impact_rating": 4.2,
+  "ingredient_quality_rating": 4.5,
+  "ingredients": [
+    "NATURAL FRUITS",
+    "MULTIGRAINS POWDER",
+    "FIBER",
+    "RAW UNREFINED SUGAR)"
+  ],
+  "item_category": "BABY-FOOD",
+  "item_name": "HUNGRY KOALA RAGI & BANANA CEREAL 200G",
+  "nutrition": {
+    "energy": 364,
+    "protein": 7.8,
+    "carbohydrate": 80.3,
+    "total_fat": 1.3,
+    "trans_fat": 0,
+    "fiber": 12.1,
+    "iron": 5.8,
+    "calcium": 258
+  },
+  "nutritional_content_rating": 4.4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/81Kdr5OPfJL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3252"
+  },
+  "ingredients": [
+    "Protein Blend (29%) (Soy Nuggets, Whey Protein Concentrate, Calcium Caseinate,Soy Concentrate)",
+    "Dietary Fiber (16%) (Fructooligosacharide, Chicory Root Fiber)",
+    "Dark Compound No Added Sugar (19%)",
+    "Maltitol",
+    "Edible Vegetable Oil",
+    "Cocoa Solids",
+    "Emulsifier (Soy Lecithin)",
+    "Maltitol",
+    "Whole Grain Rolled Oats (8%)",
+    "Almonds (7%)",
+    "Brown Rice Crispy",
+    "Edible Vegetable Oil (High Oleic Sunflower Oil)",
+    "Humectant (Glycerine)",
+    "Cocoa Powder",
+    "Cocoa Mass",
+    "Flaxseeds",
+    "Tribasic Calcium Phosphate",
+    "Emulsifier (Soy Lecithin)",
+    "Binding Agent (Guar Gum)",
+    "Soy Protein Isolate",
+    "Salt",
+    "Citric Acid",
+    "Vitamins",
+    "Minerals",
+    "Antioxidants (Vitamin C)",
+    "Glutamine",
+    "Amino Acids",
+    "Vit A 150mcg (25%)",
+    "Vit E 2.5mg (25%)",
+    "Vit C 10mg (25%)",
+    "Vit D2 2.5mcg (25%)",
+    "Vit K 13.75mcg (25%)",
+    "Vit B1 0.21 mg (15%)",
+    "Vit B2 0.24mg (15%)",
+    "Vit B3 2.70mg (15%)",
+    "B5 0.75mg (15%)",
+    "Vit 0.30mg (15%)",
+    "Vit B9 30mcg (15%)",
+    "Vit B12 0.15mcg (15%)",
+    "Biotin 7.50mcg (25%)",
+    "Calcium 150mg (25%)",
+    "Zinc 3mg (25%)",
+    " Chromium 12.5mcg (25%)",
+    "Selenium 10mcg (25%)",
+    "Phosphorus 90mg (15%)",
+    "Magnesium 51mg (15%)",
+    "Sodium 105mg (5%)",
+    "Potassium 187.50mg (5%)",
+    "Omega-3 50mg"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/RiteBite-Max-Protein-Work-Out-Almond/dp/B07KZ1XVQ2"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "nutrients_per": {
+    "value": 50,
+    "unit": "g"
+  },
+  "price": 75,
+  "weight": {
+    "value": 50,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 4.5,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 4.5,
+  "final_rating": 4.3,
+  "veg": true,
+  "item_category": "PROTEIN-BAR",
+  "item_name": "RiteBite Max Protein Daily Choco Almond",
+  "nutrition": {
+    "energy": 179,
+    "protein": 100,
+    "carbohydrate": 13.8,
+    "fiber": 5,
+    "total_sugars": 0.5,
+    "polyols": 8.7,
+    "total_fat": 6.8,
+    "saturated_fat": 1.2
+  },
+  "image_url": "https://maxprotein.in/cdn/shop/products/Pack-Shot.png?v=1677590429"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e326e"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.758"
+  },
+  "servings": 33,
+  "allergy_info": [
+    "MILK"
+  ],
+  "final_rating": 4.1,
+  "health_impact_rating": 4,
+  "ingredient_quality_rating": 4,
+  "ingredients": [
+    "WHEY PROTEIN CONCENTRATE(80% POWDER)"
+  ],
+  "item_category": "PROTEIN-POWDER",
+  "item_name": "AS-IT-IS NUTRITION WHEY PROTEIN CONCENTRATE 80% - 1KG",
+  "nutrition": {
+    "energy": 402,
+    "protein": 79.92,
+    "calories": 0.396,
+    "carbohydrate": 8.32,
+    "total_sugars": 0,
+    "total_fat": 4.99,
+    "leucine": 8.7,
+    "isoleucine": 4.6,
+    "valine": 4.6
+  },
+  "nutritional_content_rating": 4.3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/717z92AB6PL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3270"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.18"
+  },
+  "servings": 25,
+  "allergy_info": [
+    "MILK"
+  ],
+  "final_rating": 3.7,
+  "health_impact_rating": 3.7,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "WHEY PROTEIN MATRIX 70% (WHEY PROTEIN CONCENTRATE, WHEY PROTEIN ISOLATE)",
+    "DIGESTIVE ENZYMES",
+    "FLAVOUR ENHANCER(INS 1101)",
+    "MALTODEXTRIN",
+    "SWEETENER (INS 955)",
+    "EMULSIFIER (INS 415)",
+    "CONTAINS ADDED FLAVOURS (NATURE IDENTICALFLAVOURING SUBSTANCES)"
+  ],
+  "item_category": "PROTEIN-POWDER",
+  "item_name": "MUSCLE ASYLUM PREMIUM WHEY PROTEIN 1KG",
+  "nutrition": {
+    "energy": 300,
+    "protein": 59.5,
+    "carbohydrate": 17.5,
+    "added_sugars": 0,
+    "total_fat": 3,
+    "saturated_fat": 2.025,
+    "polyunsaturated_fat": 0.175,
+    "monounsaturated_fat": 0.775,
+    "trans_fat": 0,
+    "leucine": 6.4,
+    "isoleucine": 3.4,
+    "valine": 3.45
+  },
+  "nutritional_content_rating": 3.8,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.muscleasylum.in/cdn/shop/files/MainImage_grande@2x.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e327a"
+  },
+  "price_per_unit": 0.4,
+  "servings": 60,
+  "allergy_info": [
+    "SULPHITE"
+  ],
+  "final_rating": 2.5,
+  "health_impact_rating": 2,
+  "ingredient_quality_rating": 2,
+  "ingredients": [
+    "SUGAR",
+    "ORANGE EXTRACT (45%)",
+    "GLAZED PEEL (5%)",
+    "THICKNER (E440)",
+    "ACIDITY REGULATOR (E330)",
+    "NATURAL FLAVOURING SUBSTANCE",
+    "PRESERVATIVES (211, 223 OR 202)",
+    "FOOD COLOUR - E122"
+  ],
+  "item_category": "BREAKFAST-SPREADS",
+  "item_name": "KISSAN ORANGE MARMALADE JAM, 500G",
+  "nutrition": {
+    "energy": 290,
+    "protein": 0.1,
+    "carbohydrate": 72.3,
+    "total_sugars": 71.5,
+    "added_sugars": 69.3,
+    "total_fat": 0.1,
+    "saturated_fat": 0,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 30,
+    "fiber": 0.6
+  },
+  "nutritional_content_rating": 2.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/51Z9MT2DLuL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e327f"
+  },
+  "price_per_unit": 0.59667,
+  "servings": 40,
+  "allergy_info": [
+    "MILK",
+    "SOY",
+    "OATS",
+    "NUTS"
+  ],
+  "final_rating": 4.5,
+  "health_impact_rating": 4.5,
+  "ingredient_quality_rating": 4.5,
+  "ingredients": [
+    "WHOLE GRAINS 48% (ROLLED OATS (25%), MILLETS(23%), RAGI FLAKES, JOWAR FLAKES)",
+    "PROTEIN BLEND 23% (TEXTURIZED SOY PROTEIN AND WHEY PROTEIN ISOLATE)",
+    "DARK CHOCOLATE (13%) COCOA SOLIDS, COCOA BUTTER, COCOA POWDER, SUGAR SUNFLOWER, LECHITIN, NATURAL VANILLA)",
+    "DEHYDRATED FRUITS 9% (DATES, CRANBERRY, RAISINS)",
+    "NUTS AND SEEDS 6% (ALMONDS, PUMPKIN AND CHIA SEEDS)",
+    "COCOA POWDER",
+    "RICE BRAN OIL",
+    "JAGGERY",
+    "PROBIOTICS (BACILLUS COAGULUNS SNZ1969, 150 MILLION CFU PER SERVE)",
+    "ADDED NATURAL FLAVOURS (CHOCOLATE AND ROSEMARY)"
+  ],
+  "item_category": "BREAKFAST-CEREAL",
+  "item_name": "YOGABAR SUPER HIGH PROTEIN MUESLI 850G | 21G PROTEIN | WITH PROBIOTICS AND WHEY | NO REFINED SUGAR | EASY ON GUT | CHOCO ALMOND | PROTEIN SNACK | HIGH FIBER FOOD | BREAKFAST CEREAL",
+  "nutrition": {
+    "energy": 396,
+    "protein": 23.2,
+    "carbohydrate": 55,
+    "total_sugars": 17.5,
+    "added_sugars": 8.6,
+    "total_fat": 10.8,
+    "saturated_fat": 4,
+    "trans_fat": 0,
+    "cholestrol": 3.9,
+    "sodium": 268,
+    "fiber": 7,
+    "omega-3": 0.5
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/713Nlcv7mgL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3256"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.2"
+  },
+  "servings": 7,
+  "allergy_info": [
+    "NUTS"
+  ],
+  "final_rating": 4.2,
+  "health_impact_rating": 4.1,
+  "ingredient_quality_rating": 4.6,
+  "ingredients": [
+    "WHOLE WHEAT(80%)",
+    "DATES(13%)",
+    "ALMONDS(7%)",
+    "CARDAMOM(1%)",
+    "NUTMEG"
+  ],
+  "item_category": "BABY-FOOD",
+  "item_name": "EARLY FOODS - WHOLE WHEAT, ALMOND & DATE PORRIDGE MIX 200G",
+  "nutrition": {
+    "energy": 404.6,
+    "protein": 5.8,
+    "carbohydrate": 86.6,
+    "total_sugars": 1.7,
+    "added_sugars": 0,
+    "total_fat": 4.1,
+    "fiber": 3.9,
+    "total_mineral_content": 1.8,
+    "iron": 4,
+    "salt": 0.05,
+    "added_salt": 0
+  },
+  "nutritional_content_rating": 4.3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61STfndsW4L._AC_UF894,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3265"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.3632"
+  },
+  "servings": null,
+  "allergy_info": [
+    "NUTS"
+  ],
+  "final_rating": 4.5,
+  "health_impact_rating": 4.2,
+  "ingredient_quality_rating": 4.8,
+  "ingredients": [
+    "ROASTED PEANUTS(100%)"
+  ],
+  "item_category": "PEANUT-BUTTER",
+  "item_name": "MYFITNESS ALL NATURAL PEANUT BUTTER CRUNCHY 1.25KG",
+  "nutrition": {
+    "energy": 622,
+    "protein": 32,
+    "carbohydrate": 14,
+    "total_sugars": 0,
+    "added_sugars": 0,
+    "total_fat": 49,
+    "saturated_fat": 12,
+    "polyunsaturated_fat": 14,
+    "monounsaturated_fat": 22,
+    "trans_fat": 0,
+    "sodium": 7,
+    "cholesterol": 0
+  },
+  "nutritional_content_rating": 4.6,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61ZSRcVPCmL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e326f"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "3.1495"
+  },
+  "servings": 66,
+  "allergy_info": [
+    "MILK"
+  ],
+  "final_rating": 4.7,
+  "health_impact_rating": 4.8,
+  "ingredient_quality_rating": 4.5,
+  "ingredients": [
+    "WHEY PROTEIN ISOLATE",
+    "MINERALS",
+    "COCOA SOLIDS",
+    "NATURE IDENTICAL IRISH CHOCOLATE FLAVOUR",
+    "VITAMINS",
+    "DIGEZYME"
+  ],
+  "item_category": "PROTEIN-POWDER",
+  "item_name": "BON ISO WHEY 100% PROTEIN ISOLATE, IRISH CHOCOLATE 2KG",
+  "nutrition": {
+    "energy": 371,
+    "protein": 80,
+    "carbohydrate": 12,
+    "total_sugars": 0,
+    "added_sugars": 0,
+    "total_fat": 0.6,
+    "saturated_fat": 0.3,
+    "trans_fat": 0,
+    "cholesterol": 0,
+    "sodium": 268,
+    "calcium": 1097,
+    "phosphorus": 840,
+    "zinc": 14,
+    "potassium": 1226,
+    "chloride": 175,
+    "magnesium": 345,
+    "copper": 2,
+    "manganese": 2
+  },
+  "nutritional_content_rating": 4.7,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.jiomart.com/images/product/original/rvwuzhyvar/bon-iso-whey-100-protein-isolate-for-muscle-strength-and-bone-health-whey-protein-2-kg-irish-chocolate-product-images-orvwuzhyvar-p599023846-0-202303030707.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3288"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.6142857143"
+  },
+  "servings": 1,
+  "allergy_info": [
+    "GLUTEN",
+    "SOY",
+    "SESAME"
+  ],
+  "final_rating": 2.6,
+  "health_impact_rating": 2.4,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "EDIBLE VEGETABLE OIL (PALM OIL)",
+    "DEHYDRATED PIECES 6.13% (CHICKEN, CARROT, FRFF CABBAGE & CURRY LEAVES)",
+    "HYDROLYSED VEGETABLE PROTEIN POWDER (SOY)",
+    "MIXED SPICES 1.50% (RED CHILLI, TURMERIC, CORIANDER, BLACK PEPPER, CUMIN, FENUGREEK, GINGER, CLOVE, NUTMEG & GREEN CARDAMOM)",
+    "ONION POWDER",
+    "SUGAR",
+    "MALTODEXTRIN",
+    "YEAST EXTRACT POWDER",
+    "CORN STARCH",
+    "FLAVOUR ENHANCERS (INS 631 , INS627 & INS620)",
+    "MILK SOLIDS",
+    "NATURAL IDENTICAL FLAVOUR",
+    "ACIDITY REGULATORS [INS 500, INS 451 & INS 330]",
+    "EDIBLE VEGETABLE OIL(COCONUT OIL)",
+    "THICKENER(INS415)",
+    "ANTIOXIDANT (INS319)"
+  ],
+  "item_category": "INSTANT-NOODLES",
+  "item_name": "NISSIN SPICED CHICKEN CUP NOODLES",
+  "nutrition": {
+    "energy": 485.19,
+    "protein": 10.28,
+    "carbohydrate": 62.8,
+    "total_sugars": 3.63,
+    "added_sugars": 3.63,
+    "total_fat": 20.22,
+    "saturated_fat": 9.72,
+    "trans_fat": 0.099,
+    "cholestrol": 0.099,
+    "sodium": 1409.17
+  },
+  "nutritional_content_rating": 2.9,
+  "unit": "G",
+  "veg": false,
+  "image_url": "https://m.media-amazon.com/images/I/81H5f1NFXmL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3267"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.532"
+  },
+  "servings": null,
+  "allergy_info": [
+    "NUTS"
+  ],
+  "final_rating": 4.1,
+  "health_impact_rating": 4.3,
+  "ingredient_quality_rating": 4.5,
+  "ingredients": [
+    "PEANUTS(78%)",
+    "ORGANIC JAGGERY(12%)",
+    "WHEY PROTEIN CONCENTRATE(10%)"
+  ],
+  "item_category": "PEANUT-BUTTER",
+  "item_name": "PINTOLA HIGH PROTEIN ORGANIC JAGGERY PEANUT BUTTER CRUNCHY 1KG",
+  "nutrition": {
+    "energy": 605,
+    "protein": 33,
+    "carbohydrate": 26,
+    "fiber": 7,
+    "total_sugars": 16.5,
+    "added_sugars": 14,
+    "total_fat": 40,
+    "mufa": 21,
+    "omega-6_pufa": 13,
+    "cholesterol": 15,
+    "sodium": 17.9
+  },
+  "nutritional_content_rating": 4.4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61YFh9xFQUL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3274"
+  },
+  "price_per_unit": 0.13,
+  "servings": 20,
+  "allergy_info": [
+    "GLUTEN"
+  ],
+  "final_rating": 3,
+  "health_impact_rating": 3,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "WHEAT FLOUR (ATTA) (6%)",
+    "YEAST",
+    "WHEAT BRAN",
+    "SUGAR",
+    "IODISED SALT",
+    "EDIBLE VEGETABLE",
+    "OIL (PALM)",
+    "CLASS II PRESERVATIVE (282)",
+    "IMPROVERS (1100(I), 1104, 1102)",
+    "EMULSIFIERS (471, 481, 472E)",
+    "ACIDITY REGULATOR (260)",
+    "FLOUR TREAIMENT AGENT (510)",
+    "PERMITTED NATURAL"
+  ],
+  "item_category": "BREAD",
+  "item_name": "BRITANNIA 100% WHOLE WHEAT SANDWICH BREAD, 450 G POUCH",
+  "nutrition": {
+    "energy": 250,
+    "protein": 8,
+    "carbohydrate": 50,
+    "total_sugars": 2,
+    "added_sugars": null,
+    "total_fat": 2,
+    "saturated_fat": 1,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": null,
+    "fiber": 6
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.bigbasket.com/media/uploads/p/l/40162924_6-britannia-100-whole-wheat-bread.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3240"
+  },
+  "ingredients": [
+    "Liquid Glucose",
+    "Sugar",
+    "Refined Wheat Flour (Maida)",
+    "Invert Sugar",
+    "Acidity Regulators (INS 296, INS 330)",
+    "Hydrogenated Vegetable Oil",
+    "Flavour (Nature Identical)",
+    "Colours (INS 133, INS 1 10, INS 102, INS 122)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Chupa-Chups-Bites-Chewy-Toffee/dp/B07HVZBTC6"
+  },
+  "allergy_info": [
+    "GLUTEN"
+  ],
+  "nutrients_per_100g": true,
+  "price": 30,
+  "quantity": 28,
+  "weight": {
+    "value": 61.6,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 1.5,
+  "ingredient_quality_rating": 1,
+  "health_impact_rating": 1.5,
+  "final_rating": 1.3,
+  "veg": true,
+  "item_category": "CHOCOLATE",
+  "item_name": "Chupa Chups Sour Bites, Mixed Fruit Punch Flavour, Soft & Chewy Toffee",
+  "nutrition": {
+    "energy": 366.5,
+    "protein": 2.7,
+    "carbohydrate": 81.2,
+    "total_sugars": 55.3,
+    "added_sugars": 55.3,
+    "total_fat": 2.5,
+    "saturated_fat": 2.2,
+    "trans_fat": 0.01,
+    "sodium": 207
+  },
+  "image_url": "https://www.bigbasket.com/media/uploads/p/l/1215869-2_1-chupa-chups-combo-pack-of-sour-bites-sour-tubes.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e325a"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.7933"
+  },
+  "servings": null,
+  "allergy_info": null,
+  "final_rating": 4.17,
+  "health_impact_rating": 4,
+  "ingredient_quality_rating": 4,
+  "ingredients": [
+    "MILLETS & PULSES BLEND FLOUR (55%) (JOWAR/SORGHUM, CHICKPEAS, QUINOA, WHOLE GRAIN OATS, RAGI, SOY, URAD)",
+    "RICE BRAN OIL",
+    "SOY PROTEIN CONCENTRATE",
+    "FIBER",
+    "SUGAR",
+    "AJWAIN POWDER",
+    "BLACK PEPPER",
+    "ROCK SALT",
+    "FENUGREEK POWDER",
+    "DEHYDRATED VEGETABLE POWDER (TOMATO, GARLIC, ONION)",
+    "MIXED SPICES & HERBS (CHILLI, CINNAMON, TURMERIC, GINGER, BASIL)",
+    "EDIBLE STARCH",
+    "MILK SOLIDS",
+    "ACIDITY REGULATOR (E296, E330)",
+    "ANTI-CAKING AGENT (E551)"
+  ],
+  "item_category": "CHIPS",
+  "item_name": "RITEBITE MAX PROTEIN ASSORTED PROTEIN CHIPS 120G",
+  "nutrition": {
+    "energy": 478.3,
+    "protein": 16.7,
+    "carbohydrate": 49.7,
+    "total_sugars": 3.5,
+    "fiber": 6.7,
+    "polyunsaturated_fat": 8.5,
+    "monounsaturated_fat": 9.8,
+    "trans_fat": 0,
+    "cholesterol": 0,
+    "sodium": 0.8,
+    "saturated_fat": 4.5,
+    "total_fat": 22.8
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/91EArnN-wlL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3242"
+  },
+  "ingredients": [
+    "coffee"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Nescaf%C3%A9-Classic-Coffee-50g-Glass/dp/B01C5IX1PA"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "price": 215,
+  "weight": {
+    "value": 45,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.3,
+  "veg": true,
+  "servings_size": {
+    "value": null,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": null,
+  "item_category": "COFFEE",
+  "item_name": "NESCAFE Classic Instant Coffee Powder",
+  "nutrition": null,
+  "image_url": "https://m.media-amazon.com/images/I/711FLcJsU4L.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e324e"
+  },
+  "ingredients": [
+    "Protein Blend (Whey Protein Concentrate, MILK Protein Isolate, Whey Protein Hydrolysate)",
+    "Corn Syrup",
+    "Dietary Fiber (Oligofructose)",
+    "Humectant (Vegetable Glycerin, Sorbitol)",
+    "Peanuts",
+    "Edible Vegetable Oil",
+    "Sweetener (Maltitol)",
+    "Cocoa powder",
+    "Cocoa solids",
+    "Almonds",
+    "Oats",
+    "Emulsifier (Soy Lecithin)",
+    "Guar Gum",
+    "Salt",
+    "Antioxidant (Vit E)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/HYP-Whey-Protein-Bar-Chocolate/dp/B00Q4O07AE"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "nutrients_per": {
+    "value": 60,
+    "unit": "g"
+  },
+  "price": 720,
+  "quantity": 6,
+  "weight": {
+    "value": 360,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 4,
+  "ingredient_quality_rating": 3.5,
+  "health_impact_rating": 4,
+  "final_rating": 3.8,
+  "veg": true,
+  "item_category": "PROTEIN-BAR",
+  "item_name": "HYP Meal Replacement Whey Protein Bar Pack of 6 (60g x 6) Peanut Butter and Chocolate",
+  "nutrition": {
+    "energy": 0.236,
+    "protein": 20,
+    "carbohydrate": 26.7,
+    "fiber": 5.5,
+    "total_sugars": 6.3,
+    "polyols": 11,
+    "total_fat": 7.8,
+    "saturated_fat": 3,
+    "sodium": 140
+  },
+  "image_url": "https://m.media-amazon.com/images/I/61P3sctc-EL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e325d"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.1068"
+  },
+  "servings": null,
+  "allergy_info": [
+    "SOY",
+    "MILK"
+  ],
+  "final_rating": 3.5,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "POTATO",
+    "EDIBLE REFINED VEGETABLE OIL",
+    "HYDROLYSED VEGETABLE PROTEINS",
+    "CHEESE POWDER",
+    "WHEAT FLOUR",
+    "FLAVOUR ENHANCER(E627,E631)",
+    "ACIDITY REGULATOR (E330)",
+    "ANTICAKING AGENT (E551)",
+    "ANTIOXIDENTS (E319)",
+    "CONTAINS ADDED FLAVOURS - NATURAL, NATURE IDENTICAL",
+    "OIL",
+    "ONION",
+    "SALT",
+    "SUGAR"
+  ],
+  "item_category": "CHIPS",
+  "item_name": "CITY BAKERY KETTLE COOKED JALAPENO & CHEESE POTATO CHIPS 70G",
+  "nutrition": {
+    "energy": 537.79,
+    "protein": 6.97,
+    "carbohydrate": 49.63,
+    "fiber": 4.18,
+    "total_sugars": 0.28,
+    "monounsaturated_fat": 9.81,
+    "polyunsaturated_fat": 11.86,
+    "trans_fat": 0,
+    "sodium": 332,
+    "vitamin_c": 8.4,
+    "vitamin_a": 0,
+    "iron": 1.6,
+    "calcium": 2,
+    "cholestrol": 0,
+    "saturated_fat": 10.7,
+    "total_fat": 38.2
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/6111Ohd68KL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3263"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.11"
+  },
+  "servings": 6,
+  "allergy_info": null,
+  "final_rating": 2.7,
+  "health_impact_rating": 2.5,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "APPLE JUICE CONCENTRATE(3.85%)",
+    "WATER",
+    "LIQUID GLUCOSE",
+    "ACIDITY REGULATOR (INS 296)",
+    "SUGAR",
+    "FLAVOURS (NATURE IDENTICAL FLAVOURING SUBSTANCES)",
+    "ANTIOXIDANT(INS 300)"
+  ],
+  "item_category": "BEVERAGES",
+  "item_name": "REAL APPLE FRUIT JUICE -1L",
+  "nutrition": {
+    "energy": 57,
+    "protein": 0,
+    "carbohydrate": 14.2,
+    "total_sugars": 14.2,
+    "added_sugars": 12,
+    "total_fat": 0,
+    "sodium": 10,
+    "vitamin_c": 10,
+    "calcium": 1,
+    "iron": 0.4,
+    "potassium": 15
+  },
+  "nutritional_content_rating": 3,
+  "unit": "ML",
+  "veg": true,
+  "image_url": "https://www.grocerslocal.in/media/catalog/product/cache/2c7666b95835e0d8816b2ed2e9c41efb/8/9/8901207021220_7.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3268"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.276"
+  },
+  "servings": null,
+  "allergy_info": [
+    "NUTS"
+  ],
+  "final_rating": 4,
+  "health_impact_rating": 3.9,
+  "ingredient_quality_rating": 4.2,
+  "ingredients": [
+    "ROASTED PEANUTS",
+    "STABILIZER (MONO AND DIGLYCERIDES OF_FATTY ACIDS)",
+    "PEANUTS",
+    "LODISED SALT",
+    "SUGAR"
+  ],
+  "item_category": "PEANUT-BUTTER",
+  "item_name": "SUNDROP PEANUT BUTTER, CREAMY, 924G",
+  "nutrition": {
+    "energy": 645,
+    "protein": 25,
+    "carbohydrate": 19,
+    "fiber": 5,
+    "total_sugars": 19,
+    "added_sugars": 0,
+    "total_fat": 52,
+    "saturated_fat": 10,
+    "monounsaturated_fat": 27,
+    "polyunsaturated_fat": 13,
+    "trans_fat": 0,
+    "omega-6_pufa": 13,
+    "cholesterol": 0,
+    "sodium": 345
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/81dR2Ca85rL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3273"
+  },
+  "price_per_unit": 0.08,
+  "servings": 20,
+  "allergy_info": [
+    "GLUTEN",
+    "SOY"
+  ],
+  "final_rating": 2.5,
+  "health_impact_rating": 2.5,
+  "ingredient_quality_rating": 2,
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "SUGAR",
+    "YEAST",
+    "IODISED SALT",
+    "EDIBLE VEGETABLE OIL (PALM)",
+    "SOY FLOUR",
+    "VITAL GLUTEN",
+    "PRESERVATIVE (282)",
+    "FLOUR TREATMENT AGENT (516 & 510)",
+    "EMULSIFIER (472E)",
+    "STABILIZERS [170, 412]",
+    "ACIDITY REGULATOR (260)",
+    "VITAMINS B VITAMINS (15% RDA*)",
+    "ANTIOXIDANT (300)"
+  ],
+  "item_category": "BREAD",
+  "item_name": "BRITANNIA HEALTHY SLICE SANDWICH WHITE BREAD 500G",
+  "nutrition": {
+    "energy": 245.22,
+    "protein": 13.72,
+    "carbohydrate": 44.66,
+    "total_sugars": 4.22,
+    "added_sugars": 2.1,
+    "total_fat": 1.3,
+    "saturated_fat": 0.34,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 333.52,
+    "fiber": 6.34
+  },
+  "nutritional_content_rating": 3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/81C38DNA4tL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e327b"
+  },
+  "price_per_unit": 0.4,
+  "servings": 60,
+  "allergy_info": [
+    "SULPHITE"
+  ],
+  "final_rating": 3.3,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 4,
+  "ingredients": [
+    "FRUIT [ORANGE (35%), GULGUL GIANT INDIAN LEMON (10%)]",
+    "SUGAR",
+    "LIME",
+    "EDIBLE VEGETABLE OIL (RICE BRAN OIL)"
+  ],
+  "item_category": "BREAKFAST-SPREADS",
+  "item_name": "BHUIRA|ALL NATURAL JAM BITTER ORANGE MARMALADE|NO ADDED PRESERVATIVES|NO ARTIFICAL COLOR ADDED|240 G|PACK OF 1",
+  "nutrition": {
+    "energy": 281,
+    "protein": 0.42,
+    "carbohydrate": 69.83,
+    "total_sugars": 53.49,
+    "added_sugars": 20.74,
+    "total_fat": 0,
+    "saturated_fat": 0,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 62.3,
+    "fiber": 1
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/51rt9jAxycL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e327d"
+  },
+  "price_per_unit": 0.2604,
+  "servings": 40,
+  "allergy_info": [
+    "BARLEY",
+    "MILK",
+    "SOY",
+    "OATS",
+    "NUTS"
+  ],
+  "final_rating": 3.8,
+  "health_impact_rating": 4,
+  "ingredient_quality_rating": 4,
+  "ingredients": [
+    "CORN GRITS (90%)",
+    "SUGAR",
+    "CEREAL EXTRACT",
+    "IODIZED SALT",
+    "VITAMINS",
+    "ANTIOXIDANTS (INS-307B)",
+    "MINERALS"
+  ],
+  "item_category": "BREAKFAST-CEREAL",
+  "item_name": "KELLOGG'S CORN-FLAKES ORIGINAL 1.2KG | POWER OF 5: ENERGY, PROTEIN, IRON, IMMUNO NUTRIENTS, VITAMINS B1, B2, B3 & C| CORN-FLAKES, BREAKFAST CEREAL",
+  "nutrition": {
+    "energy": 378,
+    "protein": 6.7,
+    "carbohydrate": 86.9,
+    "total_sugars": 9.2,
+    "added_sugars": 8,
+    "total_fat": 1,
+    "saturated_fat": 0.6,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 490,
+    "fiber": 2.5
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.jiomart.com/images/product/original/491586426/kellogg-s-corn-flakes-1-2-kg-product-images-o491586426-p491586426-3-202403011830.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3283"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.2"
+  },
+  "servings": 1,
+  "allergy_info": [
+    "NUTS",
+    "MILK",
+    "MUSTARD",
+    "OATS",
+    "SOY"
+  ],
+  "final_rating": 2.8,
+  "health_impact_rating": 2.8,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "PALM OIL",
+    "IODIZED SALT",
+    "WHEAT GLUTEN",
+    "THICKENERS (508 & 412)",
+    "ACIDITY REGULATORS (SOI(I) & SW(I)) AND HUMECTANT (451(I))",
+    "MIXED SPICES (25-6%)",
+    "ONION POWDER",
+    "CORIANDER POWDER",
+    "TURMERIC POWDER",
+    "RED CHILLI POWDER",
+    "GARLIC POWDER",
+    "CUMIN POWDER",
+    "ANISEED POWDER",
+    "GINGER POWDER",
+    "FENUGREEK",
+    "BLACK PEPPER POWDER",
+    "CLOVE POWDER",
+    "GREEN CARDAMOM POWDER & NUTMEG POWDER)",
+    "FINED WHEAT FLOUR (MAIDA)",
+    "HYDROLYSED GROUNDNUT PROTEIN",
+    "SUGAR",
+    "PALM OIL",
+    "STARCH",
+    "IODIZED SALT",
+    "THICKENER (508)",
+    "FLAVOUR ENHANCER (635)",
+    "TOASTED ONION FLAKES",
+    "ACIDITY REGULATOR (330)",
+    "COLOUR (T50D)",
+    "MINERAL AND WHEAT GLUTEN"
+  ],
+  "item_category": "INSTANT-NOODLES",
+  "item_name": "MAGGI 2-MINUTE INSTANT NOODLES - MASALA, 70 G POUCH",
+  "nutrition": {
+    "energy": 384,
+    "protein": 8.2,
+    "carbohydrate": 59.6,
+    "total_sugars": 1.8,
+    "added_sugars": 1.3,
+    "total_fat": 12.5,
+    "saturated_fat": 8.2,
+    "trans_fat": 0.13,
+    "sodium": 1028.3,
+    "iron": 6.9
+  },
+  "nutritional_content_rating": 3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://5.imimg.com/data5/SELLER/Default/2021/9/DS/FG/NF/25679466/3.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e328b"
+  },
+  "price_per_unit": 0.4973333333,
+  "servings": 150,
+  "allergy_info": [
+    "BARLEY",
+    "MILK",
+    "SOY",
+    "GLUTEN"
+  ],
+  "final_rating": 3.5,
+  "health_impact_rating": 3.2,
+  "ingredient_quality_rating": 3.7,
+  "ingredients": [
+    "CEREAL EXTRACT (56%) [BARLEY, WHEAT, MILLETS]",
+    "COCOA SOLIDS",
+    "SUGAR",
+    "MALTODEXTRIN",
+    "COLOUR (150C)",
+    "WHEAT GLUTEN",
+    "EMULSIFIER (INS 471, INS 322)",
+    "MINERALS",
+    "LIQUID GLUCOSE",
+    "MILK SOLIDS",
+    "VITAMINS",
+    "FLAVOURS(NATURAL, NATURE IDENTICAL AND ARTIFICIAL (VANILLA) FALVOURING SUBSTANCES)",
+    "IODIZED SALT"
+  ],
+  "item_category": "MILK-FLAVOURING",
+  "item_name": "BOURNVITA CHOCOLATE NUTRITION DRINK 750 G POUCH",
+  "nutrition": {
+    "energy": 381,
+    "protein": 7,
+    "carbohydrate": 86,
+    "total_sugars": 46,
+    "added_sugars": 32.2,
+    "total_fat": 1.8,
+    "saturated_fat": 0.9,
+    "trans_fat": 0,
+    "cholestrol": 0.1,
+    "calcium": 500,
+    "sodium": 175,
+    "fiber": 3.5,
+    "phosphorus": null,
+    "vitamin_d2": 18.8,
+    "vitamin_k": null,
+    "magnesium": 132,
+    "manganese": 1.8,
+    "vitamin_b1": 0.42,
+    "vitamin_b2": 0.6,
+    "vitamin_b3": 5.5,
+    "vitamin_b5": 2.5,
+    "vitamin_b6": 0.8,
+    "calcium_panthothenate": null,
+    "biotin": 15,
+    "iodine": 0.133,
+    "iron": 23,
+    "vitamin_b12": 1.4,
+    "folic_acid": null,
+    "vitamin_a": 790,
+    "vitamin_e": null,
+    "vitamin_c": 95,
+    "zinc": 7.4,
+    "selenium": 19,
+    "potassium": null,
+    "coppper": 1.1,
+    "chloride": null,
+    "chromium": null,
+    "molybdenum": null,
+    "carnitine": null,
+    "choline": null,
+    "inositol": null,
+    "taurine": null
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61bAWdUjwDL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e325b"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.10299"
+  },
+  "servings": null,
+  "allergy_info": [
+    "BARLEY",
+    "MILK",
+    "GLUTEN"
+  ],
+  "final_rating": 2.5,
+  "health_impact_rating": 2.5,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "DRIED POTATO",
+    "EDIBLE VEGETABLE OIL (COCONUT OIL & PALM OIL)",
+    "SOUR CREAM & ONION SEASONING",
+    "CHEESE POWDER",
+    "VEGETABLE PROTEIN",
+    "CORN FLOUR",
+    "WHEAT STARCH",
+    "SALT",
+    "MALTODEXTRIN"
+  ],
+  "item_category": "CHIPS",
+  "item_name": "PRINGLES SOUR CREAM & ONION FLAVOUR POTATO CHIPS 134G",
+  "nutrition": {
+    "energy": 541,
+    "protein": 5,
+    "carbohydrate": 57.6,
+    "total_sugars": 3.2,
+    "trans_fat": 0.3,
+    "sodium": 642,
+    "saturated_fat": 15,
+    "total_fat": 30.9
+  },
+  "nutritional_content_rating": 2.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71C9IJ7JOrL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3261"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.69"
+  },
+  "servings": 4,
+  "allergy_info": null,
+  "final_rating": 4.2,
+  "health_impact_rating": 4,
+  "ingredient_quality_rating": 5,
+  "ingredients": [
+    "CRANBERRY(100%)"
+  ],
+  "item_category": "BEVERAGES",
+  "item_name": "URBAN PLATTER CANADIAN CRANBERRY JUICE 1L",
+  "nutrition": {
+    "energy": 70,
+    "protein": 0,
+    "carbohydrate": 18,
+    "total_sugars": 11,
+    "added_sugars": 0,
+    "fiber": 0,
+    "total_fat": 0,
+    "sodium": 10
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "ML",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/615rvgmw5VL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3247"
+  },
+  "ingredients": [
+    "Potato (44%)",
+    "Edible Vegetable Oil (Cotton Seed. Corn & Palmolein Oil)",
+    "Gram Pulse Flour",
+    "Rice Flour",
+    "Edible Starch",
+    "Iodised Salt",
+    "Coriander Powder",
+    "Cumin Powder",
+    "Mango Powder",
+    "Garlic Powder",
+    "Onion Powder",
+    "Lemon Powder",
+    "Ginger Powder",
+    "Red Chilli Powder",
+    "Mace Powder",
+    "Nutmeg Powder",
+    "Turmeric Powder",
+    "Mint Leaves Powder",
+    "Acidity Regulator (INS 330)",
+    "Anticaking Agent (INS 551)",
+    "Flavour Enhancers (INS 627 & INS 631)",
+    "Natural & Nature Identical Flavouring Substances"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Haldirams-Delhi-Aloo-Bhujia-400g/dp/B00G7SCPG6/ref=sr_1_6_f3_wg?almBrandId=ctnow&crid=12OF2PTH8JZEX&dib=eyJ2IjoiMSJ9.vmsnnbdy6xbLq-8cVACZH-8zQcsk2e_yeriNj90Gowrxg5RQPvGKMx-BsiK-FbzcMSq6rCAueAlRhO3k8wWvBjDjgoYo5OwM5r0MsWBoG1B-35ebIdZYF9Sf5w3-ycojnmR2FemAP5iQHdjClz9b24JA1ASrMW2V_UaKppgdtkYZ0kmQcUOG-0-gozoCLf8KgMzpEZwAGvfwvW7Q5EO58CQEo10Mjvm4Cs4yW9OL_5tsApk8N-0wudK7el97fweG9ou4aOzOy4b1OEq5x3iaiZ2lMk8NZFjTjbYHoB4inU0.rJ4xdZfjGv7VaRdgMXouylnsVr0AhiL-F_21JhCAqeg&dib_tag=se&fpw=alm&keywords=namkeen&qid=1728628013&s=nowstore&sprefix=namkeen%2Cnowstore%2C224&sr=1-6"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 103,
+  "weight": {
+    "value": 440,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 2.5,
+  "ingredient_quality_rating": 2.5,
+  "health_impact_rating": 2.5,
+  "final_rating": 2.5,
+  "veg": true,
+  "servings_size": {
+    "value": 20,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": 11,
+  "item_category": "NAMKEEN",
+  "item_name": "Haldiram's Namkeen - Aloo Bhujia",
+  "nutrition": {
+    "energy": 584.3,
+    "protein": 10.3,
+    "carbohydrate": 42.4,
+    "total_sugars": 3.8,
+    "added_sugars": null,
+    "total_fat": 41.5,
+    "saturated_fat": 14.5,
+    "sodium": 849.2
+  },
+  "image_url": "https://m.media-amazon.com/images/I/71PGObmTVjL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e328a"
+  },
+  "price_per_unit": 0.498,
+  "servings": 50,
+  "allergy_info": [
+    "BARLEY",
+    "MILK",
+    "SOY",
+    "GLUTEN"
+  ],
+  "final_rating": 3.3,
+  "health_impact_rating": 3,
+  "ingredient_quality_rating": 3.4,
+  "ingredients": [
+    "CEREAL EXTRACT (44%) [MALTED BARLEY (13%), BARLEY (11%), WHEAT MALT (11%), WHEAT (9%)]",
+    "MILK SOLIDS (2%)",
+    "SUGAR",
+    "COCOA POWDER",
+    "WHEAT GLUTEN",
+    "SOY PROTEIN ISOLATE",
+    "EMULSIFIER (INS 471)",
+    "MINERALS",
+    "LIQUID GLUCOSE",
+    "NATURAL COLOUR (INS150C)",
+    "VITAMINS",
+    "NATURE IDENTICAL FLAVOURING SUBSTANCES",
+    "ACIDITY REGULATORS [INS 501 AND INS 500]",
+    "EDIBLE IODIZED SALT"
+  ],
+  "item_category": "MILK-FLAVOURING",
+  "item_name": "HORLICKS CHOCOLATE NUTRITION DRINK || JAR 500 G",
+  "nutrition": {
+    "energy": 360,
+    "protein": 7,
+    "carbohydrate": 81,
+    "total_sugars": 46,
+    "added_sugars": 35,
+    "total_fat": 2,
+    "saturated_fat": 1.1,
+    "trans_fat": 0.0099,
+    "cholestrol": 4.6,
+    "calcium": 741,
+    "sodium": 328,
+    "fiber": 5,
+    "phosphorus": 190,
+    "vitamin_d2": 9.3,
+    "vitamin_k": null,
+    "magnesium": 65,
+    "manganese": null,
+    "vitamin_b1": 1.3,
+    "vitamin_b2": 3,
+    "vitamin_b3": 17,
+    "vitamin_b5": 1.4,
+    "vitamin_b6": 3.7,
+    "calcium_panthothenate": null,
+    "biotin": null,
+    "iodine": 0.139,
+    "iron": 26,
+    "vitamin_b12": 1.9,
+    "folic_acid": null,
+    "vitamin_a": 741,
+    "vitamin_e": 2.5,
+    "vitamin_c": 140,
+    "zinc": 8.3,
+    "selenium": 74,
+    "potassium": 300,
+    "chloride": 180,
+    "chromium": null,
+    "molybdenum": null,
+    "carnitine": null,
+    "choline": null,
+    "inositol": null,
+    "taurine": null
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61MhNvUnqxL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3246"
+  },
+  "ingredients": [
+    "Toned MILK (88.7%)",
+    "SUGAR",
+    "EMULSIFIER (INS 471)",
+    "Stabilizer (INS 407)",
+    "Acidity Regulator [INS 339(iii)]",
+    "Iodized Salt",
+    "Vanilla Extract (0.001%)",
+    "Synthetic Food Colour (INS 102)",
+    "ADDED FLAVOURS [NATURAL NATURE IDENTICAL AND FLAVOURING SUBSTANCES]"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Sunfeast-Vanilla-MILKshake-Extracts-Bottle/dp/B08TVJRBT3"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 40,
+  "weight": {
+    "value": 180,
+    "unit": "ml"
+  },
+  "score": null,
+  "nutritional_content_rating": 2.5,
+  "ingredient_quality_rating": 2,
+  "health_impact_rating": 2.5,
+  "final_rating": 2.3,
+  "veg": true,
+  "servings_size": {
+    "value": null,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": null,
+  "item_category": "BEVERAGES",
+  "item_name": "Sunfeast Vanilla MILKshake",
+  "nutrition": {
+    "energy": 110,
+    "protein": 3.2,
+    "carbohydrate": 17.4,
+    "total_sugars": 11.5,
+    "added_sugars": null,
+    "total_fat": 3.1,
+    "saturated_fat": null,
+    "calcium": 120
+  },
+  "image_url": "https://rukminim2.flixcart.com/image/750/900/xif0q/milk/n/i/n/-original-imah4u3czcgtqaxx.jpeg?q=20&crop=false"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3289"
+  },
+  "price_per_unit": 0.638,
+  "servings": 50,
+  "allergy_info": [
+    "MILK",
+    "SOY",
+    "NUTS"
+  ],
+  "final_rating": 3.3,
+  "health_impact_rating": 3,
+  "ingredient_quality_rating": 3.2,
+  "ingredients": [
+    "MILK SOLIDS (54.7%)",
+    "SUGAR",
+    "PEANUT OIL",
+    "MALTODEXTRIN",
+    "NATURAL (COCOA) AND ARTIFICIAL (CHOCOLATE) FLAVOURING SUBSTANCES",
+    "NATURAL COLOUR (INS150C)",
+    "MINERALS",
+    "BEET RED (INS162)",
+    "VITAMINS",
+    "INOSITOL",
+    "TAURINE",
+    "L-CARNITINE"
+  ],
+  "item_category": "MILK-FLAVOURING",
+  "item_name": "COMPLAN NUTRITION DRINK POWDER FOR CHILDREN, ROYALE CHOCOLATE FLAVOUR, 500 G CARTON | NUTRITION DRINK FOR KIDS WITH PROTEIN & 34 VITAL NUTRIENTS",
+  "nutrition": {
+    "energy": 419,
+    "protein": 18,
+    "carbohydrate": 62,
+    "total_sugars": 45.5,
+    "added_sugars": 21.8,
+    "total_fat": 11,
+    "saturated_fat": null,
+    "trans_fat": null,
+    "cholestrol": 0,
+    "calcium": 800,
+    "sodium": 400,
+    "phosphorus": 780,
+    "vitamin_d2": 10,
+    "vitamin_k": 45,
+    "magnesium": 76,
+    "manganese": 1.5,
+    "vitamin_b1": 0.5,
+    "vitamin_b2": 0.7,
+    "vitamin_b3": 6,
+    "vitamin_b6": 0.76,
+    "calcium_panthothenate": 3,
+    "biotin": 14,
+    "iodine": 0.1,
+    "iron": 13.5,
+    "vitamin_b12": 1,
+    "folic_acid": 75,
+    "vitamin_a": 360,
+    "vitamin_e": 7,
+    "vitamin_c": 30,
+    "zinc": 4.5,
+    "selenium": 15,
+    "potassium": 920,
+    "chloride": 500,
+    "chromium": 7.5,
+    "molybdenum": 11,
+    "carnitine": 7,
+    "choline": 58,
+    "inositol": 30,
+    "taurine": 15
+  },
+  "nutritional_content_rating": 3.7,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/618ChkFF7tL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3236"
+  },
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "REFINED PALM & PALMOLEIN OIL",
+    "SUGAR",
+    "LIQUID GLUCOSE",
+    "RAISING AGENTS [503(ii), 341(ii), 500(ii) & 450(i)]",
+    "BUTTER (1.2%)",
+    "BLACK SALT",
+    "MILK SOLIDS",
+    "DEHYDRATED VEGETABLE (CHIVES) (1%)",
+    "IODISED SALT",
+    "NATURE IDENTICAL FLAVOURING SUBSTANCE",
+    "DOUGH CONDITIONER (223) AND IMPROVERS [1101 (i) & XYLANASE]"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Britannia-50-50-Maska-Chaska-120g/dp/B00S9BOLD4"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 30,
+  "weight": {
+    "value": 105,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 2,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 2,
+  "final_rating": 1.8,
+  "veg": true,
+  "servings_size": {
+    "value": 12,
+    "unit": "g",
+    "count": 5
+  },
+  "servings_per_pack": 9,
+  "item_category": "BISCUIT",
+  "item_name": "Britannia 50-50 Maska Chaska",
+  "nutrition": {
+    "energy": 525,
+    "carbohydrate": 63.8,
+    "total_sugars": 9.8,
+    "added_sugars": 7.5,
+    "protein": 7.7,
+    "total_fat": 26.5,
+    "saturated_fat": 13,
+    "monounsaturated_fat": 10.4,
+    "polyunsaturated_fat": 2.7,
+    "cholesterol": 3.8,
+    "sodium": 1080
+  },
+  "image_url": "https://m.media-amazon.com/images/I/71aouXcgLWL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3285"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.39"
+  },
+  "servings": 1,
+  "allergy_info": [
+    "GLUTEN",
+    "MILK",
+    "MUSTARD",
+    "CELERY",
+    "SOY",
+    "NUTS"
+  ],
+  "final_rating": 3.1,
+  "health_impact_rating": 3,
+  "ingredient_quality_rating": 2.9,
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "THICKENER -1420",
+    "PALM OIL / PALMOLEIN",
+    "WHEAT GLUTEN",
+    "POTATO STARCH",
+    "IODISED SALT",
+    "YEAST",
+    "ACIDITY",
+    "REGULATOR AND 501(I1 TEXTURIZER - 4510",
+    "IODISED SALT",
+    "DEHYDRATED VEGETABLES(CABBAGE, ONION, GINGER)",
+    "FLAVOUR ENHANCER - 627 & 631",
+    "MILK SOLIDS",
+    "POTATO STARCH",
+    "SPICES AND CONDIMENTS (CHILLI POWDER (0.8%))",
+    "OLEORESIN CHILLI",
+    "SUGAR",
+    "MALTODEXTRIN",
+    "FLAVOURS - NATURE IDENTICAL FLAVOURING SUBSTANCES AND NATURAL GARLIC AGENT -551",
+    "HYDROLYZED VEGETABLE PROTEIN",
+    "DEHYDRATED VEGETABLES (3.1%): CABBAGE, SPRING ONION, MUSHROOM, BROCCOLI, BELL PEPPER, ZUCCHINI."
+  ],
+  "item_category": "INSTANT-NOODLES",
+  "item_name": "INDOMIE INSTANT SOUP NOODLES - SPECIAL CHICKEN FLAVOUR, 75 G POUCH",
+  "nutrition": {
+    "energy": 456,
+    "protein": 10.6,
+    "carbohydrate": 64.1,
+    "total_sugars": 2.6,
+    "total_fat": 18,
+    "trans_fat": 0.13,
+    "salt": 4.5,
+    "fiber": 2.8
+  },
+  "nutritional_content_rating": 3.3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/81jvuBiWgAL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3286"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.28571"
+  },
+  "servings": 1,
+  "allergy_info": [
+    "GLUTEN",
+    "SOY",
+    "SESAME"
+  ],
+  "final_rating": 3,
+  "health_impact_rating": 2.8,
+  "ingredient_quality_rating": 3,
+  "ingredients": [
+    "WHEAT FLOUR",
+    "MODIFIED TAPIOCA STARCH",
+    "REFINED PALM OIL",
+    "WHEAT GLUTEN",
+    "SALT",
+    "EMULSIFIER(SOY LECHITIN(E322))",
+    "ACIDITY REGULATOR (POTSASSIUM CARBONATE[ES01]), SODIUM CARBONATE[E500]",
+    "SODIUM PHOSPHATE DIBASIC(E399)",
+    "CITRIC ACID [E330]",
+    "ONION EXTRACT",
+    "THICKENER (GUARGUM[E412])",
+    "GREEN TEA FLAVOR OIL",
+    "WHEAT FLOUR",
+    "WATER",
+    "SOY SAUCE",
+    "SUGAR",
+    "ARTIFICIAL CHICKEN FLAVOR POWDER",
+    "CHILLI PEPPER POWDER",
+    "SOYBEAN OIL",
+    "ONION",
+    "RED PEPPER POWDER",
+    "REP PEPPER SEED OIL",
+    "YEAST POWDER",
+    "GARLIC MODIFIED POTATO STARCH",
+    "PAPRIKA EXTRACT",
+    "BLACK PEPPER POWDER",
+    "CURRY POWDER",
+    "ROASTED SESAME",
+    "ROASTED LAYER"
+  ],
+  "item_category": "INSTANT-NOODLES",
+  "item_name": "SAMYANG FIRE BULDAK HOT CHICKEN FLAVOUR RAMESN NOODLE CUP - 70 GM",
+  "nutrition": {
+    "energy": 295,
+    "protein": 6,
+    "carbohydrate": 42,
+    "total_sugars": 6,
+    "total_fat": 10,
+    "saturated_fat": 5,
+    "trans_fat": 0,
+    "sodium": 630,
+    "iron": 6.9
+  },
+  "nutritional_content_rating": 3.2,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71ymXNtUKrL._AC_UF1000,1000_QL80_.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3282"
+  },
+  "price_per_unit": 0.699,
+  "servings": 40,
+  "allergy_info": [
+    "GLUTEN",
+    "OATS"
+  ],
+  "final_rating": 4.2,
+  "health_impact_rating": 4.3,
+  "ingredient_quality_rating": 4.2,
+  "ingredients": [
+    "WHEAT GLAKES (60.19%)",
+    "ROLLED OATS (33.68%)",
+    "SWEETENER (INS 965)",
+    "LEMON POWDER",
+    "ANTIOXIDANT (INS 310)"
+  ],
+  "item_category": "BREAKFAST-CEREAL",
+  "item_name": "GAIA CRUNCHY DIET MUESLI - LOW-CALORIE, PROTEIN RICH, HIGH-FIBER MUESLI CEREAL SERVES AS A HEALTHY AND NUTRITIOUS BREAKFAST OPTION WITH ZERO ADDED SUGAR. 1KG JAR PACK - NO ADDED FLAVOR",
+  "nutrition": {
+    "energy": 409.28,
+    "protein": 13.49,
+    "carbohydrate": 78.57,
+    "total_sugars": 2.49,
+    "added_sugars": 0,
+    "total_fat": 4.56,
+    "saturated_fat": 0.83,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 0,
+    "fiber": null
+  },
+  "nutritional_content_rating": 4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/710GYc8VryL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e324f"
+  },
+  "ingredients": [
+    "Peanuts (39%)",
+    "dates (22%)",
+    "oranberries (20%)",
+    "whey protein concentrate (17%)",
+    "cocoa butter (2%)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Whole-Truth-Protein-Peanut-Butter/dp/B0BN3D1SBF"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "nutrients_per": {
+    "value": 52,
+    "unit": "g"
+  },
+  "price": 100,
+  "weight": {
+    "value": 12,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3.5,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.7,
+  "veg": true,
+  "item_category": "PROTEIN-BAR",
+  "item_name": "The Whole Truth - 12g Protein Bar",
+  "nutrition": {
+    "energy": 259,
+    "protein": 12.4,
+    "carbohydrate": 19.1,
+    "total_sugars": 14.8,
+    "fiber": 2.5,
+    "total_fat": 14.9,
+    "saturated_fat": 4,
+    "mufa+pufa": 10.8,
+    "sodium": 1.4
+  },
+  "image_url": "https://m.media-amazon.com/images/I/41BqLAf3AaL._AC_.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3239"
+  },
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "REFINED (PALMOLEIN & PALM) OIL",
+    "SUGAR (18%)",
+    "RAISING AGENTS [503 (ii), 500(ii) & 341(i)",
+    "IODISED SAIT (0.8%)",
+    "INVERT SUGAR SYRUP",
+    "YEAST",
+    "ACIDITY REGULATORS (270 & 330)",
+    "EMULSIFIER (472e)",
+    "NATURE IDENTICAL AND ARTIFICIAL (VANILLA) FLAVOURING SUBSTANCES",
+    "DOUGH CONDITIONER (223) AND IMPROVERS [1101(i), 1101(ii), 1100(i) & XYLANASE]"
+  ],
+  "meta": {
+    "url": "https://www.bigbasket.com/pd/100012350/britannia-50-50-sweet-salty-biscuits-76-g/?z=MzE0OTkyNTYwMQ&utm_source=google&utm_medium=cpc&utm_campaign=Ahmedabad-Gandhinagar-PLA%2F"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 10,
+  "weight": {
+    "value": 62.8,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 2,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 2,
+  "final_rating": 1.8,
+  "veg": true,
+  "servings_size": {
+    "value": 13,
+    "unit": "g",
+    "count": 4
+  },
+  "servings_per_pack": 5,
+  "item_category": "BISCUIT",
+  "item_name": "Britannia 50-50 Sweet & Salty Biscuits",
+  "nutrition": {
+    "energy": 487,
+    "carbohydrate": 72,
+    "total_sugars": 19.5,
+    "added_sugars": 18.5,
+    "protein": 7,
+    "total_fat": 19,
+    "saturated_fat": 9,
+    "monounsaturated_fat": 8,
+    "polyunsaturated_fat": 2,
+    "sodium": 466
+  },
+  "image_url": "https://www.bigbasket.com/media/uploads/p/l/40023487_8-britannia-50-50-sweet-salty-biscuits.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3277"
+  },
+  "price_per_unit": 1.03,
+  "servings": 40,
+  "allergy_info": [
+    "MILK",
+    "SOY",
+    "NUTS"
+  ],
+  "final_rating": 2.2,
+  "health_impact_rating": 2,
+  "ingredient_quality_rating": 2.5,
+  "ingredients": [
+    "SUGAR",
+    "PALM OIL",
+    "HAZELNUTS (13%)",
+    "SKIMMED COW MILK POWDER (8.7%)",
+    "LOW FAT COCOA POWDER (7.4%)",
+    "EMULSIFIER (LECHITHIN - INS322)",
+    "ADDED FLAVOUR (VANILLIN)"
+  ],
+  "item_category": "BREAD",
+  "item_name": "NUTELLA HAZELNUT SPREAD, 350 G JAR",
+  "nutrition": {
+    "energy": 533,
+    "protein": 6.3,
+    "carbohydrate": 57.5,
+    "total_sugars": 56.3,
+    "added_sugars": null,
+    "total_fat": 30.9,
+    "saturated_fat": 10.6,
+    "trans_fat": 0.1,
+    "cholestrol": null,
+    "sodium": 577,
+    "fiber": null
+  },
+  "nutritional_content_rating": 2,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/51M2TOk4RJL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3241"
+  },
+  "ingredients": [
+    "Coffee beans (70%)",
+    "Chicory (30%)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Continental-Coffee-Xtra-Instant-Powder/dp/B01N0AO8RI"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "price": 380,
+  "weight": {
+    "value": 200,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3,
+  "ingredient_quality_rating": 3.5,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.3,
+  "veg": true,
+  "servings_size": {
+    "value": null,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": null,
+  "item_category": "COFFEE",
+  "item_name": "Continental Coffee Xtra Instant Coffee Powder",
+  "nutrition": null,
+  "image_url": "https://m.media-amazon.com/images/I/817Kj5CWfIL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e324c"
+  },
+  "ingredients": [
+    "BENGAL GRAM (65%)",
+    "EDIBLE VEGETABLE OIL (PALMOLEIN OIL)",
+    "LODISED SALT",
+    "BLACK SALT",
+    "DRY MANGO POWDER",
+    "RED CHILLI POWDER",
+    "TURMERIC POWDER",
+    "MALTODEXTRIN",
+    "ASAFETIDA POWDER"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Haldirams-Delhi-Chana-Jorgaram-200g/dp/B00UJUQ442"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 30,
+  "weight": {
+    "value": 150,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 4.5,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 4.2,
+  "final_rating": 4.3,
+  "veg": true,
+  "servings_size": {
+    "value": 20,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": 51.25,
+  "item_category": "NAMKEEN",
+  "item_name": "Haldiram's Chana Jor Garam",
+  "nutrition": {
+    "energy": 501,
+    "protein": 16,
+    "carbohydrate": 53,
+    "total_sugars": 2.2,
+    "added_sugars": null,
+    "total_fat": 25,
+    "saturated_fat": 12,
+    "trans_fat": 0.1,
+    "fiber": 10
+  },
+  "image_url": "https://m.media-amazon.com/images/I/71jgN2cHC2L.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e324d"
+  },
+  "ingredients": [
+    "Protein Blend (Whey Protein CONCENTRATE, MILK Protein Isolate, Whey Protein Hydrolysate)",
+    "Oats",
+    "Almonds",
+    "Sweetner (Maltitol)",
+    "Dietary Fiber (Oligofructose)",
+    "Humectant (Vegetable Glycerin)",
+    "Edible Vegetable Oil",
+    "Cocoa Powder",
+    "Cocoa Soldis",
+    "EMULSIFIER (Soy Lecithin)",
+    "Guar Gum",
+    "Salt",
+    "Antioxidant (Vit E)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Lean-Sugarfree-Protein-Oats-Brownie/dp/B015R0NCIO"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "nutrients_per": {
+    "value": 40,
+    "unit": "g"
+  },
+  "price": 390,
+  "quantity": 6,
+  "weight": {
+    "value": 240,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 4,
+  "ingredient_quality_rating": 4,
+  "health_impact_rating": 4,
+  "final_rating": 4,
+  "veg": true,
+  "item_category": "PROTEIN-BAR",
+  "item_name": "HYP Sugarfree Protein Bar",
+  "nutrition": {
+    "energy": 0.159,
+    "protein": 10,
+    "carbohydrate": 20.8,
+    "fiber": 5.2,
+    "polyols": 10.5,
+    "total_fat": 6,
+    "saturated_fat": 2,
+    "sodium": 90
+  },
+  "image_url": "https://m.media-amazon.com/images/I/71q9nl-KyZL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e326c"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.62"
+  },
+  "servings": 20,
+  "allergy_info": [
+    "MILK"
+  ],
+  "final_rating": 3.7,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "WHEY ISOLATE PROTEIN & PEPTIDE BLEND",
+    "HYDROLYZED WHEY PROTEIN ISOLATE",
+    "NATURAL AND ARTIFICIAL FLAVORS",
+    "CREATINE MONOHYDRATE",
+    "CALCIUM HMB",
+    "GUM BLEND (CELLULOSE GUM, XANTHAN GUM, CARRAGEENAN)",
+    "SUCRALOSE",
+    "TRIBULUS",
+    "BORON",
+    "PRESERVATIVE (E211)",
+    "COCOA POWDER"
+  ],
+  "item_category": "PROTEIN-POWDER",
+  "item_name": "BIGMUSCLES NUTRITION NITRA EDGE ISOLATE WHEY PROTEIN",
+  "nutrition": {
+    "energy": 310.8,
+    "protein": 71.04,
+    "carbohydrate": 2.22,
+    "total_sugars": 0,
+    "added_sugars": 0,
+    "total_fat": 2.22,
+    "saturated_fat": 1.11,
+    "trans_fat": 0,
+    "sodium": null,
+    "cholesterol": 177.6,
+    "leucine": 8.88,
+    "isoleucine": 2.22,
+    "valine": 2.22,
+    "creatine_monohydrate": 6.66,
+    "calcium_hmb": 3.33,
+    "boron": 0.00666,
+    "tribulus": 2222
+  },
+  "nutritional_content_rating": 4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61qLmcCV6IL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3275"
+  },
+  "price_per_unit": 0.1066666667,
+  "servings": 9,
+  "allergy_info": [
+    "GLUTEN",
+    "OATS",
+    "SOY"
+  ],
+  "final_rating": 3.7,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "WHEAT PRODUCTS (54%) [WHEAT FLOUR(ATTA), WHEAT BRAN AND BROKEN WHEAT]",
+    "OIL SEEDS - 5% (LINSEED,SESAME, SUNFLOWER AND WATER-MELON)",
+    "YEAST",
+    "RAGI FLOUR (2%)",
+    "ROLLED OATS (2%)",
+    "VITAL GLUTEN",
+    "SUGAR",
+    "SOY FLAKES (1.2%)",
+    "IODISED SALT",
+    "REFINED PALMOLEIN OIL",
+    "PRESERVATIVE (282)",
+    "EMULSIFIERS [472E, 471, 481]",
+    "ACIDITY REGULATOR (260)",
+    "FLOUR TREATMENT AGENT (510)"
+  ],
+  "item_category": "BREAD",
+  "item_name": "BRITANNIA MULTIGRAIN BREAD 450 G",
+  "nutrition": {
+    "energy": 252,
+    "protein": 9.6,
+    "carbohydrate": 47,
+    "total_sugars": 1.4,
+    "added_sugars": 1.3,
+    "total_fat": 4.3,
+    "saturated_fat": 1,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 424,
+    "fiber": 6.5
+  },
+  "nutritional_content_rating": 4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/51rofeoE0WL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3278"
+  },
+  "price_per_unit": 1.1733,
+  "servings": 15,
+  "allergy_info": [
+    "GLUTEN",
+    "MILK",
+    "SOY",
+    "NUTS"
+  ],
+  "final_rating": 1.8,
+  "health_impact_rating": 1.5,
+  "ingredient_quality_rating": 2,
+  "ingredients": [
+    "SUGAR",
+    "EDIBLE VEGETABLE OIL (PALM OIL)",
+    "MILK SOLIDS",
+    "COCOA SOLIDS (4.6%)",
+    "ALMOND PASTE (2.7%)",
+    "HYDROGENATED VEGETABLE FAT (PALM OIL & SESAME OIL)",
+    "EMULSIFIER (LECHITHIN - INS322)",
+    "ADDED FLAVOUR (ALMOND AND VANILLIN)",
+    "COMMON SALT"
+  ],
+  "item_category": "BREAKFAST-SPREADS",
+  "item_name": "HERSHEY'S SPREADS COCOA WITH ALMOND, 150G",
+  "nutrition": {
+    "energy": 550,
+    "protein": 2.2,
+    "carbohydrate": 64,
+    "total_sugars": 61,
+    "added_sugars": 56,
+    "total_fat": 31.6,
+    "saturated_fat": 13,
+    "trans_fat": 0.3,
+    "cholestrol": 10,
+    "sodium": 140,
+    "fiber": null
+  },
+  "nutritional_content_rating": 1.8,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61YFsXe-XcL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e327e"
+  },
+  "price_per_unit": 0.53667,
+  "servings": 40,
+  "allergy_info": [
+    "GLUTEN",
+    "SULPHITE",
+    "MILK",
+    "SOY",
+    "OATS",
+    "NUTS",
+    "BARLEY",
+    "MUSTARD",
+    "CELERY",
+    "SESAME"
+  ],
+  "final_rating": 3.3,
+  "health_impact_rating": 3,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "WHOLE EHEAT FLOUR (ATTA) (46.8%)",
+    "SUGAR",
+    "RICE FLOUR (9.6%)",
+    "DEGERMED MAIZE (CORN) GRITS (5.7%)",
+    "COCOA SOLIDS (5.5%)",
+    "GLUCOSE SYRUP",
+    "MINERALS",
+    "PALM OIL",
+    "NATURE-IDENTICAL FLAVOURING SUBSTANCES",
+    "IODIZED SALT",
+    "VITAMINS AND ANTIOXIDANT (307B)"
+  ],
+  "item_category": "BREAKFAST-CEREAL",
+  "item_name": "NESTLÃ© MUNCH CRUNCHILICIOUS CEREAL | GET SET & CRUNCH | BREAKFAST CEREAL | 300G BOX | CHOCOLATE (FLAVOR)",
+  "nutrition": {
+    "energy": 279,
+    "protein": 6.2,
+    "carbohydrate": 61.1,
+    "total_sugars": 22,
+    "added_sugars": 21.4,
+    "total_fat": 2.2,
+    "saturated_fat": 1.6,
+    "trans_fat": 0.03,
+    "cholestrol": 0,
+    "sodium": 146.4,
+    "fiber": 5.1
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71qLXUwBXDL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e328e"
+  },
+  "price_per_unit": 0.75,
+  "servings": 50,
+  "allergy_info": [
+    "BARLEY",
+    "MILK",
+    "SOY"
+  ],
+  "final_rating": 3.5,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "CEREAL EXTRACT (44%) [MALTED BARLEY (13%), BARLEY (11%), WHEAT MALT (11%), WHEAT (9%)]",
+    "MILK SOLIDS (2%)",
+    "SUGAR",
+    "COCOA POWDER",
+    "WHEAT GLUTEN",
+    "SOY PROTEIN ISOLATE",
+    "EMULSIFIER (INS 471)",
+    "MINERALS",
+    "LIQUID GLUCOSE",
+    "NATURAL COLOUR (INS150C)",
+    "VITAMINS",
+    "NATURE IDENTICAL FLAVOURING SUBSTANCES",
+    "ACIDITY REGULATORS [INS 501 AND INS 500]",
+    "EDIBLE IODIZED SALT"
+  ],
+  "item_category": "MILK-FLAVOURING",
+  "item_name": "HORLICKS WOMEN'S PLUS CHOCOLATE, 400 G CARTON",
+  "nutrition": {
+    "energy": 360,
+    "protein": 15,
+    "carbohydrate": 68.2,
+    "total_sugars": 28,
+    "added_sugars": 12,
+    "total_fat": 2.8,
+    "saturated_fat": 1.4,
+    "trans_fat": 0.0099,
+    "cholestrol": 5.8,
+    "calcium": 1000,
+    "sodium": 639,
+    "fiber": null,
+    "phosphorus": null,
+    "vitamin_d2": 16.7,
+    "vitamin_k": 91.7,
+    "magnesium": 121,
+    "manganese": null,
+    "vitamin_b1": 0.6,
+    "vitamin_b2": 1.8,
+    "vitamin_b3": 6.7,
+    "vitamin_b5": 2.8,
+    "vitamin_b6": 3.3,
+    "vitamin_b9": 0.2,
+    "calcium_panthothenate": null,
+    "biotin": null,
+    "iodine": 0.825,
+    "iron": null,
+    "vitamin_b12": 1.6,
+    "folic_acid": null,
+    "vitamin_a": 330,
+    "vitamin_e": 4.1,
+    "vitamin_c": 66.6,
+    "zinc": 2.7,
+    "selenium": 43,
+    "potassium": 542
+  },
+  "nutritional_content_rating": 4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61bdShEdmpL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3235"
+  },
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "SUGAR",
+    "INTERESTERIFIED VEGETABLE FAT & REFINED PALM OIL",
+    "MILK PRODUCTS (8.7%) [MILK SOLIDS & SWEETENED CONDENSED PARTLY SKIMMED MILK]",
+    "LIQUID GLUCOSE",
+    "EDIBLE MAIZE STARCH",
+    "RAISING AGENTS [503(ii), 500(ii) & 341(i)]",
+    "EMULSIFIERS [322(i) & 471]",
+    "IODISED SALT",
+    "ARTIFICIAL (MILK) FLAVOURING SUBSTANCES",
+    "CALCIUM SALTS",
+    "VITAMINS* AND POTASSIUM IODATE",
+    "WHEAT",
+    "MILK",
+    "SOY"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Britannia-MILK-Bikis-Cream-200g/dp/B00CH394AA"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 50,
+  "weight": {
+    "value": 200,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 2,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 2,
+  "final_rating": 1.8,
+  "veg": true,
+  "servings_size": {
+    "value": 11,
+    "unit": "g",
+    "count": 1
+  },
+  "servings_per_pack": 18,
+  "item_category": "BISCUIT",
+  "item_name": "BRITANNIA MILK Bikis Biscuits Cream Sandwich",
+  "nutrition": {
+    "energy": 498,
+    "protein": 7,
+    "carbohydrate": 68,
+    "total_sugars": 31.5,
+    "added_sugars": 27.7,
+    "total_fat": 22,
+    "saturated_fat": 13,
+    "monounsaturated_fat": 7,
+    "polyunsaturated_fat": 2,
+    "sodium": 206,
+    "calcium": 90,
+    "iodine": 25,
+    "vitamin_d": 1.5,
+    "vitamin_b1": 0.18,
+    "vitamin_b6": 0.3,
+    "vitamin_b12": 0.15
+  },
+  "image_url": "https://rukminim2.flixcart.com/image/850/1000/xif0q/cookie-biscuit/b/k/i/-original-imagyj5ebzu3mggs.jpeg?q=90&crop=false"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3287"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.9302325581"
+  },
+  "servings": 1,
+  "allergy_info": [
+    "GLUTEN",
+    "SOY",
+    "SESAME"
+  ],
+  "final_rating": 2.8,
+  "health_impact_rating": 2.5,
+  "ingredient_quality_rating": 2.7,
+  "ingredients": [
+    "REFINED WHEAT FLOUR",
+    "POTATO STARCH",
+    "PALM OIL",
+    "MINERAL SALTS (INS 339(II), INS 452(I), INS500(I), INS501(I))",
+    "YEAST EXTRACT",
+    "SOY SAUCE",
+    "SALT",
+    "WHEAT STARCH",
+    "GARLIC",
+    "MALTODEXTRIN",
+    "GREEN TEA EXTRACT",
+    "COLOUR (INS101)",
+    "HYDROLYZED VEGETABLE PROTEIN (CONTAINS SOY)",
+    "MALTODEXTRIN",
+    "YEAST EXTRACT",
+    "SOY SAUCE",
+    "VEGETABLES",
+    "SOYBEAN OIL",
+    "REFINED WHEAT FLOUR",
+    "SALT",
+    "SPICES",
+    "FLAVOUR ENHANCER (INS 621, INS 627, INS 631)",
+    "SUGAR",
+    "GLUCOSE",
+    "SHIITAKE MUSHROOM",
+    "DRIED BOK CHOY (25%)",
+    "TEXTURED VEGETABLE PROTEIN (SOY, SOY SAUCE, WHEAT GLUTEN)",
+    "DRIED SHIITAKE MUSHROOM (20%)",
+    "DRIED CARROT (15%)",
+    "DRIED RED PEPPER (10%)",
+    "DRIED GREEN ONION (10%)"
+  ],
+  "item_category": "INSTANT-NOODLES",
+  "item_name": "NONGSHIM SHIN RAMYUN SPICY FLAVOURED INSTANT NOODLE SOUP",
+  "nutrition": {
+    "energy": 424,
+    "protein": 8.6,
+    "carbohydrate": 66,
+    "total_sugars": 2.6,
+    "total_fat": 14,
+    "saturated_fat": 14,
+    "sodium": 1470
+  },
+  "nutritional_content_rating": 3.1,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=1080/app/videos/products/thumbnail/d532e8aa-7cdc-4f87-8b1a-419b37f4c25c.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e326a"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.354"
+  },
+  "servings": null,
+  "allergy_info": [
+    "NUTS"
+  ],
+  "final_rating": 4.4,
+  "health_impact_rating": 4.2,
+  "ingredient_quality_rating": 4.7,
+  "ingredients": [
+    "ROASTED PEANUTS(100%)"
+  ],
+  "item_category": "PEANUT-BUTTER",
+  "item_name": "PINTOLA ALL NATURAL PEANUT BUTTER CRUNCHY 1KG",
+  "nutrition": {
+    "energy": 639,
+    "protein": 30,
+    "carbohydrate": 18,
+    "fiber": 9,
+    "total_sugars": 3,
+    "added_sugars": 0,
+    "total_fat": 49,
+    "saturated_fat": 8.5,
+    "mufa": 25,
+    "omega-6_pufa": 16,
+    "trans_fat": 0,
+    "cholesterol": 0,
+    "sodium": 19
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/61gupyFLD3L.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3280"
+  },
+  "price_per_unit": 0.50567,
+  "servings": 10,
+  "allergy_info": [
+    "MILK",
+    "SOY",
+    "OATS",
+    "NUTS"
+  ],
+  "final_rating": 4.1,
+  "health_impact_rating": 4.1,
+  "ingredient_quality_rating": 4,
+  "ingredients": [
+    "MULTIGRAIN 50% (ROLLED OATS 28.9%. WHOLE WHEAT FLAKES 21.1% (WHEAT, SUGAR, IODIZED SALT. CEREAL ANTIOXIDANTS (INS 322 & 307B))",
+    "PROTEIN BLEND 17% (WHEY PROTEIN (6.1%). SOY PROTEIN ISOLATE (5.6%)",
+    "TEXTURISED SOY PROTEIN (5.3%)",
+    "INVERT SYRUP",
+    "CHOCOLATE POWDER 6.4% (SUGAR & COCOA SOLIDS)",
+    "ALMONDS 6%",
+    "WHEAT FIBER",
+    "ANTIOXIDANTS (INS 322 & 307B)",
+    "HONEY 0.5%"
+  ],
+  "item_category": "BREAKFAST-CEREAL",
+  "item_name": "BAGRRY'S WHEY PROTEIN MUESLI 750GM POUCH |15GM PROTEIN PER SERVE |CHOCOLATE FLAVOUR|WHOLE OATS & CALIFORNIAN ALMONDS|BREAKFAST CEREAL|PROTEIN RICH|PREMIUM AMERICAN WHEY MUESLI",
+  "nutrition": {
+    "energy": 399,
+    "protein": 20.3,
+    "carbohydrate": 64.5,
+    "total_sugars": 16,
+    "added_sugars": 11,
+    "total_fat": 8.2,
+    "saturated_fat": 1.3,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 234,
+    "fiber": 6.6,
+    "omega-3": null
+  },
+  "nutritional_content_rating": 4.2,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/711i4YJxZ1L.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e323f"
+  },
+  "ingredients": [
+    "SUGAR",
+    "LIQUID GLUCOSE",
+    "CHOCO CENTRE FILLING (12%) {SUGAR, REFINED PALMOLEIN, MILK SOLIDS, COCOA SOLIDS (6%), MALTODEXTRIN, EMULSIFIERS [INS 3220), INS 476]}",
+    "MILK SOLIDS",
+    "HYDROGENATED OILS",
+    "HUMECTANT (INS 420)",
+    "IODISED SALT",
+    "EMULSIFIERS [INS 471, INS 3220)]",
+    "ARTIFICIAL FLAVOURING SUBSTANCE (VANILLA)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Dukes-Eclairs-Chocolate-200-g/dp/B08H5PKZRD"
+  },
+  "allergy_info": [
+    "MILK",
+    "SOY",
+    "SULPHITE",
+    "NUTS"
+  ],
+  "nutrients_per_100g": true,
+  "price": 50,
+  "quantity": 50,
+  "weight": {
+    "value": 200,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 1.5,
+  "ingredient_quality_rating": 1,
+  "health_impact_rating": 1.5,
+  "final_rating": 1.3,
+  "veg": true,
+  "item_category": "CHOCOLATE",
+  "item_name": "Dukes choco centrefilled Eclairs - Rich creamy eclairs with chocolate filling",
+  "nutrition": {
+    "energy": 437.1,
+    "protein": 2.3,
+    "carbohydrate": 84.2,
+    "total_fat": 10.1,
+    "saturated_fat": 5.7,
+    "cholesterol": 0.9,
+    "sodium": 314.1,
+    "total_sugars": 65.2,
+    "added_sugars": 44.3
+  },
+  "image_url": "https://m.media-amazon.com/images/I/71ZCrIhsbPL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e323a"
+  },
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA) (62%)",
+    "SUGAR",
+    "REFINED PALM OIL",
+    "INVERT SUGAR SYRUP* [ SUGAR, CITRIC ACID ]",
+    "RAISING AGENTS [ 503 (ii), 500 (ii) ]",
+    "MILK SOLIDS",
+    "IODISED SALT",
+    "EMULSIFIER OF VEGETABLE ORIGIN [ 472e ]",
+    "FLOUR TREATMENT AGENT [ 1101 ( ii ) ]",
+    "ADDED FLAVOUR ( ARTIFICIAL FLAVOURING SUBSTANCES - VANILLA ) * (D GLUCOSE, LEVULOSE )",
+    "WHEAT",
+    "MILK"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Parle-Parle-G-Royale-Biscuits-360g/dp/B0CG91BY9H"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 85,
+  "weight": {
+    "value": 360,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 2,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 2,
+  "final_rating": 1.8,
+  "veg": true,
+  "servings_size": {
+    "value": 12,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": null,
+  "item_category": "BISCUIT",
+  "item_name": "Parle G Royale",
+  "nutrition": {
+    "energy": 464,
+    "carbohydrate": 74.5,
+    "total_sugars": 27.3,
+    "added_sugars": 26.5,
+    "protein": 6.5,
+    "total_fat": 15.5,
+    "saturated_fat": 7.2,
+    "sodium": 268
+  },
+  "image_url": "https://m.media-amazon.com/images/I/61l4JrDiZxL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e323e"
+  },
+  "ingredients": [
+    "SUGAR",
+    "LIQUID GLUCOSE",
+    "DEXTROSE",
+    "MIXED MASALA (4%)",
+    "ACIDITY REGULATORS (INS 330, INS 296, INS 331-iii)",
+    "NATURE IDENTICAL FLAVOURING SUBSTANCES (KACHCHA AAM FLAVOUR)",
+    "COLOURS (INS 102, INS 133)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Pulse-Kachcha-Aam-Candy-220g/dp/B0B8NBVR16"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 50,
+  "quantity": 50,
+  "weight": {
+    "value": 190,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 1.5,
+  "ingredient_quality_rating": 1,
+  "health_impact_rating": 1.5,
+  "final_rating": 1.3,
+  "veg": true,
+  "item_category": "CHOCOLATE",
+  "item_name": "Pulse Kachcha Aam Candy",
+  "nutrition": {
+    "energy": 380,
+    "protein": null,
+    "carbohydrate": 95,
+    "total_sugars": 70,
+    "added_sugars": 70,
+    "total_fat": null,
+    "sodium": 930
+  },
+  "image_url": "https://m.media-amazon.com/images/I/41KnK6vE-EL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e328c"
+  },
+  "price_per_unit": 0.8125,
+  "servings": 150,
+  "allergy_info": [
+    "MILK",
+    "BARLEY"
+  ],
+  "final_rating": 3,
+  "health_impact_rating": 2.8,
+  "ingredient_quality_rating": 3.2,
+  "ingredients": [
+    "SUGAR",
+    "RAGI(25%)",
+    "MALTODEXTRIN",
+    "BARLEY MALT EXTRACT",
+    "CARDAMOM",
+    "MILK SOLIDS(20%)"
+  ],
+  "item_category": "MILK-FLAVOURING",
+  "item_name": "MANNA RAGI MALT DRINK MIX WITH 25% RAGI, 400G",
+  "nutrition": {
+    "energy": 386.28,
+    "protein": 7.992,
+    "carbohydrate": 86.58,
+    "total_sugars": 73.26,
+    "added_sugars": 57.276,
+    "total_fat": 1.332,
+    "saturated_fat": 0.666,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "calcium": 299.7,
+    "sodium": 113.22,
+    "fiber": null,
+    "phosphorus": 213.12
+  },
+  "nutritional_content_rating": 3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71HRHypYAhS.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e326b"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "2.6"
+  },
+  "servings": 29,
+  "allergy_info": [
+    "MILK"
+  ],
+  "final_rating": 4.2,
+  "health_impact_rating": 4,
+  "ingredient_quality_rating": 4,
+  "ingredients": [
+    "WHEY PROTEIN",
+    "SUNFLOWER LECITHIN"
+  ],
+  "item_category": "PROTEIN-POWDER",
+  "item_name": "AVVATAR WHEY PROTEIN 1KG",
+  "nutrition": {
+    "energy": 402,
+    "protein": 78.85,
+    "carbohydrate": 8.57,
+    "total_sugars": 1.8,
+    "added_sugars": 1.3,
+    "total_fat": 6,
+    "saturated_fat": 3.71,
+    "trans_fat": 0.28,
+    "sodium": 220,
+    "calcium": 485,
+    "cholesterol": 16.28,
+    "leucine": 9.8,
+    "isoleucine": 5.7,
+    "valine": 5.8
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/51iSW5pjjXL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3271"
+  },
+  "price_per_unit": 0.125,
+  "servings": 15,
+  "allergy_info": [
+    "GLUTEN"
+  ],
+  "final_rating": 3.4,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3,
+  "ingredients": [
+    "WHOLE WHEAT FLOUR - ATTA (52.4%)",
+    "WATER",
+    "SUGAR",
+    "YEAST",
+    "LODIZED SALT",
+    "EDIBLE",
+    "SUNFLOWER OIL",
+    "MALT EXTRACT",
+    "VINEGAR",
+    "EMULSIIER [472E]",
+    "PRESERVATIVES [280, 281 & 200]",
+    "ANTIOXIDANT [300]"
+  ],
+  "item_category": "BREAD",
+  "item_name": "BONN BREAD HIGH FIBER BROWN BREAD, 400 G",
+  "nutrition": {
+    "energy": 264,
+    "protein": 7.7,
+    "carbohydrate": 49.68,
+    "total_sugars": 4.48,
+    "added_sugars": 3.58,
+    "total_fat": 1.95,
+    "saturated_fat": 0.4,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 577,
+    "fiber": 8.4
+  },
+  "nutritional_content_rating": 3.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/51mPt2i9ahL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e324a"
+  },
+  "ingredients": [
+    "Gram Pulse Flour",
+    "Edible Vegetable Oil (Cotton Seed, Corn & Palmolein Oil)",
+    "Gram Pulse",
+    "Lentil",
+    "Peanuts",
+    "Rice Flakes",
+    "Potatoes",
+    "Tepary Beans Flour",
+    "Iodised Salt",
+    "Black Salt Powder",
+    "Spinach Powder",
+    "Rice Powder",
+    "Edible Starch",
+    "Red Chilli Powder",
+    "Turmeric Powder",
+    "Mango Powder",
+    "Black Pepper Powder",
+    "Ginger Powder",
+    "Clove Powder",
+    "Mace Powder",
+    "Nutmeg Powder",
+    "Cumin Powder",
+    "Fenugreek Seeds Powder",
+    "Coriander Powder",
+    "Bay Leaves Powder",
+    "Mint Leaves Powder",
+    "Cardamom Powder",
+    "Asafoetida Powder",
+    "Acidity Regulator (INS 330)",
+    "Anticaking Agent (INS 551)",
+    "Synthetic Food Colour (INS 133)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Haldirams-Navrattan-200g/dp/B0024VD730"
+  },
+  "allergy_info": [
+    "NUTS"
+  ],
+  "nutrients_per_100g": true,
+  "price": 54,
+  "weight": {
+    "value": 220,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 4,
+  "ingredient_quality_rating": 3.5,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.7,
+  "veg": true,
+  "servings_size": {
+    "value": 20,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": 51.25,
+  "item_category": "NAMKEEN",
+  "item_name": "Haldiram's Namkeen - Navrattan",
+  "nutrition": {
+    "energy": 549.7,
+    "protein": 19.2,
+    "carbohydrate": 40.6,
+    "total_sugars": 2.9,
+    "added_sugars": null,
+    "total_fat": 34.5,
+    "saturated_fat": 6.6,
+    "trans_fat": 0.1,
+    "sodium": 658.2
+  },
+  "image_url": "https://5.imimg.com/data5/SELLER/Default/2024/4/407840614/NM/TK/LS/105406097/200g-haldiram-s-navrattan-namkeen.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3255"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.1893"
+  },
+  "servings": null,
+  "allergy_info": [
+    "GLUTEN"
+  ],
+  "final_rating": 4,
+  "health_impact_rating": 3.9,
+  "ingredient_quality_rating": 4.3,
+  "ingredients": [
+    "SUPERGRAIN BLEND (CORN GRIT, JOWAR FLOUR)(75%)",
+    "VEGETABLE BLEND (TOMATO POWDER,CARROT POWDER, SPINACH POWDER)(15%)",
+    "RICE BRAN OIL (10%)",
+    "ANTIOXIDANT (ROSEMARY EXTRACT) [INS 392]"
+  ],
+  "item_category": "BABY-FOOD",
+  "item_name": "SLURRP FARM NO SALT NO SUGAR TEETHING PUFFS",
+  "nutrition": {
+    "energy": 414,
+    "protein": 7.326,
+    "carbohydrate": 71.26,
+    "total_sugars": 0.66,
+    "added_sugars": 0,
+    "fiber": 4.662,
+    "sodium": 40.626,
+    "total_fat": 11.32,
+    "saturated_fat": 1.998,
+    "trans_fat": 0,
+    "cholesterol": 0
+  },
+  "nutritional_content_rating": 4.1,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71HEx4ng1DL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3276"
+  },
+  "price_per_unit": 0.1625,
+  "servings": 15,
+  "allergy_info": [
+    "GLUTEN",
+    "SESAME",
+    "SOY"
+  ],
+  "final_rating": 3.8,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3.8,
+  "ingredients": [
+    "WHEAT FLOUR - ATTA (45%)",
+    "WATER",
+    "GRAIN MIX (5.3%) [ SUNFLOWER SEEDS, SOY SEEDS, SESAME SEEDS, MELON SEEDS, ROLLED OATS, WHEAT BRAN & LINSEED",
+    "MULTIGRAIN MIX (5.3%) [WHEAT FLOUR, BROKEN WHEAT, LINSEEDS, IODIZED SALT, SUNFLOWER SEEDS, GLUTEN, WHEAT BRAN, MALT FLOUR, SESAME SEEDS, STARCH, SOY FLOUR], YEAST, SUGAR, REFINED PALM OIL, SOYBEAN OIL, GLUTEN, MALT EXTRACT, EDIBLE COMMON SALT, PRESERVATIVES [280 & 281]",
+    "EMULSIFIERS [481 471, 472E & 479]",
+    "FLOUR IMPROVERS [1100 & 1104]",
+    "ANTIOXIDANT [300]",
+    "ANTICAKING AGENT"
+  ],
+  "item_category": "BREAD",
+  "item_name": "BONN MULTIGRAIN BREAD",
+  "nutrition": {
+    "energy": 268,
+    "protein": 8.68,
+    "carbohydrate": 42.04,
+    "total_sugars": 2.96,
+    "added_sugars": 2.09,
+    "total_fat": 5.38,
+    "saturated_fat": 1.18,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 470,
+    "fiber": 8.13
+  },
+  "nutritional_content_rating": 4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.bigbasket.com/media/uploads/p/l/40277223-2_2-bonn-multigrain-bread-hi-fibre-high-protein-0-trans-fat.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3281"
+  },
+  "price_per_unit": 0.549,
+  "servings": 40,
+  "allergy_info": [
+    "OATS",
+    "NUTS"
+  ],
+  "final_rating": 4.6,
+  "health_impact_rating": 4.6,
+  "ingredient_quality_rating": 4.8,
+  "ingredients": [
+    "ROLLED OATS (61 %)",
+    "UNSWEETENED PEANUT BUTTER (26%)",
+    "ALPINO SUPERNATURAL",
+    "PEANUT PROTEIN",
+    "COCOA POWDER",
+    "NUTS & SEED MIX (CHIA SEEDS, ALMONDS, RAISINS, SUNFLOWER SEEDS)",
+    "MONK FRUIT EXTRACT"
+  ],
+  "item_category": "BREAKFAST-CEREAL",
+  "item_name": "HIGH PROTEIN SUPER ROLLED OATS CHOCOLATE",
+  "nutrition": {
+    "energy": 445,
+    "protein": 22,
+    "carbohydrate": 52.2,
+    "total_sugars": 6,
+    "added_sugars": 0,
+    "total_fat": 16.4,
+    "saturated_fat": 2.8,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 10.5,
+    "postassium": 559.2,
+    "iron": 6.5,
+    "fiber": 7,
+    "calcium": 61.4
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://alpino.store/cdn/shop/files/2.2_1.jpg?v=1726908296"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3253"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.0433"
+  },
+  "servings": 6,
+  "allergy_info": [
+    "GLUTEN",
+    "MILK",
+    "OATS",
+    "BARLEY"
+  ],
+  "final_rating": 4.4,
+  "health_impact_rating": 4.2,
+  "ingredient_quality_rating": 4.5,
+  "ingredients": [
+    "WHEAT FLOUR (ATTA) (36.5%)",
+    "MILK SOLIDS (27.4%)",
+    "RICE FLOUR (8.3%)",
+    "SUGAR",
+    "OAT FLOUR (6%)",
+    "SOYBEAN OIL",
+    "APPLE JUICE CONCENTRATE (3.5%)",
+    "ORANGE JUICE CONCENTRATE (3%)",
+    "CORN FLOUR (2.1%)",
+    "MANGO PULP (0.8%)",
+    "MALTODEXTRIN",
+    "STARCH",
+    "MALTED BARLEY FLOUR (0.6%)",
+    "MINERALS",
+    "MANGO POWDER (0.5%)",
+    "POMEGRANATE JUICE CONCENTRATE (0.4%)",
+    "BLACKCURRANT JUICE CONCENTRATE (0.3%)",
+    "RED BEET PUREE (0.1%)",
+    "DEXTROSE",
+    "VITAMINS",
+    "ACIDITY REGULATOR (501(II))"
+  ],
+  "item_category": "BABY-FOOD",
+  "item_name": "CEREGROW KIDS CEREAL WITH MULTIGRAIN, MILK & FRUITS",
+  "nutrition": {
+    "energy": 412,
+    "protein": 12.5,
+    "carbohydrate": 70.6,
+    "total_sugars": 22,
+    "added_sugars": 10.2,
+    "total_fat": 9.4,
+    "trans_fat": 0.05,
+    "cholesterol": 8,
+    "calcium": 500,
+    "phosphorus": 200,
+    "magnesium": 45,
+    "zinc": 2.7,
+    "sodium": 110,
+    "iron": 7.8,
+    "copper": 0.3,
+    "vitamin_a": 350,
+    "vitamin_d": 5,
+    "vitamin_e": 3,
+    "vitamin_c": 39,
+    "vitamin_b1": 0.5,
+    "vitamin_b2": 0.4,
+    "niacin": 7,
+    "pantothenic_acid": 2.5,
+    "vitamin_b6": 0.5,
+    "biotin": 8,
+    "saturated_fat": 4.6
+  },
+  "nutritional_content_rating": 4.3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71rwkacC2+L.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e325c"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.3333"
+  },
+  "servings": null,
+  "allergy_info": [
+    "SOY",
+    "MILK",
+    "SULPHITE"
+  ],
+  "final_rating": 3,
+  "health_impact_rating": 3,
+  "ingredient_quality_rating": 3,
+  "ingredients": [
+    "POTATO",
+    "EDIBLE VEGETABLE OIL (PALMOLEIN, SUNFLOWER OIL)",
+    "SEASONING (SUGAR, IODISED SALT, MILK SOLIDS, SPICES & CONDIMENTS, MALTODEXTRIN, FLAVOUR (NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES))",
+    "CHEESE POWDER",
+    "HYDROLYSED VEGETABLE PROTEIN",
+    "FLAVOUR ENHANCERS (627, 631)",
+    "EDIBLE VEGETABLE OIL (PALM, COCONUT)",
+    "ANTICAKING AGENT (551)",
+    "CONTAINS ONION"
+  ],
+  "item_category": "CHIPS",
+  "item_name": "LAY'S AMERICAN STYLE CREAM & ONION POTATO CHIPS 30G",
+  "nutrition": {
+    "energy": 537,
+    "protein": 6.7,
+    "carbohydrate": 53,
+    "total_sugars": 3.4,
+    "trans_fat": 0.1,
+    "sodium": 643,
+    "saturated_fat": 14.8,
+    "total_fat": 33.1
+  },
+  "nutritional_content_rating": 3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71kOsITKSkL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3269"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.5631"
+  },
+  "servings": null,
+  "allergy_info": [
+    "NUTS"
+  ],
+  "final_rating": 4.2,
+  "health_impact_rating": 4.1,
+  "ingredient_quality_rating": 4.6,
+  "ingredients": [
+    "PEANUTS(85%)",
+    "DATE POWDER(15%)"
+  ],
+  "item_category": "PEANUT-BUTTER",
+  "item_name": "THE WHOLE TRUTH - PEANUT BUTTER WITH DATES(SWEETENED) CRUNCHY 325 G",
+  "nutrition": {
+    "energy": 637,
+    "protein": 24.2,
+    "carbohydrate": 22,
+    "fiber": 8.1,
+    "total_sugars": 12.8,
+    "added_sugars": 0,
+    "total_fat": 50.3,
+    "saturated_fat": 8.5,
+    "mufa+pufa": 41.8,
+    "trans_fat": 0,
+    "cholesterol": 0,
+    "sodium": 31.1
+  },
+  "nutritional_content_rating": 4.3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71qLM81bNgL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3237"
+  },
+  "ingredients": [
+    "WHEAT FLOUR (ATTA) (49%)",
+    "OIL SEEDS SEEDS (15%)",
+    "FLAX SEEDS",
+    "WATERMELON SEEDS",
+    "SUNFLOWER SEEDS",
+    "CHIA SEEDS",
+    "PUMPKIN SEEDS",
+    "REFINED PALM OIL SUGAR",
+    "SWEETENERS [965(i) & (ii)]",
+    "MILK SOLIDS",
+    "LIQUID GLUCOSE",
+    "DATE AND RAISIN PASTE",
+    "RAISING AGENTS [503(ii) & 5001111]",
+    "BUTTER",
+    "INVERT SUGAR SYRUP",
+    "EMULSIFIERS [322(i) & 471]",
+    "IODISED SALT",
+    "ADDED FLAVOURS [NATURAL NATURE IDENTICAL AND ARTIFICIAL (MILK & BUTTER)]",
+    "WHEAT",
+    "MILK",
+    "SOY"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Britannia-Nutri-Choice-Seeds-Pouch/dp/B096VGWZKM?th=1"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 25,
+  "weight": {
+    "value": 75,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3.5,
+  "ingredient_quality_rating": 3,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.3,
+  "veg": true,
+  "servings_size": {
+    "value": 17,
+    "unit": "g",
+    "count": 2
+  },
+  "servings_per_pack": null,
+  "item_category": "BISCUIT",
+  "item_name": "Britannia Nutri Choice Seeds Biscuits - 0% Maida, 15% Seeds, High Fiber",
+  "nutrition": {
+    "energy": 493,
+    "carbohydrate": 63,
+    "total_sugars": 13.6,
+    "fiber": 6.8,
+    "protein": 11,
+    "total_fat": 23.4,
+    "saturated_fat": 9.6,
+    "monounsaturated_fat": 8,
+    "polyunsaturated_fat": 5.4,
+    "cholesterol": 2.8,
+    "sodium": 314
+  },
+  "image_url": "https://m.media-amazon.com/images/I/61OUbq2+oaL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3272"
+  },
+  "price_per_unit": 0.1857142857,
+  "servings": 12,
+  "allergy_info": [
+    "GLUTEN"
+  ],
+  "final_rating": 4.3,
+  "health_impact_rating": 4.2,
+  "ingredient_quality_rating": 4.5,
+  "ingredients": [
+    "WHOLE WHEAT FLOUR - ATTA (100.0%)",
+    "GLUTEN",
+    "YEAST",
+    "SALT",
+    "CANE SUGAR",
+    "SUNFLOWER OIL",
+    "CULTURED WHEAT FLOUR",
+    "VINEGAR"
+  ],
+  "item_category": "BREAD",
+  "item_name": "THE HEALTH FACTORY ZERO MAIDA BREAD, 350 G",
+  "nutrition": {
+    "energy": 245.22,
+    "protein": 13.72,
+    "carbohydrate": 44.66,
+    "total_sugars": 4.22,
+    "added_sugars": 2.1,
+    "total_fat": 1.3,
+    "saturated_fat": 0.34,
+    "trans_fat": 0,
+    "cholestrol": 0,
+    "sodium": 333.52,
+    "fiber": 6.34
+  },
+  "nutritional_content_rating": 4,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.thehealthfactory.in/cdn/shop/files/Main-Image_2.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3284"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.625"
+  },
+  "servings": 1,
+  "allergy_info": [
+    "GLUTEN",
+    "MILK",
+    "MUSTARD",
+    "CELERY",
+    "SOY",
+    "NUTS"
+  ],
+  "final_rating": 3,
+  "health_impact_rating": 2.9,
+  "ingredient_quality_rating": 2.8,
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "THICKENER -1420",
+    "PALM OIL / PALMOLEIN",
+    "WHEAT GLUTEN",
+    "POTATO STARCH",
+    "IODISED SALT",
+    "YEAST",
+    "ACIDITY",
+    "REGULATOR AND 501(I1 TEXTURIZER - 4510",
+    "IODISED SALT",
+    "DEHYDRATED VEGETABLES(CABBAGE, ONION, GINGER)",
+    "FLAVOUR ENHANCER - 627 & 631",
+    "MILK SOLIDS",
+    "POTATO STARCH",
+    "SPICES AND CONDIMENTS (CHILLI POWDER (0.8%))",
+    "OLEORESIN CHILLI",
+    "SUGAR",
+    "MALTODEXTRIN",
+    "FLAVOURS - NATURE IDENTICAL FLAVOURING SUBSTANCES AND NATURAL GARLIC AGENT -551",
+    "HYDROLYZED VEGETABLE PROTEIN",
+    "DEHYDRATED VEGETABLES (3.1%): CABBAGE, SPRING ONION, MUSHROOM, BROCCOLI, BELL PEPPER, ZUCCHINI."
+  ],
+  "item_category": "INSTANT-NOODLES",
+  "item_name": "KNORR K-POT SPICY KIMCHI VEG MEAL KOREAN RAMEN 96 G",
+  "nutrition": {
+    "energy": 384,
+    "protein": 8.2,
+    "carbohydrate": 59.6,
+    "total_sugars": 1.8,
+    "added_sugars": 1.3,
+    "total_fat": 12.5,
+    "saturated_fat": 8.2,
+    "trans_fat": 0.13,
+    "sodium": 1028.3,
+    "iron": 6.9
+  },
+  "nutritional_content_rating": 3.2,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.jiomart.com/images/product/original/494340426/knorr-k-pot-spicy-kimchi-veg-meal-korean-ramen-96-g-product-images-o494340426-p606780080-0-202312181747.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3238"
+  },
+  "ingredients": [
+    "REFINED WHEAT FLOUR (MAIDA)",
+    "SUGAR (35%)",
+    "EDIBLE VEGETABLE OIL(PALM)",
+    "EDIBLE STARCH",
+    "COCOA SOLIDS (2.7%)",
+    "MILK SOLIDS",
+    "RAISING AGENTS [500(ii), 50300]",
+    "EMULSIFIERS (471, 322)",
+    "IODISED SALT",
+    "PERMITTED NATURAL & SYNTHETIC FOOD COLOURS (150A, 150D, 102, 110, 122, 133)",
+    "ADDED FLAVOURS [NATURE IDENTICAL & ARTIFICIAL FLAVOURING SUBSTANCES (VANILLA & CHOCOLATE)]",
+    "WHEAT",
+    "MILK",
+    "SOY"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Britannia-Bourbon-Chocolate-Biscuits-5Nx100g/dp/B09YDC6TM2"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 125,
+  "weight": {
+    "value": 500,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 2,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 2,
+  "final_rating": 1.8,
+  "veg": true,
+  "servings_size": {
+    "value": 10,
+    "unit": "g",
+    "count": 1
+  },
+  "servings_per_pack": null,
+  "item_category": "BISCUIT",
+  "item_name": "Britannia Bourbon Chocolate Cream Biscuits",
+  "nutrition": {
+    "energy": 488,
+    "carbohydrate": 72,
+    "total_sugars": 37,
+    "protein": 5,
+    "total_fat": 20,
+    "saturated_fat": 10,
+    "monounsaturated_fat": 7.7,
+    "polyunsaturated_fat": 2.2
+  },
+  "image_url": "https://www.bigbasket.com/media/uploads/p/l/263593_22-britannia-bourbon-chocolate-cream-biscuits.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3243"
+  },
+  "ingredients": [
+    "MILK",
+    "Water",
+    "SUGAR",
+    "MILK SOLIDS",
+    "Mango Pulp (2%)",
+    "NATURE IDENTICAL FLAVOURING SUBSTANCE",
+    "Food Colours (110 & 102)",
+    "Active Lactic Culture"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Mother-Dairy-Lassi-Mango-200ml/dp/B077RDSJ7N"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 20,
+  "weight": {
+    "value": 180,
+    "unit": "ml"
+  },
+  "score": null,
+  "nutritional_content_rating": 2.5,
+  "ingredient_quality_rating": 2,
+  "health_impact_rating": 2.5,
+  "final_rating": 2.3,
+  "veg": true,
+  "servings_size": {
+    "value": 180,
+    "unit": "ml",
+    "count": null
+  },
+  "servings_per_pack": 1,
+  "item_category": "BEVERAGES",
+  "item_name": "Mother Dairy Mango Lassi",
+  "nutrition": {
+    "energy": 76,
+    "protein": 1.8,
+    "carbohydrate": 13.5,
+    "total_sugars": 13.5,
+    "added_sugars": 11,
+    "total_fat": 1.7,
+    "saturated_fat": 1.2,
+    "cholesterol": 2,
+    "calcium": 86,
+    "sodium": 23.8
+  },
+  "image_url": "https://www.jiomart.com/images/product/original/490887557/mother-dairy-mango-lassi-200-ml-bottle-product-images-o490887557-p590041370-0-202204070154.jpg?im=Resize=(1000,1000)"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3254"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.655"
+  },
+  "servings": 10,
+  "allergy_info": [
+    "MILK",
+    "OATS",
+    "GLUTEN"
+  ],
+  "final_rating": 4.6,
+  "health_impact_rating": 4.7,
+  "ingredient_quality_rating": 4.8,
+  "ingredients": [
+    "SUPERGRAIN BLEND (SPROUTED RAGI, JOWAR, RICE)(35%),",
+    "MILK SOLIDS (30%)",
+    "MANGO POWDER(11%)",
+    "DATE POWDER(9%)",
+    "OAT FLOUR (10%)",
+    "SKIMMED MILK POWDER",
+    "MINERALS",
+    "VITAMINS"
+  ],
+  "item_category": "BABY-FOOD",
+  "item_name": "SLURRP FARM NO ADDED SUGAR INSTANT CEREAL RAGI, RICE AND MANGO WITH MILK 200G",
+  "nutrition": {
+    "energy": 386.7,
+    "protein": 13.4,
+    "carbohydrate": 80.8,
+    "total_sugars": 15,
+    "added_sugars": 0,
+    "fiber": 6.4,
+    "sodium": 27.5,
+    "total_fat": 1.1,
+    "saturated_fat": 0.5,
+    "trans_fat": 0,
+    "cholesterol": 0,
+    "vitamin_a": 400,
+    "vitamin_c": 40,
+    "vitamin_d": 5,
+    "vitamin_e": 2.5,
+    "vitamin_b1": 0.5,
+    "vitamin_b2": 0.6,
+    "nicotinamide": 8,
+    "vitamin_b6": 0.9,
+    "vitamin_b12": 0.6,
+    "folic_acid": 80,
+    "calcium": 600,
+    "iron": 9,
+    "zinc": 5
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71KwIbGmrZL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e326d"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "1.95"
+  },
+  "servings": 16,
+  "allergy_info": [
+    "MILK",
+    "SOY"
+  ],
+  "final_rating": 3.6,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "WHEY PROTEIN CONCENTRATE(CROSS-FLOW MICROFILTERED"
+  ],
+  "item_category": "PROTEIN-POWDER",
+  "item_name": "NUTRABAY PURE 100% RAW WHEY PROTEIN CONCENTRATE - 500G",
+  "nutrition": {
+    "energy": 409,
+    "protein": 77.9,
+    "carbohydrate": 7.7,
+    "total_sugars": 7.7,
+    "sugar_natural": 7.7,
+    "total_fat": 7.4,
+    "saturated_fat": 4,
+    "monounsaturated_fat": 1.7,
+    "polyunsaturated_fat": 0.9,
+    "trans_fat": 0.4,
+    "sodium": 221,
+    "cholesterol": 308,
+    "calcium": 8.88,
+    "magnesium": 2.22,
+    "phosphorus": 2.22,
+    "potassium": 6.66
+  },
+  "nutritional_content_rating": 3.8,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/610cToOwrZL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e323b"
+  },
+  "ingredients": [
+    "Sugar",
+    "Mille Solids (22%)",
+    "Cocoa Butter",
+    "Cocoa Solids",
+    "Emulsifiers (442, 476)",
+    "ADDED FLAVOUR (NATURAL NATURE IDENTICAL AND ARTIFICIAL (ETHYL UANILLIN) FLAVOURING SUBSTANCES)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Cadbury-Dairy-MILK-Chocolate-13-2/dp/B08LPB2958"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 10,
+  "weight": {
+    "value": 13.2,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 2,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 2,
+  "final_rating": 1.8,
+  "veg": true,
+  "item_category": "CHOCOLATE",
+  "item_name": "Cadbury Dairy MILK Chocolate Bar",
+  "nutrition": {
+    "energy": 534,
+    "protein": 8.1,
+    "carbohydrate": 60.4,
+    "fiber": 2.1,
+    "total_sugars": 57.3,
+    "total_fat": 28.9,
+    "saturated_fat": 17.5,
+    "trans_fat": 0.2,
+    "sodium": 156
+  },
+  "image_url": "https://m.media-amazon.com/images/I/61qvMq1Pd0L.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3244"
+  },
+  "ingredients": [
+    "Toned MILK Dahi",
+    "Water",
+    "SUGAR",
+    "Stabilizer (E 440)",
+    "NATURE IDENTICAL FLAVOURING SUBSTANCE (ROSE)"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Amul-Lassi-250-ml-Carton/dp/B00XBPLCNU"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": true,
+  "price": 25,
+  "weight": {
+    "value": 250,
+    "unit": "ml"
+  },
+  "score": null,
+  "nutritional_content_rating": 2.5,
+  "ingredient_quality_rating": 2,
+  "health_impact_rating": 2.5,
+  "final_rating": 2.3,
+  "veg": true,
+  "servings_size": {
+    "value": null,
+    "unit": "g",
+    "count": null
+  },
+  "servings_per_pack": null,
+  "item_category": "BEVERAGES",
+  "item_name": "Amul Lassi Carton",
+  "nutrition": {
+    "energy": 79,
+    "protein": 2.3,
+    "carbohydrate": 12.8,
+    "total_sugars": null,
+    "added_sugars": 12,
+    "total_fat": 2.1,
+    "saturated_fat": 1.4,
+    "trans_fat": 0.1,
+    "calcium": 74
+  },
+  "image_url": "https://m.media-amazon.com/images/I/41CkFXdPaqL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3266"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.399"
+  },
+  "servings": null,
+  "allergy_info": [
+    "NUTS"
+  ],
+  "final_rating": 4.3,
+  "health_impact_rating": 4,
+  "ingredient_quality_rating": 4.7,
+  "ingredients": [
+    "DRY ROASTED PEANUTS(100%)"
+  ],
+  "item_category": "PEANUT-BUTTER",
+  "item_name": "THE BUTTERNUT CO. NATURAL PEANUT-BUTTER (CRUNCHY) 1KG",
+  "nutrition": {
+    "energy": 640,
+    "protein": 32,
+    "carbohydrate": 15,
+    "sugar_natural": 3,
+    "added_sugars": 0,
+    "total_fat": 50
+  },
+  "nutritional_content_rating": 4.5,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://www.thebutternutcompany.com/cdn/shop/products/61Ccdzs1EjL.jpg?v=1713939903"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e323d"
+  },
+  "ingredients": [
+    "Sugar",
+    "MILK solids (16.2%)",
+    "Fractionated vegetable fat",
+    "Hydrogenated vegetable fats",
+    "Refined Wheat flour (Maida)",
+    "Cocoa solids (4.5%)",
+    "Emulsifier (Soya lecithin)",
+    "Yeast",
+    "Raising agent (500(ii))",
+    "Artificial (Vanilla) flavouring substance",
+    "Iodised salt",
+    "Flour treatment agent (516)",
+    "Nature-identical flavouring substance"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/Nestl%C3%A9-KITKAT-Chocolate-Coated-Miniature/dp/B079TH8XB6"
+  },
+  "allergy_info": [
+    "GLUTEN",
+    "MILK",
+    "SESAME",
+    "SOY",
+    "NUTS"
+  ],
+  "nutrients_per_100g": true,
+  "price": 120,
+  "quantity": 7,
+  "weight": {
+    "value": 126,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 1.8,
+  "ingredient_quality_rating": 1.5,
+  "health_impact_rating": 1.8,
+  "final_rating": 1.7,
+  "veg": true,
+  "item_category": "CHOCOLATE",
+  "item_name": "KIT KAT Minis",
+  "nutrition": {
+    "energy": 438,
+    "protein": 6.4,
+    "carbohydrate": 47.4,
+    "total_sugars": 35.1,
+    "added_sugars": 28.9,
+    "total_fat": 24.8,
+    "saturated_fat": 24.5,
+    "trans_fat": 0.04,
+    "sodium": 97.4
+  },
+  "image_url": "https://m.media-amazon.com/images/I/61zKERr1vxL.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3251"
+  },
+  "ingredients": [
+    "Protein Blend (29%) (Soy Nuggets, Whey Protein Concentrate, Soy Concentrate)",
+    "Brown Rice Syrup",
+    "MILK Compound (19%)",
+    "Sugar",
+    "Edible Vegetable Oil",
+    "MILK Solids",
+    "Cocoa Solids",
+    "Emulsifier (Soy Lecithin)",
+    "Vanilla Flavours",
+    "Dietary Fiber (9%) (Fructooligosacharide,Chicory Root Fiber)",
+    "Edible Vegetable Oil ( Hydrogenated Vegetable Oil )",
+    "Almonds (5.5%)",
+    "Whole Grain Rolled Oats (4.5%)",
+    "Raisins (4%)",
+    "Cashew Nut (3%)",
+    "Humectant (Glycerine)",
+    "Dextrose Monohydrate",
+    "Flaxseeds",
+    "Tribasic Calcium Phosphate",
+    "Fructose",
+    "Soy Protein Isolate",
+    "Emulsifier (Soy Lecithin)",
+    "Binding Agent (Guar Gum)",
+    "Salt",
+    "Citric Acid",
+    "Antioxidants (Vitamin C)",
+    "Vitamins",
+    "Minerals",
+    "Glutamine",
+    "Amino Acids"
+  ],
+  "meta": {
+    "url": "https://www.amazon.in/RiteBite-Work-Choco-Classic-Protein/dp/B00JEXAMHU"
+  },
+  "allergy_info": null,
+  "nutrients_per_100g": false,
+  "nutrients_per": {
+    "value": 50,
+    "unit": "g"
+  },
+  "price": 70,
+  "weight": {
+    "value": 50,
+    "unit": "g"
+  },
+  "score": null,
+  "nutritional_content_rating": 3.5,
+  "ingredient_quality_rating": 3,
+  "health_impact_rating": 3.5,
+  "final_rating": 3.3,
+  "veg": true,
+  "item_category": "PROTEIN-BAR",
+  "item_name": "RiteBite Max Protein Daily Choco Classic 10G Protein Bars",
+  "nutrition": {
+    "energy": 206,
+    "protein": 10,
+    "carbohydrate": 22.8,
+    "fiber": 4,
+    "total_sugars": 7.9,
+    "total_fat": 7.9,
+    "saturated_fat": 2.9,
+    "sodium": 139
+  },
+  "image_url": "https://www.bigbasket.com/media/uploads/p/l/20002303-3_7-ritebite-max-protein-choco-classic-bar.jpg"
+},
+{
+  "_id": {
+    "$oid": "670a936ecb72e9a3fd2e3259"
+  },
+  "price_per_unit": {
+    "$NUMBERDECIMAL": "0.4167"
+  },
+  "servings": null,
+  "allergy_info": [
+    "SOY",
+    "MILK"
+  ],
+  "final_rating": 3.3,
+  "health_impact_rating": 3.5,
+  "ingredient_quality_rating": 3.5,
+  "ingredients": [
+    "RICE",
+    "RICE BRAN OIL",
+    "PULSES (11.4%)",
+    "GREEN PEAS (7.6%)",
+    "SPICES AND CONDIMENTS (SALT, SUGAR, ONION POWDER, GARLIC POWDER, CHILLI POWDER, OREGANO POWDER, CUMIN POWDER, PARSLEY FLAKES, TURMERIC POWDER)",
+    "ANTICAKING AGENT (E551)",
+    "FLAVOUR ENHANCERS (E627, E631)"
+  ],
+  "item_category": "CHIPS",
+  "item_name": "BRB RICE POPPED CHIPS PERI PERI FLAVOUR 48G",
+  "nutrition": {
+    "energy": 438.8,
+    "protein": 10,
+    "carbohydrate": 68.4,
+    "total_sugars": 2.4,
+    "added_sugars": 1.2,
+    "trans_fat": 0,
+    "sodium": 1157.6,
+    "fiber": 4,
+    "saturated_fat": 3.2,
+    "total_fat": 14
+  },
+  "nutritional_content_rating": 3,
+  "unit": "G",
+  "veg": true,
+  "image_url": "https://m.media-amazon.com/images/I/71DoUmPz-KL.jpg"
+}]
