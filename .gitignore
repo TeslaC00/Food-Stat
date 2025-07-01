@@ -3,3 +3,4 @@ server/.venv
 .vscode
 __pycache__
 .env
+.idea

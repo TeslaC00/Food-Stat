@@ -1,0 +1,107 @@
+{# about_us.jinja - Fancy Version #}
+{% extends "base.jinja" %}
+
+{% block title %}
+About Us - Food-Stat
+{% endblock title %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="bg-secondary/10 py-20 mb-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold text-primary mb-4">Welcome to Food-Stat</h1>
+            <p class="text-xl text-neutral leading-relaxed mb-8">
+                Your Personal Food Intelligence App for Healthier Living.
+            </p>
+            <img src="https://images.pexels.com/photos/8476600/pexels-photo-8476600.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Food-Stat Hero" class="rounded-xl shadow-lg mx-auto max-w-full h-auto">
+             {# Replace with a relevant image #}
+        </div>
+    </section>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-neutral mb-6 text-center">Our Story and Mission</h2>
+            <div class="lg:flex lg:space-x-12 lg:items-center">
+                <div class="lg:w-1/2 mb-6 lg:mb-0">
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Food-Stat was born from a simple yet powerful idea: to empower individuals to make informed food choices.
+                        In today's complex food environment, understanding what's truly in our packaged foods can be challenging.
+                        We realized the need for a tool that goes beyond confusing labels and provides clear, personalized insights.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        Our mission is to be your trusted guide in navigating the world of food. We are committed to providing
+                        you with unbiased, data-driven ratings and information, tailored to your unique health needs and goals.
+                        We believe that with the right knowledge, everyone can eat smarter and live healthier.
+                    </p>
+                </div>
+                <div class="lg:w-1/2">
+                    <img src="https://www.thechoppingblock.com/hs-fs/hubfs/Blog/family-cooking.jpg?width=900&name=family-cooking.jpg" alt="Our Mission" class="rounded-xl shadow-lg mx-auto max-w-full h-auto">
+                     {# Replace with an image representing your mission #}
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-neutral mb-8 text-center">How Food-Stat Works</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Health Impact -->
+                <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-primary text-5xl mb-4 flex items-center justify-center">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2 text-center">Health Impact</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm text-center">
+                        We assess how a food product may affect your overall well-being, considering ingredients and potential health implications.
+                    </p>
+                </div>
+
+                <!-- Ingredient Quality -->
+                <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-secondary text-5xl mb-4 flex items-center justify-center">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2 text-center">Ingredient Quality</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm text-center">
+                        We evaluate the quality of ingredients, focusing on processing levels, additives, and the presence of wholesome components.
+                    </p>
+                </div>
+
+                <!-- Nutritional Content -->
+                <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-accent text-5xl mb-4 flex items-center justify-center">
+                        <i class="fa-solid fa-nutritionix"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-neutral mb-2 text-center">Nutritional Content</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm text-center">
+                        We analyze the nutritional profile, including macronutrients, micronutrients, and key components to determine its nutritional value.
+                    </p>
+                </div>
+            </div>
+             <p class="text-gray-700 leading-relaxed mt-8 text-center">
+                Food-Stat provides <span class="font-semibold">custom ratings</span> tailored to <span class="font-semibold">your unique profile</span>,
+                considering your age, health conditions, and fitness goals, ensuring the information is relevant and actionable for you.
+            </p>
+        </section>
+
+        <section class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-neutral mb-6">Ready to Eat Smarter?</h2>
+            <p class="text-xl text-gray-700 leading-relaxed mb-8">
+                Join the Food-Stat community and start making healthier choices today!
+            </p>
+            <a href="{{ url_for('routes_bp.sign_up') }}" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-full transition-colors shadow-md inline-block">
+                Sign Up for Free
+            </a>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-2xl font-semibold text-neutral mb-3 text-center">Have Questions?</h3>
+            <p class="text-gray-700 leading-relaxed text-center">
+                Visit our <a href="/contact" class="text-primary hover:underline">Contact Us</a> page to get in touch.
+            </p>
+        </section>
+    </div>
+{% endblock content %}
+
+{% block scripts %}
+{% endblock scripts %}

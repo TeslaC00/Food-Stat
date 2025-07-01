@@ -1,0 +1,173 @@
+{% extends 'base.jinja' %}
+
+{% block title %}Analyze Product | FoodStat{% endblock title %}
+
+{% block content %}
+<div class="max-w-7xl mx-auto py-12 px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <!-- Form -->
+    <div>
+        <h1 class="text-3xl font-bold text-primary mb-8">Analyze Food-Item</h1>
+
+        <form id="productForm" class="bg-white p-8 shadow-xl rounded-2xl space-y-6">
+            <!-- Item Info -->
+            <div x-data="{ open: false, selected: '' }" class="relative">
+    <label class="block text-neutral font-semibold mb-1">Item Category</label>
+    <button type="button" @click="open = !open"
+            class="w-full bg-white border border-gray-300 rounded-xl shadow-sm px-4 py-2 text-left cursor-pointer focus:outline-none">
+        <span x-text="selected ? selected : 'Select a category'" class="block truncate text-gray-700"></span>
+    </button>
+
+    <div x-show="open" @click.away="open = false"
+         class="absolute z-10 mt-1 w-full bg-white border border-gray-300 rounded-md shadow-lg max-h-60 overflow-auto">
+        <template x-for="item in [
+            'NAMKEEN', 'BREAKFAST-ITEMS', 'BISCUIT', 'BEVERAGES', 'PASTA', 'CHIPS',
+            'BREAD', 'MISCELLANEOUS', 'NUTS-SEEDS-DRIED-FRUIT', 'PROTEIN-BAR',
+            'SWEETS', 'PROTEIN-POWDER', 'INSTANT-NOODLES', 'MEAT/SEAFOOD',
+            'BREAKFAST-SPREADS', 'SAUCE/CONDIMENT/PICKLE', 'MILK-FLAVOURING',
+            'HEALTH-SUPPLEMENT', 'DAIRY', 'PANEER', 'BABY-FOOD'
+        ]" :key="item">
+            <div @click="selected = item; open = false"
+                 class="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm text-gray-700"
+                 x-text="item"></div>
+        </template>
+    </div>
+
+    <!-- Hidden input to actually submit the selected value -->
+    <input type="hidden" name="item_category" :value="selected">
+</div>
+
+
+            <div>
+                <label class="block text-neutral font-semibold mb-1">Item Name</label>
+                <input type="text" name="item_name" class="w-full border rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Enter product name">
+            </div>
+
+            <!-- Ingredients -->
+            <div>
+                <label class="block text-neutral font-semibold mb-1">Ingredients (comma separated)</label>
+                <input type="text" name="ingredients" class="w-full border rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary" placeholder="e.g., sugar, milk, cocoa">
+            </div>
+
+            <!-- Allergy Info Multiselect -->
+            <div x-data="{ open: false, selected: [] }" class="relative">
+                <label class="block text-sm font-medium text-gray-700 mb-1">Allergy Info</label>
+                <button type="button" @click="open = !open"
+                        class="w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-pointer">
+                    <span x-show="selected.length === 0" class="text-gray-400">Select allergies</span>
+                    <span x-show="selected.length > 0" class="block truncate text-gray-700">
+                        <template x-for="item in selected" :key="item">
+                            <span class="inline-block bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded mr-1" x-text="item"></span>
+                        </template>
+                    </span>
+                </button>
+
+                <div x-show="open" @click.away="open = false"
+                     class="absolute z-10 mt-1 w-full bg-white border border-gray-300 rounded-md shadow-lg max-h-60 overflow-auto">
+                    <template x-for="item in ['Dairy','Egg','Fish and Shellfish','Gluten','Mustard','Nuts','OATS','Sesame','Soy','Sulphites','Wheat']" :key="item">
+                        <label class="flex items-center px-4 py-2 hover:bg-gray-100">
+                            <input type="checkbox" :value="item" x-model="selected"
+                                   class="mr-2 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                            <span x-text="item" class="text-sm text-gray-700"></span>
+                        </label>
+                    </template>
+                </div>
+
+                <!-- Hidden inputs to submit selected values -->
+                <template x-for="item in selected" :key="item">
+                    <input type="hidden" name="allergy_info" :value="item">
+                </template>
+            </div>
+
+            <!-- Nutrition Info -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                {% set nutrition_fields = ['energy', 'protein', 'carbohydrate', 'total_fat', 'total_sugars', 'added_sugars', 'saturated_fat', 'trans_fat'] %}
+                {% for field in nutrition_fields %}
+                <div>
+                    <label class="block text-neutral font-semibold mb-1">{{ field.replace('_', ' ') | title }}</label>
+                    <input type="number" name="nutrition_{{ field }}" step="0.01" class="w-full border rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary">
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Veg Option -->
+            <div class="flex items-center">
+                <input type="checkbox" name="veg" id="veg" class="mr-2">
+                <label for="veg" class="text-neutral font-semibold">Vegetarian</label>
+            </div>
+
+            <button type="submit" class="bg-primary hover:bg-secondary text-white font-bold py-2 px-6 rounded-xl transition">Submit</button>
+        </form>
+    </div>
+
+    <!-- Rating Result Box -->
+    <div id="ratingResult" class="hidden bg-white p-6 shadow-xl rounded-2xl border border-gray-200">
+        <h2 class="text-2xl font-semibold text-primary mb-4">Rating Result</h2>
+        <div id="ratingContent" class="space-y-4"></div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+<script>
+document.getElementById('productForm').addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    const allergies = Array.from(form.querySelectorAll("input[name='allergy_info']"))
+                           .map(input => input.value);
+
+    const nutrition = {};
+    for (let [key, value] of formData.entries()) {
+        if (key.startsWith("nutrition_")) {
+            const field = key.replace("nutrition_", "");
+            nutrition[field] = parseFloat(value);
+        }
+    }
+
+    const data = {
+        item_category: formData.get('item_category'),
+        item_name: formData.get('item_name'),
+        ingredients: formData.get('ingredients').split(',').map(ing => ing.trim()),
+        allergy_info: allergies,
+        nutrition: nutrition,
+        veg: formData.get('veg') === 'on'
+    };
+
+    try {
+        const response = await fetch('/api/form/rating', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+        const ratings = result.Rating;
+
+        const ratingBox = document.getElementById('ratingResult');
+        const content = document.getElementById('ratingContent');
+        ratingBox.classList.remove('hidden');
+
+        content.innerHTML = '';
+        for (const key in ratings) {
+            const title = key.replace(/_/g, ' ').toUpperCase();
+            const { score, reason } = ratings[key];
+
+            content.innerHTML += `
+                <div class="border border-gray-300 rounded-lg p-4">
+                    <h3 class="font-bold text-lg text-secondary mb-2">${title}</h3>
+                    <p class="text-sm text-gray-700 mb-1"><strong>Score:</strong> ${score}/5.0</p>
+                    <p class="text-sm text-gray-600"><strong>Reason:</strong> ${reason}</p>
+                </div>
+            `;
+        }
+    } catch (err) {
+        alert("Error submitting form. Check console.");
+        console.error(err);
+    }
+});
+</script>
+{% endblock scripts %}

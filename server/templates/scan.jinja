@@ -1,0 +1,226 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+<div class="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4 py-8">
+    <h1 class="text-3xl font-semibold mb-8 text-gray-800">📦 Document Scanner</h1>
+
+    <div class="flex flex-col md:flex-row gap-10 w-full max-w-6xl items-start justify-center">
+        <!-- Left: Camera Stream -->
+        <div class="flex flex-col items-center space-y-4">
+            <div class="rounded-xl overflow-hidden shadow-lg border-4 border-blue-600">
+                <video id="video" autoplay class="rounded-xl w-[360px] h-[270px]"></video>
+            </div>
+            <p class="text-gray-600 text-sm">Live video stream</p>
+            <select id="cameraSelect" class="mt-4 bg-white border border-gray-300 rounded-lg shadow px-4 py-2 text-gray-700">
+                <option value="" disabled selected>Select Camera</option>
+            </select>
+        </div>
+
+        <!-- Right: Snapshot + Actions + Info -->
+        <div class="flex flex-col gap-6 w-full max-w-md">
+            <!-- Snapshot Preview -->
+            <div>
+                <h2 class="text-lg font-semibold text-gray-700 mb-2">🖼️ Captured Snapshot</h2>
+                <img id="photo" class="rounded-xl shadow-md w-full border border-gray-300 h-[270px] object-contain bg-white" />
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap gap-3">
+                <button id="capture" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-lg shadow">
+                    📸 Capture
+                </button>
+                <button id="analyze" class="bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 rounded-lg shadow">
+                    🔍 Analyze
+                </button>
+                <label class="cursor-pointer bg-gray-600 hover:bg-gray-700 text-white font-medium px-4 py-2 rounded-lg shadow">
+                    📁 Upload File
+                    <input id="uploadInput" type="file" accept="image/*" class="hidden" />
+                </label>
+            </div>
+
+            <!-- Barcode Info Box -->
+            <div id="barcode-info-box" class="bg-white shadow-md rounded-xl p-4 border border-gray-200">
+                <h2 class="text-lg font-semibold text-gray-800 mb-2">🔎 Barcode Info</h2>
+                <div id="barcode-info" class="text-gray-600 italic">No barcode analyzed yet.</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const video = document.getElementById('video');
+    const photo = document.getElementById('photo');
+    const captureBtn = document.getElementById('capture');
+    const analyzeBtn = document.getElementById('analyze');
+    const uploadInput = document.getElementById('uploadInput');
+    const barcodeInfo = document.getElementById('barcode-info');
+    const cameraSelect = document.getElementById('cameraSelect');
+
+    let capturedDataURL = null;
+    let currentStream = null;
+
+    // Get available video input devices
+    navigator.mediaDevices.enumerateDevices()
+        .then((devices) => {
+            const videoDevices = devices.filter(device => device.kind === 'videoinput');
+            if (videoDevices.length === 0) {
+                alert("No cameras found.");
+                return;
+            }
+
+            videoDevices.forEach((device, index) => {
+                const option = document.createElement('option');
+                option.value = device.deviceId;
+                option.text = device.label || `Camera ${index + 1}`;
+                cameraSelect.appendChild(option);
+            });
+
+            // Start with the first camera by default
+            startCamera(videoDevices[0].deviceId);
+        })
+        .catch((err) => {
+            alert("Failed to access devices.");
+            console.error(err);
+        });
+
+    // Start camera stream
+    function startCamera(deviceId) {
+        if (currentStream) {
+            currentStream.getTracks().forEach(track => track.stop());
+        }
+
+        navigator.mediaDevices.getUserMedia({ video: { deviceId: { exact: deviceId } } })
+            .then((stream) => {
+                currentStream = stream;
+                video.srcObject = stream;
+            })
+            .catch((err) => {
+                alert("Camera access denied or not available.");
+                console.error(err);
+            });
+    }
+
+    // Handle camera selection change
+    cameraSelect.addEventListener('change', () => {
+        const selectedDeviceId = cameraSelect.value;
+        startCamera(selectedDeviceId);
+    });
+
+    // Capture from camera
+    captureBtn.addEventListener('click', () => {
+        const canvas = document.createElement('canvas');
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        canvas.getContext('2d').drawImage(video, 0, 0);
+
+        capturedDataURL = canvas.toDataURL('image/png');
+        photo.src = capturedDataURL;
+        barcodeInfo.innerHTML = `<span class="text-yellow-600">Image captured. Click Analyze to scan barcode.</span>`;
+    });
+
+    // Analyze the captured image
+    analyzeBtn.addEventListener('click', () => {
+        if (!capturedDataURL) {
+            alert("Please capture an image or upload one first.");
+            return;
+        }
+
+        barcodeInfo.innerHTML = `<span class="text-blue-500">Analyzing image...</span>`;
+        fetch("/upload-scan", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ image: capturedDataURL })
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data.barcodes && data.barcodes.length > 0) {
+    barcodeInfo.innerHTML = data.barcodes.map(b => {
+        const p = b.product;
+
+        if (!p) {
+            return `<div class="text-red-500">No product found for barcode: ${b.data}</div>`;
+        }
+
+        const ratingStar = (rating) => {
+            const rounded = Math.round(rating);
+            return '★'.repeat(rounded) + '☆'.repeat(5 - rounded);
+        };
+
+        return `
+        <div class="bg-white shadow-md rounded-xl p-6 mb-6 border border-gray-200">
+            <h2 class="text-xl font-bold text-gray-800 mb-2">${p.item_name}</h2>
+            <p class="text-sm text-gray-600 mb-1">Category: <strong>${p.item_category}</strong></p>
+            <p class="text-sm ${p.veg ? 'text-green-600' : 'text-red-600'} mb-2">
+                ${p.veg ? '🌱 Vegetarian' : '🍖 Non-Vegetarian'}
+            </p>
+
+            <div class="mb-2">
+                <strong>Ingredients:</strong> ${p.ingredients.join(', ')}
+            </div>
+
+            <div class="mb-2">
+                <strong>Allergy Info:</strong> ${p.allergy_info.join(', ')}
+            </div>
+
+            <div class="mb-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div>
+                    <p class="text-sm text-gray-600">Ingredient Quality</p>
+                    <p class="text-yellow-500 text-lg">${ratingStar(p.INGREDIENT_QUALITY_RATING)}</p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Health Impact</p>
+                    <p class="text-yellow-500 text-lg">${ratingStar(p.HEALTH_IMPACT_RATING)}</p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Nutrition Quality</p>
+                    <p class="text-yellow-500 text-lg">${ratingStar(p.NUTRITIONAL_CONTENT_RATING)}</p>
+                </div>
+            </div>
+
+            <h3 class="text-lg font-semibold mt-4 mb-2">🧪 Nutritional Information per 100g</h3>
+            <table class="w-full border text-sm text-left text-gray-700">
+                <thead class="bg-gray-100">
+                    <tr>
+                        <th class="border px-2 py-1">Nutrient</th>
+                        <th class="border px-2 py-1">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${Object.entries(p.nutrition).map(([key, value]) => `
+                        <tr>
+                            <td class="border px-2 py-1">${key.replace(/_/g, ' ')}</td>
+                            <td class="border px-2 py-1">${value}</td>
+                        </tr>
+                    `).join('')}
+                </tbody>
+            </table>
+        </div>`;
+    }).join('');
+} else {
+    barcodeInfo.innerHTML = `<span class="text-red-500">No barcode found in the image.</span>`;
+}
+
+        })
+        .catch(err => {
+            console.error("Analysis failed:", err);
+            barcodeInfo.innerHTML = `<span class="text-red-500">Something went wrong during analysis.</span>`;
+        });
+    });
+
+    // Upload file input
+    uploadInput.addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            capturedDataURL = event.target.result;
+            photo.src = capturedDataURL;
+            barcodeInfo.innerHTML = `<span class="text-yellow-600">Image uploaded. Click Analyze to scan barcode.</span>`;
+        };
+        reader.readAsDataURL(file);
+    });
+</script>
+{% endblock %}

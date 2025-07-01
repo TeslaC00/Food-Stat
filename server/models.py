@@ -1,0 +1,9 @@
+from flask_login import UserMixin
+
+
+class User(UserMixin):
+    def __init__(self, user_doc):
+        super().__init__()
+        self.id = str(user_doc["_id"])
+        self.username = user_doc["username"]
+        self.default_profile_id = user_doc["default_profile_id"]

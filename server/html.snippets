@@ -1,0 +1,52 @@
+Dynamic Ingredients List:
+<ul id="ingredients-list" class="list-disc list-inside text-gray-700">
+    {% if product.ingredients and product.ingredients|length > 0 %}
+        {% for ingredient in product.ingredients %}
+            <li>{{ ingredient }}</li>
+        {% endfor %}
+    {% else %}
+        <li>No ingredients listed.</li>
+    {% endif %}
+</ul>
+
+
+Dynamic Nutrition Facts:
+
+<div id="nutrition-facts">
+    {% if product.nutrition %}
+        {% for nutrient, value in product.nutrition.items() %}
+            <p><strong>{{ nutrient }}:</strong> <span>{{ value }}</span></p>
+        {% endfor %}
+    {% else %}
+        <p>No nutrition information available.</p>
+    {% endif %}
+</div>
+
+
+Dynamic Product Name and Rating:
+
+<h1 id="product-name" class="text-3xl font-bold text-neutral mb-4">{{ product.item_name }}</h1>
+...
+<span id="product-rating" class="text-xl font-medium">{{ product.final_rating | round(1) }}</span>
+
+
+Dynamic Image Source and Alt Text:
+
+<img id="product-image" src="{{ product.image_url | default('lol_I_dont_have_it.jpg') }}" alt="{{ product.item_name }}" class="w-full rounded-xl shadow-md">
+
+
+
+
+Product Card "View Details" Link (Placeholder):
+
+<a href="/product/{{ product_id }}" class="inline-block bg-secondary ...">View Details</a>
+
+
+
+Category Sidebar (Dynamic List):
+
+<ul id="category-list" class="space-y-2">
+    {% for category in categories %}
+    <li><a href="/category/{{ category|lower }}" class="block px-4 py-2 rounded hover:bg-gray-100 transition text-neutral">{{ category }}</a></li>
+    {% endfor %}
+</ul>

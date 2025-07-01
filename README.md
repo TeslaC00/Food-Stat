@@ -27,7 +27,7 @@ This README provides instructions on how to set up the environment, install depe
 3. **Install Dependencies**  
     Install the required Python packages:
     ```bash
-    pip install -r requirements.txt
+    uv pip install -r requirements.txt
     ```
 
 4. **Install `uv` and Sync It**  
