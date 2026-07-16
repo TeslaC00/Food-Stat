@@ -1,70 +1,39 @@
-# Food-Stat Server
+# FoodStat
 
-This README provides instructions on how to set up the environment, install dependencies, and run the Flask application.
+FoodStat is a personalized nutrition recommendation platform that suggests food items based on a user's health goals and medical conditions. The application uses nutritional datasets to generate relevant recommendations through a responsive web interface.
 
-## Prerequisites
+## Features
 
-- Python 3.7 or higher installed on your system.
-- `pip` (Python package manager) installed.
+- Personalized food recommendations
+- Search and filter food items
+- Ranked recommendations based on nutritional data
+- Responsive UI
 
-## Installation
+## Tech Stack
 
-1. **Clone the Repository**  
-    Clone this repository to your local machine:
-    ```bash
-    git clone https://github.com/TeslaC00/Food-Stat
-    cd Food-Stat/server
-    ```
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Backend:** Python
+- **Database:** MongoDB
 
-2. **Set Up a Virtual Environment**  
-    Create and activate a virtual environment:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate   # On macOS/Linux
-    venv\Scripts\activate      # On Windows
-    ```
+## Setup
 
-3. **Install Dependencies**  
-    Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+### Prerequisites
 
-4. **Install `uv` and Sync It**  
-    Install `uv` (if applicable) and sync it:
-    ```bash
-    pip install uv
-    ```
+- Node.js
+- Python 3.x
+- MongoDB
 
-## Running the Flask Application
+### Installation
 
-1. **Activate the Virtual Environment**  
-    Ensure the virtual environment is activated:
-    ```bash
-    source venv/bin/activate   # On macOS/Linux
-    venv\Scripts\activate      # On Windows
-    ```
-
-2. **Run the Flask App**  
-    Start the Flask development server:
-    ```bash
-    flask run
-    ```
-
-3. **Access the Application**  
-    Open your browser and navigate to `http://127.0.0.1:5000`.
-
-## Deactivating the Virtual Environment
-
-When you're done, deactivate the virtual environment:
 ```bash
-deactivate
+git clone <repository-url>
+cd FoodStat
+
+# Install frontend dependencies
+npm install
+
+# Start frontend
+npm run dev
 ```
 
-## Notes
-
-- Ensure `FLASK_APP` is set if the app doesn't run:
-  ```bash
-  export FLASK_APP=app.py   # On macOS/Linux
-  set FLASK_APP=app.py      # On Windows
-  ```
+Start the Python backend and ensure MongoDB is running before using the application.
